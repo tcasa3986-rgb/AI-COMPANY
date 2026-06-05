@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Gestión para Droguerías en Colombia: Inventario y Ventas | AI Company CO</title>
+  <meta name="description" content="Sistema de gestión para droguerías en Colombia: controla inventario, ventas y vencimientos desde $290.000/mes. App empresarial hecha para el sector farmacéutico." />
+  <link rel="canonical" href="https://aicompanyco.com/blog/sistema-gestion-droguerias-colombia/" />
+  <link rel="icon" href="../../logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Sistema de Gestión para Droguerías en Colombia: Inventario y Ventas",
+    "description": "Sistema de gestión para droguerías en Colombia: controla inventario, ventas y vencimientos desde $290.000/mes. App empresarial hecha para el sector farmacéutico.",
+    "url": "https://aicompanyco.com/blog/sistema-gestion-droguerias-colombia/",
+    "datePublished": "2026-06-05",
+    "dateModified": "2026-06-05",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://aicompanyco.com/logo.png",
+      "width": 400,
+      "height": 400
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "AI Company CO",
+      "url": "https://aicompanyco.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AI Company CO",
+      "url": "https://aicompanyco.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aicompanyco.com/logo.png"
+      }
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuánto cuesta un sistema de gestión para droguerías en Colombia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Los sistemas básicos arrancan desde $290.000 COP al mes. Las soluciones a medida con módulos de inventario, ventas, alertas de vencimiento e integración con INVIMA pueden estar entre $1.500.000 y $4.500.000 COP en desarrollo inicial más una cuota mensual de soporte."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿El sistema funciona para droguerías con varias sedes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Los sistemas multisede permiten ver el inventario consolidado de todas las sucursales en tiempo real, transferir stock entre puntos y generar reportes por sede o totales. Es una de las funciones más solicitadas por cadenas de droguerías en Colombia."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿El sistema cumple con los requisitos del INVIMA y la regulación colombiana?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un sistema bien desarrollado puede configurarse para registrar lotes, fechas de vencimiento, registros sanitarios y trazabilidad de medicamentos de control especial, en línea con las exigencias del INVIMA y el Ministerio de Salud de Colombia."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿En cuánto tiempo se implementa el sistema en una droguería?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Para una droguería individual, la implementación de un sistema estándar toma entre 2 y 4 semanas incluyendo carga de inventario inicial y capacitación del personal. Las soluciones personalizadas pueden tomar entre 6 y 12 semanas dependiendo de los módulos requeridos."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --purple-dark: #5A00B8;
+      --purple-light: #9B5FFF;
+      --bg: #0D0D14;
+      --bg2: #12121C;
+      --text: #E8E8F0;
+      --text-muted: #8A8D99;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+
+    a { color: var(--purple-light); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(13,13,20,0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(155,95,255,0.15);
+      padding: 0 1.5rem;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      text-decoration: none;
+    }
+
+    .nav-logo img {
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+    }
+
+    .nav-logo span {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: 0.03em;
+    }
+
+    .btn-nav {
+      background: linear-gradient(135deg, var(--purple-dark), var(--purple-light));
+      color: #fff !important;
+      padding: 0.45rem 1.1rem;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none !important;
+      transition: opacity 0.2s;
+    }
+
+    .btn-nav:hover { opacity: 0.88; text-decoration: none !important; }
+
+    /* CONTAINER */
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    /* BREADCRUMB */
+    .breadcrumb {
+      padding: 5.5rem 0 1rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .breadcrumb a { color: var(--text-muted); }
+    .breadcrumb a:hover { color: var(--purple-light); }
+    .breadcrumb span { margin: 0 0.35rem; }
+
+    /* HERO */
+    .hero {
+      padding: 1.5rem 0 2.5rem;
+      border-bottom: 1px solid rgba(155,95,255,0.12);
+    }
+
+    .post-category {
+      display: inline-block;
+      background: rgba(155,95,255,0.15);
+      color: var(--purple-light);
+      border: 1px solid rgba(155,95,255,0.3);
+      border-radius: 20px;
+      padding: 0.25rem 0.85rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.5rem, 4vw, 2.1rem);
+      font-weight: 900;
+      line-height: 1.25;
+      background: linear-gradient(135deg, #fff 40%, var(--purple-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1rem;
+    }
+
+    .post-meta {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    /* ARTICLE BODY */
+    .article-body {
+      padding: 2.5rem 0 3rem;
+    }
+
+    .article-body p {
+      margin-bottom: 1.25rem;
+      color: var(--text);
+    }
+
+    .article-body h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.1rem, 3vw, 1.45rem);
+      font-weight: 700;
+      color: var(--purple-light);
+      margin: 2.5rem 0 1rem;
+      line-height: 1.3;
+    }
+
+    .article-body h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text);
+      margin: 1.8rem 0 0.6rem;
+    }
+
+    .article-body ul, .article-body ol {
+      margin: 0.5rem 0 1.25rem 1.4rem;
+    }
+
+    .article-body li {
+      margin-bottom: 0.55rem;
+      color: var(--text);
+    }
+
+    .article-body strong { color: #fff; }
+
+    /* CALLOUT */
+    .callout {
+      background: rgba(90,0,184,0.18);
+      border-left: 4px solid var(--purple-light);
+      border-radius: 0 12px 12px 0;
+      padding: 1.25rem 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .callout p {
+      margin: 0;
+      font-size: 0.97rem;
+      color: var(--text);
+    }
+
+    .callout strong { color: var(--purple-light); }
+
+    /* USE CASE */
+    .use-case {
+      background: var(--bg2);
+      border: 1px solid rgba(155,95,255,0.18);
+      border-radius: 14px;
+      padding: 1.2rem 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .use-case h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--purple-light);
+      margin-bottom: 0.4rem;
+    }
+
+    .use-case p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    /* CTA INLINE */
+    .cta-inline {
+      background: linear-gradient(135deg, rgba(90,0,184,0.25), rgba(155,95,255,0.15));
+      border: 1px solid rgba(155,95,255,0.3);
+      border-radius: 16px;
+      padding: 1.75rem 1.5rem;
+      margin: 2.5rem 0;
+      text-align: center;
+    }
+
+    .cta-inline p {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 1rem !important;
+    }
+
+    .btn-wa {
+      display: inline-block;
+      background: linear-gradient(135deg, #25D366, #128C7E);
+      color: #fff !important;
+      padding: 0.7rem 1.6rem;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none !important;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .btn-wa:hover {
+      opacity: 0.9;
+      transform: translateY(-2px);
+      text-decoration: none !important;
+    }
+
+    /* FAQ */
+    .faq-item {
+      border-bottom: 1px solid rgba(155,95,255,0.12);
+      padding: 1.25rem 0;
+    }
+
+    .faq-item:last-child { border-bottom: none; }
+
+    .faq-item h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+    }
+
+    .faq-item p {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    /* COST TABLE */
+    .cost-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.25rem 0 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    .cost-table th {
+      background: rgba(90,0,184,0.3);
+      color: var(--purple-light);
+      padding: 0.7rem 1rem;
+      text-align: left;
+      font-weight: 700;
+    }
+
+    .cost-table td {
+      padding: 0.65rem 1rem;
+      border-bottom: 1px solid rgba(155,95,255,0.1);
+      color: var(--text);
+    }
+
+    .cost-table tr:nth-child(even) td {
+      background: rgba(155,95,255,0.05);
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg2);
+      border-top: 1px solid rgba(155,95,255,0.15);
+      padding: 2.5rem 1.25rem;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    footer a {
+      color: var(--text-muted);
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover { color: var(--purple-light); }
+
+    .footer-links {
+      margin-bottom: 0.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.25rem 0.5rem;
+    }
+
+    @media (max-width: 600px) {
+      .cost-table { font-size: 0.8rem; }
+      .cost-table th, .cost-table td { padding: 0.5rem 0.65rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="../../index_con_logo.html" class="nav-logo">
+      <img src="../../logo.png" alt="AI Company CO logo" />
+      <span>AI Company CO</span>
+    </a>
+    <a href="../../index_con_logo.html#contacto" class="btn-nav">Hablemos →</a>
+  </nav>
+
+  <div class="container">
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb" aria-label="Ruta de navegación">
+      <a href="../../index_con_logo.html">Inicio</a>
+      <span>›</span>
+      <a href="../../blog/">Blog</a>
+      <span>›</span>
+      Sistema de Gestión para Droguerías
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="post-category">Sistemas · Droguerías</div>
+      <h1>Sistema de Gestión para Droguerías en Colombia: Inventario y Ventas</h1>
+      <p class="post-meta">Por AI Company CO · Junio 5, 2026 · 8 minutos de lectura</p>
+    </header>
+
+    <!-- ARTICLE BODY -->
+    <article class="article-body">
+
+      <p>Una droguería en Colombia promedio maneja entre 800 y 3.000 referencias de productos. Medicamentos con fecha de vencimiento, medicamentos de control especial, genéricos, productos de aseo, suplementos. Y en muchos establecimientos todavía se hace el control en cuadernos, en Excel o simplemente de memoria. El resultado es predecible: pérdidas por vencimientos no detectados, ventas fallidas por no saber si hay stock, y multas del INVIMA por trazabilidad incompleta.</p>
+
+      <p>Esto no es un problema exclusivo de las droguerías pequeñas de barrio. Cadenas con 5 o 10 puntos en ciudades como Bogotá, Medellín, Cali o Bucaramanga enfrentan exactamente el mismo dolor cuando no tienen un sistema centralizado: no saben qué hay en cada sede, cuánto se vende por punto o qué producto está por agotarse.</p>
+
+      <p>Un <strong>sistema de gestión para droguerías</strong> resuelve todo eso desde una pantalla, en tiempo real, sin depender de que alguien se acuerde de actualizar el archivo compartido.</p>
+
+      <h2>¿Qué hace exactamente un sistema de gestión para droguerías?</h2>
+
+      <p>No es solo un software de facturación. Un sistema bien diseñado para el sector farmacéutico en Colombia integra varios módulos que trabajan juntos:</p>
+
+      <h3>Control de inventario farmacéutico</h3>
+      <p>Cada producto entra al sistema con su código de barras, nombre comercial y genérico, laboratorio, registro INVIMA, lote y fecha de vencimiento. Cuando se hace una venta, el stock se descuenta automáticamente. El sistema envía alertas cuando un producto llega al mínimo definido o cuando un lote está próximo a vencer, por ejemplo con 60 o 90 días de anticipación.</p>
+
+      <h3>Punto de venta (POS) integrado</h3>
+      <p>El cajero escanea el producto, el sistema consulta precio, disponibilidad y aplica descuentos si los hay. Genera la factura electrónica conforme a los requisitos de la DIAN (obligatoria para droguerías desde 2023) y registra el método de pago: efectivo, transferencia, Nequi, Daviplata o datáfono.</p>
+
+      <h3>Módulo de medicamentos de control especial</h3>
+      <p>Los psicotrópicos y estupefacientes exigen registro en el libro de control del Ministerio de Salud. El sistema puede llevar este registro digital, identificar la fórmula médica asociada a cada venta y generar los reportes requeridos, reduciendo el riesgo de irregularidades en las visitas de control.</p>
+
+      <h3>Reportes de ventas y rentabilidad</h3>
+      <p>¿Qué se vendió más en la última semana? ¿Cuál es el margen real por producto? ¿Qué días y horas hay mayor tráfico? Todo eso disponible en dashboards que el dueño puede ver desde el celular, sin necesidad de estar físicamente en el establecimiento.</p>
+
+      <h3>Gestión de proveedores y compras</h3>
+      <p>El sistema puede generar órdenes de compra automáticas cuando el stock llega al mínimo, registrar las facturas de los distribuidores (DIMED, AUDIFARMA, distribuidores regionales) y comparar precios entre proveedores para optimizar la compra.</p>
+
+      <!-- USE CASES -->
+      <h2>Casos concretos: cómo lo usan las droguerías en Colombia</h2>
+
+      <div class="use-case">
+        <h4>🏥 Droguería independiente en Soacha</h4>
+        <p>Una droguería de barrio con 1.200 referencias pasó de perder $800.000 COP al mes en productos vencidos a cero pérdidas por vencimiento en los primeros 3 meses con el sistema. Las alertas automáticas permiten hacer promociones o devolver el producto antes de que venza.</p>
+      </div>
+
+      <div class="use-case">
+        <h4>🏪 Cadena de 4 puntos en Bogotá</h4>
+        <p>Un propietario con 4 droguerías en localidades distintas ahora ve el inventario consolidado de todos sus puntos desde una sola pantalla. Identifica en tiempo real cuál sede tiene exceso de stock de un producto y puede hacer transferencias entre puntos antes de hacer un nuevo pedido al distribuidor.</p>
+      </div>
+
+      <div class="use-case">
+        <h4>💊 Droguería con énfasis en genéricos en Medellín</h4>
+        <p>Con el módulo de equivalencias, cuando el cliente llega con una fórmula médica, el sistema sugiere automáticamente el genérico disponible en inventario con su precio comparado frente a la marca. Esto mejoró el ticket promedio y redujo el tiempo de atención por cliente.</p>
+      </div>
+
+      <div class="use-case">
+        <h4>📋 Cumplimiento INVIMA en Cali</h4>
+        <p>Una droguería que maneja medicamentos oncológicos de alto costo usa el sistema para registrar la trazabilidad completa de cada unidad: quién la compró, con qué fórmula, de qué lote y con qué fecha de vencimiento. En la última visita del INVIMA presentaron el informe digital en 10 minutos.</p>
+      </div>
+
+      <!-- CTA INLINE 1 -->
+      <div class="cta-inline">
+        <p>¿Quiere saber cuánto costaría implementar esto en su droguería?</p>
+        <a href="https://wa.me/573212674754?text=Hola%2C%20le%C3%AD%20el%20art%C3%ADculo%20sobre%20sistema%20gesti%C3%B3n%20droguer%C3%ADas%20colombia%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n." class="btn-wa" target="_blank" rel="noopener">💬 Consultar por WhatsApp</a>
+      </div>
+
+      <h2>Inversión: ¿cuánto cuesta un sistema de gestión para droguerías en Colombia?</h2>
+
+      <p>El rango es amplio porque depende del número de puntos, las integraciones requeridas y si se usa una solución genérica adaptada o una desarrollada a medida. Estos son los rangos reales del mercado colombiano en 2026:</p>
+
+      <table class="cost-table">
+        <thead>
+          <tr>
+            <th>Tipo de solución</th>
+            <th>Costo inicial</th>
+            <th>Cuota mensual</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SaaS básico (1 sede, funciones esenciales)</td>
+            <td>$0 – $350.000</td>
+            <td>$180.000 – $320.000</td>
+          </tr>
+          <tr>
+            <td>SaaS intermedio (hasta 3 sedes, facturación electrónica)</td>
+            <td>$500.000 – $1.200.000</td>
+            <td>$350.000 – $650.000</td>
+          </tr>
+          <tr>
+            <td>App empresarial a medida (multisede, módulos personalizados)</td>
+            <td>$2.500.000 – $5.000.000</td>
+            <td>$400.000 – $900.000</td>
+          </tr>
+          <tr>
+            <td>Integración con DIAN + módulo control especial</td>
+            <td>$800.000 – $1.800.000 adicional</td>
+            <td>Incluido en soporte</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>La clave está en no evaluar el costo del sistema de forma aislada. Si su droguería pierde $1.500.000 COP al mes en productos vencidos o en compras duplicadas por no saber el inventario real, un sistema que cuesta $450.000 al mes se paga solo en el primer mes.</p>
+
+      <p>En AI Company CO desarrollamos apps empresariales a medida para el sector salud y retail farmacéutico. No vendemos un software genérico: construimos la solución que su operación necesita, con los módulos justos, sin pagar por funciones que nunca va a usar.</p>
+
+      <!-- CALLOUT -->
+      <div class="callout">
+        <p>📊 <strong>Dato clave:</strong> Según datos del gremio farmacéutico colombiano, las droguerías independientes pierden en promedio entre el <strong>3% y el 8% de su inventario anual</strong> por vencimientos no gestionados. Para una droguería con ventas de $15 millones mensuales, eso representa hasta <strong>$14.400.000 COP al año en pérdidas evitables</strong>. Un sistema de alertas de vencimiento se paga con creces desde el primer trimestre de uso.</p>
+      </div>
+
+      <h2>¿Qué debe exigirle a su sistema de gestión antes de comprarlo?</h2>
+
+      <p>No todos los sistemas del mercado están pensados para la realidad del sector farmacéutico colombiano. Antes de decidir, verifique que el sistema cumpla con estos puntos:</p>
+
+      <ul>
+        <li><strong>Facturación electrónica DIAN:</strong> obligatoria. Si el sistema no la incluye o la cobra aparte de forma cara, es una señal de alerta.</li>
+        <li><strong>Registro por lote y fecha de vencimiento:</strong> es el corazón del control de inventario farmacéutico.</li>
+        <li><strong>Alertas configurables:</strong> debe poder definir con cuántos días de anticipación quiere ser notificado de vencimientos y agotamiento de stock.</li>
+        <li><strong>Soporte en español colombiano con tiempos de respuesta claros:</strong> muchos sistemas extranjeros no entienden las particularidades del INVIMA ni de la DIAN.</li>
+        <li><strong>Acceso móvil:</strong> el dueño debe poder revisar ventas e inventario desde el celular, no solo desde el computador del local.</li>
+        <li><strong>Escalabilidad:</strong> si hoy tiene una sede pero en dos años quiere abrir otra, el sistema debe crecer con usted sin cambiar todo.</li>
+      </ul>
+
+      <h2>Por qué las droguerías colombianas están migrando a sistemas propios</h2>
+
+      <p>El software genérico de inventario no entiende que un mismo principio activo puede tener 15 presentaciones distintas con precios diferentes. No entiende que hay medicamentos que solo se pueden vender con fórmula médica. No entiende los códigos CUM del INVIMA ni la clasificación de medicamentos de control especial.</p>
+
+      <p>Por eso cada vez más droguerías, especialmente las que tienen entre 2 y 10 puntos de venta, están optando por aplicaciones desarrolladas específicamente para su operación. El costo es mayor al inicio, pero la eficiencia operativa y el cumplimiento normativo justifican la inversión.</p>
+
+      <p>En AI Company CO hemos trabajado con establecimientos farmacéuticos en Cundinamarca, Bogotá y el Eje Cafetero. Entendemos el sector y construimos la solución que cada droguería necesita: desde el POS del cajero hasta el dashboard del propietario en el celular.</p>
+
+      <!-- FAQ -->
+      <h2>Preguntas frecuentes sobre sistemas de gestión para droguerías</h2>
+
+      <div class="faq-item">
+        <h3>¿Cuánto cuesta un sistema de gestión para droguerías en Colombia?</h3>
+        <p>Los sistemas básicos arrancan desde $290.000 COP al mes. Las soluciones a medida con módulos de inventario, ventas, alertas de vencimiento e integración con INVIMA pueden estar entre $1.500.000 y $4.500.000 COP en desarrollo inicial más una cuota mensual de soporte. El costo se recupera rápidamente al eliminar pérdidas por vencimientos y errores de inventario.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>¿El sistema funciona para droguerías con varias sedes?</h3>
+        <p>Sí. Los sistemas multisede permiten ver el inventario consolidado de todas las sucursales en tiempo real, transferir stock entre puntos y generar reportes por sede o totales. Es una de las funciones más solicitadas por cadenas de droguerías en Colombia que quieren crecer sin perder el control operativo.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>¿El sistema cumple con los requisitos del INVIMA y la regulación colombiana?</h3>
+        <p>Un sistema bien desarrollado puede configurarse para registrar lotes, fechas de vencimiento, registros sanitarios y trazabilidad de medicamentos de control especial, en línea con las exigencias del INVIMA y el Ministerio de Salud. También se integra con la DIAN para facturación electrónica obligatoria.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>¿En cuánto tiempo se implementa el sistema en una droguería?</h3>
+        <p>Para una droguería individual, la implementación de un sistema estándar toma entre 2 y 4 semanas incluyendo carga de inventario inicial y capacitación del personal. Las soluciones personalizadas pueden tomar entre 6 y 12 semanas dependiendo de los módulos requeridos y el número de sedes.</p>
+      </div>
+
+      <!-- CTA FINAL -->
+      <div class="cta-inline">
+        <p>¿Listo para tener su droguería bajo control total? Le hacemos una propuesta sin costo.</p>
+        <a href="https://wa.me/573212674754?text=Hola%2C%20le%C3%AD%20el%20art%C3%ADculo%20sobre%20sistema%20gestiinput_tokens=1413
+output_tokens=8192
