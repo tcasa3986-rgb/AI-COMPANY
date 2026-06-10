@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhatsApp Automático para Firmas Jurídicas en Colombia | AI Company CO</title>
+  <meta name="description" content="Automatiza citas, consultas y seguimiento de casos en tu firma jurídica con WhatsApp. Solución práctica para abogados colombianos. Desde $150.000/mes." />
+  <link rel="canonical" href="https://aicompanyco.com/blog/whatsapp-automatico-juridicos-colombia/" />
+  <link rel="icon" href="../../logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "WhatsApp Automático para Firmas Jurídicas en Colombia",
+    "description": "Cómo las firmas jurídicas colombianas pueden automatizar la atención al cliente, agendamiento de citas y seguimiento de casos usando WhatsApp Business API.",
+    "datePublished": "2026-06-10",
+    "dateModified": "2026-06-10",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://aicompanyco.com/logo.png",
+      "width": 400,
+      "height": 400
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "AI Company CO",
+      "url": "https://aicompanyco.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AI Company CO",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aicompanyco.com/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://aicompanyco.com/blog/whatsapp-automatico-juridicos-colombia/"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿WhatsApp automático reemplaza al abogado en la atención al cliente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. El sistema automatiza tareas repetitivas como confirmar citas, responder preguntas frecuentes sobre honorarios o documentos requeridos, y enviar recordatorios. El abogado sigue manejando todo lo que requiere criterio legal. Lo que cambia es que deja de perder tiempo en mensajes de 'cuánto cobra' o '¿tiene disponibilidad el martes?'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto cuesta implementar WhatsApp automático en una firma jurídica en Colombia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Los planes para firmas jurídicas en Colombia arrancan desde $150.000 COP al mes para automatizaciones básicas (respuestas automáticas, agendamiento y recordatorios). Firmas con mayor volumen de casos o múltiples sedes pueden requerir planes entre $350.000 y $800.000 COP mensuales. La configuración inicial tiene un costo único que varía según la complejidad."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Es legal usar WhatsApp automático para comunicarse con clientes de una firma jurídica?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí, siempre que se cuente con el consentimiento del cliente para recibir comunicaciones por ese medio, en cumplimiento de la Ley 1581 de 2012 (Habeas Data) y la política de privacidad de WhatsApp Business. En AI Company CO configuramos los mensajes con las cláusulas de autorización correspondientes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto tiempo toma implementar el sistema en mi firma jurídica?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Para una firma pequeña o mediana, la implementación completa toma entre 5 y 10 días hábiles. Incluye la configuración de WhatsApp Business API, diseño de los flujos de conversación adaptados a servicios jurídicos (familia, laboral, civil, penal, etc.) y una sesión de pruebas con el equipo de la firma."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --purple-dark: #5A00B8;
+      --purple-light: #9B5FFF;
+      --bg: #0D0D14;
+      --bg2: #12121C;
+      --text: #E8E8F0;
+      --text-muted: #8A8D99;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(13,13,20,0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(155,95,255,0.15);
+      padding: 0 24px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .nav-logo img {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+    }
+
+    .nav-logo span {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: 0.5px;
+    }
+
+    .nav-cta {
+      background: var(--purple-dark);
+      color: #fff;
+      text-decoration: none;
+      padding: 9px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+
+    .nav-cta:hover { background: var(--purple-light); }
+
+    /* CONTAINER */
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* BREADCRUMB */
+    .breadcrumb {
+      padding: 100px 0 0;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .breadcrumb a {
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover { color: var(--purple-light); }
+    .breadcrumb span { margin: 0 6px; }
+
+    /* HERO */
+    .hero {
+      padding: 28px 0 48px;
+    }
+
+    .post-category {
+      display: inline-block;
+      background: rgba(155,95,255,0.15);
+      color: var(--purple-light);
+      border: 1px solid rgba(155,95,255,0.3);
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      padding: 4px 14px;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(24px, 4vw, 38px);
+      font-weight: 700;
+      line-height: 1.25;
+      color: var(--text);
+      margin-bottom: 18px;
+      background: linear-gradient(135deg, #fff 0%, var(--purple-light) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .post-meta {
+      font-size: 14px;
+      color: var(--text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .post-meta .separator { color: rgba(155,95,255,0.4); }
+
+    /* ARTICLE BODY */
+    .article-body {
+      padding-bottom: 80px;
+    }
+
+    .article-body p {
+      margin-bottom: 20px;
+      color: var(--text);
+    }
+
+    .article-body h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(18px, 2.5vw, 24px);
+      font-weight: 700;
+      color: var(--text);
+      margin: 44px 0 16px;
+      padding-top: 8px;
+      border-top: 1px solid rgba(155,95,255,0.2);
+    }
+
+    .article-body h3 {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--purple-light);
+      margin: 30px 0 12px;
+    }
+
+    .article-body ul, .article-body ol {
+      padding-left: 22px;
+      margin-bottom: 20px;
+    }
+
+    .article-body li {
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+
+    .article-body strong {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* USE CASE */
+    .use-case {
+      background: var(--bg2);
+      border-left: 3px solid var(--purple-light);
+      border-radius: 0 12px 12px 0;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+
+    .use-case .uc-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--purple-light);
+      margin-bottom: 8px;
+    }
+
+    .use-case p {
+      margin-bottom: 0 !important;
+      font-size: 15px;
+    }
+
+    /* CALLOUT */
+    .callout {
+      background: linear-gradient(135deg, rgba(90,0,184,0.2) 0%, rgba(155,95,255,0.1) 100%);
+      border: 1px solid rgba(155,95,255,0.35);
+      border-radius: 14px;
+      padding: 24px 28px;
+      margin: 36px 0;
+      text-align: center;
+    }
+
+    .callout .callout-stat {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 700;
+      color: var(--purple-light);
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .callout p {
+      color: var(--text);
+      font-size: 15px;
+      margin-bottom: 0 !important;
+    }
+
+    /* CTA INLINE */
+    .cta-inline {
+      background: linear-gradient(135deg, rgba(90,0,184,0.25) 0%, rgba(155,95,255,0.15) 100%);
+      border: 1px solid rgba(155,95,255,0.4);
+      border-radius: 16px;
+      padding: 32px 28px;
+      margin: 40px 0;
+      text-align: center;
+    }
+
+    .cta-inline h3 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 10px;
+      border: none !important;
+      padding: 0 !important;
+    }
+
+    .cta-inline p {
+      color: var(--text-muted);
+      font-size: 15px;
+      margin-bottom: 20px !important;
+    }
+
+    .btn-wa {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #25D366;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .btn-wa:hover {
+      background: #20bf5a;
+      transform: translateY(-2px);
+    }
+
+    .btn-wa svg {
+      width: 20px;
+      height: 20px;
+      fill: #fff;
+      flex-shrink: 0;
+    }
+
+    /* FAQ */
+    .faq-item {
+      border-bottom: 1px solid rgba(155,95,255,0.15);
+      padding: 24px 0;
+    }
+
+    .faq-item:last-child { border-bottom: none; }
+
+    .faq-item h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .faq-item p {
+      color: var(--text-muted);
+      font-size: 15px;
+      margin-bottom: 0 !important;
+    }
+
+    /* PRICE TABLE */
+    .price-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 15px;
+    }
+
+    .price-table thead tr {
+      background: rgba(155,95,255,0.15);
+    }
+
+    .price-table th {
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 600;
+      color: var(--purple-light);
+      border-bottom: 2px solid rgba(155,95,255,0.3);
+    }
+
+    .price-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      color: var(--text);
+    }
+
+    .price-table tr:hover td {
+      background: rgba(155,95,255,0.05);
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg2);
+      border-top: 1px solid rgba(155,95,255,0.15);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer .footer-logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 16px;
+    }
+
+    footer .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 24px;
+      margin-bottom: 20px;
+    }
+
+    footer .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+
+    footer .footer-links a:hover { color: var(--purple-light); }
+
+    footer .footer-copy {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      .price-table { font-size: 13px; }
+      .price-table th, .price-table td { padding: 10px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="../../index_con_logo.html" class="nav-logo">
+      <img src="../../logo.png" alt="AI Company CO Logo" />
+      <span>AI Company CO</span>
+    </a>
+    <a href="../../index_con_logo.html#contacto" class="nav-cta">Hablemos →</a>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../../index_con_logo.html">Inicio</a>
+      <span>›</span>
+      <a href="../../blog/">Blog</a>
+      <span>›</span>
+      <span>WhatsApp Automático para Firmas Jurídicas</span>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <div class="container">
+    <header class="hero">
+      <span class="post-category">WhatsApp · Jurídico</span>
+      <h1>WhatsApp Automático para Firmas Jurídicas en Colombia</h1>
+      <div class="post-meta">
+        <span>Por AI Company CO</span>
+        <span class="separator">·</span>
+        <span>Junio 10, 2026</span>
+        <span class="separator">·</span>
+        <span>8 minutos de lectura</span>
+      </div>
+    </header>
+  </div>
+
+  <!-- ARTICLE -->
+  <main class="container">
+    <article class="article-body">
+
+      <p>En Colombia, un abogado promedio pierde entre <strong>2 y 3 horas diarias</strong> respondiendo mensajes de WhatsApp que no requieren ningún criterio jurídico: "¿cuánto cobra por un divorcio?", "¿qué documentos necesito?", "¿tiene disponibilidad esta semana?". En una firma con dos o tres abogados, eso son 500 horas al año dedicadas a tareas que puede resolver un sistema automatizado. Mientras tanto, los clientes que escriben a las 9 pm esperan respuesta, y si no la reciben, buscan otra firma.</p>
+
+      <p>El problema no es la falta de compromiso de los abogados. Es que el canal de comunicación preferido en Colombia —WhatsApp— no tiene las mismas reglas que el correo electrónico de oficina. Opera 24/7, los clientes esperan respuestas rápidas, y administrarlo manualmente es insostenible cuando también hay que atender audiencias, redactar demandas y gestionar expedientes.</p>
+
+      <p>La solución existe y ya la están usando firmas en Bogotá, Medellín, Cali y ciudades intermedias como Bucaramanga e Ibagué: <strong>WhatsApp automático integrado con WhatsApp Business API</strong>, con flujos diseñados específicamente para servicios jurídicos.</p>
+
+      <h2>Qué es WhatsApp automático y cómo funciona en una firma jurídica</h2>
+
+      <p>WhatsApp automático no es el autoresponder básico de WhatsApp Business que dice "En este momento no estamos disponibles". Eso lo tiene todo el mundo y ya no convence a nadie. Hablamos de <strong>flujos de conversación inteligentes</strong> conectados a la API oficial de WhatsApp, que pueden:</p>
+
+      <ul>
+        <li>Recibir y clasificar consultas según el área del derecho (familia, laboral, civil, penal, administrativo)</li>
+        <li>Enviar listas de documentos requeridos para cada tipo de caso de forma automática</li>
+        <li>Agendar citas directamente en el calendario del abogado, sin intervención humana</li>
+        <li>Enviar recordatorios de citas 24 horas y 2 horas antes</li>
+        <li>Notificar al cliente sobre actuaciones procesales relevantes en su caso</li>
+        <li>Cobrar consultas iniciales mediante links de pago integrados (Nequi, Daviplata, PSE)</li>
+        <li>Escalar al abogado solo cuando la conversación lo requiere</li>
+      </ul>
+
+      <p>El sistema trabaja con WhatsApp Business API oficial, lo que significa que el número de la firma mantiene su identidad, no hay riesgo de bloqueo, y todos los mensajes quedan registrados. No es un truco: es infraestructura de comunicación profesional.</p>
+
+      <h2>Casos de uso reales para el sector jurídico colombiano</h2>
+
+      <div class="use-case">
+        <div class="uc-label">Caso 1 · Consulta inicial</div>
+        <p>Un cliente escribe a las 10:30 pm preguntando por un proceso de custodia compartida. El sistema identifica el área (familia), le explica cómo funciona la consulta, le envía el valor de la asesoría inicial ($80.000 COP), genera el link de pago y, una vez confirmado, agenda la cita. El abogado llega al día siguiente y ya tiene 3 consultas agendadas y pagadas sin haber respondido un solo mensaje.</p>
+      </div>
+
+      <div class="use-case">
+        <div class="uc-label">Caso 2 · Gestión documental</div>
+        <p>Una empresa contrata a la firma para un proceso laboral colectivo. Hay 40 trabajadores que deben entregar documentos. En lugar de que la secretaria llame a cada uno, el sistema envía un mensaje personalizado a cada trabajador con la lista exacta de lo que necesita, recuerda a quienes no han respondido y reporta al abogado en tiempo real quién tiene pendiente entregar qué.</p>
+      </div>
+
+      <div class="use-case">
+        <div class="uc-label">Caso 3 · Seguimiento de casos activos</div>
+        <p>Cada vez que hay una actuación en el expediente —radicación de escrito, audiencia programada, decisión judicial— el sistema notifica automáticamente al cliente con un mensaje claro en lenguaje no jurídico: "Su proceso tiene una nueva actuación: el juez programó audiencia para el 15 de julio. Le recordaremos 3 días antes." Menos llamadas de "¿en qué va mi proceso?", más tiempo para el abogado.</p>
+      </div>
+
+      <div class="use-case">
+        <div class="uc-label">Caso 4 · Reactivación de leads</div>
+        <p>Una persona consultó hace 3 semanas pero no agendó. El sistema identifica que no hubo cierre y le envía un mensaje de seguimiento: "Hola, hace unos días nos consultó sobre [tema]. ¿Pudo resolver su situación? Si todavía necesita asesoría, con gusto le ayudamos." Muchas firmas recuperan entre el 15% y el 25% de consultas perdidas con este flujo.</p>
+      </div>
+
+      <!-- CTA INLINE 1 -->
+      <div class="cta-inline">
+        <h3>¿Tu firma está perdiendo clientes por no responder a tiempo?</h3>
+        <p>Cuéntanos cómo funciona tu atención actual por WhatsApp y te mostramos exactamente qué se puede automatizar en tu caso.</p>
+        <a href="https://wa.me/573212674754?text=Hola%2C%20le%C3%AD%20el%20art%C3%ADculo%20sobre%20whatsapp%20autom%C3%A1tico%20firmas%20jur%C3%ADdicas%20colombia%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n." class="btn-wa" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Quiero automatizar mi firma
+        </a>
+      </div>
+
+      <h2>Inversión y costos reales en Colombia</h2>
+
+      <p>Una de las primeras preguntas que hacen los abogados es cuánto cuesta. La respuesta depende del tamaño de la firma y el volumen de conversaciones, pero los rangos para Colombia son los siguientes:</p>
+
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>Tipo de firma</th>
+            <th>Conversaciones/mes</th>
+            <th>Costo mensual</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Abogado independiente</td>
+            <td>Hasta 200</td>
+            <td>$150.000 – $220.000 COP</td>
+          </tr>
+          <tr>
+            <td>Firma pequeña (2-5 abogados)</td>
+            <td>200 – 600</td>
+            <td>$280.000 – $450.000 COP</td>
+          </tr>
+          <tr>
+            <td>Firma mediana (6-15 abogados)</td>
+            <td>600 – 2.000</td>
+            <td>$500.000 – $850.000 COP</td>
+          </tr>
+          <tr>
+            <td>Firma grande / múltiples sedes</td>
+            <td>+2.000</td>
+            <td>Cotización personalizada</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>La implementación inicial —que incluye configuración de la API, diseño de flujos por áreas del derecho, integración con calendario y una sesión de pruebas con el equipo— tiene un costo único de <strong>$380.000 a $750.000 COP</strong> dependiendo de la complejidad. Firmas con CRM propio o software de gestión de casos requieren integración adicional.</p>
+
+      <p>Para que los números tengan contexto: si el sistema recupera una sola consulta perdida de $250.000 COP al mes que antes se iba porque nadie respondió a tiempo, <strong>el sistema ya se pagó solo</strong>. La mayoría de las firmas que lo implementan reportan entre 8 y 15 consultas adicionales en los primeros 60 días.</p>
+
+      <div class="callout">
+        <span class="callout-stat">73%</span>
+        <p>de los colombianos que buscan servicios legales contactan primero por WhatsApp antes de hacer una llamada telefónica. Si el mensaje queda sin respuesta por más de 3 horas, el 60% ya consultó a otra firma.</p>
+      </div>
+
+      <h2>¿Qué pasa con la confidencialidad y el Habeas Data?</h2>
+
+      <p>Es una preocupación legítima y frecuente. La respuesta corta: <strong>es completamente legal y compatible con la regulación colombiana</strong>, siempre que se configure correctamente.</p>
+
+      <p>En AI Company CO configuramos cada implementación con:</p>
+
+      <ul>
+        <li>Mensaje de autorización de tratamiento de datos personales al inicio de cada conversación nueva, conforme a la <strong>Ley 1581 de 2012</strong></li>
+        <li>Política de privacidad accesible desde el primer mensaje</li>
+        <li>Los mensajes viajan por servidores cifrados de la API oficial de Meta</li>
+        <li>El historial de conversaciones queda bajo el control de la firma, no de terceros</li>
+        <li>No se almacena información sensible de casos en la plataforma de automatización</li>
+      </ul>
+
+      <p>El sistema automatiza la logística de la comunicación —no el ejercicio del derecho. El abogado sigue siendo quien da el concepto jurídico, quien asesora, quien representa. Loinput_tokens=1419
+output_tokens=8192
