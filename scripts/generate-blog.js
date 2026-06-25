@@ -144,28 +144,37 @@ function updateBlogIndex(topic, dateStr) {
   let html = fs.readFileSync(indexPath, 'utf8');
 
   // Don't add duplicate
-  if (html.includes(`href="${topic.slug}/"`)) return;
+  if (html.includes(`"${topic.slug}/"`)) return;
 
   const fecha = monthName(dateStr);
+  const cat = String(topic.categoria || 'Blog').toUpperCase();
 
+  // Tarjeta con el nuevo diseño (Tailwind), usando la portada SVG como miniatura
   const card = `
-      <article class="post-card">
-        <a href="${topic.slug}/" class="post-thumb" aria-label="${topic.titulo}">
-          <img src="${topic.slug}/portada.svg" alt="${topic.titulo}" loading="lazy" width="1200" height="630" style="width:100%;height:100%;object-fit:cover;display:block;">
-        </a>
-        <div class="post-card-body">
-          <span class="post-category">${topic.categoria}</span>
-          <h2><a href="${topic.slug}/" style="color:#fff;">${topic.titulo}</a></h2>
-          <p>Guía práctica sobre ${topic.keyword} para empresas colombianas. Publicado por AI Company CO.</p>
-          <div class="post-meta">
-            <span>${fecha}</span>
-            <a href="${topic.slug}/" class="read-link">Leer guía →</a>
-          </div>
-        </div>
-      </article>`;
+<!-- post -->
+<article class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+<a href="${topic.slug}/" class="block h-48 overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" style="background-image: url('/blog/${topic.slug}/portada.svg')"></div>
+<div class="absolute top-sm left-sm bg-white/90 backdrop-blur-sm px-xs py-base rounded text-label-sm font-bold text-primary">${cat}</div>
+</a>
+<div class="p-md">
+<h3 class="font-headline-md text-headline-md mb-sm group-hover:text-primary transition-colors"><a href="${topic.slug}/">${topic.titulo}</a></h3>
+<p class="text-on-surface-variant text-body-md line-clamp-2 mb-md">Guía práctica sobre ${topic.keyword} para empresas colombianas.</p>
+<div class="flex justify-between items-center text-label-sm text-outline border-t border-outline-variant/10 pt-md">
+<span>${fecha}</span>
+<a href="${topic.slug}/" class="text-primary font-semibold">Leer →</a>
+</div>
+</div>
+</article>`;
 
-  // Insert at the top of the posts grid
-  html = html.replace('<div class="posts-grid">', `<div class="posts-grid">${card}`);
+  // Insertar tras el marcador del nuevo índice (o, si no existe, en el grid viejo)
+  if (html.includes('<!-- BLOG_POSTS_INSERT -->')) {
+    html = html.replace('<!-- BLOG_POSTS_INSERT -->', '<!-- BLOG_POSTS_INSERT -->' + card);
+  } else if (html.includes('<div class="posts-grid">')) {
+    html = html.replace('<div class="posts-grid">', `<div class="posts-grid">${card}`);
+  } else {
+    return;
+  }
   fs.writeFileSync(indexPath, html, 'utf8');
   console.log('Blog index updated');
 }

@@ -1,249 +1,457 @@
 <!DOCTYPE html>
-<html lang="es-CO">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog de Automatización e IA para Empresas | AI Company CO</title>
-<meta name="description" content="Guías prácticas, tutoriales y casos de uso de automatización empresarial e inteligencia artificial para empresas colombianas. Publicado por AI Company CO." />
-<link rel="canonical" href="https://aicompanyco.com/blog/" />
-<link rel="icon" type="image/png" href="../logo.png" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Blog de Automatización e IA para Empresas | AI Company CO" />
-<meta property="og:description" content="Guías prácticas, tutoriales y casos de uso de automatización empresarial e inteligencia artificial para empresas colombianas." />
-<meta property="og:url" content="https://aicompanyco.com/blog/" />
-<meta property="og:image" content="https://aicompanyco.com/logo.png" />
-<meta property="og:site_name" content="AI Company CO" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Blog de Automatización e IA | AI Company CO" />
-<meta name="twitter:description" content="Guías prácticas sobre automatización empresarial con IA para empresas colombianas." />
-<meta name="twitter:image" content="https://aicompanyco.com/logo.png" />
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Blog",
-  "name": "Blog de Automatización e IA para Empresas",
-  "description": "Guías prácticas, tutoriales y casos de uso de automatización empresarial e inteligencia artificial para empresas colombianas.",
-  "url": "https://aicompanyco.com/blog/",
-  "inLanguage": "es-CO",
-  "publisher": {
-    "@type": "Organization",
-    "name": "AI Company CO",
-    "url": "https://aicompanyco.com",
-    "logo": { "@type": "ImageObject", "url": "https://aicompanyco.com/logo.png" }
-  },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://aicompanyco.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://aicompanyco.com/blog/" }
-    ]
-  }
-}
-</script>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+
+<html class="light" lang="es-CO"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog | AI Company CO — Automatización, IA y Crecimiento</title>
+<meta name="description" content="Guías de automatización, inteligencia artificial y crecimiento para PyMEs colombianas. Contenido nuevo cada semana."/>
+<link rel="canonical" href="https://aicompanyco.com/blog/"/>
+<link rel="icon" href="/logo.png"/>
+<meta name="robots" content="index,follow"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Blog | AI Company CO — Automatización, IA y Crecimiento"/>
+<meta property="og:description" content="Guías de automatización, inteligencia artificial y crecimiento para PyMEs colombianas. Contenido nuevo cada semana."/>
+<meta property="og:url" content="https://aicompanyco.com/blog/"/>
+<meta property="og:image" content="https://aicompanyco.com/img/rediseno/blog/img1.png"/>
+<meta property="og:locale" content="es_CO"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://aicompanyco.com/img/rediseno/blog/img1.png"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@100..900&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary": "#004ac6",
+                    "on-primary": "#ffffff",
+                    "inverse-on-surface": "#eaf1ff",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed": "#ffdbcd",
+                    "tertiary": "#943700",
+                    "outline": "#737686",
+                    "secondary-fixed": "#eaddff",
+                    "inverse-surface": "#213145",
+                    "on-secondary-container": "#fffbff",
+                    "on-primary-container": "#eeefff",
+                    "error-container": "#ffdad6",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container": "#e5eeff",
+                    "secondary": "#712ae2",
+                    "on-secondary": "#ffffff",
+                    "on-primary-fixed": "#00174b",
+                    "on-secondary-fixed": "#25005a",
+                    "on-tertiary-fixed": "#360f00",
+                    "on-tertiary-container": "#ffede6",
+                    "surface": "#f8f9ff",
+                    "surface-container-high": "#dce9ff",
+                    "secondary-container": "#8a4cfc",
+                    "background": "#f8f9ff",
+                    "on-tertiary-fixed-variant": "#7d2d00",
+                    "on-surface": "#0b1c30",
+                    "surface-container-highest": "#d3e4fe",
+                    "surface-variant": "#d3e4fe",
+                    "surface-tint": "#0053db",
+                    "surface-dim": "#cbdbf5",
+                    "outline-variant": "#c3c6d7",
+                    "error": "#ba1a1a",
+                    "secondary-fixed-dim": "#d2bbff",
+                    "tertiary-fixed-dim": "#ffb596",
+                    "on-surface-variant": "#434655",
+                    "tertiary-container": "#bc4800",
+                    "surface-bright": "#f8f9ff",
+                    "primary-container": "#2563eb",
+                    "on-error-container": "#93000a",
+                    "inverse-primary": "#b4c5ff",
+                    "primary-fixed": "#dbe1ff",
+                    "on-secondary-fixed-variant": "#5a00c6",
+                    "on-tertiary": "#ffffff",
+                    "on-background": "#0b1c30",
+                    "primary-fixed-dim": "#b4c5ff",
+                    "on-primary-fixed-variant": "#003ea8",
+                    "surface-container-low": "#eff4ff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "sm": "16px",
+                    "base": "4px",
+                    "md": "24px",
+                    "lg": "40px",
+                    "container-max": "1280px",
+                    "xs": "8px",
+                    "gutter": "24px",
+                    "xl": "64px"
+            },
+            "fontFamily": {
+                    "body-lg": ["Inter"],
+                    "headline-lg": ["Space Grotesk"],
+                    "body-md": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "headline-md": ["Space Grotesk"],
+                    "headline-lg-mobile": ["Space Grotesk"],
+                    "display-lg": ["Space Grotesk"],
+                    "label-md": ["Inter"]
+            },
+            "fontSize": {
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.01em", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
 <style>
-  :root {
-    --purple-dark: #5A00B8;
-    --purple-light: #9B5FFF;
-    --bg: #0D0D14;
-    --bg2: #12121C;
-    --text: #E8E8F0;
-    --text-muted: #8A8D99;
-    --border: rgba(90,0,184,0.18);
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; line-height: 1.7; }
-  h1,h2,h3 { font-family: 'Orbitron', monospace; }
-  a { color: var(--purple-light); text-decoration: none; }
-  .container { max-width: 900px; margin: 0 auto; padding: 0 5%; }
-  .hero { padding: 9rem 5% 4rem; text-align: center; background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(90,0,184,0.22) 0%, transparent 70%); }
-  .badge { display: inline-block; background: rgba(90,0,184,0.25); border: 1px solid var(--border); color: var(--purple-light); padding: 0.3rem 1rem; border-radius: 100px; font-size: 0.78rem; letter-spacing: 0.1em; margin-bottom: 1.2rem; }
-  .hero h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; margin-bottom: 1rem; }
-  .hero p { color: var(--text-muted); max-width: 580px; margin: 0 auto; }
-  .posts-section { padding: 4rem 5%; }
-  .posts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
-  .post-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; transition: border-color 0.2s; }
-  .post-card:hover { border-color: var(--purple-dark); }
-  .post-card-body { padding: 1.8rem; }
-  .post-category { font-size: 0.75rem; color: var(--purple-light); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.7rem; display: block; }
-  .post-card h2 { font-size: 1rem; line-height: 1.4; margin-bottom: 0.8rem; color: #fff; }
-  .post-card p { font-size: 0.87rem; color: var(--text-muted); margin-bottom: 1.2rem; }
-  .post-meta { display: flex; align-items: center; justify-content: space-between; font-size: 0.78rem; color: var(--text-muted); }
-  .read-link { color: var(--purple-light); font-size: 0.85rem; font-weight: 500; }
-  .read-link:hover { color: #fff; }
-  .post-thumb { height: 140px; background: linear-gradient(135deg, rgba(90,0,184,0.4) 0%, rgba(155,95,255,0.15) 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem; }
-  .cta-section { background: var(--bg2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 4rem 5%; text-align: center; }
-  .btn-wa { display: inline-block; background: #25D366; color: #fff; padding: 0.85rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 1rem; }
-  .breadcrumb { padding: 6rem 5% 0; font-size: 0.82rem; color: var(--text-muted); }
-  .breadcrumb a { color: var(--text-muted); }
-  .breadcrumb a:hover { color: var(--purple-light); }
-  .highlight { color: var(--purple-light); }
-  @media (max-width: 768px) {
-    nav span { display: none; }
-    .hero { padding: 6rem 5% 3rem; }
-    .posts-section { padding: 2.5rem 5%; }
-    .posts-grid { grid-template-columns: 1fr; }
-    .cta-section { padding: 3rem 5%; }
-    .breadcrumb { padding: 5rem 5% 0; }
-  }
-  @media (max-width: 480px) {
-    .hero h1 { font-size: 1.5rem; }
-    .btn-wa { display: block; text-align: center; }
-  }
-</style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .gradient-primary {
+        background: linear-gradient(135deg, #004ac6 0%, #712ae2 100%);
+      }
+      .subtle-accent-gradient {
+        background: linear-gradient(135deg, #f8f9ff 0%, #eff4ff 100%);
+      }
+      .ai-indicator-glow {
+        box-shadow: 0 0 12px rgba(0, 74, 198, 0.4);
+        animation: pulse 2s infinite ease-in-out;
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.2); opacity: 1; }
+      }
+      .glass-nav {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+    </style>
 </head>
-<body>
-
-<nav style="position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1rem 5%;background:rgba(13,13,20,0.95);backdrop-filter:blur(24px);border-bottom:1px solid rgba(90,0,184,0.18);">
-  <a href="../index_con_logo.html" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
-    <img src="../logo.png" alt="AI Company CO" style="width:40px;height:40px;object-fit:contain;mix-blend-mode:screen;">
-    <span style="font-family:'Orbitron',monospace;font-size:0.9rem;font-weight:700;color:#fff;letter-spacing:0.1em;">AI COMPANY CO</span>
-  </a>
-  <a href="../index_con_logo.html#contacto" style="background:#5A00B8;color:#fff;padding:0.6rem 1.4rem;border-radius:4px;text-decoration:none;font-size:0.82rem;font-weight:500;">Hablemos →</a>
-</nav>
-
-<div class="breadcrumb">
-  <a href="../index_con_logo.html">Inicio</a> / Blog
+<body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
+<!-- TopNavBar Shell -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 glass-nav border-b border-outline-variant/30 shadow-sm transition-all duration-300">
+<div class="flex justify-between items-center px-lg py-sm max-w-container-max mx-auto h-20">
+<div class="font-headline-md text-headline-md font-bold text-primary">AI Company CO</div>
+<div class="hidden md:flex items-center gap-md">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="/contacto/">Servicios</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="/contacto/">Soluciones</a>
+<a class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary" href="/contacto/">Casos de éxito</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="/contacto/">Proceso</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="/contacto/">Precios</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="/contacto/">Contacto</a>
 </div>
-
-<section class="hero">
-  <div class="badge">BLOG</div>
-  <h1>Automatización e IA<br><span class="highlight">para empresas colombianas</span></h1>
-  <p>Guías prácticas, tutoriales y casos de uso reales. Todo lo que necesitas saber para digitalizar y automatizar tu empresa con inteligencia artificial.</p>
+<div class="flex items-center gap-base">
+<button class="gradient-primary text-on-primary px-md py-xs rounded-lg font-label-md active:scale-95 transition-all hidden md:block">
+                    Hablar con un asesor
+                </button>
+<button class="md:hidden text-on-surface">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<main class="pt-20">
+<!-- HERO SECTION -->
+<section class="subtle-accent-gradient pt-xl pb-lg px-sm md:px-lg overflow-hidden relative">
+<!-- Background Decoration -->
+<div class="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
+<span class="material-symbols-outlined text-[300px] text-primary rotate-12">auto_awesome</span>
+</div>
+<div class="max-w-container-max mx-auto relative z-10">
+<nav class="flex items-center gap-xs text-on-surface-variant font-label-md mb-md">
+<span>Inicio</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-bold">Blog</span>
+</nav>
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-md mb-xl">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-xs bg-surface-container-high px-md py-xs rounded-full mb-md">
+<div class="w-2 h-2 rounded-full bg-primary ai-indicator-glow"></div>
+<span class="text-label-sm font-label-sm text-on-surface-variant uppercase tracking-wider">Generado y actualizado con IA</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-on-surface mb-sm leading-tight">Blog AI Company CO</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Automatización, inteligencia artificial y crecimiento para PyMEs colombianas. Contenido nuevo cada lunes y jueves.</p>
+</div>
+</div>
+<!-- Filters & Search -->
+<div class="flex flex-col md:flex-row gap-md items-center justify-between bg-surface-container-lowest p-md rounded-xl border border-outline-variant/30 shadow-sm">
+<div class="flex flex-wrap gap-xs">
+<button class="bg-primary text-on-primary px-md py-xs rounded-full text-label-md">Todos</button>
+<button class="bg-surface-container text-on-surface-variant hover:bg-surface-container-high px-md py-xs rounded-full text-label-md transition-colors">Automatización</button>
+<button class="bg-surface-container text-on-surface-variant hover:bg-surface-container-high px-md py-xs rounded-full text-label-md transition-colors">IA</button>
+<button class="bg-surface-container text-on-surface-variant hover:bg-surface-container-high px-md py-xs rounded-full text-label-md transition-colors">Marketing</button>
+<button class="bg-surface-container text-on-surface-variant hover:bg-surface-container-high px-md py-xs rounded-full text-label-md transition-colors">WhatsApp</button>
+<button class="bg-surface-container text-on-surface-variant hover:bg-surface-container-high px-md py-xs rounded-full text-label-md transition-colors">Casos</button>
+<button class="bg-surface-container text-on-surface-variant hover:bg-surface-container-high px-md py-xs rounded-full text-label-md transition-colors">Tutoriales</button>
+</div>
+<div class="relative w-full md:w-80">
+<span class="material-symbols-outlined absolute left-md top-1/2 -translate-y-1/2 text-outline">search</span>
+<input class="w-full pl-xl pr-md py-xs bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-primary/20 text-body-md transition-all" placeholder="Buscar artículos..." type="text"/>
+</div>
+</div>
+</div>
 </section>
-
-<section class="posts-section">
-  <div class="container">
-    <div class="posts-grid">
-      <article class="post-card">
-        <div class="post-thumb">📱</div>
-        <div class="post-card-body">
-          <span class="post-category">Apps · Supermercados</span>
-          <h2><a href="app-movil-supermercado-colombia/" style="color:#fff;">App Móvil para Supermercados en Colombia: Domicilios y Fidelización</a></h2>
-          <p>Guía práctica sobre app móvil supermercado colombia para empresas colombianas. Publicado por AI Company CO.</p>
-          <div class="post-meta">
-            <span>Mayo 28, 2026</span>
-            <a href="app-movil-supermercado-colombia/" class="read-link">Leer guía →</a>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <div class="post-thumb">💬</div>
-        <div class="post-card-body">
-          <span class="post-category">WhatsApp · Hoteles</span>
-          <h2><a href="whatsapp-business-hoteles-colombia/" style="color:#fff;">WhatsApp Automático para Hoteles en Colombia: Más Reservas sin más Personal</a></h2>
-          <p>Guía práctica sobre whatsapp automático hoteles colombia para empresas colombianas. Publicado por AI Company CO.</p>
-          <div class="post-meta">
-            <span>Mayo 25, 2026</span>
-            <a href="whatsapp-business-hoteles-colombia/" class="read-link">Leer guía →</a>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <div class="post-thumb">⚡</div>
-        <div class="post-card-body">
-          <span class="post-category">Automatización · Constructoras</span>
-          <h2><a href="automatizacion-procesos-constructoras-colombia/" style="color:#fff;">Automatización de Procesos para Constructoras en Colombia (Guía 2026)</a></h2>
-          <p>Guía práctica sobre automatización procesos constructoras colombia para empresas colombianas. Publicado por AI Company CO.</p>
-          <div class="post-meta">
-            <span>Mayo 21, 2026</span>
-            <a href="automatizacion-procesos-constructoras-colombia/" class="read-link">Leer guía →</a>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <div class="post-thumb">🌐</div>
-        <div class="post-card-body">
-          <span class="post-category">Páginas Web · Salud</span>
-          <h2><a href="pagina-web-clinica-colombia/" style="color:#fff;">Página Web para Clínicas y Consultorios en Colombia: Qué Debe Tener</a></h2>
-          <p>Guía práctica sobre página web para clínica colombia para empresas colombianas. Publicado por AI Company CO.</p>
-          <div class="post-meta">
-            <span>Mayo 18, 2026</span>
-            <a href="pagina-web-clinica-colombia/" class="read-link">Leer guía →</a>
-          </div>
-        </div>
-      </article>
-      <article class="post-card">
-        <div class="post-thumb">📈</div>
-        <div class="post-card-body">
-          <span class="post-category">Marketing Digital · Restaurantes</span>
-          <h2><a href="marketing-digital-restaurantes-colombia/" style="color:#fff;">Marketing Digital para Restaurantes en Colombia: Guía Completa 2026</a></h2>
-          <p>Guía práctica sobre marketing digital restaurantes colombia para empresas colombianas. Publicado por AI Company CO.</p>
-          <div class="post-meta">
-            <span>Mayo 14, 2026</span>
-            <a href="marketing-digital-restaurantes-colombia/" class="read-link">Leer guía →</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="post-card">
-        <div class="post-thumb">📲</div>
-        <div class="post-card-body">
-          <span class="post-category">Automatización · WhatsApp</span>
-          <h2><a href="como-automatizar-whatsapp-business-colombia/" style="color:#fff;">Cómo Automatizar WhatsApp Business para tu Empresa en Colombia (Guía 2025)</a></h2>
-          <p>Paso a paso para implementar respuestas automáticas, bots de ventas y flujos de atención en tu número de WhatsApp Business — usando la API oficial y herramientas como Make y n8n.</p>
-          <div class="post-meta">
-            <span>Mayo 2, 2025 · 8 min</span>
-            <a href="como-automatizar-whatsapp-business-colombia/" class="read-link">Leer guía →</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="post-card">
-        <div class="post-thumb">⚙️</div>
-        <div class="post-card-body">
-          <span class="post-category">Automatización · n8n</span>
-          <h2><a href="que-es-n8n-automatizacion-colombia/" style="color:#fff;">Qué es n8n y Cómo Usarlo para Automatizar tu Empresa en Colombia (2025)</a></h2>
-          <p>n8n es la herramienta de automatización open-source más potente del mercado. Esta guía explica qué es, cómo funciona, cuánto cuesta y cómo implementarlo en empresas colombianas.</p>
-          <div class="post-meta">
-            <span>Mayo 2, 2025 · 9 min</span>
-            <a href="que-es-n8n-automatizacion-colombia/" class="read-link">Leer guía →</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="post-card">
-        <div class="post-thumb">🧾</div>
-        <div class="post-card-body">
-          <span class="post-category">Automatización · Facturación</span>
-          <h2><a href="facturacion-electronica-automatica-colombia/" style="color:#fff;">Facturación Electrónica Automática en Colombia: Guía para Pymes 2025</a></h2>
-          <p>Todo lo que tu pyme necesita saber sobre facturación electrónica DIAN, las herramientas para automatizarla y cómo integrarla con tu sistema de ventas para eliminar la carga manual.</p>
-          <div class="post-meta">
-            <span>Mayo 2, 2025 · 10 min</span>
-            <a href="facturacion-electronica-automatica-colombia/" class="read-link">Leer guía →</a>
-          </div>
-        </div>
-      </article>
-
-
-      <article class="post-card">
-        <div class="post-thumb">🤖</div>
-        <div class="post-card-body">
-          <span class="post-category">Chatbot IA · Precios</span>
-          <h2><a href="cuanto-cuesta-chatbot-ia-colombia/" style="color:#fff;">¿Cuánto Cuesta un Chatbot con IA en Colombia? (Precios Reales 2026)</a></h2>
-          <p>Precios reales de chatbots con IA en Colombia: desde soluciones básicas hasta integraciones avanzadas. Guía para saber cuánto invertir según el tamaño de tu empresa.</p>
-          <div class="post-meta">
-            <span>Mayo 12, 2026</span>
-            <a href="cuanto-cuesta-chatbot-ia-colombia/" class="read-link">Leer guía →</a>
-          </div>
-        </div>
-      </article>
-
-    </div>
-  </div>
+<!-- FEATURED ARTICLE -->
+<section class="py-xl px-sm md:px-lg">
+<div class="max-w-container-max mx-auto">
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden grid md:grid-cols-2 group hover:shadow-lg transition-all duration-500">
+<div class="aspect-video md:aspect-auto overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A professional SaaS dashboard interface with complex data visualizations, showing a growth trajectory through vibrant blue and violet charts. The scene is illuminated by soft, high-key studio lighting that emphasizes the clean, minimalist aesthetic. UI elements include a navigation sidebar, an AI agent status monitor, and a functional chat widget, creating a high-tech and sophisticated atmosphere." src="/img/rediseno/blog/img1.jpg"/>
+</div>
+<div class="p-lg flex flex-col justify-center">
+<span class="text-primary font-bold text-label-sm uppercase tracking-widest mb-xs">Automatización</span>
+<h2 class="font-headline-lg text-headline-lg mb-md leading-snug group-hover:text-primary transition-colors">Cómo automatizar las ventas de tu negocio con WhatsApp e IA</h2>
+<p class="text-body-lg text-on-surface-variant mb-xl">Descubre cómo integrar chatbots inteligentes y n8n para cerrar ventas automáticamente sin intervención humana.</p>
+<div class="flex items-center gap-md mb-xl">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined">person</span>
+</div>
+<div>
+<p class="font-label-md text-on-surface">Equipo AI Company CO</p>
+<p class="text-label-sm text-on-surface-variant">Oct 24, 2024 · 8 min lectura</p>
+</div>
+</div>
+<button class="flex items-center gap-xs font-label-md text-primary group/btn">
+                            Leer más 
+                            <span class="material-symbols-outlined group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
 </section>
-
-<section class="cta-section">
-  <div class="container">
-    <h2 style="font-size:clamp(1.2rem,2.5vw,1.8rem); margin-bottom:1rem;">¿Listo para automatizar tu empresa?</h2>
-    <p style="color:var(--text-muted); max-width:500px; margin:0 auto 2rem;">Convertimos este conocimiento en implementaciones reales. Agenda una consultoría gratuita de 30 minutos y hablemos sobre tu caso específico.</p>
-    <a href="https://wa.me/573212674754?text=Hola,%20leí%20el%20blog%20de%20AI%20Company%20CO%20y%20quiero%20una%20asesor%C3%ADa%20gratuita" class="btn-wa">Agendar consultoría gratuita →</a>
-  </div>
+<!-- BLOG GRID -->
+<section class="pb-xl px-sm md:px-lg bg-surface">
+<div class="max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-lg">
+<!-- BLOG_POSTS_INSERT -->
+<!-- Card 1 -->
+<article class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+<div class="h-48 overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="A sleek workstation setup with a high-resolution monitor displaying flowcharts and automation nodes in n8n. The room is softly lit with cyan and purple neon accents, reflecting a modern tech-driven productivity environment. Professional photography style with shallow depth of field." style="background-image: url('/img/rediseno/blog/img2.png')"></div>
+<div class="absolute top-sm left-sm bg-white/90 backdrop-blur-sm px-xs py-base rounded text-label-sm font-bold text-primary">GUÍA</div>
+</div>
+<div class="p-md">
+<h3 class="font-headline-md text-headline-md mb-sm group-hover:text-primary transition-colors">Automatización con n8n y Make: Guía para principiantes</h3>
+<p class="text-on-surface-variant text-body-md line-clamp-2 mb-md">Domina las herramientas líderes del mercado para conectar tus aplicaciones favoritas sin programar.</p>
+<div class="flex justify-between items-center text-label-sm text-outline border-t border-outline-variant/10 pt-md">
+<span>24 Oct, 2024</span>
+<span>12 min lectura</span>
+</div>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+<div class="h-48 overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="A macro shot of a smartphone screen showing a vibrant WhatsApp conversation with an intelligent AI chatbot interface. The background is a blurred modern office space in Bogotá with warm lighting. Colors are predominantly green, blue, and clean whites." style="background-image: url('/img/rediseno/blog/img3.png')"></div>
+<div class="absolute top-sm left-sm bg-white/90 backdrop-blur-sm px-xs py-base rounded text-label-sm font-bold text-primary">FUTURO</div>
+</div>
+<div class="p-md">
+<h3 class="font-headline-md text-headline-md mb-sm group-hover:text-primary transition-colors">Bots de WhatsApp: El futuro de la atención al cliente en Colombia</h3>
+<p class="text-on-surface-variant text-body-md line-clamp-2 mb-md">Por qué las empresas locales están migrando a soluciones automáticas 24/7.</p>
+<div class="flex justify-between items-center text-label-sm text-outline border-t border-outline-variant/10 pt-md">
+<span>22 Oct, 2024</span>
+<span>6 min lectura</span>
+</div>
+</div>
+</article>
+<!-- Card 3 -->
+<article class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+<div class="h-48 overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="An abstract visualization of interconnected customer data points and sales funnels glowing in vibrant blue light. The aesthetic is clean SaaS minimalism, suggesting a highly organized and intelligent CRM system in a modern digital space." style="background-image: url('/img/rediseno/blog/img4.png')"></div>
+</div>
+<div class="p-md">
+<h3 class="font-headline-md text-headline-md mb-sm group-hover:text-primary transition-colors">Por qué tu PyME necesita un CRM automatizado en 2024</h3>
+<p class="text-on-surface-variant text-body-md line-clamp-2 mb-md">Deja de perder prospectos en hojas de cálculo y centraliza tu crecimiento.</p>
+<div class="flex justify-between items-center text-label-sm text-outline border-t border-outline-variant/10 pt-md">
+<span>20 Oct, 2024</span>
+<span>10 min lectura</span>
+</div>
+</div>
+</article>
+<!-- Card 4 -->
+<article class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+<div class="h-48 overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="A minimalist warehouse environment with smart scanning technology and holographic inventory displays. The lighting is crisp and cool-toned, representing efficient modern logistics and smart data management." style="background-image: url('/img/rediseno/blog/img5.png')"></div>
+</div>
+<div class="p-md">
+<h3 class="font-headline-md text-headline-md mb-sm group-hover:text-primary transition-colors">Control de inventarios: De Excel a sistemas inteligentes</h3>
+<p class="text-on-surface-variant text-body-md line-clamp-2 mb-md">Automatiza tus existencias y evita quiebres de stock con predicciones de IA.</p>
+<div class="flex justify-between items-center text-label-sm text-outline border-t border-outline-variant/10 pt-md">
+<span>18 Oct, 2024</span>
+<span>7 min lectura</span>
+</div>
+</div>
+</article>
+<!-- Card 5 -->
+<article class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+<div class="h-48 overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Dynamic collage of social media icons (Meta, Google) integrated with AI neural network lines. Bright, energetic lighting with corporate blue and purple gradients. High energy, digital-first marketing aesthetic." style="background-image: url('/img/rediseno/blog/img6.png')"></div>
+</div>
+<div class="p-md">
+<h3 class="font-headline-md text-headline-md mb-sm group-hover:text-primary transition-colors">Marketing Digital: Estrategias en Meta y Google con IA</h3>
+<p class="text-on-surface-variant text-body-md line-clamp-2 mb-md">Optimiza tu presupuesto publicitario usando algoritmos de aprendizaje automático.</p>
+<div class="flex justify-between items-center text-label-sm text-outline border-t border-outline-variant/10 pt-md">
+<span>15 Oct, 2024</span>
+<span>9 min lectura</span>
+</div>
+</div>
+</article>
+<!-- Card 6 -->
+<article class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+<div class="h-48 overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="A clean, minimalist desk with a tablet showing a Colombian e-invoicing interface and a coffee cup. Soft morning sunlight filtering through a window, creating a calm and professional atmosphere. Pristine whites and soft grays." style="background-image: url('/img/rediseno/blog/img7.png')"></div>
+</div>
+<div class="p-md">
+<h3 class="font-headline-md text-headline-md mb-sm group-hover:text-primary transition-colors">Facturación electrónica y automatización contable</h3>
+<p class="text-on-surface-variant text-body-md line-clamp-2 mb-md">Cumple con la DIAN sin dolores de cabeza integrando tu ERP con automatismos.</p>
+<div class="flex justify-between items-center text-label-sm text-outline border-t border-outline-variant/10 pt-md">
+<span>12 Oct, 2024</span>
+<span>11 min lectura</span>
+</div>
+</div>
+</article>
+<!-- Card 7 -->
+<article class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+<div class="h-48 overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Aerial view of the thriving commercial district in Soacha, Cundinamarca, showing a mix of traditional and modern storefronts. The lighting is bright and optimistic, representing local economic growth and technological adoption." style="background-image: url('/img/rediseno/blog/img8.png')"></div>
+</div>
+<div class="p-md">
+<h3 class="font-headline-md text-headline-md mb-sm group-hover:text-primary transition-colors">Casos de éxito: Cómo empresas en Soacha están creciendo</h3>
+<p class="text-on-surface-variant text-body-md line-clamp-2 mb-md">Historias reales de transformación digital en el corazón de Cundinamarca.</p>
+<div class="flex justify-between items-center text-label-sm text-outline border-t border-outline-variant/10 pt-md">
+<span>10 Oct, 2024</span>
+<span>15 min lectura</span>
+</div>
+</div>
+</article>
+<!-- Card 8 -->
+<article class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+<div class="h-48 overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Close-up of a high-tech mechanical watch mechanism overlapping with digital circuit patterns. Symbolic of extreme productivity and precision engineering. Cool blue tones and metallic textures." style="background-image: url('/img/rediseno/blog/img9.png')"></div>
+</div>
+<div class="p-md">
+<h3 class="font-headline-md text-headline-md mb-sm group-hover:text-primary transition-colors">Productividad extrema: Automatiza tus tareas repetitivas</h3>
+<p class="text-on-surface-variant text-body-md line-clamp-2 mb-md">Ahorra hasta 20 horas semanales eliminando el trabajo manual de tu rutina.</p>
+<div class="flex justify-between items-center text-label-sm text-outline border-t border-outline-variant/10 pt-md">
+<span>08 Oct, 2024</span>
+<span>5 min lectura</span>
+</div>
+</div>
+</article>
+<!-- Card 9 -->
+<article class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+<div class="h-48 overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Artistic representation of a human hand interacting with a glowing AI brain construct. Soft light-mode aesthetic with ethereal white and blue lighting. Professional, inspiring, and futuristic." style="background-image: url('/img/rediseno/blog/img10.png')"></div>
+</div>
+<div class="p-md">
+<h3 class="font-headline-md text-headline-md mb-sm group-hover:text-primary transition-colors">IA Generativa: Cómo aplicarla en el día a día de tu negocio</h3>
+<p class="text-on-surface-variant text-body-md line-clamp-2 mb-md">Desde correos electrónicos hasta creación de contenido: el poder de la IA en tus manos.</p>
+<div class="flex justify-between items-center text-label-sm text-outline border-t border-outline-variant/10 pt-md">
+<span>05 Oct, 2024</span>
+<span>8 min lectura</span>
+</div>
+</div>
+</article>
+</div>
+<div class="mt-xl flex justify-center">
+<button class="px-xl py-md border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-on-primary transition-all duration-300">
+                        Cargar más artículos
+                    </button>
+</div>
+</div>
 </section>
-
-<footer style="background:#0D0D14;border-top:1px solid rgba(255,255,255,0.06);padding:2rem 5%;text-align:center;">
-  <p style="font-size:0.78rem;color:#8A8D99;">© 2025 AI Company CO · <a href="../politica-de-privacidad/" style="color:#9B5FFF;">Privacidad</a> · <a href="../terminos-y-condiciones/" style="color:#9B5FFF;">Términos</a> · <a href="../tratamiento-de-datos/" style="color:#9B5FFF;">Tratamiento de datos</a></p>
+<!-- NEWSLETTER BANNER -->
+<section class="py-xl px-sm md:px-lg">
+<div class="max-w-container-max mx-auto">
+<div class="gradient-primary rounded-2xl p-lg md:p-xl text-center relative overflow-hidden">
+<!-- Decor -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<svg height="100%" preserveaspectratio="none" viewbox="0 0 100 100" width="100%">
+<path d="M0 100 Q 25 0 50 100 T 100 100" fill="none" stroke="white" stroke-width="0.5"></path>
+</svg>
+</div>
+<div class="relative z-10 max-w-2xl mx-auto">
+<h2 class="font-headline-lg text-headline-lg text-on-primary mb-md">Recibe nuevas guías en tu correo</h2>
+<p class="font-body-lg text-body-lg text-on-primary/80 mb-xl">Te enviamos contenido práctico para automatizar tu negocio cada semana. Sin spam, solo valor puro.</p>
+<form class="flex flex-col md:flex-row gap-base max-w-lg mx-auto" onsubmit="event.preventDefault(); alert('¡Gracias por suscribirte!');">
+<input class="flex-grow px-md py-md rounded-lg border-none focus:ring-4 focus:ring-white/20 text-on-surface" placeholder="Tu correo electrónico" required="" type="email"/>
+<button class="bg-on-primary text-primary px-lg py-md rounded-lg font-bold hover:bg-surface transition-colors" type="submit">
+                                Suscribirme
+                            </button>
+</form>
+<p class="text-label-sm text-on-primary/60 mt-md italic">Únete a más de 500 empresarios colombianos transformando sus negocios.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shell -->
+<footer class="bg-inverse-surface dark:bg-surface-container-lowest text-inverse-on-surface w-full py-xl">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-lg px-lg max-w-container-max mx-auto">
+<div>
+<div class="font-headline-md text-headline-md font-bold text-inverse-on-surface mb-md">AI Company CO</div>
+<p class="text-inverse-on-surface/80 text-body-md mb-md">Expertos en automatización de procesos e implementación de inteligencia artificial para el crecimiento empresarial.</p>
+<p class="text-inverse-on-surface/60 text-label-sm">© 2024 AI Company CO. Todos los derechos reservados. Soacha, Cundinamarca.</p>
+</div>
+<div class="flex flex-col gap-sm">
+<h4 class="font-bold text-primary-fixed-dim uppercase tracking-widest text-label-sm">Contacto</h4>
+<a class="text-inverse-on-surface/80 hover:text-primary-fixed transition-colors" href="/contacto/">WhatsApp: +57 321 267 4754</a>
+<a class="text-inverse-on-surface/80 hover:text-primary-fixed transition-colors" href="/contacto/">Email: contacto@aico.com</a>
+<p class="text-inverse-on-surface/80">Calle Falsa 123, Soacha</p>
+</div>
+<div class="flex flex-col gap-sm">
+<h4 class="font-bold text-primary-fixed-dim uppercase tracking-widest text-label-sm">Redes Sociales</h4>
+<div class="flex gap-md">
+<a class="text-inverse-on-surface/80 hover:text-primary-fixed transition-colors flex items-center gap-xs" href="/contacto/">
+<span class="material-symbols-outlined">face_nod</span> Facebook
+                    </a>
+</div>
+<div class="flex gap-md">
+<a class="text-inverse-on-surface/80 hover:text-primary-fixed transition-colors flex items-center gap-xs" href="/contacto/">
+<span class="material-symbols-outlined">link</span> LinkedIn
+                    </a>
+</div>
+<div class="flex gap-md">
+<a class="text-inverse-on-surface/80 hover:text-primary-fixed transition-colors flex items-center gap-xs" href="/contacto/">
+<span class="material-symbols-outlined">photo_camera</span> Instagram
+                    </a>
+</div>
+</div>
+</div>
 </footer>
-<script src="../wa-widget.js"></script>
-</body>
-</html>
+<script>
+        // Micro-interactions
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('py-2', 'shadow-md');
+                nav.classList.remove('py-sm');
+            } else {
+                nav.classList.remove('py-2', 'shadow-md');
+                nav.classList.add('py-sm');
+            }
+        });
+
+        // Search highlight effect
+        const searchInput = document.querySelector('input[type="text"]');
+        searchInput.addEventListener('focus', () => {
+            searchInput.parentElement.classList.add('ring-2', 'ring-primary/20');
+        });
+        searchInput.addEventListener('blur', () => {
+            searchInput.parentElement.classList.remove('ring-2', 'ring-primary/20');
+        });
+    </script>
+</body></html>
