@@ -83,6 +83,60 @@ const SERVICIO_EMOJI = {
   'asistente-ia': '⚡',
 };
 
+// ─── cover image generator (brand gradient SVG, zero-dependency) ─────────────
+
+function escapeXml(s) {
+  return String(s).replace(/[<>&'"]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' }[c]));
+}
+
+function wrapTitle(title, maxChars) {
+  const words = String(title).split(/\s+/);
+  const lines = [];
+  let line = '';
+  for (const w of words) {
+    if ((line + ' ' + w).trim().length > maxChars) {
+      if (line) lines.push(line.trim());
+      line = w;
+    } else {
+      line = (line + ' ' + w).trim();
+    }
+  }
+  if (line) lines.push(line.trim());
+  return lines.slice(0, 4); // máx 4 líneas
+}
+
+/**
+ * Genera una portada SVG on-brand (1200x630, ideal para hero + og:image).
+ * Gradiente azul→violeta de AI Company CO, categoría y título.
+ */
+function generateCoverSVG(topic) {
+  const W = 1200, H = 630;
+  const titleLines = wrapTitle(topic.titulo, 24);
+  const lineH = 62;
+  const startY = Math.round(H / 2 - ((titleLines.length - 1) * lineH) / 2 - 6);
+  const tspans = titleLines
+    .map((l, i) => `<tspan x="80" y="${startY + i * lineH}">${escapeXml(l)}</tspan>`)
+    .join('');
+  const cat = escapeXml(String(topic.categoria || 'Blog').toUpperCase());
+  const pillW = cat.length * 11 + 44;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${escapeXml(topic.titulo)}">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect width="${W}" height="${H}" fill="url(#bg)"/>
+  <circle cx="1060" cy="110" r="230" fill="#ffffff" opacity="0.06"/>
+  <circle cx="150" cy="580" r="190" fill="#ffffff" opacity="0.05"/>
+  <rect x="80" y="68" width="${pillW}" height="40" rx="20" fill="#ffffff" opacity="0.18"/>
+  <text x="102" y="95" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" fill="#ffffff" letter-spacing="1.5">${cat}</text>
+  <text font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">${tspans}</text>
+  <text x="80" y="${H - 58}" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">AI Company CO</text>
+  <text x="80" y="${H - 30}" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff" opacity="0.85">aicompanyco.com · Automatización · IA · Crecimiento</text>
+</svg>`;
+}
+
 function updateBlogIndex(topic, dateStr) {
   const indexPath = path.join(BLOG_DIR, 'index.html');
   if (!fs.existsSync(indexPath)) return;
@@ -92,12 +146,13 @@ function updateBlogIndex(topic, dateStr) {
   // Don't add duplicate
   if (html.includes(`href="${topic.slug}/"`)) return;
 
-  const emoji = SERVICIO_EMOJI[topic.servicio] || '📄';
   const fecha = monthName(dateStr);
 
   const card = `
       <article class="post-card">
-        <div class="post-thumb">${emoji}</div>
+        <a href="${topic.slug}/" class="post-thumb" aria-label="${topic.titulo}">
+          <img src="${topic.slug}/portada.svg" alt="${topic.titulo}" loading="lazy" width="1200" height="630" style="width:100%;height:100%;object-fit:cover;display:block;">
+        </a>
         <div class="post-card-body">
           <span class="post-category">${topic.categoria}</span>
           <h2><a href="${topic.slug}/" style="color:#fff;">${topic.titulo}</a></h2>
@@ -299,40 +354,49 @@ INDUSTRIA OBJETIVO: ${topic.industria || 'general Colombia'}
 SERVICIO RELACIONADO: ${serviceName}
 FECHA DE PUBLICACIÓN: ${dateStr}${newsContext}
 
+SISTEMA DE DISEÑO (NUEVO, claro/moderno — OBLIGATORIO seguirlo):
+- Tema CLARO. Variables CSS exactas: --primary:#2563EB; --secondary:#7C3AED; --bg:#FFFFFF; --bg2:#F8FAFC; --text:#0F172A; --text-muted:#475569; --border:#E2E8F0; --wa:#25D366;
+- Gradiente de marca: linear-gradient(135deg,#2563EB 0%,#7C3AED 100%). Úsalo en el badge de categoría, botones primarios y banners CTA.
+- Tipografía: títulos (h1,h2,h3) en 'Space Grotesk' (700); cuerpo en 'Inter' (400/500/600). Google Fonts: https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap
+- Esquinas redondeadas 12px en tarjetas/botones; sombras suaves; mucho aire en blanco.
+- Botón primario .btn: fondo gradiente de marca, texto blanco, radius 12px. Botón WhatsApp .btn-wa: fondo verde var(--wa), texto blanco.
+
 ESTRUCTURA REQUERIDA DEL HTML:
 - DOCTYPE html, lang="es-CO"
 - Meta charset, viewport, title (con "| AI Company CO"), meta description única (150-160 chars)
 - Canonical: https://aicompanyco.com/blog/${topic.slug}/
 - Favicon: ../../logo.png
-- Google Fonts: Orbitron + DM Sans (igual que el sitio)
-- Schema.org Article JSON-LD con datePublished="${dateStr}", dateModified="${dateStr}", author Organization "AI Company CO". OBLIGATORIO incluir campo "image": {"@type":"ImageObject","url":"https://aicompanyco.com/logo.png","width":400,"height":400} dentro del schema Article.
+- Open Graph + Twitter Card: og:title, og:description, og:type=article, og:url canonical, og:image="https://aicompanyco.com/blog/${topic.slug}/portada.svg", twitter:card=summary_large_image, twitter:image igual.
+- Schema.org Article JSON-LD con datePublished="${dateStr}", dateModified="${dateStr}", author Organization "AI Company CO". OBLIGATORIO incluir campo "image": {"@type":"ImageObject","url":"https://aicompanyco.com/blog/${topic.slug}/portada.svg","width":1200,"height":630} dentro del schema Article.
 - Schema.org FAQPage JSON-LD adicional (segundo bloque <script type="application/ld+json">) con las mismas 4 preguntas frecuentes del artículo en formato {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Pregunta?","acceptedAnswer":{"@type":"Answer","text":"Respuesta."}},...]}.
-- CSS inline con estas variables: --purple-dark:#5A00B8; --purple-light:#9B5FFF; --bg:#0D0D14; --bg2:#12121C; --text:#E8E8F0; --text-muted:#8A8D99;
-- Clases CSS iguales al sitio: .container (max-width:760px), .hero, .post-category, .post-meta, .article-body, .callout, .cta-inline, .btn-wa, .breadcrumb, .use-case (opcional)
-- NAV fijo con link a ../../index_con_logo.html y botón "Hablemos →" a ../../index_con_logo.html#contacto
+- CSS inline usando las variables del sistema de diseño de arriba.
+- Clases CSS: .container (max-width:760px, margin auto, padding lateral), .nav (sticky, fondo blanco, sombra suave), .breadcrumb, .post-category (píldora con gradiente de marca, texto blanco), .post-meta (texto var(--text-muted)), .cover (imagen de portada), .article-body, .callout (fondo gradiente suave azul→violeta al 8%, borde izquierdo azul), .cta-inline (banner con gradiente de marca, texto blanco), .btn, .btn-wa, blockquote (borde izquierdo azul).
+- NAV sticky arriba: logo "AI Company CO" enlazando a ../../ y botón .btn-wa "Hablar con un asesor" a ${waLink}.
 - BREADCRUMB: Inicio / Blog / [título corto]
-- HERO con .post-category, h1 con el título, .post-meta con "Por AI Company CO · ${monthName(dateStr)} · X minutos de lectura"
+- HERO del artículo: .post-category, <h1> con el título, .post-meta con "Por AI Company CO · ${monthName(dateStr)} · X min de lectura · Generado con IA".
+- IMAGEN DE PORTADA (OBLIGATORIA) inmediatamente debajo del meta: <img class="cover" src="portada.svg" alt="${topic.titulo}" width="1200" height="630" style="width:100%;height:auto;border-radius:16px;display:block;margin:1.5rem 0;"> (ruta relativa, el archivo ya existe en la misma carpeta).
 
 CONTENIDO DEL ARTÍCULO (mínimo 800 palabras):
 1. Párrafo de apertura: problema real que enfrenta la industria objetivo en Colombia hoy
 2. Sección principal con h2: qué es la solución / cómo funciona
-3. Casos de uso o ejemplos concretos (usar .use-case o lista)
-4. CTA inline en medio del artículo (usar .cta-inline + .btn-wa con link: ${waLink})
-5. Sección de costos/inversión con cifras en COP realistas para Colombia
+3. Casos de uso o ejemplos concretos (lista con viñetas o tarjetas)
+4. CTA inline en medio del artículo (.cta-inline con gradiente + .btn-wa con link: ${waLink})
+5. Sección de costos/inversión: explica que el precio es A LA MEDIDA según los requerimientos (no manejamos precios fijos); invita a agendar un diagnóstico gratis. Puedes dar rangos orientativos si ayuda, aclarando que varían.
 6. .callout con dato estadístico o ROI concreto
-7. Sección "Preguntas frecuentes" (mínimo 3 Q&A)
+7. Sección "Preguntas frecuentes" (mínimo 3 Q&A) que coincidan con el FAQPage JSON-LD
 8. CTA final (.cta-inline)
 
-FOOTER:
-- Link a ../../index_con_logo.html
-- Links internos: ${serviceLink} (${serviceName}), ../../blog/ (Blog), ../../index_con_logo.html#contacto (Contacto)
+FOOTER (fondo oscuro #0F172A, texto claro):
+- Logo "AI Company CO"
+- Links internos: ${serviceLink} (${serviceName}), ../../blog/ (Blog), ../../#contacto (Contacto)
+- Contacto: WhatsApp +57 321 267 4754, agencia@aicompanyco.com, Soacha, Cundinamarca
 - Copyright: © 2026 AI Company CO · Soacha, Cundinamarca, Colombia
 
 IMPORTANTE:
-- Rutas relativas: logo ../../logo.png, nav links ../../...
-- No uses imágenes externas (solo el logo local)
-- El artículo debe ser ÚNICO, con datos reales de Colombia, no solo variables intercambiadas
-- Asegúrate de que el HTML esté completo y bien formado`;
+- Rutas relativas: portada "portada.svg", logo ../../logo.png, nav/links ../../...
+- La ÚNICA imagen es la portada local (portada.svg). No uses imágenes externas ni de bancos.
+- El artículo debe ser ÚNICO, con datos reales de Colombia, no solo variables intercambiadas.
+- Asegúrate de que el HTML esté completo y bien formado, y que use el tema CLARO (fondo blanco), NO oscuro.`;
 }
 
 // ─── main ────────────────────────────────────────────────────────────────────
@@ -386,6 +450,12 @@ async function main() {
   // save file
   const outDir = path.join(BLOG_DIR, topic.slug);
   fs.mkdirSync(outDir, { recursive: true });
+
+  // generar portada de marca (SVG on-brand, hero + og:image, sin dependencias)
+  const coverSvg = generateCoverSVG(topic);
+  fs.writeFileSync(path.join(outDir, 'portada.svg'), coverSvg, 'utf8');
+  console.log(`Portada generada: blog/${topic.slug}/portada.svg`);
+
   const outFile = path.join(outDir, 'index.html');
   fs.writeFileSync(outFile, html, 'utf8');
   console.log(`Saved: blog/${topic.slug}/index.html`);
@@ -415,7 +485,11 @@ async function main() {
   console.log(`  Tokens: ${usage.input_tokens} in / ${usage.output_tokens} out`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
+
+module.exports = { generateCoverSVG, wrapTitle, escapeXml, updateBlogIndex };
