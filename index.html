@@ -1,2092 +1,553 @@
 <!DOCTYPE html>
-<html lang="es-CO">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- 1. Title Tag -->
-<title>AI Company | Marketing Digital, IA y Sistemas a la Medida en Colombia</title>
-
-<!-- 2. Meta Description -->
-<meta name="description" content="Agencia colombiana que construye sistemas empresariales a la medida, automatizaciones con IA y estrategias de marketing digital. Resultados desde la primera semana. Bogotá, Colombia." />
-
-<!-- 3. Canonical -->
-<link rel="canonical" href="https://aicompanyco.com/" />
-
-<!-- 4. Open Graph -->
-<meta property="og:type" content="website" />
-<meta property="og:title" content="AI Company | Marketing Digital, IA y Sistemas a la Medida en Colombia" />
-<meta property="og:description" content="Agencia colombiana que construye sistemas empresariales a la medida, automatizaciones con IA y estrategias de marketing digital. Resultados desde la primera semana." />
-<meta property="og:url" content="https://aicompanyco.com/" />
-<meta property="og:image" content="https://aicompanyco.com/logo.png" />
-<meta property="og:locale" content="es_CO" />
-<meta property="og:site_name" content="AI Company CO" />
-
-<!-- 5. Twitter Card -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="AI Company | Marketing Digital, IA y Sistemas a la Medida en Colombia" />
-<meta name="twitter:description" content="Agencia colombiana que construye sistemas empresariales a la medida, automatizaciones con IA y marketing digital. Bogotá, Colombia." />
-<meta name="twitter:image" content="https://aicompanyco.com/logo.png" />
-
-<!-- Schema Markup -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "AI Company",
-  "url": "https://aicompanyco.com",
-  "logo": "https://aicompanyco.com/logo.png",
-  "description": "Agencia colombiana especializada en marketing digital, inteligencia artificial y sistemas empresariales a la medida.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Soacha",
-    "addressRegion": "Cundinamarca",
-    "addressCountry": "CO"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+57-321-267-4754",
-    "contactType": "sales",
-    "availableLanguage": "Spanish"
-  },
-  "sameAs": [
-    "https://www.instagram.com/aicompanyco",
-    "https://www.tiktok.com/@aicompanyco",
-    "https://www.linkedin.com/company/aicompanyco",
-    "https://www.facebook.com/aicompanyco"
-  ],
-  "founder": [
-    {
-      "@type": "Person",
-      "name": "Cristian Gutierrez"
-    },
-    {
-      "@type": "Person",
-      "name": "Cesar Granados"
-    }
-  ]
-}
-</script>
-
-<!-- Favicon -->
-<link rel="icon" type="image/png" href="logo.png" />
-<link rel="apple-touch-icon" href="logo.png" />
-
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<html class="scroll-smooth" lang="es-CO"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Company CO | Automatización e Inteligencia Artificial para Empresas</title>
+<meta name="description" content="AI Company CO: automatizamos y sistematizamos los procesos de tu empresa con sistemas a la medida e inteligencia artificial. Automatización, WhatsApp 24/7, marketing digital y desarrollo a la medida en Colombia."/>
+<link rel="canonical" href="https://aicompanyco.com/"/>
+<link rel="icon" href="logo.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="AI Company CO | Automatización e Inteligencia Artificial para Empresas"/>
+<meta property="og:description" content="Automatizamos y sistematizamos los procesos de tu empresa con sistemas a la medida e IA. Diagnóstico gratis."/>
+<meta property="og:url" content="https://aicompanyco.com/"/>
+<meta property="og:image" content="https://aicompanyco.com/img/rediseno/hero-dashboard.png"/>
+<meta property="og:locale" content="es_CO"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="AI Company CO | Automatización e IA para Empresas"/>
+<meta name="twitter:image" content="https://aicompanyco.com/img/rediseno/hero-dashboard.png"/>
+<meta name="robots" content="index,follow"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AI Company CO","url":"https://aicompanyco.com","logo":"https://aicompanyco.com/logo.png","email":"agencia@aicompanyco.com","telephone":"+573212674754","address":{"@type":"PostalAddress","addressLocality":"Soacha","addressRegion":"Cundinamarca","addressCountry":"CO"},"areaServed":"CO","sameAs":["https://www.linkedin.com/","https://www.instagram.com/","https://www.tiktok.com/","https://www.facebook.com/"],"slogan":"Automatización · IA · Crecimiento"}</script>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-low": "#eff4ff",
+                    "outline-variant": "#c3c6d7",
+                    "on-error-container": "#93000a",
+                    "primary-fixed-dim": "#b4c5ff",
+                    "error-container": "#ffdad6",
+                    "on-surface-variant": "#434655",
+                    "surface-container": "#e5eeff",
+                    "background": "#f8f9ff",
+                    "surface-container-highest": "#d3e4fe",
+                    "on-tertiary-fixed": "#360f00",
+                    "tertiary": "#943700",
+                    "on-primary-fixed-variant": "#003ea8",
+                    "secondary-container": "#8a4cfc",
+                    "primary-fixed": "#dbe1ff",
+                    "primary-container": "#2563eb",
+                    "secondary": "#712ae2",
+                    "surface-variant": "#d3e4fe",
+                    "inverse-on-surface": "#eaf1ff",
+                    "on-secondary-fixed": "#25005a",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#f8f9ff",
+                    "on-tertiary-fixed-variant": "#7d2d00",
+                    "inverse-primary": "#b4c5ff",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-container": "#eeefff",
+                    "secondary-fixed": "#eaddff",
+                    "on-secondary": "#ffffff",
+                    "tertiary-fixed-dim": "#ffb596",
+                    "surface-container-high": "#dce9ff",
+                    "tertiary-fixed": "#ffdbcd",
+                    "on-primary-fixed": "#00174b",
+                    "primary": "#004ac6",
+                    "on-background": "#0b1c30",
+                    "error": "#ba1a1a",
+                    "on-tertiary-container": "#ffede6",
+                    "outline": "#737686",
+                    "surface-dim": "#cbdbf5",
+                    "on-secondary-fixed-variant": "#5a00c6",
+                    "tertiary-container": "#bc4800",
+                    "on-primary": "#ffffff",
+                    "surface-tint": "#0053db",
+                    "secondary-fixed-dim": "#d2bbff",
+                    "on-surface": "#0b1c30",
+                    "surface": "#f8f9ff",
+                    "inverse-surface": "#213145",
+                    "on-secondary-container": "#fffbff",
+                    "on-error": "#ffffff",
+                    "whatsapp": "#25D366"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "xs": "8px",
+                    "md": "24px",
+                    "lg": "40px",
+                    "sm": "16px",
+                    "base": "4px",
+                    "xl": "64px",
+                    "gutter": "24px",
+                    "container-max": "1280px"
+            },
+            "fontFamily": {
+                    "display-lg": ["Space Grotesk"],
+                    "headline-md": ["Space Grotesk"],
+                    "headline-lg-mobile": ["Space Grotesk"],
+                    "headline-lg": ["Space Grotesk"],
+                    "label-md": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "body-md": ["Inter"],
+                    "body-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "display-lg": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                    "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                    "headline-lg-mobile": ["28px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                    "headline-lg": ["32px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                    "label-md": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.01em", "fontWeight": "500" }],
+                    "label-sm": ["12px", { "lineHeight": "1.4", "fontWeight": "600" }],
+                    "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                    "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }]
+            }
+          },
+        },
+      }
+    </script>
 <style>
-/* ══════════════════════════════════════════════
-   RESET & ROOT
-══════════════════════════════════════════════ */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-:root {
-  --purple:    #5A00B8;
-  --purple-l:  #7B2FE0;
-  --purple-xl: #9B5FFF;
-  --purple-glow: rgba(90,0,184,0.35);
-  --dark:      #0D0D14;
-  --dark2:     #111118;
-  --dark3:     #16161f;
-  --dark4:     #1c1c28;
-  --gray:      #8A8D99;
-  --gray-l:    #b0b3bf;
-  --white:     #FFFFFF;
-  --text:      #e8e9f0;
-  --border:    rgba(90,0,184,0.18);
-  --border2:   rgba(255,255,255,0.06);
-  --font-h:    'Orbitron', monospace;
-  --font-b:    'DM Sans', sans-serif;
-}
-
-html { scroll-behavior: smooth; }
-
-body {
-  background: var(--dark);
-  color: var(--text);
-  font-family: var(--font-b);
-  font-weight: 300;
-  line-height: 1.7;
-  overflow-x: hidden;
-  cursor: none;
-}
-
-/* ══ CUSTOM CURSOR ══ */
-.cursor {
-  position: fixed; width: 12px; height: 12px;
-  background: var(--purple-xl); border-radius: 50%;
-  pointer-events: none; z-index: 9999;
-  transform: translate(-50%,-50%);
-  transition: transform 0.1s ease, width 0.2s ease, height 0.2s ease, opacity 0.2s ease;
-  mix-blend-mode: screen;
-}
-.cursor-ring {
-  position: fixed; width: 36px; height: 36px;
-  border: 1px solid rgba(154,95,255,0.5); border-radius: 50%;
-  pointer-events: none; z-index: 9998;
-  transform: translate(-50%,-50%);
-  transition: all 0.18s ease;
-}
-body:hover .cursor { opacity: 1; }
-
-/* ══ SCROLLBAR ══ */
-::-webkit-scrollbar { width: 4px; }
-::-webkit-scrollbar-track { background: var(--dark); }
-::-webkit-scrollbar-thumb { background: var(--purple); border-radius: 2px; }
-
-/* ══════════════════════════════════════════════
-   NAV
-══════════════════════════════════════════════ */
-nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 1.1rem 5%;
-  background: rgba(13,13,20,0.82);
-  backdrop-filter: blur(24px);
-  border-bottom: 1px solid var(--border);
-  transition: all 0.3s;
-}
-nav.scrolled {
-  padding: 0.7rem 5%;
-  background: rgba(13,13,20,0.97);
-}
-
-.nav-logo {
-  display: flex; align-items: center; gap: 12px;
-  text-decoration: none;
-}
-.nav-logo-svg { width: 38px; height: 38px; }
-.nav-logo-img { width: 44px; height: 44px; object-fit: contain; mix-blend-mode: screen; filter: drop-shadow(0 0 6px rgba(154,95,255,0.5)); }
-.nav-logo-text {
-  font-family: var(--font-h);
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  color: var(--white);
-  line-height: 1.1;
-}
-.nav-logo-sub {
-  font-family: var(--font-b);
-  font-size: 0.62rem;
-  font-weight: 300;
-  color: var(--purple-xl);
-  letter-spacing: 0.18em;
-  display: block;
-  text-transform: uppercase;
-}
-
-.nav-links {
-  display: flex; gap: 2.5rem; list-style: none;
-}
-.nav-links a {
-  font-family: var(--font-b);
-  font-size: 0.85rem;
-  font-weight: 400;
-  color: var(--gray-l);
-  text-decoration: none;
-  letter-spacing: 0.04em;
-  transition: color 0.2s;
-  position: relative;
-}
-.nav-links a::after {
-  content: '';
-  position: absolute; bottom: -4px; left: 0; width: 0; height: 1px;
-  background: var(--purple-xl);
-  transition: width 0.3s ease;
-}
-.nav-links a:hover { color: var(--white); }
-.nav-links a:hover::after { width: 100%; }
-
-.nav-cta {
-  font-family: var(--font-b);
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--white);
-  background: var(--purple);
-  border: none;
-  padding: 0.6rem 1.5rem;
-  border-radius: 4px;
-  text-decoration: none;
-  letter-spacing: 0.06em;
-  transition: all 0.25s;
-  position: relative;
-  overflow: hidden;
-}
-.nav-cta::before {
-  content: '';
-  position: absolute; inset: 0;
-  background: linear-gradient(135deg, var(--purple-l), var(--purple));
-  opacity: 0;
-  transition: opacity 0.25s;
-}
-.nav-cta:hover::before { opacity: 1; }
-.nav-cta span { position: relative; z-index: 1; }
-
-/* ══════════════════════════════════════════════
-   HERO
-══════════════════════════════════════════════ */
-#hero {
-  min-height: 100vh;
-  display: flex; align-items: center; justify-content: center;
-  padding: 7rem 5% 5rem;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
-
-/* Animated grid bg */
-#hero::before {
-  content: '';
-  position: absolute; inset: 0;
-  background-image:
-    linear-gradient(rgba(90,0,184,0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(90,0,184,0.07) 1px, transparent 1px);
-  background-size: 60px 60px;
-  animation: gridShift 20s linear infinite;
-}
-@keyframes gridShift {
-  0%   { transform: translate(0,0); }
-  100% { transform: translate(60px, 60px); }
-}
-
-/* Purple orb glow */
-#hero::after {
-  content: '';
-  position: absolute;
-  width: 700px; height: 700px;
-  background: radial-gradient(circle, rgba(90,0,184,0.28) 0%, transparent 70%);
-  top: -100px; right: -100px;
-  border-radius: 50%;
-  pointer-events: none;
-  animation: orbFloat 8s ease-in-out infinite;
-}
-@keyframes orbFloat {
-  0%,100% { transform: translate(0,0) scale(1); }
-  50%      { transform: translate(-30px, 40px) scale(1.06); }
-}
-
-.hero-content {
-  position: relative; z-index: 2;
-  width: 100%;
-  max-width: 860px;
-}
-
-.hero-badge {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: rgba(90,0,184,0.15);
-  border: 1px solid rgba(90,0,184,0.4);
-  border-radius: 100px;
-  padding: 0.4rem 1rem;
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: var(--purple-xl);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
-  animation: fadeUp 0.6s ease both;
-}
-.hero-badge-dot {
-  width: 6px; height: 6px; border-radius: 50%;
-  background: var(--purple-xl);
-  animation: blink 1.5s ease-in-out infinite;
-}
-@keyframes blink {
-  0%,100% { opacity:1; } 50% { opacity:0.2; }
-}
-
-.hero-h1 {
-  font-family: var(--font-h);
-  font-size: clamp(2.2rem, 4.5vw, 3.8rem);
-  font-weight: 800;
-  line-height: 1.12;
-  letter-spacing: -0.01em;
-  color: var(--white);
-  margin-bottom: 1.5rem;
-  animation: fadeUp 0.7s 0.1s ease both;
-}
-.hero-h1 .accent {
-  color: var(--purple-xl);
-  position: relative;
-}
-.hero-h1 .accent2 { color: var(--purple-xl); }
-
-.hero-p {
-  font-size: 1.05rem;
-  font-weight: 300;
-  color: var(--gray-l);
-  max-width: 600px;
-  margin: 0 auto 2.5rem;
-  animation: fadeUp 0.7s 0.2s ease both;
-}
-
-.hero-btns {
-  display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;
-  animation: fadeUp 0.7s 0.3s ease both;
-}
-
-.btn-primary {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: var(--purple);
-  color: var(--white);
-  font-family: var(--font-b);
-  font-size: 0.88rem;
-  font-weight: 500;
-  padding: 0.85rem 2rem;
-  border-radius: 4px;
-  text-decoration: none;
-  letter-spacing: 0.05em;
-  border: 1px solid transparent;
-  transition: all 0.25s;
-  position: relative; overflow: hidden;
-}
-.btn-primary::after {
-  content: '';
-  position: absolute; inset: 0;
-  background: linear-gradient(135deg, rgba(255,255,255,0.12), transparent);
-  opacity: 0; transition: opacity 0.25s;
-}
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(90,0,184,0.5); }
-.btn-primary:hover::after { opacity: 1; }
-
-.btn-ghost {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: transparent;
-  color: var(--gray-l);
-  font-family: var(--font-b);
-  font-size: 0.88rem;
-  font-weight: 400;
-  padding: 0.85rem 2rem;
-  border-radius: 4px;
-  text-decoration: none;
-  letter-spacing: 0.05em;
-  border: 1px solid var(--border2);
-  transition: all 0.25s;
-}
-.btn-ghost:hover {
-  border-color: rgba(90,0,184,0.5);
-  color: var(--white);
-  background: rgba(90,0,184,0.08);
-}
-
-.hero-stats {
-  display: flex; gap: 3rem;
-  margin-top: 4rem;
-  animation: fadeUp 0.7s 0.45s ease both;
-  padding-top: 2.5rem;
-  border-top: 1px solid var(--border2);
-}
-.hero-stat-num {
-  font-family: var(--font-h);
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--white);
-  line-height: 1;
-  margin-bottom: 0.3rem;
-}
-.hero-stat-num span { color: var(--purple-xl); }
-.hero-stat-label {
-  font-size: 0.78rem;
-  color: var(--gray);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-/* Hero visual side */
-.hero-visual {
-  position: absolute; right: 5%; top: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
-  animation: fadeUp 0.8s 0.3s ease both;
-}
-
-/* Ticker tape */
-.ticker-wrap {
-  position: absolute; bottom: 0; left: 0; right: 0;
-  overflow: hidden;
-  border-top: 1px solid var(--border);
-  background: rgba(13,13,20,0.6);
-  padding: 0.8rem 0;
-  z-index: 3;
-}
-.ticker {
-  display: flex; gap: 0; white-space: nowrap;
-  animation: ticker 30s linear infinite;
-}
-@keyframes ticker {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-.ticker-item {
-  display: inline-flex; align-items: center; gap: 0.6rem;
-  padding: 0 2rem;
-  font-family: var(--font-b);
-  font-size: 0.78rem;
-  color: var(--gray);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-.ticker-item .star { color: var(--purple-xl); font-size: 0.6rem; }
-
-@keyframes fadeUp {
-  from { opacity:0; transform:translateY(24px); }
-  to   { opacity:1; transform:translateY(0); }
-}
-
-/* ══════════════════════════════════════════════
-   SECTION SHARED
-══════════════════════════════════════════════ */
-section { padding: 6rem 5%; position: relative; }
-
-.section-label {
-  font-family: var(--font-b);
-  font-size: 0.72rem;
-  font-weight: 500;
-  color: var(--purple-xl);
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  margin-bottom: 0.8rem;
-  display: flex; align-items: center; gap: 10px;
-}
-.section-label::before {
-  content: '';
-  display: inline-block;
-  width: 24px; height: 1px;
-  background: var(--purple-xl);
-}
-
-.section-h2 {
-  font-family: var(--font-h);
-  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
-  font-weight: 700;
-  color: var(--white);
-  line-height: 1.15;
-  letter-spacing: -0.01em;
-  margin-bottom: 1rem;
-}
-.section-h2 .accent { color: var(--purple-xl); }
-
-.section-sub {
-  font-size: 1rem;
-  color: var(--gray-l);
-  font-weight: 300;
-  max-width: 520px;
-  line-height: 1.7;
-}
-
-/* ══════════════════════════════════════════════
-   SERVICES
-══════════════════════════════════════════════ */
-#servicios { background: var(--dark2); }
-
-.services-header {
-  display: flex; justify-content: space-between; align-items: flex-end;
-  margin-bottom: 3.5rem; flex-wrap: wrap; gap: 1.5rem;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5px;
-  background: var(--border);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-.service-card {
-  background: var(--dark2);
-  padding: 2.5rem;
-  transition: all 0.3s;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-}
-.service-card::before {
-  content: '';
-  position: absolute; inset: 0;
-  background: linear-gradient(135deg, rgba(90,0,184,0.08), transparent);
-  opacity: 0;
-  transition: opacity 0.35s;
-  pointer-events: none;
-}
-.service-card:hover::before { opacity: 1; }
-.service-card:hover { background: var(--dark3); }
-
-.service-icon {
-  width: 48px; height: 48px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  display: flex; align-items: center; justify-content: center;
-  margin-bottom: 1.5rem;
-  background: rgba(90,0,184,0.08);
-  transition: all 0.3s;
-}
-.service-card:hover .service-icon {
-  border-color: rgba(90,0,184,0.5);
-  background: rgba(90,0,184,0.18);
-}
-
-.service-icon svg { width: 22px; height: 22px; stroke: var(--purple-xl); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
-
-.service-title {
-  font-family: var(--font-h);
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--white);
-  letter-spacing: 0.05em;
-  margin-bottom: 0.7rem;
-}
-
-.service-desc {
-  font-size: 0.88rem;
-  color: var(--gray);
-  line-height: 1.65;
-  margin-bottom: 1.5rem;
-}
-
-.service-tags {
-  display: flex; flex-wrap: wrap; gap: 6px;
-}
-.service-tag {
-  font-size: 0.68rem;
-  font-weight: 400;
-  color: var(--purple-xl);
-  background: rgba(90,0,184,0.1);
-  border: 1px solid rgba(90,0,184,0.2);
-  padding: 3px 10px;
-  border-radius: 100px;
-  letter-spacing: 0.06em;
-}
-
-/* ══════════════════════════════════════════════
-   AUTOMATIONS
-══════════════════════════════════════════════ */
-#automatizaciones {
-  background: var(--dark);
-}
-
-.auto-layout {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
-  align-items: center;
-}
-
-.auto-list {
-  display: flex; flex-direction: column; gap: 0;
-}
-.auto-item {
-  display: flex; align-items: flex-start; gap: 1.2rem;
-  padding: 1.5rem 0;
-  border-bottom: 1px solid var(--border2);
-  cursor: pointer;
-  transition: all 0.25s;
-  position: relative;
-}
-.auto-item::before {
-  content: '';
-  position: absolute; left: -5%; width: 3px; height: 0;
-  background: var(--purple);
-  top: 50%; transform: translateY(-50%);
-  transition: height 0.3s;
-  border-radius: 2px;
-}
-.auto-item:hover::before { height: 60%; }
-.auto-item:hover { padding-left: 0.5rem; }
-
-.auto-num {
-  font-family: var(--font-h);
-  font-size: 0.65rem;
-  font-weight: 600;
-  color: var(--purple-xl);
-  opacity: 0.5;
-  min-width: 28px;
-  padding-top: 3px;
-}
-.auto-item-title {
-  font-family: var(--font-b);
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: var(--white);
-  margin-bottom: 0.3rem;
-}
-.auto-item-desc {
-  font-size: 0.83rem;
-  color: var(--gray);
-  line-height: 1.55;
-}
-
-/* Auto visual */
-.auto-visual {
-  background: var(--dark3);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 2rem;
-  position: relative;
-  overflow: hidden;
-}
-.auto-visual::before {
-  content: '';
-  position: absolute;
-  width: 300px; height: 300px;
-  background: radial-gradient(circle, rgba(90,0,184,0.2), transparent 70%);
-  top: -80px; right: -80px;
-  border-radius: 50%;
-  pointer-events: none;
-}
-
-.auto-flow {
-  display: flex; flex-direction: column; gap: 1px;
-}
-.flow-node {
-  display: flex; align-items: center; gap: 1rem;
-  padding: 1rem 1.2rem;
-  background: var(--dark4);
-  border-radius: 8px;
-  border: 1px solid var(--border2);
-  transition: all 0.3s;
-  animation: flowPulse 4s ease-in-out infinite;
-}
-.flow-node:nth-child(1) { animation-delay: 0s; }
-.flow-node:nth-child(2) { animation-delay: 0.8s; }
-.flow-node:nth-child(3) { animation-delay: 1.6s; }
-.flow-node:nth-child(4) { animation-delay: 2.4s; }
-.flow-node:nth-child(5) { animation-delay: 3.2s; }
-@keyframes flowPulse {
-  0%,100% { border-color: var(--border2); }
-  50%      { border-color: rgba(90,0,184,0.5); background: rgba(90,0,184,0.06); }
-}
-.flow-connector {
-  width: 1px; height: 20px;
-  background: linear-gradient(to bottom, rgba(90,0,184,0.5), transparent);
-  margin-left: 23px;
-}
-.flow-icon {
-  width: 32px; height: 32px; border-radius: 8px;
-  background: rgba(90,0,184,0.15);
-  border: 1px solid rgba(90,0,184,0.25);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 0.85rem;
-  flex-shrink: 0;
-}
-.flow-label {
-  font-size: 0.83rem;
-  font-weight: 400;
-  color: var(--text);
-}
-.flow-status {
-  margin-left: auto;
-  font-size: 0.65rem;
-  font-weight: 500;
-  color: #22d3a0;
-  background: rgba(34,211,160,0.1);
-  padding: 2px 8px;
-  border-radius: 100px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  border: 1px solid rgba(34,211,160,0.2);
-}
-
-/* ══════════════════════════════════════════════
-   PROCESS
-══════════════════════════════════════════════ */
-#proceso { background: var(--dark2); }
-
-.process-steps {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0;
-  margin-top: 3.5rem;
-  position: relative;
-}
-.process-steps::before {
-  content: '';
-  position: absolute;
-  top: 28px; left: 12.5%; right: 12.5%;
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--purple), transparent);
-}
-
-.process-step {
-  padding: 0 2rem;
-  text-align: center;
-  position: relative;
-}
-.process-step-num {
-  width: 56px; height: 56px;
-  border: 1px solid var(--purple);
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  margin: 0 auto 1.5rem;
-  font-family: var(--font-h);
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--purple-xl);
-  background: var(--dark2);
-  position: relative; z-index: 1;
-  transition: all 0.3s;
-}
-.process-step:hover .process-step-num {
-  background: var(--purple);
-  color: var(--white);
-  box-shadow: 0 0 24px rgba(90,0,184,0.5);
-}
-.process-step-title {
-  font-family: var(--font-h);
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--white);
-  letter-spacing: 0.06em;
-  margin-bottom: 0.75rem;
-}
-.process-step-desc {
-  font-size: 0.82rem;
-  color: var(--gray);
-  line-height: 1.6;
-}
-
-/* ══════════════════════════════════════════════
-   WHY US
-══════════════════════════════════════════════ */
-#diferenciadores { background: var(--dark); }
-
-.why-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  margin-top: 3.5rem;
-}
-.why-card {
-  background: var(--dark3);
-  border: 1px solid var(--border2);
-  border-radius: 12px;
-  padding: 2rem 2.5rem;
-  display: flex; gap: 1.5rem;
-  align-items: flex-start;
-  transition: all 0.3s;
-  position: relative; overflow: hidden;
-}
-.why-card::after {
-  content: '';
-  position: absolute; top: 0; left: 0;
-  width: 3px; height: 0;
-  background: var(--purple);
-  transition: height 0.4s;
-  border-radius: 0 0 2px 2px;
-}
-.why-card:hover::after { height: 100%; }
-.why-card:hover {
-  border-color: rgba(90,0,184,0.35);
-  transform: translateY(-3px);
-}
-.why-icon-wrap {
-  width: 52px; height: 52px; flex-shrink: 0;
-  background: rgba(90,0,184,0.1);
-  border: 1px solid rgba(90,0,184,0.2);
-  border-radius: 12px;
-  display: flex; align-items: center; justify-content: center;
-}
-.why-icon-wrap svg { width: 24px; height: 24px; stroke: var(--purple-xl); fill: none; stroke-width: 1.5; stroke-linecap: round; }
-.why-card-title {
-  font-family: var(--font-h);
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--white);
-  letter-spacing: 0.06em;
-  margin-bottom: 0.6rem;
-}
-.why-card-desc {
-  font-size: 0.87rem;
-  color: var(--gray);
-  line-height: 1.65;
-}
-
-/* ══════════════════════════════════════════════
-   FOUNDERS
-══════════════════════════════════════════════ */
-#equipo {
-  background: var(--dark2);
-}
-.founders-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  margin-top: 3rem;
-  max-width: 700px;
-}
-.founder-card {
-  background: var(--dark3);
-  border: 1px solid var(--border2);
-  border-radius: 14px;
-  padding: 2rem;
-  display: flex; align-items: center; gap: 1.5rem;
-  transition: all 0.3s;
-}
-.founder-card:hover {
-  border-color: rgba(90,0,184,0.45);
-  transform: translateY(-3px);
-  box-shadow: 0 16px 40px rgba(90,0,184,0.15);
-}
-.founder-avatar {
-  width: 64px; height: 64px; border-radius: 50%; flex-shrink: 0;
-  background: linear-gradient(135deg, var(--purple), var(--purple-xl));
-  display: flex; align-items: center; justify-content: center;
-  font-family: var(--font-h);
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--white);
-  border: 2px solid rgba(90,0,184,0.4);
-}
-.founder-name {
-  font-family: var(--font-h);
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--white);
-  letter-spacing: 0.06em;
-  margin-bottom: 0.2rem;
-}
-.founder-role {
-  font-size: 0.75rem;
-  color: var(--purple-xl);
-  font-weight: 400;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
-}
-.founder-contact {
-  font-size: 0.78rem;
-  color: var(--gray);
-}
-
-/* ══════════════════════════════════════════════
-   FAQ
-══════════════════════════════════════════════ */
-#faq { background: var(--dark); }
-.faq-list {
-  margin-top: 3rem;
-  max-width: 760px;
-  display: flex; flex-direction: column; gap: 2px;
-}
-.faq-item {
-  background: var(--dark3);
-  border: 1px solid var(--border2);
-  border-radius: 8px;
-  overflow: hidden;
-  transition: border-color 0.3s;
-}
-.faq-item.open { border-color: rgba(90,0,184,0.4); }
-.faq-q {
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 1.25rem 1.5rem;
-  cursor: pointer;
-  font-size: 0.92rem;
-  font-weight: 400;
-  color: var(--text);
-  gap: 1rem;
-  user-select: none;
-}
-.faq-q:hover { color: var(--white); }
-.faq-chevron {
-  width: 20px; height: 20px; flex-shrink: 0;
-  stroke: var(--purple-xl); fill: none; stroke-width: 2;
-  stroke-linecap: round; stroke-linejoin: round;
-  transition: transform 0.3s;
-}
-.faq-item.open .faq-chevron { transform: rotate(180deg); }
-.faq-a {
-  max-height: 0; overflow: hidden;
-  padding: 0 1.5rem;
-  font-size: 0.87rem;
-  color: var(--gray-l);
-  line-height: 1.7;
-  transition: max-height 0.5s ease, padding 0.3s;
-}
-.faq-item.open .faq-a {
-  max-height: 600px;
-  padding: 0 1.5rem 1.25rem;
-}
-
-/* ══════════════════════════════════════════════
-   CONTACT
-══════════════════════════════════════════════ */
-#contacto {
-  background: var(--dark2);
-}
-.contact-layout {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 5rem;
-  align-items: start;
-}
-.contact-info { padding-top: 1rem; }
-.contact-detail {
-  display: flex; align-items: center; gap: 1rem;
-  padding: 1.2rem 0;
-  border-bottom: 1px solid var(--border2);
-}
-.contact-detail-icon {
-  width: 40px; height: 40px;
-  background: rgba(90,0,184,0.1);
-  border: 1px solid rgba(90,0,184,0.2);
-  border-radius: 8px;
-  display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0;
-}
-.contact-detail-icon svg { width: 18px; height: 18px; stroke: var(--purple-xl); fill: none; stroke-width: 1.5; stroke-linecap: round; }
-.contact-detail-label {
-  font-size: 0.72rem;
-  color: var(--gray);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-bottom: 2px;
-}
-.contact-detail-val {
-  font-size: 0.9rem;
-  color: var(--text);
-}
-.contact-detail-val a {
-  color: var(--text);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-.contact-detail-val a:hover { color: var(--purple-xl); }
-
-/* Form */
-.contact-form {
-  background: var(--dark3);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 2.5rem;
-}
-.form-title {
-  font-family: var(--font-h);
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--white);
-  letter-spacing: 0.06em;
-  margin-bottom: 0.5rem;
-}
-.form-sub {
-  font-size: 0.82rem;
-  color: var(--gray);
-  margin-bottom: 2rem;
-}
-.form-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-.form-group {
-  display: flex; flex-direction: column; gap: 6px;
-  margin-bottom: 1rem;
-}
-.form-group.full { margin-bottom: 1rem; }
-label {
-  font-size: 0.74rem;
-  font-weight: 500;
-  color: var(--gray-l);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-input, select, textarea {
-  background: var(--dark4);
-  border: 1px solid var(--border2);
-  border-radius: 6px;
-  color: var(--text);
-  font-family: var(--font-b);
-  font-size: 0.88rem;
-  font-weight: 300;
-  padding: 0.75rem 1rem;
-  outline: none;
-  transition: border-color 0.25s;
-  width: 100%;
-}
-input::placeholder, textarea::placeholder { color: var(--gray); opacity: 0.6; }
-input:focus, select:focus, textarea:focus { border-color: rgba(90,0,184,0.6); }
-select {
-  cursor: pointer;
-  appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238A8D99' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 12px center;
-  padding-right: 2rem;
-}
-select option { background: var(--dark4); }
-textarea { resize: none; min-height: 110px; }
-
-.submit-btn {
-  width: 100%;
-  background: var(--purple);
-  color: var(--white);
-  font-family: var(--font-b);
-  font-size: 0.88rem;
-  font-weight: 500;
-  padding: 0.9rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  transition: all 0.25s;
-  position: relative; overflow: hidden;
-  margin-top: 0.5rem;
-}
-.submit-btn:hover {
-  background: var(--purple-l);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(90,0,184,0.45);
-}
-.submit-btn:active { transform: translateY(0); }
-
-/* ══════════════════════════════════════════════
-   FOOTER
-══════════════════════════════════════════════ */
-footer {
-  background: var(--dark);
-  border-top: 1px solid var(--border2);
-  padding: 3.5rem 5% 2rem;
-}
-.footer-top {
-  display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1fr;
-  gap: 3rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid var(--border2);
-}
-.footer-brand-desc {
-  font-size: 0.83rem;
-  color: var(--gray);
-  line-height: 1.7;
-  margin-top: 1rem;
-  max-width: 260px;
-}
-.footer-col-title {
-  font-family: var(--font-h);
-  font-size: 0.68rem;
-  font-weight: 600;
-  color: var(--gray);
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  margin-bottom: 1.2rem;
-}
-.footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
-.footer-links a {
-  font-size: 0.85rem;
-  color: var(--gray);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-.footer-links a:hover { color: var(--purple-xl); }
-.footer-bottom {
-  display: flex; justify-content: space-between; align-items: center;
-  padding-top: 2rem;
-  font-size: 0.78rem;
-  color: var(--gray);
-  flex-wrap: wrap; gap: 1rem;
-}
-.footer-social {
-  display: flex; gap: 0.8rem;
-}
-.social-btn {
-  width: 34px; height: 34px;
-  border: 1px solid var(--border2);
-  border-radius: 8px;
-  display: flex; align-items: center; justify-content: center;
-  color: var(--gray);
-  text-decoration: none;
-  font-size: 0.75rem;
-  transition: all 0.25s;
-  font-family: var(--font-h);
-  font-weight: 700;
-}
-.social-btn:hover {
-  border-color: rgba(90,0,184,0.5);
-  color: var(--purple-xl);
-  background: rgba(90,0,184,0.08);
-}
-
-/* ══ LOGO SVG INLINE ══ */
-.logo-svg-inline {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* ══ REVEAL ANIMATIONS ══ */
-.reveal {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.65s ease, transform 0.65s ease;
-}
-.reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-.reveal-delay-1 { transition-delay: 0.1s; }
-.reveal-delay-2 { transition-delay: 0.2s; }
-.reveal-delay-3 { transition-delay: 0.3s; }
-
-/* ══════════════════════════════════════════════
-   HERO LOGO LARGE
-══════════════════════════════════════════════ */
-.hero-logo-large {
-  width: 380px; height: 380px;
-  opacity: 0.12;
-  position: absolute;
-  right: 2%; top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
-  pointer-events: none;
-  animation: rotateSlow 40s linear infinite;
-}
-@keyframes rotateSlow {
-  from { transform: translateY(-50%) rotate(0deg); }
-  to   { transform: translateY(-50%) rotate(360deg); }
-}
-
-/* ══════════════════════════════════════════════
-   RESPONSIVE
-══════════════════════════════════════════════ */
-@media (max-width: 1024px) {
-  .services-grid { grid-template-columns: repeat(2, 1fr); }
-  .footer-top { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
-  .auto-layout { gap: 3rem; }
-}
-
-@media (max-width: 768px) {
-  nav { padding: 0.9rem 5%; }
-  .nav-links { display: none; }
-  .nav-cta { font-size: 0.78rem; padding: 0.55rem 1.1rem; }
-
-  #hero { padding: 6rem 5% 5rem; min-height: auto; }
-  .hero-content { max-width: 100%; }
-  .hero-h1 { font-size: clamp(1.8rem, 6vw, 2.8rem); }
-  .hero-p { font-size: 0.95rem; }
-  .hero-stats { gap: 1.5rem; flex-wrap: wrap; padding-top: 1.8rem; margin-top: 2.5rem; }
-  .hero-logo-large { display: none; }
-
-  .services-grid { grid-template-columns: 1fr; }
-
-  .auto-layout { grid-template-columns: 1fr; gap: 2.5rem; }
-  .auto-visual { margin-top: 1rem; }
-
-  .process-steps { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
-  .process-steps::before { display: none; }
-  .process-step { padding: 0 1rem; }
-
-  .why-grid { grid-template-columns: 1fr; }
-
-  .founders-grid { grid-template-columns: 1fr; max-width: 100%; }
-
-  .faq-list { max-width: 100%; }
-
-  .contact-layout { grid-template-columns: 1fr; gap: 3rem; }
-
-  .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
-  .footer-bottom { flex-direction: column; align-items: flex-start; gap: 1rem; }
-
-  .section-h2 { font-size: clamp(1.4rem, 5vw, 2rem); }
-}
-
-@media (max-width: 480px) {
-  section { padding: 3.5rem 5%; }
-
-  .hero-btns { flex-direction: column; }
-  .btn-primary, .btn-ghost { width: 100%; justify-content: center; }
-  .hero-stats { gap: 1.2rem; }
-  .hero-stat-num { font-size: 1.6rem; }
-
-  .services-header { flex-direction: column; align-items: flex-start; }
-  .service-card { padding: 1.8rem; }
-
-  .process-steps { grid-template-columns: 1fr; }
-
-  .why-card { flex-direction: column; gap: 1rem; }
-
-  .contact-form { padding: 1.8rem; }
-  .form-row { grid-template-columns: 1fr; }
-
-  .footer-top { grid-template-columns: 1fr; }
-  .footer-social { flex-wrap: wrap; }
-
-  .ticker-item { font-size: 0.7rem; padding: 0 1.2rem; }
-}
-</style>
-</head>
-<body>
-
-<!-- CURSORS -->
-<div class="cursor" id="cursor"></div>
-<div class="cursor-ring" id="cursorRing"></div>
-
-<!-- ══ NAV ══ -->
-<nav id="navbar">
-  <a href="/" class="nav-logo" aria-label="AI Company CO - Inicio">
-    <img src="logo.png" alt="AI Company CO" class="nav-logo-img" />
-    <span>
-      <span class="nav-logo-text">AI COMPANY</span>
-      <span class="nav-logo-sub">Automatización · IA · Crecimiento</span>
-    </span>
-  </a>
-
-  <ul class="nav-links">
-    <li><a href="#servicios">Servicios</a></li>
-    <li><a href="#automatizaciones">Automatizaciones</a></li>
-    <li><a href="#casos">Casos de éxito</a></li>
-    <li><a href="blog/">Blog</a></li>
-    <li><a href="#proceso">Proceso</a></li>
-  </ul>
-
-  <a href="https://wa.me/573212674754?text=Hola%2C%20quiero%20conocer%20c%C3%B3mo%20AI%20Company%20puede%20ayudar%20a%20mi%20negocio." target="_blank" class="nav-cta"><span>Hablar con un asesor →</span></a>
-</nav>
-
-<!-- ══ HERO ══ -->
-<section id="hero">
-  <!-- Big background logo -->
-  <svg class="hero-logo-large" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="100,20 40,140 160,140" stroke="#5A00B8" stroke-width="3" fill="none"/>
-    <path d="M100,10 L155,155 L45,155 Z" stroke="#5A00B8" stroke-width="3" fill="none"/>
-    <line x1="100" y1="10" x2="135" y2="-8" stroke="#5A00B8" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="135" cy="-8" r="8" fill="#5A00B8"/>
-  </svg>
-
-  <div class="hero-content">
-    <div style="display:flex;gap:0.6rem;flex-wrap:wrap;margin-bottom:2rem;animation:fadeUp 0.6s ease both;">
-      <span style="display:inline-flex;align-items:center;gap:6px;background:rgba(90,0,184,0.12);border:1px solid rgba(90,0,184,0.35);border-radius:100px;padding:0.35rem 0.9rem;font-size:0.72rem;color:var(--purple-xl);letter-spacing:0.1em;text-transform:uppercase;">
-        <span style="width:5px;height:5px;border-radius:50%;background:var(--purple-xl);animation:blink 1.5s ease-in-out infinite;"></span>
-        Soacha, Colombia
-      </span>
-      <span style="display:inline-flex;align-items:center;gap:6px;background:rgba(90,0,184,0.12);border:1px solid rgba(90,0,184,0.35);border-radius:100px;padding:0.35rem 0.9rem;font-size:0.72rem;color:var(--purple-xl);letter-spacing:0.1em;text-transform:uppercase;">
-        <span style="width:5px;height:5px;border-radius:50%;background:#22d3a0;"></span>
-        Sistemas a la medida · Marketing · IA
-      </span>
-    </div>
-
-    <h1 class="hero-h1">
-      Construimos el sistema de<br>
-      tu negocio y la estrategia<br>
-      digital para <span class="accent">llenarlo de clientes</span>
-    </h1>
-
-    <p class="hero-p">
-      Todo bajo un mismo equipo, sin intermediarios. Sistemas empresariales a la medida con inteligencia artificial integrada, más marketing digital y automatización para empresas colombianas que quieren crecer de verdad.
-    </p>
-
-    <!-- Bloque de definición optimizado para AI Overview -->
-    <div style="background:rgba(90,0,184,0.07);border:1px solid rgba(90,0,184,0.25);border-left:3px solid var(--purple-xl);border-radius:8px;padding:1rem 1.4rem;margin-bottom:2rem;animation:fadeUp 0.7s 0.25s ease both;">
-      <p style="font-size:0.85rem;color:var(--gray-l);line-height:1.7;margin:0;">
-        <strong style="color:var(--white);font-weight:500;">¿Qué es la automatización empresarial con IA?</strong>
-        Es el proceso de usar inteligencia artificial y herramientas como Make, n8n o Zapier para que los procesos repetitivos de una empresa — facturación, atención al cliente, agendamiento, reportes — funcionen solos, sin intervención humana, reduciendo costos hasta un 40% y liberando al equipo para tareas de mayor valor.
-      </p>
-    </div>
-
-    <div class="hero-btns">
-      <a href="https://wa.me/573212674754?text=Hola%2C%20quiero%20conocer%20c%C3%B3mo%20AI%20Company%20puede%20ayudar%20a%20mi%20negocio." target="_blank" class="btn-primary">Hablar con un asesor →</a>
-      <a href="https://wa.me/573212674754?text=Hola%2C%20quiero%20conocer%20c%C3%B3mo%20AI%20Company%20puede%20ayudar%20a%20mi%20negocio." target="_blank" class="btn-ghost" style="color:#25D366;border-color:rgba(37,211,102,0.3);">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        WhatsApp
-      </a>
-    </div>
-
-    <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border2);animation:fadeUp 0.7s 0.45s ease both;">
-      <p style="font-size:0.78rem;color:var(--gray);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.8rem;">Empresas que confían en nosotros</p>
-      <div style="display:flex;gap:1.5rem;flex-wrap:wrap;align-items:center;">
-        <span style="font-family:var(--font-h);font-size:0.72rem;font-weight:600;color:var(--gray-l);letter-spacing:0.1em;">MADERAS MONTOYA</span>
-        <span style="font-family:var(--font-h);font-size:0.72rem;font-weight:600;color:var(--gray-l);letter-spacing:0.1em;">ASOERC</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Ticker -->
-  <div class="ticker-wrap">
-    <div class="ticker">
-      <span class="ticker-item"><span class="star">✦</span> Marketing Digital</span>
-      <span class="ticker-item"><span class="star">✦</span> Automatización con IA</span>
-      <span class="ticker-item"><span class="star">✦</span> SEO Avanzado</span>
-      <span class="ticker-item"><span class="star">✦</span> CRM Inteligente</span>
-      <span class="ticker-item"><span class="star">✦</span> Chatbots con IA</span>
-      <span class="ticker-item"><span class="star">✦</span> Pauta Digital</span>
-      <span class="ticker-item"><span class="star">✦</span> Generación de Leads</span>
-      <span class="ticker-item"><span class="star">✦</span> WhatsApp Automático</span>
-      <span class="ticker-item"><span class="star">✦</span> Marketing Digital</span>
-      <span class="ticker-item"><span class="star">✦</span> Automatización con IA</span>
-      <span class="ticker-item"><span class="star">✦</span> SEO Avanzado</span>
-      <span class="ticker-item"><span class="star">✦</span> CRM Inteligente</span>
-      <span class="ticker-item"><span class="star">✦</span> Chatbots con IA</span>
-      <span class="ticker-item"><span class="star">✦</span> Pauta Digital</span>
-      <span class="ticker-item"><span class="star">✦</span> Generación de Leads</span>
-      <span class="ticker-item"><span class="star">✦</span> WhatsApp Automático</span>
-    </div>
-  </div>
-</section>
-
-<!-- ══ SERVICES ══ -->
-<section id="servicios">
-  <div class="services-header reveal">
-    <div>
-      <div class="section-label">Nuestros Servicios</div>
-      <h2 class="section-h2">Sistemas Empresariales a la Medida<br>con <span class="accent">IA</span> — y todo lo que tu negocio necesita</h2>
-    </div>
-    <p class="section-sub">Construimos el sistema de tu empresa, lo llenamos de clientes con marketing digital y lo hacemos trabajar solo con automatización. Sin software genérico. Sin intermediarios.</p>
-  </div>
-
-  <div class="services-grid">
-    <!-- 1. Sistemas a la Medida (NUEVO - PRIMERO) -->
-    <div class="service-card reveal" style="border:1px solid rgba(90,0,184,0.4);background:var(--dark3);">
-      <div class="service-icon" style="background:rgba(90,0,184,0.2);border-color:rgba(90,0,184,0.5);">
-        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-      </div>
-      <div class="service-title" style="color:var(--purple-xl);">Sistemas a la Medida</div>
-      <p class="service-desc">No vendemos un software genérico. Construimos el sistema de tu negocio con tu marca, para tus procesos, con inteligencia artificial integrada. Tu equipo puede actualizar información con un audio de 10 segundos o una foto — sin digitación manual, sin complicaciones.</p>
-      <div class="service-tags">
-        <span class="service-tag">IA integrada</span>
-        <span class="service-tag">Audios y fotos</span>
-        <span class="service-tag">Tu marca</span>
-        <span class="service-tag">A tu medida</span>
-      </div>
-      <ul style="margin-top:1rem;margin-bottom:0.5rem;padding-left:1rem;font-size:0.82rem;color:var(--gray-l);line-height:1.9;">
-        <li>Sistema desarrollado con la marca de tu empresa</li>
-        <li>Adaptado a los procesos reales de tu negocio</li>
-        <li>IA que entiende audios y fotos para capturar información</li>
-        <li>Solo pagas por las funciones que tu negocio necesita</li>
-      </ul>
-      <a href="https://wa.me/573212674754?text=Hola%2C%20quiero%20conocer%20c%C3%B3mo%20AI%20Company%20puede%20ayudar%20a%20mi%20negocio." target="_blank" style="display:inline-flex;align-items:center;gap:6px;margin-top:1.2rem;font-size:0.78rem;color:var(--purple-xl);text-decoration:none;letter-spacing:0.05em;border-bottom:1px solid rgba(155,95,255,0.5);padding-bottom:2px;transition:all 0.2s;">Quiero mi diagnóstico gratis →</a>
-    </div>
-
-    <!-- 2. Automatización de Clientes -->
-    <div class="service-card reveal reveal-delay-1">
-      <div class="service-icon">
-        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-      </div>
-      <div class="service-title">Automatización de Clientes</div>
-      <p class="service-desc">Atendemos tus clientes 24/7 con flujos inteligentes por WhatsApp, chat web y correo. Sin esperas, sin más personal. Automatización de WhatsApp para negocios Colombia.</p>
-      <div class="service-tags">
-        <span class="service-tag">WhatsApp Bot</span>
-        <span class="service-tag">Live Chat</span>
-        <span class="service-tag">Omnicanal</span>
-      </div>
-      <a href="servicios/whatsapp-automatico/" style="display:inline-flex;align-items:center;gap:6px;margin-top:1.2rem;font-size:0.78rem;color:var(--purple-xl);text-decoration:none;letter-spacing:0.05em;border-bottom:1px solid rgba(155,95,255,0.3);padding-bottom:2px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--purple-xl)'" onmouseout="this.style.borderColor='rgba(155,95,255,0.3)'">Ver más →</a>
-    </div>
-
-    <!-- 3. Marketing & Social Ads -->
-    <div class="service-card reveal reveal-delay-2">
-      <div class="service-icon">
-        <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-      </div>
-      <div class="service-title">Marketing & Social Ads</div>
-      <p class="service-desc">Estrategias completas de marketing digital para pymes Colombia: pauta en Meta, Google y TikTok, gestión de redes, contenido y SEO para escalar ventas.</p>
-      <div class="service-tags">
-        <span class="service-tag">Meta Ads</span>
-        <span class="service-tag">Google Ads</span>
-        <span class="service-tag">SEO</span>
-      </div>
-      <a href="servicios/marketing-digital/" style="display:inline-flex;align-items:center;gap:6px;margin-top:1.2rem;font-size:0.78rem;color:var(--purple-xl);text-decoration:none;letter-spacing:0.05em;border-bottom:1px solid rgba(155,95,255,0.3);padding-bottom:2px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--purple-xl)'" onmouseout="this.style.borderColor='rgba(155,95,255,0.3)'">Ver más →</a>
-    </div>
-
-    <!-- 4. Páginas Web -->
-    <div class="service-card reveal">
-      <div class="service-icon">
-        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M17.5 14v6m-3-3h6"/></svg>
-      </div>
-      <div class="service-title">Páginas Web y E-commerce</div>
-      <p class="service-desc">Diseñamos sitios modernos, rápidos y optimizados para SEO que convierten visitantes en clientes. Software a la medida para empresas colombianas.</p>
-      <div class="service-tags">
-        <span class="service-tag">UI/UX</span>
-        <span class="service-tag">WordPress</span>
-        <span class="service-tag">E-commerce</span>
-      </div>
-      <a href="servicios/paginas-web/" style="display:inline-flex;align-items:center;gap:6px;margin-top:1.2rem;font-size:0.78rem;color:var(--purple-xl);text-decoration:none;letter-spacing:0.05em;border-bottom:1px solid rgba(155,95,255,0.3);padding-bottom:2px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--purple-xl)'" onmouseout="this.style.borderColor='rgba(155,95,255,0.3)'">Ver más →</a>
-    </div>
-
-    <!-- 5. Asistente IA Personalizado -->
-    <div class="service-card reveal reveal-delay-1">
-      <div class="service-icon">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/></svg>
-      </div>
-      <div class="service-title">Asistente IA Personalizado</div>
-      <p class="service-desc">Creamos asistentes de IA que responden, analizan y actúan con la voz y conocimiento de tu negocio. CRM personalizado para empresas colombianas con IA integrada.</p>
-      <div class="service-tags">
-        <span class="service-tag">GPT Custom</span>
-        <span class="service-tag">RAG</span>
-        <span class="service-tag">Voz IA</span>
-      </div>
-      <a href="servicios/asistente-ia/" style="display:inline-flex;align-items:center;gap:6px;margin-top:1.2rem;font-size:0.78rem;color:var(--purple-xl);text-decoration:none;letter-spacing:0.05em;border-bottom:1px solid rgba(155,95,255,0.3);padding-bottom:2px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--purple-xl)'" onmouseout="this.style.borderColor='rgba(155,95,255,0.3)'">Ver más →</a>
-    </div>
-
-    <!-- 6. Automatizaciones Empresariales -->
-    <div class="service-card reveal reveal-delay-2">
-      <div class="service-icon">
-        <svg viewBox="0 0 24 24"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
-      </div>
-      <div class="service-title">Automatizaciones Empresariales</div>
-      <p class="service-desc">Conectamos y automatizamos tus herramientas internas con automatización con inteligencia artificial Colombia. Elimina tareas manuales con Make, n8n o Zapier.</p>
-      <div class="service-tags">
-        <span class="service-tag">Make</span>
-        <span class="service-tag">n8n</span>
-        <span class="service-tag">Zapier</span>
-      </div>
-      <a href="automatizacion-de-procesos-empresariales/" style="display:inline-flex;align-items:center;gap:6px;margin-top:1.2rem;font-size:0.78rem;color:var(--purple-xl);text-decoration:none;letter-spacing:0.05em;border-bottom:1px solid rgba(155,95,255,0.3);padding-bottom:2px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--purple-xl)'" onmouseout="this.style.borderColor='rgba(155,95,255,0.3)'">Ver más →</a>
-    </div>
-
-    <!-- 7. Apps Empresariales -->
-    <div class="service-card reveal">
-      <div class="service-icon">
-        <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12" y2="18"/></svg>
-      </div>
-      <div class="service-title">Apps Empresariales</div>
-      <p class="service-desc">Desarrollamos aplicaciones móviles y web a medida para digitalizar procesos. Software a la medida para empresas que necesitan soluciones propias.</p>
-      <div class="service-tags">
-        <span class="service-tag">iOS & Android</span>
-        <span class="service-tag">Web App</span>
-        <span class="service-tag">No-code</span>
-      </div>
-      <a href="servicios/apps-empresariales/" style="display:inline-flex;align-items:center;gap:6px;margin-top:1.2rem;font-size:0.78rem;color:var(--purple-xl);text-decoration:none;letter-spacing:0.05em;border-bottom:1px solid rgba(155,95,255,0.3);padding-bottom:2px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--purple-xl)'" onmouseout="this.style.borderColor='rgba(155,95,255,0.3)'">Ver más →</a>
-    </div>
-  </div>
-
-  <div style="text-align:center;margin-top:2.5rem;" class="reveal">
-    <a href="https://wa.me/573212674754?text=Hola%2C%20quiero%20conocer%20c%C3%B3mo%20AI%20Company%20puede%20ayudar%20a%20mi%20negocio." target="_blank" class="btn-primary" style="display:inline-flex;">Quiero mi diagnóstico gratis →</a>
-  </div>
-</section>
-
-<!-- ══ AUTOMATIONS ══ -->
-<section id="automatizaciones">
-  <div class="auto-layout">
-    <div>
-      <div class="section-label reveal">Automatizaciones</div>
-      <h2 class="section-h2 reveal">Tu empresa trabajando<br>sola, mientras <span class="accent">tú creces</span></h2>
-      <p class="section-sub reveal" style="margin-bottom:2.5rem;">Automatizamos los procesos repetitivos para que tu equipo se enfoque en lo que realmente importa y genera valor.</p>
-
-      <div class="auto-list">
-        <div class="auto-item reveal">
-          <span class="auto-num">01</span>
-          <div>
-            <div class="auto-item-title">WhatsApp Automático</div>
-            <div class="auto-item-desc">Respuestas automáticas, seguimiento de leads y notificaciones a clientes vía WhatsApp Business con IA integrada.</div>
-          </div>
-        </div>
-        <div class="auto-item reveal reveal-delay-1">
-          <span class="auto-num">02</span>
-          <div>
-            <div class="auto-item-title">Email Marketing Automatizado</div>
-            <div class="auto-item-desc">Secuencias de correos personalizadas que nutren prospectos y los convierten en clientes de manera automática.</div>
-          </div>
-        </div>
-        <div class="auto-item reveal reveal-delay-2">
-          <span class="auto-num">03</span>
-          <div>
-            <div class="auto-item-title">Agendamiento Inteligente</div>
-            <div class="auto-item-desc">Citas automáticas integradas con tu calendario y confirmaciones por WhatsApp o correo, sin intervención manual.</div>
-          </div>
-        </div>
-        <div class="auto-item reveal">
-          <span class="auto-num">04</span>
-          <div>
-            <div class="auto-item-title">Facturación y Reportes</div>
-            <div class="auto-item-desc">Genera y envía facturas, informes y reportes automáticamente. Información en tiempo real sin trabajo manual.</div>
-          </div>
-        </div>
-        <div class="auto-item reveal reveal-delay-1">
-          <span class="auto-num">05</span>
-          <div>
-            <div class="auto-item-title">Seguimiento de Clientes</div>
-            <div class="auto-item-desc">Recordatorios automáticos, encuestas de satisfacción y reactivación de clientes inactivos con flujos inteligentes.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Visual flow -->
-    <div class="auto-visual reveal">
-      <div style="font-family:var(--font-h);font-size:0.65rem;letter-spacing:0.15em;color:var(--gray);margin-bottom:1.5rem;text-transform:uppercase;">Flujo en tiempo real</div>
-      <div class="auto-flow">
-        <div class="flow-node">
-          <div class="flow-icon">📥</div>
-          <span class="flow-label">Lead entra por WhatsApp</span>
-          <span class="flow-status">activo</span>
-        </div>
-        <div class="flow-connector"></div>
-        <div class="flow-node">
-          <div class="flow-icon">🤖</div>
-          <span class="flow-label">IA clasifica intención</span>
-          <span class="flow-status">activo</span>
-        </div>
-        <div class="flow-connector"></div>
-        <div class="flow-node">
-          <div class="flow-icon">📧</div>
-          <span class="flow-label">Envío secuencia de emails</span>
-          <span class="flow-status">activo</span>
-        </div>
-        <div class="flow-connector"></div>
-        <div class="flow-node">
-          <div class="flow-icon">📅</div>
-          <span class="flow-label">Agenda cita automática</span>
-          <span class="flow-status">activo</span>
-        </div>
-        <div class="flow-connector"></div>
-        <div class="flow-node">
-          <div class="flow-icon">🎯</div>
-          <span class="flow-label">Cliente convertido + CRM</span>
-          <span class="flow-status">activo</span>
-        </div>
-      </div>
-      <div style="margin-top:1.8rem;padding-top:1.2rem;border-top:1px solid var(--border2);display:flex;gap:2rem;">
-        <div>
-          <div style="font-family:var(--font-h);font-size:1.4rem;font-weight:700;color:var(--white);">24/7</div>
-          <div style="font-size:0.72rem;color:var(--gray);letter-spacing:0.08em;text-transform:uppercase;margin-top:2px;">Disponibilidad</div>
-        </div>
-        <div>
-          <div style="font-family:var(--font-h);font-size:1.4rem;font-weight:700;color:var(--white);">-82%</div>
-          <div style="font-size:0.72rem;color:var(--gray);letter-spacing:0.08em;text-transform:uppercase;margin-top:2px;">Tareas manuales</div>
-        </div>
-        <div>
-          <div style="font-family:var(--font-h);font-size:1.4rem;font-weight:700;color:var(--white);">+3x</div>
-          <div style="font-size:0.72rem;color:var(--gray);letter-spacing:0.08em;text-transform:uppercase;margin-top:2px;">Conversiones</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══ PROCESS ══ -->
-<section id="proceso">
-  <div style="text-align:center;margin-bottom:1rem;" class="reveal">
-    <div class="section-label" style="justify-content:center;">Cómo trabajamos</div>
-    <h2 class="section-h2">Un proceso simple,<br><span class="accent">resultados comprobados</span></h2>
-    <p class="section-sub" style="margin:0 auto;">Desde el diagnóstico hasta la implementación, acompañamos cada paso de tu transformación digital.</p>
-  </div>
-
-  <div class="process-steps">
-    <div class="process-step reveal">
-      <div class="process-step-num">01</div>
-      <div class="process-step-title">Diagnóstico</div>
-      <p class="process-step-desc">Analizamos tu empresa, competencia y mercado para identificar las mejores oportunidades de crecimiento.</p>
-    </div>
-    <div class="process-step reveal reveal-delay-1">
-      <div class="process-step-num">02</div>
-      <div class="process-step-title">Estrategia</div>
-      <p class="process-step-desc">Diseñamos un plan personalizado de marketing y automatización ajustado a tus objetivos y presupuesto.</p>
-    </div>
-    <div class="process-step reveal reveal-delay-2">
-      <div class="process-step-num">03</div>
-      <div class="process-step-title">Implementación</div>
-      <p class="process-step-desc">Ejecutamos con herramientas de última generación, IA y creatividad para obtener resultados rápidos.</p>
-    </div>
-    <div class="process-step reveal reveal-delay-3">
-      <div class="process-step-num">04</div>
-      <div class="process-step-title">Optimización</div>
-      <p class="process-step-desc">Medimos, analizamos y optimizamos continuamente para mejorar resultados y maximizar tu inversión.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ══ WHY US ══ -->
-<section id="diferenciadores">
-  <div class="reveal">
-    <div class="section-label">¿Por qué AI Company CO?</div>
-    <h2 class="section-h2">La única agencia que une<br><span class="accent">Marketing + IA + Tecnología</span></h2>
-    <p class="section-sub">Mientras otras agencias solo hacen pauta o redes sociales, nosotros transformamos tu empresa de forma integral.</p>
-  </div>
-
-  <div class="why-grid">
-    <div class="why-card reveal">
-      <div class="why-icon-wrap">
-        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-      </div>
-      <div>
-        <div class="why-card-title">Enfoque integral</div>
-        <p class="why-card-desc">Marketing, automatización, IA y desarrollo de apps bajo un mismo equipo. Sin intermediarios, sin silos, con visión completa de tu negocio.</p>
-      </div>
-    </div>
-    <div class="why-card reveal reveal-delay-1">
-      <div class="why-icon-wrap">
-        <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-      </div>
-      <div>
-        <div class="why-card-title">Resultados en semanas</div>
-        <p class="why-card-desc">Implementamos rápido. Nuestras estrategias están diseñadas para generar impacto desde las primeras semanas de trabajo contigo.</p>
-      </div>
-    </div>
-    <div class="why-card reveal">
-      <div class="why-icon-wrap">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
-      </div>
-      <div>
-        <div class="why-card-title">100% enfocados en Colombia</div>
-        <p class="why-card-desc">Conocemos el mercado colombiano: sus plataformas, audiencias y comportamientos. Estrategias que conectan con tu cliente local.</p>
-      </div>
-    </div>
-    <div class="why-card reveal reveal-delay-1">
-      <div class="why-icon-wrap">
-        <svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-      </div>
-      <div>
-        <div class="why-card-title">Decisiones basadas en datos</div>
-        <p class="why-card-desc">Todo lo que hacemos es medible. Optimizamos con base en datos reales, no suposiciones, para maximizar cada peso invertido.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══ POR QUÉ EXISTE AI COMPANY ══ -->
-<section id="origen" style="background:var(--dark);">
-  <div style="max-width:820px;">
-    <div class="section-label reveal">Por Qué Existe AI Company</div>
-    <h2 class="section-h2 reveal">Vimos cómo los negocios colombianos<br>trabajaban duro pero <span class="accent">perdían clientes</span><br>por falta de sistemas</h2>
-
-    <div style="margin-top:2.5rem;display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:start;" class="reveal">
-      <div>
-        <p style="font-size:1rem;color:var(--gray-l);line-height:1.8;margin-bottom:1.5rem;">
-          Vimos herramientas genéricas que nadie en el equipo usaba porque no encajaban en la realidad del día a día. Vimos dueños de negocios que pagaban por software que sus empleados evitaban.
-        </p>
-        <p style="font-size:1rem;color:var(--gray-l);line-height:1.8;margin-bottom:1.5rem;">
-          Entendimos que el problema no era la tecnología — era que la tecnología no estaba hecha para cada negocio específico.
-        </p>
-        <p style="font-size:1rem;color:var(--gray-l);line-height:1.8;">
-          AI Company nace para cambiar eso. Cada negocio tiene sus propios procesos, su propio equipo, sus propias necesidades. Por eso construimos sistemas y estrategias a la medida — no soluciones de paquete.
-        </p>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:1rem;">
-        <div style="background:var(--dark3);border:1px solid var(--border2);border-left:3px solid var(--purple-xl);border-radius:8px;padding:1.2rem 1.5rem;">
-          <p style="font-size:0.88rem;color:var(--text);line-height:1.7;font-style:italic;">"El problema no es la tecnología — es que la tecnología no estaba hecha para cada negocio específico."</p>
-          <p style="font-size:0.75rem;color:var(--purple-xl);margin-top:0.8rem;letter-spacing:0.08em;text-transform:uppercase;">Cristian Gutierrez · Co-Founder & CEO</p>
-        </div>
-        <div style="background:var(--dark3);border:1px solid var(--border2);border-radius:8px;padding:1.2rem 1.5rem;">
-          <p style="font-size:0.85rem;color:var(--gray);line-height:1.7;">Fundadores: <strong style="color:var(--white);">Cristian Gutierrez</strong> (CEO) y <strong style="color:var(--white);">Cesar Granados</strong> (CTO). Soacha, Cundinamarca, Colombia.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══ TEAM ══ -->
-<section id="equipo">
-  <div class="reveal">
-    <div class="section-label">Equipo fundador</div>
-    <h2 class="section-h2">Las personas detrás<br>de <span class="accent">AI Company CO</span></h2>
-    <p class="section-sub">Dos co-fundadores con visión tecnológica y pasión por hacer crecer empresas colombianas con IA.</p>
-  </div>
-
-  <div class="founders-grid">
-    <div class="founder-card reveal">
-      <div class="founder-avatar">CG</div>
-      <div>
-        <div class="founder-name">Cristian Gutierrez</div>
-        <div class="founder-role">Co-Founder & CEO</div>
-        <div class="founder-contact">321 267 4754</div>
-      </div>
-    </div>
-    <div class="founder-card reveal reveal-delay-1">
-      <div class="founder-avatar">CG</div>
-      <div>
-        <div class="founder-name">Cesar Granados</div>
-        <div class="founder-role">Co-Founder & CTO</div>
-        <div class="founder-contact">agencia@aicompanyco.com</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══ CASOS DE ÉXITO ══ -->
-<section id="casos" style="background:var(--dark2);">
-  <div class="reveal">
-    <div class="section-label">Casos de Éxito Reales</div>
-    <h2 class="section-h2">Empresas que ya<br><span class="accent">trabajan con nosotros</span></h2>
-    <p class="section-sub">Proyectos reales de empresas colombianas que construyeron sus sistemas a la medida con AI Company.</p>
-  </div>
-
-  <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;margin-top:3rem;">
-
-    <!-- Maderas Montoya -->
-    <div class="why-card reveal" style="flex-direction:column;gap:1.2rem;">
-      <div style="display:flex;align-items:center;gap:1rem;">
-        <div style="width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,#5A00B8,#9B5FFF);display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;">🪵</div>
-        <div>
-          <div style="font-family:var(--font-h);font-size:0.78rem;font-weight:700;color:var(--white);letter-spacing:0.06em;">Maderas Montoya</div>
-          <div style="font-size:0.72rem;color:var(--purple-xl);text-transform:uppercase;letter-spacing:0.1em;">Colombia · Sector Maderero · 30 empleados</div>
-        </div>
-      </div>
-      <div>
-        <p style="font-size:0.82rem;color:var(--gray-l);font-weight:500;margin-bottom:0.5rem;">El problema:</p>
-        <p style="font-size:0.87rem;color:var(--gray);line-height:1.65;margin-bottom:0.8rem;">El seguimiento de clientes vivía en la cabeza de cada vendedor. Sin un sistema central, la información se perdía cuando alguien salía del equipo o estaba fuera.</p>
-        <p style="font-size:0.82rem;color:var(--gray-l);font-weight:500;margin-bottom:0.5rem;">Lo que construimos:</p>
-        <p style="font-size:0.87rem;color:var(--gray);line-height:1.65;">Sistema a la medida con IA integrada. El equipo actualiza clientes con audios y fotos — sin digitación manual. El sistema lleva la marca de Maderas Montoya, adaptado a sus procesos reales.</p>
-      </div>
-      <div style="padding-top:0.8rem;border-top:1px solid var(--border2);">
-        <span style="font-size:0.72rem;color:var(--purple-xl);text-transform:uppercase;letter-spacing:0.1em;font-weight:500;">Sistema propio · Marca propia · IA integrada</span>
-      </div>
-    </div>
-
-    <!-- Asoerc - placeholder -->
-    <div class="why-card reveal reveal-delay-1" style="flex-direction:column;gap:1.2rem;border:1px dashed rgba(90,0,184,0.25);">
-      <div style="display:flex;align-items:center;gap:1rem;">
-        <div style="width:48px;height:48px;border-radius:12px;background:rgba(90,0,184,0.12);border:1px dashed rgba(90,0,184,0.3);display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;">🏗️</div>
-        <div>
-          <div style="font-family:var(--font-h);font-size:0.78rem;font-weight:700;color:var(--white);letter-spacing:0.06em;">Asoerc</div>
-          <div style="font-size:0.72rem;color:var(--purple-xl);text-transform:uppercase;letter-spacing:0.1em;">Colombia · En implementación</div>
-        </div>
-      </div>
-      <p style="font-size:0.87rem;color:var(--gray);line-height:1.65;font-style:italic;">Sistema en proceso de implementación. Caso de éxito completo próximamente.</p>
-      <div style="padding-top:0.8rem;border-top:1px solid var(--border2);">
-        <span style="font-size:0.72rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.1em;">Próximamente</span>
-      </div>
-    </div>
-
-  </div>
-
-  <div style="text-align:center;margin-top:2.5rem;" class="reveal">
-    <a href="https://wa.me/573212674754?text=Hola%2C%20quiero%20conocer%20c%C3%B3mo%20AI%20Company%20puede%20ayudar%20a%20mi%20negocio." target="_blank" class="btn-primary" style="display:inline-flex;">
-      Quiero resultados como estos →
-    </a>
-  </div>
-</section>
-
-<!-- ══ FAQ ══ -->
-<section id="faq">
-  <div class="reveal">
-    <div class="section-label">FAQ</div>
-    <h2 class="section-h2">Preguntas <span class="accent">frecuentes</span></h2>
-    <p class="section-sub">Todo lo que necesitas saber antes de trabajar con nosotros.</p>
-  </div>
-
-  <div class="faq-list">
-    <div class="faq-item open">
-      <div class="faq-q">
-        ¿Qué es AI Company?
-        <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
-      </div>
-      <div class="faq-a">AI Company es una agencia colombiana especializada en marketing digital, inteligencia artificial y desarrollo de sistemas empresariales a la medida. Trabajamos con empresas de todos los sectores para automatizar sus procesos, atraer más clientes y construir herramientas digitales adaptadas a sus necesidades específicas. Estamos ubicados en Soacha, Cundinamarca, y atendemos empresas en todo Colombia.</div>
-    </div>
-    <div class="faq-item open">
-      <div class="faq-q">
-        ¿Qué es un sistema empresarial a la medida?
-        <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
-      </div>
-      <div class="faq-a">Es un software desarrollado específicamente para los procesos de tu empresa, con tu marca y tus flujos de trabajo. A diferencia de un CRM genérico, un sistema a la medida se adapta a cómo trabaja tu equipo — no al revés. En AI Company integramos inteligencia artificial para que tu equipo pueda actualizar información con audios o fotos, sin digitación manual.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">
-        ¿En qué ciudades de Colombia trabaja AI Company?
-        <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
-      </div>
-      <div class="faq-a">Trabajamos con empresas en todo Colombia de forma remota. Nuestra base está en Soacha, Cundinamarca, y atendemos clientes en Bogotá, Medellín, Cali, Barranquilla y el resto del país. Agencia de marketing digital Bogotá y toda Colombia.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">
-        ¿Cuánto tiempo tarda en implementarse un sistema empresarial?
-        <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
-      </div>
-      <div class="faq-a">Dependiendo de la complejidad del negocio, el proceso va de 2 a 6 semanas. Comenzamos con un diagnóstico gratuito para entender los procesos de tu empresa antes de construir cualquier solución.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">
-        ¿Qué incluye el servicio de automatización de WhatsApp?
-        <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
-      </div>
-      <div class="faq-a">Desarrollamos flujos inteligentes que atienden a tus clientes las 24 horas por WhatsApp, llevan el proceso de venta de forma automática y agendan reuniones sin intervención humana. Todo integrado con el sistema de tu negocio. Automatización de WhatsApp para negocios Colombia disponible para empresas de cualquier sector.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">
-        ¿AI Company trabaja con restaurantes, peluquerías y empresas medianas?
-        <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
-      </div>
-      <div class="faq-a">Sí. Trabajamos con empresas de diferentes sectores incluyendo distribución, servicios y comercio. Cada implementación es diferente porque cada negocio tiene sus propios procesos y necesidades. Nuestro diferencial es exactamente ese: no vendemos un software genérico, construimos el sistema específico de tu empresa.</div>
-    </div>
-  </div>
-</section>
-
-<!-- ══ CONTACT ══ -->
-<section id="contacto">
-  <div class="contact-layout">
-    <div class="contact-info">
-      <div class="section-label reveal">Contacto</div>
-      <h2 class="section-h2 reveal">Habla con<br><span class="accent">Nuestro Equipo</span></h2>
-      <p class="section-sub reveal" style="margin-bottom:2.5rem;">¿Listo para construir el sistema de tu negocio y llenarlo de clientes? Agenda una consultoría gratuita de 30 minutos — sin compromiso.</p>
-
-      <div class="contact-detail reveal">
-        <div class="contact-detail-icon">
-          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        </div>
-        <div>
-          <div class="contact-detail-label">Correo</div>
-          <div class="contact-detail-val"><a href="mailto:agencia@aicompanyco.com">agencia@aicompanyco.com</a></div>
-        </div>
-      </div>
-      <div class="contact-detail reveal">
-        <div class="contact-detail-icon">
-          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        </div>
-        <div>
-          <div class="contact-detail-label">Ubicación</div>
-          <div class="contact-detail-val">Soacha, Cundinamarca, Colombia</div>
-        </div>
-      </div>
-      <div class="contact-detail reveal">
-        <div class="contact-detail-icon">
-          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 13.1a19.79 19.79 0 01-3.07-8.67A2 2 0 013.6 2.28h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l.75-.75a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 17.22v-.3z"/></svg>
-        </div>
-        <div>
-          <div class="contact-detail-label">WhatsApp</div>
-          <div class="contact-detail-val"><a href="https://wa.me/573212674754">+57 321 267 4754</a></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="contact-form reveal" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:2rem;">
-      <div style="font-size:3rem;">💬</div>
-      <div>
-        <div class="form-title" style="font-size:1.1rem;margin-bottom:0.5rem;">Habla con un asesor hoy</div>
-        <div class="form-sub" style="font-size:0.95rem;line-height:1.7;max-width:340px;">Antes de hablar de números, necesitamos entender tu empresa, tus procesos y tus objetivos. Cuéntanos tu proyecto — sin compromiso, sin presión.</div>
-      </div>
-      <div style="background:rgba(90,0,184,0.08);border:1px solid var(--border);border-radius:10px;padding:1.5rem 2rem;width:100%;max-width:380px;">
-        <p style="font-size:0.8rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1rem;">Consultoría inicial gratuita · 30 min</p>
-        <a href="https://wa.me/573212674754?text=Hola%2C%20quiero%20conocer%20c%C3%B3mo%20AI%20Company%20puede%20ayudar%20a%20mi%20negocio." target="_blank" class="btn-primary" style="display:flex;width:100%;justify-content:center;gap:10px;font-size:0.95rem;padding:1rem 2rem;">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Escríbenos ahora
-        </a>
-        <p style="font-size:0.75rem;color:var(--gray);margin-top:1rem;">o escríbenos a <a href="mailto:agencia@aicompanyco.com" style="color:var(--purple-xl);text-decoration:none;">agencia@aicompanyco.com</a></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══ FOOTER ══ -->
-<footer>
-  <div class="footer-top">
-    <div>
-      <a href="/" class="nav-logo" style="text-decoration:none;" aria-label="AI Company CO - Inicio">
-        <img src="logo.png" alt="AI Company CO" class="nav-logo-img" />
-        <span>
-          <span class="nav-logo-text">AI COMPANY CO</span>
-          <span class="nav-logo-sub">Marketing · Automatización · Crecimiento</span>
-        </span>
-      </a>
-      <p class="footer-brand-desc">Agencia colombiana de marketing digital, inteligencia artificial y sistemas empresariales a la medida. Soacha, Cundinamarca. Atendemos empresas en todo Colombia.</p>
-    </div>
-    <div>
-      <div class="footer-col-title">Servicios</div>
-      <ul class="footer-links">
-        <li><a href="automatizacion-de-procesos-empresariales/">Automatización de Procesos</a></li>
-        <li><a href="servicios/whatsapp-automatico/">WhatsApp Automático</a></li>
-        <li><a href="servicios/chatbot-ia/">Chatbot con IA</a></li>
-        <li><a href="servicios/marketing-digital/">Marketing Digital</a></li>
-        <li><a href="servicios/asistente-ia/">Asistente de IA</a></li>
-        <li><a href="servicios/paginas-web/">Páginas Web</a></li>
-        <li><a href="servicios/apps-empresariales/">Apps Empresariales</a></li>
-      </ul>
-    </div>
-    <div>
-      <div class="footer-col-title">Empresa</div>
-      <ul class="footer-links">
-        <li><a href="#casos">Casos de éxito</a></li>
-        <li><a href="blog/">Blog</a></li>
-        <li><a href="#proceso">Cómo trabajamos</a></li>
-        <li><a href="#equipo">Equipo</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="/politica-de-privacidad/">Privacidad</a></li>
-        <li><a href="/terminos-y-condiciones/">Términos</a></li>
-        <li><a href="/tratamiento-de-datos/">Tratamiento de datos</a></li>
-      </ul>
-    </div>
-    <div>
-      <div class="footer-col-title">Contacto</div>
-      <ul class="footer-links">
-        <li><a href="mailto:agencia@aicompanyco.com">agencia@aicompanyco.com</a></li>
-        <li><a href="https://wa.me/573212674754">+57 321 267 4754</a></li>
-        <li><a href="#">Soacha, Cundinamarca</a></li>
-        <li><a href="https://aicompanyco.com">aicompanyco.com</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    <span>© 2026 AI Company. Todos los derechos reservados. · <span style="color:var(--gray);">Soacha, Cundinamarca, Colombia</span></span>
-    <div class="footer-social">
-      <a href="https://www.linkedin.com/company/aicompanyco" target="_blank" class="social-btn" aria-label="LinkedIn">in</a>
-      <a href="https://www.tiktok.com/@aicompanyco" target="_blank" class="social-btn" aria-label="TikTok">TK</a>
-      <a href="https://www.instagram.com/aicompanyco" target="_blank" class="social-btn" aria-label="Instagram">IG</a>
-      <a href="https://www.facebook.com/aicompanyco" target="_blank" class="social-btn" aria-label="Facebook">FB</a>
-    </div>
-  </div>
-</footer>
-
-<script>
-// ── Custom Cursor
-const cursor = document.getElementById('cursor');
-const ring = document.getElementById('cursorRing');
-let mx = 0, my = 0, rx = 0, ry = 0;
-document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cursor.style.left = mx+'px'; cursor.style.top = my+'px'; });
-function animRing() { rx += (mx-rx)*0.12; ry += (my-ry)*0.12; ring.style.left = rx+'px'; ring.style.top = ry+'px'; requestAnimationFrame(animRing); }
-animRing();
-document.querySelectorAll('a,button,.service-card,.why-card,.auto-item').forEach(el => {
-  el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(2.5)'; ring.style.width='56px'; ring.style.height='56px'; });
-  el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.width='36px'; ring.style.height='36px'; });
-});
-
-// ── Nav scroll
-const nav = document.getElementById('navbar');
-window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 50); });
-
-// ── Reveal on scroll
-const reveals = document.querySelectorAll('.reveal');
-const obs = new IntersectionObserver(entries => {
-  entries.forEach(e => { if(e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }});
-}, { threshold: 0.12 });
-reveals.forEach(el => obs.observe(el));
-
-// ── FAQ accordion
-document.querySelectorAll('.faq-q').forEach(q => {
-  q.addEventListener('click', () => {
-    const item = q.parentElement;
-    const isOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-    if(!isOpen) item.classList.add('open');
-  });
-});
-
-// ── Form submit feedback (removed - form replaced with WhatsApp CTA)
-if(document.querySelector('.submit-btn')) {
-  document.querySelector('.submit-btn').addEventListener('click', function() {
-    this.textContent = '¡Mensaje enviado! Te contactamos pronto ✓';
-    this.style.background = '#1a7a5a';
-    setTimeout(() => { this.textContent = 'Enviar mensaje →'; this.style.background = ''; }, 3000);
-  });
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": "https://aicompanyco.com/#website",
-      "url": "https://aicompanyco.com",
-      "name": "AI Company CO",
-      "description": "Agencia de automatización de procesos empresariales con IA en Colombia.",
-      "publisher": { "@id": "https://aicompanyco.com/#organization" },
-      "inLanguage": "es-CO"
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://aicompanyco.com/#webpage",
-      "url": "https://aicompanyco.com",
-      "name": "Automatización de Procesos Empresariales en Colombia | AI Company CO",
-      "description": "Automatizamos los procesos de tu empresa con IA en Colombia. Chatbots, WhatsApp automático, integraciones CRM, facturación y más.",
-      "isPartOf": { "@id": "https://aicompanyco.com/#website" },
-      "about": { "@id": "https://aicompanyco.com/#organization" },
-      "datePublished": "2025-01-01",
-      "dateModified": "2025-05-02",
-      "inLanguage": "es-CO",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://aicompanyco.com/" }]
-      }
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://aicompanyco.com/#organization",
-      "name": "AI Company",
-      "url": "https://aicompanyco.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://aicompanyco.com/logo.png"
-      },
-      "description": "Agencia colombiana especializada en marketing digital, inteligencia artificial y sistemas empresariales a la medida. Soacha, Cundinamarca, Colombia.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Soacha",
-        "addressRegion": "Cundinamarca",
-        "addressCountry": "CO"
-      },
-      "telephone": "+57-321-267-4754",
-      "email": "agencia@aicompanyco.com",
-      "founder": [
-        { "@type": "Person", "name": "Cristian Gutierrez" },
-        { "@type": "Person", "name": "Cesar Granados" }
-      ],
-      "sameAs": [
-        "https://www.instagram.com/aicompanyco",
-        "https://www.tiktok.com/@aicompanyco",
-        "https://www.linkedin.com/company/aicompanyco",
-        "https://www.facebook.com/aicompanyco"
-      ],
-      "areaServed": {
-        "@type": "Country",
-        "name": "Colombia"
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://aicompanyco.com/#localbusiness",
-      "name": "AI Company CO",
-      "url": "https://aicompanyco.com",
-      "telephone": "+573212674754",
-      "email": "agencia@aicompanyco.com",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Soacha",
-        "addressRegion": "Cundinamarca",
-        "addressCountry": "CO"
-      },
-      "priceRange": "$$",
-      "image": "https://aicompanyco.com/logo.png",
-      "description": "Automatizamos los procesos empresariales con IA en Colombia. Chatbots, WhatsApp automático, CRM, integraciones y más."
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "¿Qué es AI Company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AI Company es una agencia colombiana especializada en marketing digital, inteligencia artificial y desarrollo de sistemas empresariales a la medida. Trabajamos con empresas de todos los sectores para automatizar sus procesos, atraer más clientes y construir herramientas digitales adaptadas a sus necesidades específicas. Estamos ubicados en Soacha, Cundinamarca, y atendemos empresas en todo Colombia."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Qué es un sistema empresarial a la medida?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Es un software desarrollado específicamente para los procesos de tu empresa, con tu marca y tus flujos de trabajo. A diferencia de un CRM genérico, un sistema a la medida se adapta a cómo trabaja tu equipo — no al revés. En AI Company integramos inteligencia artificial para que tu equipo pueda actualizar información con audios o fotos, sin digitación manual."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿En qué ciudades de Colombia trabaja AI Company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Trabajamos con empresas en todo Colombia de forma remota. Nuestra base está en Soacha, Cundinamarca, y atendemos clientes en Bogotá, Medellín, Cali, Barranquilla y el resto del país."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Cuánto tiempo tarda en implementarse un sistema empresarial?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Dependiendo de la complejidad del negocio, el proceso va de 2 a 6 semanas. Comenzamos con un diagnóstico gratuito para entender los procesos de tu empresa antes de construir cualquier solución."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Qué incluye el servicio de automatización de WhatsApp?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Desarrollamos flujos inteligentes que atienden a tus clientes las 24 horas por WhatsApp, llevan el proceso de venta de forma automática y agendan reuniones sin intervención humana. Todo integrado con el sistema de tu negocio."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿AI Company trabaja con restaurantes, peluquerías y empresas medianas?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sí. Trabajamos con empresas de diferentes sectores incluyendo distribución, servicios y comercio. Cada implementación es diferente porque cada negocio tiene sus propios procesos y necesidades."
-          }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
         }
-      ]
-    }
-  ]
-}
-</script>
-<script src="wa-widget.js"></script>
-</body>
-</html>
+        .gradient-text {
+            background: linear-gradient(135deg, #004ac6 0%, #712ae2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .primary-gradient {
+            background: linear-gradient(135deg, #004ac6 0%, #712ae2 100%);
+        }
+        .ai-glow {
+            position: relative;
+        }
+        .ai-glow::after {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #004ac6, #712ae2);
+            z-index: -1;
+            border-radius: inherit;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .ai-glow:hover::after {
+            opacity: 0.2;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md antialiased">
+<!-- Section 1: STICKY NAVBAR -->
+<nav class="docked full-width top-0 sticky z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-md shadow-sm h-20 transition-all duration-300">
+<div class="flex justify-between items-center px-gutter w-full max-w-container-max mx-auto h-full">
+<div class="flex items-center gap-xs">
+<img alt="AI Company CO Logo" class="h-10 w-auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAB4CAYAAADc36SXAAAQAElEQVR4Aex9C3xdVZX3f52bNC0UaKGh0ibhVdqkOogg0CRAKqLjiN8MKijycBDwAeOM4+f7p6PxNT8dH6OCiEBBFHyCj29EUWFs1aSAouCDpLQKJikIKQ+t0tIkZ33/tc+5N/exb3Jvmme7d845a6/Hfpz/OWets88+5yZCSAGBgEBAICAQEJgAAiGATAC0UCQgEBAICAQEgBBAwlkQEJgpBEK7AYE5jkAIIHP8AIbuBwQCAgGBmUIgBJCZQj60GxAICAQE5jgCcziAzHHkQ/cDAgGBgMAcRyAEkDl+AEP3AwIBgYDATCEQAshMIR/aDQjMYQRC1wMChkAIIIZCWAMCAYGAQECgagRCAKkaslAgIBAQCAgEBAyBEEAMheleQ3sBgYBAQGAPQCAEkD3gIIZdCAgEBAICM4FACCAzgXpoMyAQEJgpBEK7k4hACCCTCGaoKiAQEAgI7E0IhACyNx3tsK8BgYBAQGASEQgBZBLB3BuqCvsYEAgIBASyCIQAkkUi0IBAQCAgEBCoCoEQQKqCKxgHBAICAYGZQmD2tRsCyOw7JqFHAYGAQEBgTiAQAsicOEyhkwGBgEBAYPYhMCMB5JgLBtcec/6gPufV2/Q5pMeev02PPW9Qn0t6nNHztulzzx3UE0iPJz3x3G164jmDuoZ0DWnrOdu09VWD2kbaRtr+qm3afvagnkR6EunJZ2/Tk185qKeQnvKKQe145TbtIH0e6dqzBvXUV2zTU0mfb/TMQT3trG16GukLSF/w8kF94Znb9EVnDq6dfYcr9Gg3EAhFAwIBgUlGYEYCCEbQKQJAFUYcNUHKC2mUxxfrHW8laScFFOQkrVcgSj5Xj1BejqecJZGzB2JIJ0IKCAQEAgIBgbIITHsAOea8wbUi0uGcdeq0R4OFwMlFGCOUWikfBGhILe1pR3tmaM/9tKCS8uQoVrj6nT0lqV6NkrVglZizHvJsGMZLrB1hFGKAhDUgEBAICPgRqDiA+ItXL6Vz7nRO2oqaExdmjJIkcgq8fFY+EQoI/xhDEGUpO2J8Vi4iDDajdiLkY4RRCEIKCAQEAgJ+BCK/eGqkNvfBmjukyIkj5UUE5sWFvCggIsjyLrj4eBdsaGe0SO9GHiZnLdmRRnbkkdRHRaov5WHtd7zojMG1CCkgEBAICAQEShCY1gAiNvdhXTCnbc7eKHlz7vnOPnHmaVCg3vHI8vkUEBnlXdDBKO9GGHl645N2WM7ZkTo9aQkPi12gfRiFEIqwzCQCoe2AwOxEYNoCiJv7gHSMOnGlyzZnD4hM35yHC0Zs1lEwpUGsgM/XQzteEkYhBCosAYGAQECgEIFpCyCRoNM5aQYLR8HknDe9taPFfFY+EQoI/yxYZWnk2s2T5/MARMSNOASS0HxeJIxCEFJAICAQEChEYFoCyHPP4zyCoiNx4soeyKiTppcXOm2hWESoU+OoJ62Ed8GH5Uiz9ZODPRZLiivrs2qtvpSSuCBmhixnhN1AoT34+IqG1HMbRiEEISwBgYBAQCAfgWkJIDFHHyKSBAW2bs4939knznxU73hk+XwKSkf5XNChkxdqkiAgaTtGae/aJS3Q+3iwHCCSlgOTIo+XMApBSAGBgEBAYBSBKQ8gNvqI3NyHQviXdfLJ21CUKCAidN4K4V9WTwE5IaHc9FSQK+BhicHDBaMifVI/JjYSARPr5ZbtAZFlOII6I8yFGBJhDQhUjkCw3KMRcL5xSveQo49kRMFW6JSFYcHPC501g0VOXw0PljJ70NkL6wFcUNFRuYg4udCSsQYiUoa3MlypdyMcJIls+Do9gSJsAwIBgYCAQ2BKA4iNPhgzOoDUWZsXpvcW8s455/EuqPh4VmD2Pn0SJJS1sQWzE8YEo2AySt6VI+toAQ8kzSXl2S0GHVgF3HBRFOitv1EYhSCkgEBAICCQRWBKAwgb6TSfvVtzHublLRhA+DgKtnVOnhwp+Tx9EgQkkdPSeJFyPBK7nL4CniYSyzTOhbDBsAQEAgIBgVmKwJQFEBt9iJv7AERm8XceLjiBwYRDDhILOg4UskLeRh5GTe4o0HFmmAshMmEJCAQE9nYEnK+cIhA63WMj0O3mOWnJ8eKctkyIB0sJy4/S5HHWKC+SpwcgksdrEQ84fS5YAOSR1k/KxYpng0g8ImEUQkzCEhDYkxEI+zY+AlMSQGz0QWfbISLsgULsTwERgXllgZAoREhpKJDyvAs+iT4JEizHWuyxWFI84V2wopmj1DtawAOF9sjNeQiYFAX6bDBh88jpLZfYdZz5ksG1CCkgEBAICOzFCExJAKHD7cx39okzp5TemNskWDhnrNxS4uRGUcA7J25eP1/v5bPlSJ2elDUxNkEkWy/YLqrjgTTIAAJL1l9S5Rq+TicIYQkIBAT2ZgQmPYDY6EM495F8h8Ecna2I0HkrnbBRQISU3l0giTzHo4An53gXjJw9JRZMaJ/UD06ss15W44IUmJw+pSROXqCHterqhSUFHAikQt4FLVI2l9qhkAJZPoxCMEYKqoBAQGCPR8D5zsncSzrhTue0rVJz5uZud5uCtbBmBZ290PkDLqiQF2qcs2dQcXRc3uriSvtcsABA1tUrSFIlvEDCXEgCV9gGBAICeyECkxpAbPRBJ94h4J8599QLk6NzVogIISYFqQUV443m86xAUj4JEmaP3EgjO/JwQUqQ1EtSygNWvZODScGgY5QZEjZToM8FE6olqwdzY/MdZ4e5EEMrrAGBgMDsQWDaejKpAYSVue8+nNM27+2CA/fFUXPGSpecTwGRUT5x4qN84uQL+SSosBxMTurKk5bwYHABRFI7MCnG5gHqkZQjsQxLG4Gj7JBVR5LjEUYhCCkgEBDYOxGgz5+cHbfRh6h0SM5JK50s3a4CIqT0ugKhM1aIkDoeBTw5x7sgUaQfc+RhBV2QYsaoq57tkHXBLKVGWC3cTitgZq6/YEp505s8R6kq4J0dJSllc2EUQozCEhAICOx9CDhfOhm7Hdn/D6c3FXPLu03BWoTBZJS6oJI6befcLQhleQAihfYieTzg9LlgAZBHWj8pFzN39TJvy9i8puVJaRy+TicIe9ASdiUgEBCoDIFJCSBrzhtcS3fdIcItvbBA6JzpXCvh84JNEiRYjn2f0e882D53g3th+wFScH9AWshHlJgdyawfhTSuan9DY0v7f/jW+tWrF2KCadmRxzc2trS9x7cuPuK4AyZYbVXFuG/LGla1n9vU0vbFpua2bvZlM+mfG1vatzc2t2/i+mPyV9HuDQ1Htq6oqvJgHBDYCxFYcdGjzznqom1vP+qiwVtWXDT42xUXPfon5ncddeHgX5jfwvxPVlw0eEU0GdjEHH2ImHNNnH/y2CjL51PQ147ybkSQK2dy6r085SxpzloktSvhkTj5nL4CniYRq3P1Mm8VGFstb/sRzeLfyHpG85rDIPpZ7tsHfGudLj7b7f4ENjU1mSaBfNC3zq+rWzSBKisusvTItoMZHK6XCFujCDcAcj5EWtmXFaT7C7CQp8NKrmvJv5Z2n4vmye8am1s/2bC69UCEFBAICBQgsOI1g8euuPDR3wjkl/SHH6XyxQI8UyBLma+FYD/mj2T+ZAEu2e0AYqOPSKQjFzQUEGHV9MICYR8UIqSORwFPzvEszyztuHX10D475zGhkUhajxE2u3tzHqxEIOwnuCUFWJ8U8EIN2+k4b5a+kTUP0QUidJ/su2+JVC/xyWezrLGl7dK6WmwWwaur66fMIxRvjuLotw3Na9ZWVzZYBwT2TAQOu0Dnc0RxNb3E3SLyrEr3MqrUsKwdRx/O6UPoVC0ITISCpa0ccs7ZBRUdlXOnWH8lvNlwFeFNNymSRDYtPxFekZQndcVT6h6/mSDlZ+dvZEUQXICxksixTc0nHjeWyazRrVhR19jcfj2P7mchsv+E+yU4RBDd3tDSfjFCCgjsxQgccf7jTbWZwTsFqPpaiHYHNxt9sHyHQOic6UQTL0suj3dONo/nrbrQwoJOEiRYjpVkRxrZkYfpk+oSfT6/7z6C559Sh/e+Yz9c9ZlFuPmGA3ET189ftgjvpux5HXXYZwFbEVbs2sdoMFHmweQoDRytjI9cv8EtywEJdeWFecd3nPeiwbWYRalhZfvfA3IoxkkqmQvHMZkF6rU1TTVLv8/zospRh7/rIhLxvPt848r2k/0Wc04aOhwQqAqBwy964tBM7TAfV8nRVRVMjaOUToxw9CFW0jlp5koowIs0CS6Q1IlLjmcsQb7e+CSosBzMjlRSSn4Rn2pfcuFCfOWaA/HWf1uI1hPmoWF5BgsYLGy1fOuJ8/B/37QQX7ruQFx84b5YtIi76Jw8XLLqrB3WSl5ZqyMJpWJcPc0tmLFW5rLlU+rKy6z6Ol0yGHv0gSSJ4tylS4/eN+Fm57axeegDPFDPG6t3Cgzz+HTzRuQTpJ/hejMPy8PlyogwiGT0S89YcXJ9OZsgDwjskQis1ZoaHf4aRA4aa/8U+jT1P6V7/xSvqy8yfzvXIa58YmTbCaxrzh5cK5AOXpxsX1iDQvjHCxa8KFPeCOUiluHKhb1wQYIFTZq1Z8cwyid2OZ7sCcfW4trLFuOfTp+PefMoGGcxm//zkvm48orFOJGBhs2l9aOQAoW8Gs+WsxSgvpTnbjg5NY4m9YsFyY4LZskoZNnK45YAeBnX8ReRA2oP3O9V4xvOjEXDqtYX8TR6V7nWeTweQoxXjvx55wF9vd3t/b3dbyV9E9czh/+yc0UMfQeP0XZ/eTm0tmbknX5dkAYE9kwEVhyx7aN0XieW2zv65N9ojLVb/lK/7+Z19adsubb+zVuuPfifmT9tGDVH0UXekNxIl6thDLlE6HTOnz2onoKlhCORUeqCio7yIqP6816xD97/rv2xDx9docpkZd75rv1w1isWpO0lFVj1dCjsxyg/yisSPSnVQgV7w/IJzwwKeHqvUd5y0sliM75korpXC1BT0hHFzhIZBbS9iGQ2LiKRXFauY4T/mzGGju7b1PX1hx66+6liO5MN9HT/FzByLi+KuFif8PJqcH4lyYdtQGDPRuCwC544jHv4Zq4lC6+nEbq8j235Q/2xW66r34BvyEix0QPrFv9xy7r686NiRSW8m/tQdIjQ5cCcKilbFSEt5k0OykmTIGH2AJ89IzFPeBeEaOYomGhv+lNPnofz6PwtT+mEFit7zrn74NTnzzffD2uG3SRlTkGKVF7IR6ahnlq3SMobFUoky1sDOd4KyGwZhbyG3SpdNPbebQuw5pCWNceWFphZyfKVracKZIWvFwwIP+zv7Xr51t67HvPp82V9vXf8DyAfhSfxEC7h/MpEXmfO1K8+/hmNLW3Palq1pn3ZqvZVS6fpUaB907K8ua112RHtTZ5d8ors1eeGla0nNDS3/l1T00mLvUa7L4yWrzixYXlL+5qpeDRYv3r1woZVJx7t9p14pyPtaPe7Xa6G42obV7Qdae0d0tJmGXnVwgAAEABJREFU84lT2Fa5PkyuPJMZvoTnvPhqpQf7z83X1r8d62UY46QJAcF41CnOeSq3QuebpSjgRcmzl0lQMLtyPOUs6Zy6s0/4Zz+zFm95436YrPSGS/fFs4+pZX9hrcEy7JWRMXnbjwQoTewsuLG0FUzKm9xyRqkwfSwzOgppWtl+knhex6PD3dq3aePlPCbd7GnJUoOo6jcxSiqZZEEURS8tV6UO6b+U03nlisuJwegoRLGT/AaFflhjvc9bxiNcflTbMQwa65pa2p5aoPMeFshvEGV+VhOht+7A/f7a1Nz++8bm9hsbV7ae4SnuFZmDampp/1HJmveGnL0t19jcdh1tNJoXbc6IdNfU4Y9NzW1/5npT48rSFwKWrjrh8KZVbVc3NrdvrZsnj0SZ6M5Iol9jX32csnsbm1vfWkHQyzR5+tbY3PaW7M40MohyvYJ2j2Vqa/ozwMZ5tfGjTc3tf2hqbruJtmPMx2VrKaXLVrWvYvnOxpb2n7Luhxfo4u1RVHNvxvadeNdk5g82tbTtoM13G1ta/6Whgm98mprb39VUsj9tt+S33tDS/uKm5rZvNLXU/U1qZYu1Vwt5kLLHuX6jcVX7P+bb5+eXNbe2ldbfnhzbCgP38lVtp3rraG6/Ib+tieQF6n20rcAf67Yv+VCldSZ+sVJr2rm5D/vug96eFw19qIKOihpSbumYcryxxkcizBbqedHCpGONRM548XxkeBay8KQsNXyY86LT57t22f2EsmaxnIJbgaWIuUSf8EKeMYFby8HRYr3tZ6JN9UDHxTM4F6LlJ8+/BmBEBTeSliyiOGfpNN1BlzReVqCn+FR0+t8Z+P3GLT5dOVn/pq6HqPsIg8V7Yo3X9g0/sqi/t3ttf0/3e/rv7/45dWMu9lEmHeGtmRr5FY/3hYD4Z+QER/C0P0cy0bcaW9q+1bCydTnGSwL7uPE0mhWsI3G0aBnns5pa2r4EqfmFiJQ6YpH9IfJyyeAnDc2t57AOtzQ0t7+sLqq9G5FcLIJlTpi3oexokehjdYsX/mTZkcc35qmKspzyBAr6RQPychQpmlra/11Ufi4Q+6Zokclyq+BwWN9ErjMsKh35LDrsmEVNLW23WVBm+fcJcBLrfAZXz8LjIHK6ILo8UrmvqaV1zDf1eLmvQtH+ULaWMli7jc3tN0bALWz3TEBqkZ9EDjC5RPgOA8ntZp+vtvy8nXW/pE84nnliVIibLhgpe0NE+9wSidg+lJYHyr4Ukis8RqbxwsFlUmZEzz5fdd83ZNcYxQtUxKiAH5eJBJ1sBOxAEjyYG58HrYT2QMScOd9IxPGS8iJSwC9eFGHN8f5rE7uRjj9hHhYtFlhz1g9xdWnKk2Z5o4waOf1YfNbOUZZwFIhnaBSyNAkAr7QuF6+CkS+bbPuOp77M/S+dC+HFUbt44TlmMxvWQ1uOO0RE/s7bF8W3MYHEgPHu/k3dHx7o3bgBW7bYGyYV1dK0qvWsWmR+zv78fUUFUiOBnCGR3NvQ0jqm4xCIpkUKCNs7JJOZvx6Q81BBiiS6sbGl7ZSGlvaLBPoNFlnMdexF5NhMbe0twHGFznLsUk7buKr9A8z8NwTzScdcuI9nYB+9m2WeO5ZhPR9T7T9/n+8B8nxUneyr6ej6pubW11dbdDkfve2/YN8uEVR2DYicyn7eXNzOgw+u36kQ70hBRLx3/wV1rF49TwTeEU48ot6bv4LyYzB1MgamI/PsBnOM0oWqqJAdmzvpvEGL0B08CeCCBvfQUZ45jhpPr5TVJ0GCMLLa7EgjO/JI7KlInW0x33ZCHVx1NJnMxeo84cQ69h9I+mkUjo8oYfe5FQqQUE2oSYQSr94qBagV1qMQIQUgkI6LT3OYYYpTQfV1i/c9V4CFBUJjVHv7eu+827JPPnjPk+zsdy1fvEbAG4plM8WPxPNPLdf2sMS/LqebbDmd8YsRRV/nobU326quXkQOihB9cyynpuC40FOzRPI5Hs9nelTlRYpv8jhew3ZJypvla2j7d43N896ULxsvz369QCL8x3h2BXrB4YjwzYYxHjUt0MXvhUhrQbkqGRX5ZDUvRnBfajM1NRvYzGqulS8ipzY0t728uIDGsb3yWiwGBC8ca9/BtFwXvYBkMdeChe7y3q2bu+8pEFbLaGyjmpJS9M07tly/6PclijEEFZ9cVkc8gqK5D4AnHf0QnSbE3T9xm+OhhXrjIxHqKae98SJ+fu1JdPKYmnT8mnnWOivXhCoSyg6xN+yf8vwGkyZyHjUnz9OL0+TrpcheaKGASCemPck/e5sUfAF5SeMydzK8Gx3vDjGvminNRhKv9DVAZIcf7hn6jU832TJ7/CSKAuyQnxTbefH9kKKP8eThXTMYnOFNKtHlTSvbT/IqywgFeTcDqt/VGJdw/Seelh/nKel9nCEMWPnVKfTaOMZ5MeKXxdBP5+sK8iJnFfDjMYIjCkxUHyQGX2J7n+NNYW+BLo/hPjVKLJ/IE+Wyi/joisxruZYs3Od7ifVbVeMX2f6wHQYv7SkxpEAg+zTULq1iBCO1yN8fYh2rvi4GTlfV/2Tb21itd2FbJdfcwP0b72I5zznKdjQacxQSQV7qbQj6Jb+8CqnAe01x3++tohZnGrltBZuTzh7kQ1Dp4EkBEWEJhW3zeQp57ihckOCZna8nkHn2tOTRyOnJunqylIojDs8YNyXrylU17CfYHzYEJFRTCjie3XPULIQ57g63AkvCXNJfMZYcKQsIcyZwlDwSflpHIQ2rTjwaIm0oSsQ/5tC3YEjdf/+uW9jNwSLThI30wiQzs1seFv9bFIpHgbvdx0xT3UPJyGd5yns/NCR+/7MjemIZH4v9fV9P19v7erpPj3bUHkK8v+LrlwA1iPApAMyiqqQan9PX2/1/+jd1Xcn1//X3dr1tOI7LjtDSyp/QET2hv6f7ooFNXTcO9Gz81kBP979DY+83NQI5oZ6Pj9KyFRNV3aGI39jX2304MXh1f0/3pcy30AGfyWtnu7cikfOW85FRsW7hgn1eR9kirgWLQq/o7+16DrH+RH/vxh/Y/rCdD7G9Z1L30wLjlIk0PjrNVkF0F+t7VR+xHujtvnqgp+t7/b3d796lQyfABciiqsjy/LD5DuYKFxG5tlCScKIoGbEkGrfNiOf7LWIcDw1n/KMaV6zSjXivKfbJezMyVq3RWMp8XVzV3Ad4dRACXv3CHE8guKCSxxPYQicuMsrTbl4teUxNqp0nsOZ4MkDYhLCDRrO8daSAp5cY5S2nrlxiT75Y7/isXGgrnWxmWhaJavyv7kJu5x3R1sJO3D3Effc7Op0dk+miZU52oOK5i8J9ro5rOuqkIwTyT75SPMxf7O/tOmPwvvv+mq9/8MH1O+lwzqH+s/nyXF5wHB95jHkHmrNNM6zr8/29G0uO1UP3b+zledidmpUSjd/Z73k5YDjedU2pcSKZFy8smWxPNOW3KnJmf8/Gkv2lA75ZRV/iKylATVQTlbw6LSOyUWN9Dx3mV1nuPlLGIX1s1+N/fTt55Vq8KGL1jhBjRAcUG4/Hx5BL+3u6re0C00c23fUAdW8pEI4yz1i6tPSXHIZHdt6gQMnrsCL6/IYyj/Aam1vtEVPJ4yvi9f0/bfmp/4ZvtB+V5LwBhMew4snzbCNRNjMuJQoi3AXnbEl5RouklC6SJ3EaJNQ4Ps4ipdrkRhy1jJWzxowW8IBV5+wwtWmI9xfcDURgB3S0LUl5o0KxZHnXMZATxhZNKJBQtx+UA0W8pvXTPlFjqtNhh62dz/3yT7SqfgWeFI/EblK9RCVyQO1smEyPML+kbxQodB7JlC+aUe9rzXRqj8lT8u/sQMzVu+x6Yvs7aDfgUwqk5JGHzy4rG5aRq7L5YqrApmJZlu/r3egt99D9d2/jufJA1i6fZiBeB5NvU5BX/V+7Sy+Q5TF0xj/hhWOP9vKkaVaikhFU//1dP7WXHPp7u1/V19P1TP2rLhxRaX/kkV//LS1VQmLFH0uEFNBRVxdAOMLgvlzHot5FFHd4FRTOP7B2f5KCxXAW4FsFQsdIbRTjTJct2UTex1d89Oi/VkvKjyNQ9V5TAq0dp2SJOiqRlBHQsBMKCP8SJ8+c8eZczYk6OfVenvICvY8HzzFARBx94smy1yV2Nz35RAy2wmrUUZ4UdPZkuYNO7vanmDdNYp/df+uoSbM8D4CrL8tnaaTaabVN9Toy/+mXEr6SSV4F/roz86S9jVPShYHNd9zJ3fY6IB7zaZhML+lSgYB9/0uBIGWIe3VOLi1XPVG7GywpJiIf6uv72RMlijyBOTyeEx/ME+WyIjgZWMtnqTnRmJmHe+745RgG/n6obhyjDA87vI+WRjRTldNVFe+5ld82rziPE3UWJx9mNz4onwYGNu54aFNXyTlaz0dtjc1tL2xsbr8siiLvo52qzxMRe5U7LtcbPjp8iDcFO3z6kV3z9vXJobG3bwrxPcbKMOj5vh16smZn3Te99VcrFHivKVWUvngzTt3ROPqc+mdfrV/Pg7EBbEWEOTv9TEs+SnmTZvUE2TnT7NtXTp7aJ+aEz8vDlfvDAyWjPkxWemiA54eC7bgeO8rdcNQkwpztnqMAOWGs0IQCCWUBYQ5MjpJHykdGyYsIWHDDlbfVr2dmGhYp/T6ArTJAfqf4MQvFeUvsHf5jdkym+52jSMndXt4OTWb2Wb7KdunIt33yYtnTQ1LOblHTUcNNxfY+ntfSb33yPFnp69hU8ozdTFJ+KeNIeK1K+UKlGpXYO4mdbykj/lESG1o4vGDHGN+fjNaynPMlTc2tr2tsaVvHoHHvAl28XUR+III3cvU/duNzmdEaKsjp+PsCiHckFGfgvSHo6934PfoT3/zCaQ1Fj7GWr2xdy/rtnzchPylw84MPrvce53y7SvKiUuaagj8AjlFpNIauRKXQToHQJyq3+RQpD0TMESy4oKKjchFhuUp4swF+89upmx+99+5d1kv2RxPKDrN35XkLBmBylJaOFvNZeSGNiBktp3xpsmf1Ii/0N6TzG1vavf/O1uS8xspfwDM9ma7wn+zc0WVHtFfkgGk6ocW+4BaRBb7Cf+odKppP8lkBj/y+e5ABIPZpYwzX++QlMvE7rKwdz+Kns/kCKlowN1OgIyOKybnIInjeNGIDeUscDd2XxxZkY4nK3vk2HNm6orGl7YONzW2/ztTW9EOizwvkQhFUNjku6sW+oAN5jAoezWP9WYF3BOI3dlI+YUPJTZqIRDIir0Re4kjK//gq1sl5fMW2FJq7psjmLdKQx1SUjSqySo1sFMK7kw08gM7ZJkGCpy/1oqRiYlLytIOQd9TLo0gPBh1YBdwAv/zl5JzbrrKiza/vTuoWCNsDt8I1odCUApRJonc7kuUVIpQDEP65/XO8Isrj+ejCuGkbfWik3tEHLIm8XIAPlF/lUjPzrXQyM/plOnEseXSR7afU6d9l89XQ5S3taxpWtp4wXpk6kQO9NgH9PdIAABAASURBVAreCaYnkdegQKiAeH+nSzJS8qYRfEnHdlg8/dhGaUEpc6dcark7Et01cN/GMg5ptN6tvXc9xkDqxyGWkmfyS1a179fY3H5lNC/azP14j5T7mHS0CW9OlWewV+MX0jpxDn51KlUe/zRbIRlRXO8zlUjyX6bgbmrpvIjiga2bun/sKz8RmZSZM6P80FUXDlb1aDiqtgNRhE7nNMHmFOAe08kqhH/mfJOgQnnKJ3ofD5YDRvUo4LduHcEvf1XBsWSxapZf3LEL2x4ZQbLj1m+W1pRyB4Rsbv/G4encUGDv6qEkS6dp9MEuRxKp/ewBs5O8iMzoZPpTGtmHXd6d4txSFe/4j1YRKT4QZaI7eWe7ubG57eNNyXcZPHCjNpYbGcYjRktWwfyKfyRwxQrGIXhHGjHE+yy6uD0RDBfLKuHpsCf/AippWOYdfPiJB5eISwRuvqfkzSIzEx0peCS0dOnR+y6I8CPu9+tNX25VoJ9301/TWC9FHL/Cb6cjfrlfymPCav263ZHaHA6PR8m5TNmpxM89smpoXtMBiMsjLzEG2pfnk9Yv1cxP8qovyI6IvqhAMA6T+NFxjPLV6zkXEkEIhI46T6ErdU6TlkbtUjRKFj5aRm/m9NmJc1dg3bq/YWgSLwGr6wtX/I39tv7CUeuKMGftOgqQEyT9JgXK8qYBE/FI7IkDM4k9dNpGH8tb2v4BkEMxRSmawS/Tt23q2s5jUWYCWeyjt+QgVbjvHHks52Gyr3ztOK0Qkbcgg582NrcPNK5qL3hpYOuWO7fyAo99VdfI0BHwKYpkjbUHH1UkyrGZkcgfoHIWcyNTN6+m/CPQdBcOadlF3IWnUirII3Txj+exqFu88JM8qCfmyyzvjoXqTaSvGdGhVf09XU39Pd1n92/q/txIuVGeYsTKVrrykTObrtS6SjvVksl0EYnq5kfJqEMi3+Q5dsXD3m9Jqmw9Zx7V1padkxVFwSO1XKEymaiMfEwxH5d0CsR8JbcJjSShQolzxvk8axORAnuRPD7Vs/NWmhxg6q0DI7jyyjEf46KatO6yv+KJx8wfKNg6++OjpsmXky8IglneTyOrmfasvLOavu2ObUZR/vEVJiHN+GS63OTbCxFpaGhpv9CnKyeTjHzApxPBMt65FD+KUdr6Jj/BEQyDNrXjLKLx4T4TniLb+jb/zPsarc9+Vss0HvfZeW1cxkaxnYHafuDS7aIFeF5C3vNZVM/u6+0+q7+3+wtbe++63xVIN6Li/+kKgV3wqdXMkl1P/u1rPKFKHJpAbN5DSPMfZyWdVe22708SZnK291+1/zb2wx9ERP7xqIu3tVTaUlSpYb6djUJ4V7iBe0w/qTze1PKKGJsHCvVAJMgrjwK9KHkAt9/2NL721WrnrFiwaLn5yzvws9t3sT1A3F9Cc8EOSKS2H8yByey4nxARcoDwb5RXRHm8sCLTq5UXTNvow/6/A7vxj/AlVbtzv42qalaae5YZnEyPo/jzhNf7yinPk480rW5/pqfHJaLGla1n8Bh5Aw5Pt/7+ntqbSwoJflYiSwSXNDS0eifYE3WyVWTKzC/pj2jBZrmd4wuDcqnjK9qnWDLejwl5QRa8NhtFeA4gJd/48Lra0LdpY9nXhfkIt+TRD5gUPENIZ8PySPIdS8mPFdJlPK+hxc5NlIzkVGCPrya9+zHw8TKV1vKR4A1HvO7xil7ljspUMq6Yd72dvKghIjwHAOHf2DwSu5x9BTxNLMh87StP4SMf3o6nnlJKqlt2sMzH3/8XfOtG+0d1ar1kP1LKDotVxyMoTpPKy/BJkGCBrL6EgrWYlXZimlLtPPBurfSC404OPT2Ef+jr6XpBNatCvc9HeRnO2GQ6J2kf54W0Dp7E02kJYu1uXNXuD6JpmcaVbccjiq5KWQ9R6taXzDXwrrfg519yBUUOxn7yrznek2lY1X4u++d9piwiZT9W81Q1y0Vy/iFj/COy5c0nHCSCN/p2QiF2k5NTxRJ5AwGvT+8HmbmCIv7fF5PqP47L1TklGfU+xhKVy4qbU2BYRUu+iC+2mwj/h3X1t9D9eX+rjMfq2Mzw8D1HXvS49xX2bHsrXrPtkgkHkNtuqnffhfACAxukv1KI1WxO1TJGvTxydrCk4J08M6RCIinlzqV2cPTnd+7Cm//1Sfzi5xxFoLL0q7uG8LZLnsQ9dw3bwIH1CFdwFfY3pUDKa0KBhLr+0w7I8ZYDU0SJVShi+qQc75BgLPGYttEHu8L7K7nIaPGqKrc+8vvu8V9JLCrIvfH/WBsn0+sW73tukfm0sbEOfYjnxAPeBkX2lwjfaWhp+1RjS/srl6886dmHHbZ2/qEtxx3CwPLcpua2T0tG7uLxqYcvKXbulKFrfKq+3o3f57H24sjz4KONze2XLVt23D4FZVevntfU0v5fIqXOwuwUuJNB3UYgxu4Ra41G30lfRijYn+UrTmyIUPN9XikL4UnDMlL8CwneR4Z0pGtKcE7rW76y9fk8Rq9J2QLCdmsLBDPM9Pd0/0QVBY/frEsistxo/kpf8h27ecqXTWZeI1zCvvB09NQqcpjo8F0rLhzsPPLCbS894rWDK1efpfMOvfjJw1dcPLiW8vUc9V0ReYpWLlLtFEjijCWl4/IwC4gInV+SBxPZpB7mbfHxjw3G+OgHt+O97/ozvv7lp/CrXwzhIc6T7NxBD8D14a0juIcye1z1gXf8GTbyeGIbB2v0PGKVEi1Hi/ms3FFaOMoCjmZ5P42QyLM0E2knS07L0tDc2kGcvL+sya6XDJUr6dTQ49u/okDJc9qkrIz5VkxiMzVbPvN+DDpyPk+SXeVa4DF4E4/GVzMZvSdeMMQzYv5DDCw/h8i/lStj8lj1tYP3/fxPlvesIyoo+xPnxP+NNfvP/1Njc9sPLGg0tbTd0qSLbXL8bSJsvahC3mjsUI1fWySednayG+S+NnBudAOD9TcamtvfyPVlzH86U5uxf4Dl/aFBHsvvPVz8hf1I7P1FWIEcmTlg/g8OaWnLvSyydOnR+zasan9bJhPdxPYj7z4pvG9+eW2nSShAyTch8KQYMmnffniqx5Zr6tfzJue9Pp3JiOkCEbwvEv1mJsamof23PT1Ph/4gih9T3mE2ftBNU8FqoxCeBBsICImClSbUyipK+MgM6dlgqUjPTsHUMHlWbxIP3/u7Ydz0lR34yPu3481veBIXvOJxXHDW43jL6/+Mj77vL/gm5zt6fzvM0qzRlRfmwVXYv5QCo7zreJZXiNAOgPAP7K+IwApGebywo0JeTU9qepptuHzavjoHWxU+vkJJUgaAmqc9z/NLLEsF7jmtqnfSGjaZbo+CSotNi6Rv0x1dCnm1Qu155OS0GeubBjZ13zBWZbxr/CrPg6vL2ggfZiUfcb4NkBcDWISySS8a6N047od3ZYvPYoUIA6bImbzOL+N6M1zgFu8jKeL56C6N/6V4d+wHP3lJeX+yQ4CTaiBbGKR/1djcfk/d4v22cc7kv1hHebwFJXf2tJ/Rhft3Pf1GPFYnaDM40Lvzf8aymQzd5nUHf4jX0+UTrSuaaMFsOQU66Ush/HNUxHypcQmthgdg5q4eWFKwtqQeY6kYV292RD/ZsWz5lFr5VC+u5lROex+fBAkWyOpLKFiLwDoozEXT990HFh9x3AHgxcrGSxfdvZ89iBX+x1jWUka8k9Cmmo61v6frayOiJ9EBPbjb7XEE3bep+zOV1NPXO+9SXmgfVmC4EvtSGx2i03hNv+cXdUtt55hE9eaqeqzYjlhe/qfeO7zHUOPYRozFb8S5JgSoAeQY+oFnQzAfaeKlOchzwvdM/1n1q1cvTM1mBenf1PWQAN8bpzNfxzT9u4It6w7+1xhyAd1j2dF9ub5G5RSVym0UwruNDTx4PJ4sxSPJg0ufqqM8xaY3wk5WNOdhduIKIK0nn1KjxpMC1JMW8eyGk1PjaFKfcVl7TeRAQllAmAOTo+SR8pFR8iIC7hiEPJ0BjBVWLBCKdVpHHwtr57+KrXovDNV4tybetm7q/jGPl/fiFtVX2aMDAjFjy0P3bfzVX3Y+9Rw69M+palxtR3gofxGP4MV9vd3vr7zs+mGORN7D5k4rh025ulT1t7HGL+zv7f5COZu5LI//qucr8ClUkIjFYzxip/fd31Xu7TbYKGQk1tcR54o+tOQl2DWEkRN4EXq+9pbaunjxCyvo2vSaeL4Jye/ACOIpfXyV35blf79uyfWI5Bhieafxla5RpYZj22mniPD4ga40pfk8ABGpes6DOwNBklg8rd94RcKTkk2cODP0DIl9IucJCMdn5Y6aJF9P3smz5bO8n0ZWI+2zVLL8NM59sKdABO/jK+7zowObNu7uBK2qiP/jJZED6mZwMh1pevLBe56kQ790BHoyTwx7BFVuDiMtQSvo5jjW8/t7u04YuL/r+zlFFRk+ftrQN/xoc4z4ZTw/b1Q+LvQVp3xYFbeqxucwcDx7oPeO9T67PUFWU1OnHBm+GRh5Aff5F759Ih6cV9MbdkZDz7Kfa/fZ5Mt4E3MTj9Vqns/+x6lmrNrLu4eL+3q7TrbRzLBG3zJx8RoJLimWzTTfl/nzd7hv3pcziNXvHurd2D3dfdx8zZKezdfWr2H7Nkd3O2/Qnh6vD9F4BpXob72pfj3B2JDv1HlxgQeOV62aiyUF8vXZOQ+ecBAwKUiZcxSJPSVWD6VePkr1tHaLpLxRoUSyvGsY5IT1aEKBhLIDIpQDRbwiqZ/21As7IrRQsydlRdwKiYJpWkcfbA+8YNf09XRJydrbbc+cq/r61uorXln/B0vqzraX9z8m+jgvUc7u4Z5u7/9oKG5rd3i70Pp6us9nH5ZBh59rjj1Wu3uN38U73Uti4HTenR63c+fwM/p7ulcOJPMd7qBNuN0tW54e6Nn4LTqu8/p7dh7IE+FZ1i5PhndC49dbmyMjOw9hoPqH/uSRFUXjt7a1p/uWvizGhdR9OV+uhv6eLu+x6u/tfne5Mibv6+061dfe1vs33m76ate+njtu4z4fj2E5EjFeGcd4O3f84lhHntc/9MiSPh6nMV5WKGnORiJ9vd1n7RqKDtYRnMK6Xquqb+XxPVOHdAV1LQM9XfZ6tzue9nMhvv2hrAS//t6uCyj3XD/+/5+S37l+nkd9hcfH1eP+uVe+4Vj5+xaYJ4l8JvQ1X/LJp0u2ZV39NZvX1Z82PFK/SAXPY0fP4/oWrp10g5fwEfLpw5J59tM7ag/07sCEOup+IwsQMadKCibF2DyAJMgAAkuaUEVC2VsnH4e3YJTsiCbluKeuXK68yU1iFLzOjZbyPHB55al39eRTUE/e1UuqCR/F2omQZhoB7eu9825z7AO93Vf39W78SP+mrivpYNybPo8+cKe9GTUFfbx7qO++rt9Zu3SQH2W7V1mbD91/97YpaGxOVNm3+Wd/6NvU9fWBTV0fIxbrBmz0xaA70c7bf+GzUQvruqa/t/sTPL4dcyCdAAAJpklEQVQ392/p/v1E65sN5ZpWzff+7x46p6Gnd2FWfCP04Bdkp72pteXa+hu5fpLr+zlCufIP1xz8vQeuOfDXfV9e9ETidycBURuF0KVyLgR0siAOyg0XEtcIKfUwZ28UKV9CWaRA73hKnD0p+chayOOFPH09t5aDo0m9AktCCWjgKAWOeniYHYCkfoWIkCMFQ4vZk2WOHDMpr8q5j/UcgdEyLAGBgEBAYHwEjqulI3y/z045uT6R77d8dU2HLJrMRuxOnK6VDhYQEWJEiiSRZVABBEmqjlck9qSueErNiVfCZ+0cZQ8cZUFHs7yfRkjkWSopn6VRRufU6IN7HZaAQEBgphBYsaKusXn+1RBp9nVBR+TzPvlslUWT2bHvfrt+Pe/QN7g6FcQIDBoKIfGPPKhROH1uxDAGH5ml07McQI405Zkr4MEklLh6XfQBOUn64+W1YOTB/XD2HGE4yoIJtaDjyiv5aNrnPhBSQCAgMGcQaGxuu66pue19XDsbW9rWNdYuvZvu4599O0DXcu/A/V23+nSzVRZNescUnc5pg0kBEXPapEiSsTk9M9Sab4ajxlvGyjlzTeSKhJoeTEQ66bgmcvJWzCpy1PGWy9eX8kmQSOoTqylbLkdBqSCpl1SR8Fl9PBJGHwgpIBAQGAOB4yDSyfV9ArlQgGeWs+XN6sepo5fhdo4siR+exM66UYhgA309CNboYyzCYnxWnqNsu1ROibMndXrSIp4+nPULV3AV8/EJBRJKA2EOTI56eKT6yKjp0+hm9jyYMDYJMsL61fHMQPjHOZUNl4e5D4QUEAgIlEeAPqS/vHZUo9CfDGzqntZvP0Zbn3gumnjR8iUzqp0EznytuVpnWB2vSOxJWTpx4syYkyexisVoli+gpknK0clD+JdQFnB2wuKm99Motc9SSflC6urq5DYsAYGAQECgPAKKsX9FmCXpln4R4emzmY25zqklmorefptzIYh1g7BygmMumE4bpJSoUVTERyxhIxVau0VS3qhQIlneRRuQE9arCQUSyg6IUA4U8Vr5nAdLsmJuWY/Vh/DmFaY/hRZnFIH1yua9/1fmwX0ejakLiweBGLLVI3YiupJ7Y9XX9Q8/ctIfe+72/gqxM5zFm2iq+hbZdyGsfE/4zmM0eMAFET7eCqMPhLSXITDS1+P/3zK4776qf0Npb8FuoLfrwzGGV8Yar4115Hm26ghOEexc1t/bdcxAb/fV2I1vZGYaxykLIDYKEUVuLsRGErx/d/vrKO9nHKVEIOajuSUlHzGX2Ce8kGe05tZycLRYnzymElgSWvh4mBwoGHlYw0K5sgEbqAgrNt6VFxqX8mHuw2AJa0AgIFAJAiMDPXduHujduGGg9471ttpHkXNuxFFmT6My8kkRa6SdzgezNnPO9MV01WS4FPKKhCelLnHqzJhTJxmXz9o5yhYdZUFHs7yfRkjkWSopX0hBqVg3YPM7CCkgEBAICAQEeDM+hSB8m3MhvLN3cyFJ8EicMLfOGQvdciJnJxTsjIzKKZKc3uXIiV/vog9SvUKEdgCEf8lIQmAFc0GC+uxIg/2jVaIX5vLtczxLW3nyGz4V3rxyaIRNQCAgEBCIphqCTP53IYwW9N3mi81Vs2k6e24pLuKVwSRRiCOpHQ1Hecul8uxIo0ifBAlWkNWXULDdbD2kmvI5u5R39QoiDd99IKQJIBCKBAT2TASmPIDc9N369XTNRXMhlGSdNXEVunH6aG6FHBylD3fUJMJcsd6NFEwOcCsMSppQIKFWAXNgioySF6EdKxLybuQhsBxXZpweTGk9pXwYfRCdsAQEAgIBgSwCUTYzpbTkuxA6afrsJAiADpw8mMxpkzAaUMZMli+grmCennyx3vFZeSGNrCT1WSopX0hBqVg3cjSaxv82iJACAgGBgMAcQCCajj7aKIQ3/pwLyTpltqrgYypxTpqcW4TumnbcupyjUEBE8vQK4Z8JHGUwEBFjKSXN8fYYbJRPHmdxa3paWsNi1MtbddYOKfWRaBh9EIqwBAQCAgGBfASmJYBYgxl3B591yjDXjcSJw/3cSdKRrD6ljCYCJjpxcSVSeRme4cFZJSMbYfVmn09BPXlXL6lWyHMEhZACAgGBgEBAoACBxG8XiKaG+SrnQtiY+6XeiG6cPpxbOnE2J8wxJnBrOTharM8FBSDVa0KBhFoFzIEpqZ96NzIhpXwCcx4sBa5h9IGQ9l4Ewp4HBMZAIBpDNwUqTb8LUTpmVk+nLyQcKozNZ+0cZQlHWdDRLO+nkdVMuyyVlC+koFSsG4UUlrTTtmENCAQEAgIBgUIEokJ2ajkbhXBkkcyFsCmhuybPrcs5muWpHuXdSAIprxARWBIInX6Wr2LOw5VnuWx5q4wNs7akvpSPIGHuw2ERNgGBgEBAoBSBqFQ0xZJIO+1xVNKwmgsvcNqjTtxy+fpSfsJzHhyRiLWs4FbADiQ0x8Pxit397gMhBQQCAgGBPRaBxI9P4+65UQiwgT7cOWlz38IcBwDciuuJMGdBxlFKHGUBR/N4mB2Qvs2lEBFypGBoMXuyzJFjJuVHgwXtKC7gWTrhmYnD3AdRCEtAICAQECiLwLQHEOtJFGsyF2JO3QQF1Ly60ulT4eTkHS3ms/JCGllJ2meppHwhBaVisaKQAo4XBWAjJZKwBAQCAnMTgdDrqUcgmvomSlu44db69Td+f4ncwPVLtt66RL6YrtffepBcz/wXfrBEbL3uBwfJdT9cItem67ofHiTrfrRErvnRQVyXyNWkV922RK667SD5POmVpFfevkQ+d/tBXJfIFaRX/O8S+ez/HsR1iVxOevmPD5LL0vUzpJ9Zf5B8Ol0/RfrfGw6S8JtXpcctSAICAYGAQD4CMxJA8jsQ8gGBgEBAICAwNxEIAWRuHrep73VoISAQEAgIjINACCDjABTUAYGAQEAgIOBHIAQQPy5BGhAICAQEZgqBOdNuCCBz5lCFjgYEAgIBgdmFQAggs+t4hN4EBAICAYE5g0AIIHPmUIWOVopAsAsIBASmB4EQQKYH59BKQCAgEBDY4xAIAWSPO6RhhwICAYGAwPQgUBpApqfd0EpAICAQEAgIzHEEQgCZ4wcwdD8gEBAICMwUAiGAzBTyod2AQCkCQRIQmFMIhAAypw5X6GxAICAQEJg9CIQAMnuORehJQCAgEBCYUwjsUQFkTiEfOhsQCAgEBOY4AiGAzPEDGLofEAgIBARmCoEQQGYK+dBuQGCPQiDszN6IQAgge+NRD/scEAgIBAQmAYEQQCYBxFBFQCAgEBDYGxH4/wAAAP//yjVkaAAAAAZJREFUAwAjiJFZkS5zjQAAAABJRU5ErkJggg=="/>
+<span class="font-display-lg text-headline-md font-bold text-primary">AI Company CO</span>
+</div>
+<div class="hidden md:flex items-center gap-lg">
+<a class="font-body-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#servicios">Servicios</a>
+<a class="font-body-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#soluciones">Soluciones</a>
+<a class="font-body-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#casos">Casos de éxito</a>
+<a class="font-body-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#proceso">Proceso</a>
+<a class="font-body-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#precios">Precios</a>
+<a class="font-body-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#contacto">Contacto</a>
+</div>
+<div class="flex items-center gap-sm">
+<button class="hidden lg:block border border-primary text-primary px-sm py-xs rounded-lg font-label-md hover:bg-primary-container/10 transition-all active:scale-95">
+                    Area de clientes
+                </button>
+<a class="bg-whatsapp text-white px-sm py-xs rounded-lg font-label-md flex items-center gap-xs hover:shadow-lg transition-all active:scale-95" href="https://wa.me/573212674754">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+                    Hablar con un asesor
+                </a>
+</div>
+</div>
+</nav>
+<!-- Section 2: HERO -->
+<header class="relative overflow-hidden py-xl md:py-32 bg-gradient-to-b from-white to-surface-container-low">
+<div class="max-w-container-max mx-auto px-gutter grid lg:grid-cols-2 gap-xl items-center relative z-10">
+<div class="space-y-md">
+<div class="inline-flex items-center px-sm py-1 rounded-full bg-primary-container text-white text-label-sm uppercase tracking-wider">
+                    Automatización · IA · Crecimiento
+                </div>
+<h1 class="font-display-lg text-headline-lg-mobile md:text-display-lg leading-tight text-on-background">
+                    Construimos el <span class="gradient-text">sistema de tu negocio</span> y la estrategia digital para llenarlo de clientes
+                </h1>
+<p class="font-body-lg text-on-surface-variant max-w-xl">
+                    Sistemas a medida con IA, automatización de procesos y marketing digital. Resultados en semanas, no en meses.
+                </p>
+<div class="flex flex-col sm:flex-row gap-sm pt-xs">
+<button class="primary-gradient text-white px-lg py-sm rounded-lg font-label-md text-lg shadow-lg hover:shadow-primary/30 transition-all active:scale-95">
+                        Quiero mi diagnóstico gratis
+                    </button>
+<a class="bg-whatsapp text-white px-lg py-sm rounded-lg font-label-md text-lg flex items-center justify-center gap-xs shadow-md hover:shadow-whatsapp/20 transition-all active:scale-95" href="https://wa.me/573212674754?text=Hola%2C%20quiero%20mi%20diagn%C3%B3stico%20gratis">
+<span class="material-symbols-outlined">chat</span>
+                        WhatsApp
+                    </a>
+</div>
+<div class="pt-lg">
+<p class="text-label-sm text-outline uppercase tracking-widest mb-sm">Expertos en sectores</p>
+<div class="flex flex-wrap gap-md opacity-60">
+<span class="font-headline-md text-on-surface-variant">Distribución</span>
+<span class="font-headline-md text-on-surface-variant">Retail</span>
+<span class="font-headline-md text-on-surface-variant">Servicios</span>
+<span class="font-headline-md text-on-surface-variant">Comercio</span>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-12 -left-12 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
+<div class="absolute -bottom-12 -right-12 w-64 h-64 bg-secondary/10 rounded-full blur-3xl"></div>
+<div class="glass-card p-xs rounded-xl shadow-2xl relative">
+<img class="rounded-lg w-full" data-alt="A clean and modern high-fidelity software dashboard interface mockup showing various AI agents named Alpha, Beta, and Gamma, colorful analytical charts for task automation and efficiency gains, and a global activity map. The style is glassmorphic with subtle gradients of blue and violet, perfectly fitting a tech-forward Colombian AI enterprise aesthetic." src="img/rediseno/hero-dashboard.png"/>
+</div>
+</div>
+</div>
+</header>
+<!-- Section 3: SERVICIOS -->
+<section class="py-xl bg-white" id="servicios">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center mb-xl">
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-background mb-xs">Automatizamos y sistematizamos los procesos de tu empresa</h2>
+<div class="w-20 h-1 primary-gradient mx-auto rounded-full"></div><p class="text-on-surface-variant max-w-2xl mx-auto mt-sm text-body-lg">Nos sentamos contigo, analizamos todo tu proceso y construimos plataformas y sistemas a la medida: ventas, inventario, facturación, atención por WhatsApp y más. Lo hacemos todo juntos.</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-md">
+<!-- Card 1 -->
+<div class="glass-card p-lg rounded-xl hover:shadow-xl transition-all border-l-4 border-l-primary group">
+<span class="material-symbols-outlined text-primary text-4xl mb-sm group-hover:scale-110 transition-transform">dvr</span>
+<h3 class="font-headline-md text-on-background mb-xs">Sistemas Empresariales a Medida</h3>
+<p class="text-on-surface-variant">Creamos programas y herramientas que se adaptan exactamente a lo que tu negocio necesita para funcionar mejor.</p>
+</div>
+<!-- Card 2 -->
+<div class="glass-card p-lg rounded-xl hover:shadow-xl transition-all border-l-4 border-l-secondary group">
+<span class="material-symbols-outlined text-secondary text-4xl mb-sm group-hover:scale-110 transition-transform">rule_settings</span>
+<h3 class="font-headline-md text-on-background mb-xs">Automatización de Procesos</h3>
+<p class="text-on-surface-variant">Hacemos que las tareas repetitivas se hagan solas, conectando tus aplicaciones para que no pierdas tiempo en lo mismo cada día.</p>
+</div>
+<!-- Card 3 -->
+<div class="glass-card p-lg rounded-xl hover:shadow-xl transition-all border-l-4 border-l-whatsapp group">
+<span class="material-symbols-outlined text-whatsapp text-4xl mb-sm group-hover:scale-110 transition-transform">forum</span>
+<h3 class="font-headline-md text-on-background mb-xs">WhatsApp Automático 24/7</h3>
+<p class="text-on-surface-variant">Atendemos a tus clientes por WhatsApp día y noche automáticamente, respondiendo dudas y ayudándote a vender más.</p>
+</div>
+<!-- Card 4 -->
+<div class="glass-card p-lg rounded-xl hover:shadow-xl transition-all border-l-4 border-l-primary group">
+<span class="material-symbols-outlined text-primary text-4xl mb-sm group-hover:scale-110 transition-transform">trending_up</span>
+<h3 class="font-headline-md text-on-background mb-xs">Marketing Digital</h3>
+<p class="text-on-surface-variant">Buscamos a tus clientes ideales en internet y los traemos a tu negocio para que tus ventas nunca se detengan.</p>
+</div>
+<!-- Card 5 -->
+<div class="glass-card p-lg rounded-xl hover:shadow-xl transition-all border-l-4 border-l-secondary group">
+<span class="material-symbols-outlined text-secondary text-4xl mb-sm group-hover:scale-110 transition-transform">psychology</span>
+<h3 class="font-headline-md text-on-background mb-xs">Asistente IA Personalizado</h3>
+<p class="text-on-surface-variant">Creamos un asistente inteligente que conoce todo sobre tu empresa y ayuda a tu equipo o a tus clientes al instante.</p>
+</div>
+<!-- Card 6 -->
+<div class="glass-card p-lg rounded-xl hover:shadow-xl transition-all border-l-4 border-l-whatsapp group">
+<span class="material-symbols-outlined text-whatsapp text-4xl mb-sm group-hover:scale-110 transition-transform">shopping_cart</span>
+<h3 class="font-headline-md text-on-background mb-xs">Páginas Web y E-commerce</h3>
+<p class="text-on-surface-variant">Organizamos toda la información de tu negocio en una página web rápida y profesional donde es muy fácil comprar.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: MÉTRICAS -->
+<section class="py-xl primary-gradient text-white relative overflow-hidden">
+<div class="absolute inset-0 opacity-10">
+</div>
+<div class="max-w-container-max mx-auto px-gutter relative z-10">
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-xl text-center">
+<div class="space-y-xs">
+<div class="font-display-lg text-[48px] md:text-[64px]">-82%</div>
+<div class="font-label-md uppercase tracking-widest opacity-80 text-sm">tareas manuales</div>
+</div>
+<div class="space-y-xs">
+<div class="font-display-lg text-[48px] md:text-[64px]">+3x</div>
+<div class="font-label-md uppercase tracking-widest opacity-80 text-sm">conversiones</div>
+</div>
+<div class="space-y-xs">
+<div class="font-display-lg text-[48px] md:text-[64px]">24/7</div>
+<div class="font-label-md uppercase tracking-widest opacity-80 text-sm">atención automática</div>
+</div>
+<div class="space-y-xs">
+<div class="font-display-lg text-[48px] md:text-[64px]">99.9%</div>
+<div class="font-label-md uppercase tracking-widest opacity-80 text-sm">uptime</div>
+</div>
+</div>
+<div class="text-center mt-xl">
+<p class="font-headline-md max-w-2xl mx-auto">"Automatizamos lo repetitivo para que tu equipo venda más."</p>
+</div>
+</div>
+</section>
+<!-- Section 5: PROCESO -->
+<section class="py-xl bg-surface-bright" id="proceso">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center mb-xl">
+<h2 class="font-headline-lg text-on-background mb-xs">Cómo trabajamos</h2>
+<p class="text-on-surface-variant">Un camino claro hacia la transformación digital de tu empresa.</p>
+</div>
+<div class="grid md:grid-cols-4 gap-md relative">
+<div class="hidden md:block absolute top-12 left-0 right-0 h-0.5 bg-outline-variant z-0"></div>
+<!-- Step 01 -->
+<div class="relative z-10 text-center space-y-sm">
+<div class="w-16 h-16 rounded-full primary-gradient text-white flex items-center justify-center font-display-lg text-headline-md mx-auto shadow-lg">01</div>
+<h3 class="font-headline-md text-on-background">Diagnóstico</h3>
+<p class="text-label-md text-on-surface-variant px-sm">Analizamos tus procesos actuales y cuellos de botella.</p>
+</div>
+<!-- Step 02 -->
+<div class="relative z-10 text-center space-y-sm">
+<div class="w-16 h-16 rounded-full bg-white border-2 border-primary text-primary flex items-center justify-center font-display-lg text-headline-md mx-auto shadow-md">02</div>
+<h3 class="font-headline-md text-on-background">Estrategia</h3>
+<p class="text-label-md text-on-surface-variant px-sm">Diseñamos el mapa de soluciones y ROI proyectado.</p>
+</div>
+<!-- Step 03 -->
+<div class="relative z-10 text-center space-y-sm">
+<div class="w-16 h-16 rounded-full bg-white border-2 border-primary text-primary flex items-center justify-center font-display-lg text-headline-md mx-auto shadow-md">03</div>
+<h3 class="font-headline-md text-on-background">Implementación</h3>
+<p class="text-label-md text-on-surface-variant px-sm">Construimos y conectamos tus nuevos sistemas IA.</p>
+</div>
+<!-- Step 04 -->
+<div class="relative z-10 text-center space-y-sm">
+<div class="w-16 h-16 rounded-full bg-white border-2 border-primary text-primary flex items-center justify-center font-display-lg text-headline-md mx-auto shadow-md">04</div>
+<h3 class="font-headline-md text-on-background">Optimización</h3>
+<p class="text-label-md text-on-surface-variant px-sm">Medimos resultados y ajustamos para el máximo crecimiento.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 6: DIFERENCIADORES -->
+<section class="py-xl bg-white">
+<div class="max-w-container-max mx-auto px-gutter grid md:grid-cols-2 lg:grid-cols-4 gap-lg">
+<div class="flex flex-col items-center text-center p-sm">
+<div class="w-16 h-16 mb-sm bg-surface-container rounded-xl flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">all_inclusive</span>
+</div>
+<h4 class="font-headline-md text-on-background mb-xs">Enfoque integral</h4>
+<p class="text-label-md text-on-surface-variant">No solo damos software, damos soluciones de negocio completas.</p>
+</div>
+<div class="flex flex-col items-center text-center p-sm">
+<div class="w-16 h-16 mb-sm bg-surface-container rounded-xl flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">bolt</span>
+</div>
+<h4 class="font-headline-md text-on-background mb-xs">Resultados rápidos</h4>
+<p class="text-label-md text-on-surface-variant">Primeras automatizaciones funcionales en menos de 15 días.</p>
+</div>
+<div class="flex flex-col items-center text-center p-sm">
+<div class="w-16 h-16 mb-sm bg-surface-container rounded-xl flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">location_on</span>
+</div>
+<h4 class="font-headline-md text-on-background mb-xs">Expertise local</h4>
+<p class="text-label-md text-on-surface-variant">Conocemos el mercado colombiano y sus particularidades.</p>
+</div>
+<div class="flex flex-col items-center text-center p-sm">
+<div class="w-16 h-16 mb-sm bg-surface-container rounded-xl flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">insights</span>
+</div>
+<h4 class="font-headline-md text-on-background mb-xs">Datos reales</h4>
+<p class="text-label-md text-on-surface-variant">Tomamos decisiones basadas en métricas, no en suposiciones.</p>
+</div>
+</div>
+</section>
+<!-- Section 7: CASO DE ÉXITO -->
+<section class="py-xl bg-surface-container-low" id="casos">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center mb-xl">
+<h2 class="font-headline-lg text-on-background mb-xs">Casos de Éxito</h2>
+<p class="text-on-surface-variant">Empresas que ya están en el siguiente nivel.</p>
+</div>
+<div class="glass-card rounded-2xl overflow-hidden shadow-xl grid md:grid-cols-2">
+<div class="h-64 md:h-auto overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="A wide-angle, professional photograph of a modern industrial woodworking facility for 'Maderas Montoya'. The scene features large CNC machinery, workers in safety gear operating conveyor belts, and elegant finished wooden furniture pieces in the foreground. The lighting is bright and industrial, emphasizing a clean, productive, and technologically advanced manufacturing environment in Soacha, Colombia." src="img/rediseno/home-img2.png"/>
+<div class="absolute inset-0 bg-gradient-to-r from-on-background/40 to-transparent"></div>
+</div>
+<div class="p-lg flex flex-col justify-center space-y-md">
+<div class="flex items-center gap-sm">
+<span class="bg-primary/10 text-primary px-sm py-1 rounded-full text-label-sm">Caso Industrial</span>
+<span class="text-outline text-label-sm">Soacha, Cundinamarca</span>
+</div>
+<h3 class="font-display-lg text-headline-lg text-on-background">Maderas Montoya</h3>
+<p class="text-body-lg text-on-surface-variant leading-relaxed">
+                        Transformamos la operación de una fábrica de 30 empleados implementando un nuevo ecosistema digital: sitio web optimizado, cotizador automático de proyectos y blog SEO para captación de leads industriales.
+                    </p>
+<ul class="space-y-xs">
+<li class="flex items-center gap-xs text-on-surface">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Cotizador automático 24/7
+                        </li>
+<li class="flex items-center gap-xs text-on-surface">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Reducción del 40% en tiempo de venta
+                        </li>
+<li class="flex items-center gap-xs text-on-surface">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Posicionamiento SEO Regional
+                        </li>
+</ul>
+<div class="pt-sm">
+<button class="border-2 border-primary text-primary px-lg py-sm rounded-lg font-label-md hover:bg-primary hover:text-white transition-all">Ver todos los casos</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 7.5: EQUIPO -->
+<section class="py-xl bg-surface-container-low" id="equipo">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center mb-lg">
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-background mb-xs">El equipo detrás de <span class="gradient-text">AI Company CO</span></h2>
+<p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Personas reales que se sientan contigo, entienden tu negocio y construyen la solución a tu medida. Lo hacemos todo juntos.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-md">
+<div class="bg-surface-container-lowest border border-outline-variant/40 rounded-xl p-md text-center shadow-sm hover:shadow-lg transition-shadow">
+<img alt="Cristian Gutiérrez, CEO y Fundador de AI Company CO" class="w-28 h-28 mx-auto rounded-full object-cover mb-sm" src="img/rediseno/equipo/cristian-ceo.png"/>
+<h3 class="font-headline-md text-on-background">Cristian Gutiérrez</h3>
+<p class="text-label-md text-primary font-semibold">CEO y Fundador</p>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant/40 rounded-xl p-md text-center shadow-sm hover:shadow-lg transition-shadow">
+<img alt="César Granados, CTO de AI Company CO" class="w-28 h-28 mx-auto rounded-full object-cover mb-sm" src="img/rediseno/equipo/cesar-cto.png"/>
+<h3 class="font-headline-md text-on-background">César Granados</h3>
+<p class="text-label-md text-primary font-semibold">CTO</p>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant/40 rounded-xl p-md text-center shadow-sm hover:shadow-lg transition-shadow">
+<img alt="Julián Gutiérrez, CTO de AI Company CO" class="w-28 h-28 mx-auto rounded-full object-cover mb-sm" src="img/rediseno/equipo/julian-cto.png"/>
+<h3 class="font-headline-md text-on-background">Julián Gutiérrez</h3>
+<p class="text-label-md text-primary font-semibold">CTO</p>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant/40 rounded-xl p-md text-center shadow-sm hover:shadow-lg transition-shadow">
+<img alt="Brisa del Mar, Abogada y área legal de AI Company CO" class="w-28 h-28 mx-auto rounded-full object-cover mb-sm" src="img/rediseno/equipo/brisa-legal.png"/>
+<h3 class="font-headline-md text-on-background">Brisa del Mar</h3>
+<p class="text-label-md text-primary font-semibold">Abogada · Legal</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 8: FINAL CTA -->
+<section class="py-xl">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="primary-gradient p-xl rounded-3xl text-white text-center space-y-md relative overflow-hidden shadow-2xl">
+<div class="absolute -top-24 -left-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-24 -right-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+<h2 class="font-display-lg text-headline-lg md:text-display-lg relative z-10">¿Listo para automatizar tu negocio?</h2>
+<p class="font-body-lg opacity-90 max-w-2xl mx-auto relative z-10">Obtén una asesoría personalizada donde analizaremos tus procesos y te daremos una ruta clara de implementación.</p>
+<div class="flex flex-col items-center gap-sm relative z-10 pt-sm">
+<button class="bg-white text-primary px-xl py-lg rounded-xl font-label-md text-xl shadow-xl hover:scale-105 transition-transform active:scale-95">
+                        Quiero mi diagnóstico gratis (30 min)
+                    </button>
+<p class="text-label-sm opacity-80">Sin compromiso, sin presión. Solo valor para tu empresa.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 9: FOOTER -->
+<footer class="bg-inverse-surface text-on-primary-container pt-xl pb-lg">
+<div class="max-w-container-max mx-auto px-gutter grid grid-cols-1 md:grid-cols-4 gap-xl">
+<div class="space-y-md">
+<div class="flex items-center gap-xs">
+<img alt="AI Company CO Logo" class="h-10 w-auto brightness-200" src="data:image/png;base64,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"/>
+<span class="font-display-lg text-headline-md font-bold text-primary-fixed-dim">AI Company CO</span>
+</div>
+<p class="text-body-md text-outline-variant leading-relaxed">
+                    Lideramos la revolución de la IA y la automatización en las medianas y grandes empresas de Colombia.
+                </p>
+<div class="flex gap-sm">
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined">public</span>
+</a>
+</div>
+</div>
+<div class="space-y-md">
+<h4 class="font-headline-md text-white">Servicios</h4>
+<ul class="space-y-xs text-outline-variant">
+<li><a class="hover:text-primary-fixed-dim transition-colors" href="#">Sistemas a medida</a></li>
+<li><a class="hover:text-primary-fixed-dim transition-colors" href="#">Automatización n8n/Make</a></li>
+<li><a class="hover:text-primary-fixed-dim transition-colors" href="#">WhatsApp Marketing</a></li>
+<li><a class="hover:text-primary-fixed-dim transition-colors" href="#">Agentes de IA</a></li>
+</ul>
+</div>
+<div class="space-y-md">
+<h4 class="font-headline-md text-white">Empresa</h4>
+<ul class="space-y-xs text-outline-variant">
+<li><a class="hover:text-primary-fixed-dim transition-colors" href="#">Casos de Éxito</a></li>
+<li><a class="hover:text-primary-fixed-dim transition-colors" href="#">Sobre Nosotros</a></li>
+<li><a class="hover:text-primary-fixed-dim transition-colors" href="#">Precios</a></li>
+<li><a class="hover:text-primary-fixed-dim transition-colors" href="#">Blog</a></li>
+</ul>
+</div>
+<div class="space-y-md">
+<h4 class="font-headline-md text-white">Contacto</h4>
+<ul class="space-y-sm text-outline-variant">
+<li class="flex items-start gap-xs">
+<span class="material-symbols-outlined text-primary-fixed-dim">phone</span>
+<span>WhatsApp: +57 321 267 4754</span>
+</li>
+<li class="flex items-start gap-xs">
+<span class="material-symbols-outlined text-primary-fixed-dim">mail</span>
+<span>agencia@aicompanyco.com</span>
+</li>
+<li class="flex items-start gap-xs">
+<span class="material-symbols-outlined text-primary-fixed-dim">location_on</span>
+<span>Soacha, Cundinamarca<br/>Colombia</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-gutter mt-xl pt-lg border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-md">
+<p class="text-label-md text-outline-variant">© 2024 AI Company CO. Todos los derechos reservados. Hecho en Soacha, Colombia.</p>
+<div class="flex gap-lg text-label-sm text-outline-variant">
+<a class="hover:text-white transition-colors" href="#">Privacidad</a>
+<a class="hover:text-white transition-colors" href="#">Términos</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple scroll observer for sticky nav shadow
+        const nav = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-md');
+                nav.classList.add('bg-white/95');
+            } else {
+                nav.classList.remove('shadow-md');
+                nav.classList.remove('bg-white/95');
+            }
+        });
+
+        // Floating WhatsApp Button (Standard task fallback)
+        const floatingWa = document.createElement('div');
+        floatingWa.innerHTML = `
+            <a href="https://wa.me/573212674754" class="fixed bottom-8 right-8 z-[60] bg-whatsapp text-white p-4 rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all flex items-center justify-center">
+                <span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">chat</span>
+            </a>
+        `;
+        document.body.appendChild(floatingWa);
+    </script>
+</body></html>
