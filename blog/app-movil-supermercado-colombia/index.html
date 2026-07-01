@@ -11,7 +11,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <!-- Schema.org Article JSON-LD -->
   <script type="application/ld+json">
@@ -51,30 +51,30 @@
   </script>
 
   <style>
-    .related-section { margin: 2.5rem 0; padding: 1.5rem; background: #12121C; border-radius: 14px; border: 1px solid #1E1E2E; }
-    .related-title { color: #9B5FFF; font-size: 1rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .related-section { margin: 2.5rem 0; padding: 1.5rem; background: #F8FAFC; border-radius: 14px; border: 1px solid #E2E8F0; }
+    .related-title { color: #7C3AED; font-size: 1rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
     .related-grid { display: flex; flex-direction: column; gap: 0.5rem; }
-    .rel-card { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; background: #0D0D14; border-radius: 8px; border: 1px solid #1E1E2E; text-decoration: none; color: #E8E8F0; transition: border-color 0.2s; }
-    .rel-card:hover { border-color: rgba(155,95,255,0.4); text-decoration: none; }
+    .rel-card { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; background: #FFFFFF; border-radius: 8px; border: 1px solid #E2E8F0; text-decoration: none; color: #334155; transition: border-color 0.2s; }
+    .rel-card:hover { border-color: rgba(124,58,237,0.4); text-decoration: none; }
     .rel-emoji { font-size: 1.2rem; flex-shrink: 0; }
     .rel-titulo { flex: 1; font-size: 0.9rem; font-weight: 500; }
-    .rel-arrow { color: #9B5FFF; flex-shrink: 0; }
-    .faq-section { margin: 3rem 0; padding: 2rem; background: #12121C; border-radius: 16px; border: 1px solid rgba(90,0,184,0.2); }
-    .faq-title { color: #9B5FFF; font-size: 1.6rem; margin-bottom: 1.5rem; font-family: 'Orbitron', sans-serif; }
-    .faq-item { margin-bottom: 0.75rem; background: #0D0D14; border-radius: 10px; border: 1px solid rgba(155,95,255,0.15); overflow: hidden; }
-    .faq-item[open] { border-color: rgba(155,95,255,0.4); }
-    .faq-q { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; color: #E8E8F0; font-weight: 600; cursor: pointer; list-style: none; font-size: 0.97rem; gap: 1rem; }
+    .rel-arrow { color: #7C3AED; flex-shrink: 0; }
+    .faq-section { margin: 3rem 0; padding: 2rem; background: #F8FAFC; border-radius: 16px; border: 1px solid rgba(37,99,235,0.2); }
+    .faq-title { color: #7C3AED; font-size: 1.6rem; margin-bottom: 1.5rem; font-family: 'Space Grotesk', sans-serif; }
+    .faq-item { margin-bottom: 0.75rem; background: #FFFFFF; border-radius: 10px; border: 1px solid rgba(124,58,237,0.15); overflow: hidden; }
+    .faq-item[open] { border-color: rgba(124,58,237,0.4); }
+    .faq-q { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; color: #334155; font-weight: 600; cursor: pointer; list-style: none; font-size: 0.97rem; gap: 1rem; }
     .faq-q::-webkit-details-marker { display: none; }
-    .faq-icon { color: #9B5FFF; font-size: 1.4rem; flex-shrink: 0; transition: transform 0.2s; }
+    .faq-icon { color: #7C3AED; font-size: 1.4rem; flex-shrink: 0; transition: transform 0.2s; }
     .faq-item[open] .faq-icon { transform: rotate(45deg); }
-    .faq-a { padding: 0 1.25rem 1rem; color: #8A8D99; line-height: 1.7; font-size: 0.94rem; margin: 0; }
+    .faq-a { padding: 0 1.25rem 1rem; color: #64748B; line-height: 1.7; font-size: 0.94rem; margin: 0; }
     :root {
-      --purple-dark: #5A00B8;
-      --purple-light: #9B5FFF;
-      --bg: #0D0D14;
-      --bg2: #12121C;
-      --text: #E8E8F0;
-      --text-muted: #8A8D99;
+      --purple-dark: #2563EB;
+      --purple-light: #7C3AED;
+      --bg: #FFFFFF;
+      --bg2: #F8FAFC;
+      --text: #334155;
+      --text-muted: #64748B;
     }
 
     *, *::before, *::after {
@@ -86,7 +86,7 @@
     body {
       background-color: var(--bg);
       color: var(--text);
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 17px;
       line-height: 1.75;
     }
@@ -130,7 +130,7 @@
     }
 
     .nav-logo span {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 14px;
       font-weight: 700;
       color: var(--text);
@@ -139,11 +139,11 @@
 
     .btn-nav {
       background: linear-gradient(135deg, var(--purple-dark), var(--purple-light));
-      color: #fff;
+      color: #0F172A;
       border: none;
       border-radius: 8px;
       padding: 9px 20px;
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 14px;
       font-weight: 600;
       cursor: pointer;
@@ -205,7 +205,7 @@
     }
 
     .hero h1 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(22px, 4vw, 34px);
       font-weight: 700;
       line-height: 1.25;
@@ -220,7 +220,7 @@
 
     /* ARTICLE BODY */
     .article-body h2 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(18px, 2.8vw, 24px);
       font-weight: 700;
       color: var(--text);
@@ -252,7 +252,7 @@
     }
 
     .article-body strong {
-      color: #fff;
+      color: #0F172A;
     }
 
     /* CALLOUT */
@@ -286,7 +286,7 @@
     }
 
     .cta-inline h3 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 18px;
       font-weight: 700;
       color: var(--text);
@@ -302,8 +302,8 @@
     .btn-wa {
       display: inline-block;
       background: linear-gradient(135deg, #25D366, #128C7E);
-      color: #fff;
-      font-family: 'DM Sans', sans-serif;
+      color: #0F172A;
+      font-family: 'Inter', sans-serif;
       font-size: 15px;
       font-weight: 600;
       padding: 13px 28px;
@@ -328,7 +328,7 @@
     }
 
     .use-case h4 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 14px;
       font-weight: 700;
       color: var(--purple-light);
@@ -356,7 +356,7 @@
     .faq-item h4 {
       font-size: 16px;
       font-weight: 600;
-      color: #fff;
+      color: #0F172A;
       margin-bottom: 8px;
     }
 
@@ -425,7 +425,7 @@
     }
 
     .footer-logo span {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 13px;
       font-weight: 700;
       color: var(--text);
@@ -511,7 +511,7 @@
   <!-- NAV -->
   <nav>
     <a href="../../index_con_logo.html" class="nav-logo">
-      <img src="../../logo.png" alt="AI Company CO Logo" />
+      <img src="/logo_aicompany_CO_FINAL.svg" alt="AI Company CO Logo" />
       <span>AI Company CO</span>
     </a>
     <a href="../../index_con_logo.html#contacto" class="btn-nav">Hablemos →</a>

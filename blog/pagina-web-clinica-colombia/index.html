@@ -9,7 +9,7 @@
   <link rel="icon" href="../../logo.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <script type="application/ld+json">
   {
@@ -48,30 +48,30 @@
   </script>
 
   <style>
-    .related-section { margin: 2.5rem 0; padding: 1.5rem; background: #12121C; border-radius: 14px; border: 1px solid #1E1E2E; }
-    .related-title { color: #9B5FFF; font-size: 1rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .related-section { margin: 2.5rem 0; padding: 1.5rem; background: #F8FAFC; border-radius: 14px; border: 1px solid #E2E8F0; }
+    .related-title { color: #7C3AED; font-size: 1rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
     .related-grid { display: flex; flex-direction: column; gap: 0.5rem; }
-    .rel-card { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; background: #0D0D14; border-radius: 8px; border: 1px solid #1E1E2E; text-decoration: none; color: #E8E8F0; transition: border-color 0.2s; }
-    .rel-card:hover { border-color: rgba(155,95,255,0.4); text-decoration: none; }
+    .rel-card { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; background: #FFFFFF; border-radius: 8px; border: 1px solid #E2E8F0; text-decoration: none; color: #334155; transition: border-color 0.2s; }
+    .rel-card:hover { border-color: rgba(124,58,237,0.4); text-decoration: none; }
     .rel-emoji { font-size: 1.2rem; flex-shrink: 0; }
     .rel-titulo { flex: 1; font-size: 0.9rem; font-weight: 500; }
-    .rel-arrow { color: #9B5FFF; flex-shrink: 0; }
-    .faq-section { margin: 3rem 0; padding: 2rem; background: #12121C; border-radius: 16px; border: 1px solid rgba(90,0,184,0.2); }
-    .faq-title { color: #9B5FFF; font-size: 1.6rem; margin-bottom: 1.5rem; font-family: 'Orbitron', sans-serif; }
-    .faq-item { margin-bottom: 0.75rem; background: #0D0D14; border-radius: 10px; border: 1px solid rgba(155,95,255,0.15); overflow: hidden; }
-    .faq-item[open] { border-color: rgba(155,95,255,0.4); }
-    .faq-q { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; color: #E8E8F0; font-weight: 600; cursor: pointer; list-style: none; font-size: 0.97rem; gap: 1rem; }
+    .rel-arrow { color: #7C3AED; flex-shrink: 0; }
+    .faq-section { margin: 3rem 0; padding: 2rem; background: #F8FAFC; border-radius: 16px; border: 1px solid rgba(37,99,235,0.2); }
+    .faq-title { color: #7C3AED; font-size: 1.6rem; margin-bottom: 1.5rem; font-family: 'Space Grotesk', sans-serif; }
+    .faq-item { margin-bottom: 0.75rem; background: #FFFFFF; border-radius: 10px; border: 1px solid rgba(124,58,237,0.15); overflow: hidden; }
+    .faq-item[open] { border-color: rgba(124,58,237,0.4); }
+    .faq-q { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; color: #334155; font-weight: 600; cursor: pointer; list-style: none; font-size: 0.97rem; gap: 1rem; }
     .faq-q::-webkit-details-marker { display: none; }
-    .faq-icon { color: #9B5FFF; font-size: 1.4rem; flex-shrink: 0; transition: transform 0.2s; }
+    .faq-icon { color: #7C3AED; font-size: 1.4rem; flex-shrink: 0; transition: transform 0.2s; }
     .faq-item[open] .faq-icon { transform: rotate(45deg); }
-    .faq-a { padding: 0 1.25rem 1rem; color: #8A8D99; line-height: 1.7; font-size: 0.94rem; margin: 0; }
+    .faq-a { padding: 0 1.25rem 1rem; color: #64748B; line-height: 1.7; font-size: 0.94rem; margin: 0; }
     :root {
-      --purple-dark: #5A00B8;
-      --purple-light: #9B5FFF;
-      --bg: #0D0D14;
-      --bg2: #12121C;
-      --text: #E8E8F0;
-      --text-muted: #8A8D99;
+      --purple-dark: #2563EB;
+      --purple-light: #7C3AED;
+      --bg: #FFFFFF;
+      --bg2: #F8FAFC;
+      --text: #334155;
+      --text-muted: #64748B;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -79,7 +79,7 @@
     body {
       background-color: var(--bg);
       color: var(--text);
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 17px;
       line-height: 1.75;
     }
@@ -92,9 +92,9 @@
       position: fixed;
       top: 0; left: 0; right: 0;
       z-index: 100;
-      background: rgba(13,13,20,0.92);
+      background: rgba(255,255,255,0.92);
       backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(155,95,255,0.15);
+      border-bottom: 1px solid rgba(124,58,237,0.15);
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -115,7 +115,7 @@
     }
 
     .nav-logo span {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 14px;
       font-weight: 700;
       color: var(--text);
@@ -124,7 +124,7 @@
 
     .btn-nav {
       background: linear-gradient(135deg, var(--purple-dark), var(--purple-light));
-      color: #fff;
+      color: #0F172A;
       padding: 9px 20px;
       border-radius: 8px;
       font-weight: 600;
@@ -157,9 +157,9 @@
 
     .post-category {
       display: inline-block;
-      background: rgba(155,95,255,0.15);
+      background: rgba(124,58,237,0.15);
       color: var(--purple-light);
-      border: 1px solid rgba(155,95,255,0.3);
+      border: 1px solid rgba(124,58,237,0.3);
       border-radius: 20px;
       padding: 4px 14px;
       font-size: 12px;
@@ -170,7 +170,7 @@
     }
 
     .hero h1 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(24px, 4.5vw, 38px);
       font-weight: 900;
       line-height: 1.2;
@@ -201,13 +201,13 @@
     }
 
     .article-body h2 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(18px, 3vw, 24px);
       font-weight: 700;
       color: var(--text);
       margin: 48px 0 16px;
       padding-bottom: 10px;
-      border-bottom: 1px solid rgba(155,95,255,0.2);
+      border-bottom: 1px solid rgba(124,58,237,0.2);
     }
 
     .article-body h3 {
@@ -232,12 +232,12 @@
     }
 
     .article-body strong {
-      color: #fff;
+      color: #0F172A;
     }
 
     /* CALLOUT */
     .callout {
-      background: linear-gradient(135deg, rgba(90,0,184,0.18), rgba(155,95,255,0.12));
+      background: linear-gradient(135deg, rgba(37,99,235,0.18), rgba(124,58,237,0.12));
       border-left: 4px solid var(--purple-light);
       border-radius: 0 12px 12px 0;
       padding: 20px 24px;
@@ -255,8 +255,8 @@
 
     /* CTA INLINE */
     .cta-inline {
-      background: linear-gradient(135deg, rgba(90,0,184,0.25), rgba(155,95,255,0.18));
-      border: 1px solid rgba(155,95,255,0.35);
+      background: linear-gradient(135deg, rgba(37,99,235,0.25), rgba(124,58,237,0.18));
+      border: 1px solid rgba(124,58,237,0.35);
       border-radius: 16px;
       padding: 28px 28px;
       margin: 40px 0;
@@ -270,9 +270,9 @@
     }
 
     .cta-inline p strong {
-      color: #fff;
+      color: #0F172A;
       display: block;
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 15px;
       margin-bottom: 8px;
     }
@@ -282,7 +282,7 @@
       align-items: center;
       gap: 8px;
       background: linear-gradient(135deg, #25D366, #128C7E);
-      color: #fff;
+      color: #0F172A;
       font-weight: 700;
       font-size: 15px;
       padding: 13px 26px;
@@ -295,13 +295,13 @@
       transform: translateY(-2px);
       opacity: 0.92;
       text-decoration: none;
-      color: #fff;
+      color: #0F172A;
     }
 
     /* USE CASE */
     .use-case {
       background: var(--bg2);
-      border: 1px solid rgba(155,95,255,0.2);
+      border: 1px solid rgba(124,58,237,0.2);
       border-radius: 14px;
       padding: 22px 24px;
       margin: 16px 0;
@@ -321,7 +321,7 @@
 
     /* FAQ */
     .faq-item {
-      border-bottom: 1px solid rgba(155,95,255,0.12);
+      border-bottom: 1px solid rgba(124,58,237,0.12);
       padding: 20px 0;
     }
 
@@ -330,7 +330,7 @@
     .faq-item h3 {
       font-size: 16px;
       font-weight: 600;
-      color: #fff;
+      color: #0F172A;
       margin: 0 0 10px;
     }
 
@@ -350,14 +350,14 @@
 
     .price-card {
       background: var(--bg2);
-      border: 1px solid rgba(155,95,255,0.2);
+      border: 1px solid rgba(124,58,237,0.2);
       border-radius: 14px;
       padding: 20px;
       text-align: center;
     }
 
     .price-card h4 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 13px;
       color: var(--purple-light);
       margin-bottom: 10px;
@@ -366,7 +366,7 @@
     .price-card .price-amount {
       font-size: 22px;
       font-weight: 700;
-      color: #fff;
+      color: #0F172A;
       margin-bottom: 6px;
     }
 
@@ -378,14 +378,14 @@
     /* DIVIDER */
     .divider {
       border: none;
-      border-top: 1px solid rgba(155,95,255,0.1);
+      border-top: 1px solid rgba(124,58,237,0.1);
       margin: 48px 0;
     }
 
     /* FOOTER */
     footer {
       background: var(--bg2);
-      border-top: 1px solid rgba(155,95,255,0.15);
+      border-top: 1px solid rgba(124,58,237,0.15);
       padding: 40px 24px;
       text-align: center;
     }
@@ -396,7 +396,7 @@
     }
 
     .footer-logo {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 16px;
       font-weight: 700;
       color: var(--text);
@@ -473,7 +473,7 @@
   <!-- NAV -->
   <nav>
     <a href="../../index_con_logo.html" class="nav-logo">
-      <img src="../../logo.png" alt="AI Company CO logo" />
+      <img src="/logo_aicompany_CO_FINAL.svg" alt="AI Company CO logo" />
       <span>AI Company CO</span>
     </a>
     <a href="../../index_con_logo.html#contacto" class="btn-nav">Hablemos →</a>

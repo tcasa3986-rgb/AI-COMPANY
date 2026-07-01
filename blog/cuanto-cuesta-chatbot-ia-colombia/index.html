@@ -9,7 +9,7 @@
   <link rel="icon" href="../../logo.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <script type="application/ld+json">
   {
@@ -48,30 +48,30 @@
   </script>
 
   <style>
-    .related-section { margin: 2.5rem 0; padding: 1.5rem; background: #12121C; border-radius: 14px; border: 1px solid #1E1E2E; }
-    .related-title { color: #9B5FFF; font-size: 1rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .related-section { margin: 2.5rem 0; padding: 1.5rem; background: #F8FAFC; border-radius: 14px; border: 1px solid #E2E8F0; }
+    .related-title { color: #7C3AED; font-size: 1rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
     .related-grid { display: flex; flex-direction: column; gap: 0.5rem; }
-    .rel-card { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; background: #0D0D14; border-radius: 8px; border: 1px solid #1E1E2E; text-decoration: none; color: #E8E8F0; transition: border-color 0.2s; }
-    .rel-card:hover { border-color: rgba(155,95,255,0.4); text-decoration: none; }
+    .rel-card { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; background: #FFFFFF; border-radius: 8px; border: 1px solid #E2E8F0; text-decoration: none; color: #334155; transition: border-color 0.2s; }
+    .rel-card:hover { border-color: rgba(124,58,237,0.4); text-decoration: none; }
     .rel-emoji { font-size: 1.2rem; flex-shrink: 0; }
     .rel-titulo { flex: 1; font-size: 0.9rem; font-weight: 500; }
-    .rel-arrow { color: #9B5FFF; flex-shrink: 0; }
-    .faq-section { margin: 3rem 0; padding: 2rem; background: #12121C; border-radius: 16px; border: 1px solid rgba(90,0,184,0.2); }
-    .faq-title { color: #9B5FFF; font-size: 1.6rem; margin-bottom: 1.5rem; font-family: 'Orbitron', sans-serif; }
-    .faq-item { margin-bottom: 0.75rem; background: #0D0D14; border-radius: 10px; border: 1px solid rgba(155,95,255,0.15); overflow: hidden; }
-    .faq-item[open] { border-color: rgba(155,95,255,0.4); }
-    .faq-q { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; color: #E8E8F0; font-weight: 600; cursor: pointer; list-style: none; font-size: 0.97rem; gap: 1rem; }
+    .rel-arrow { color: #7C3AED; flex-shrink: 0; }
+    .faq-section { margin: 3rem 0; padding: 2rem; background: #F8FAFC; border-radius: 16px; border: 1px solid rgba(37,99,235,0.2); }
+    .faq-title { color: #7C3AED; font-size: 1.6rem; margin-bottom: 1.5rem; font-family: 'Space Grotesk', sans-serif; }
+    .faq-item { margin-bottom: 0.75rem; background: #FFFFFF; border-radius: 10px; border: 1px solid rgba(124,58,237,0.15); overflow: hidden; }
+    .faq-item[open] { border-color: rgba(124,58,237,0.4); }
+    .faq-q { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; color: #334155; font-weight: 600; cursor: pointer; list-style: none; font-size: 0.97rem; gap: 1rem; }
     .faq-q::-webkit-details-marker { display: none; }
-    .faq-icon { color: #9B5FFF; font-size: 1.4rem; flex-shrink: 0; transition: transform 0.2s; }
+    .faq-icon { color: #7C3AED; font-size: 1.4rem; flex-shrink: 0; transition: transform 0.2s; }
     .faq-item[open] .faq-icon { transform: rotate(45deg); }
-    .faq-a { padding: 0 1.25rem 1rem; color: #8A8D99; line-height: 1.7; font-size: 0.94rem; margin: 0; }
+    .faq-a { padding: 0 1.25rem 1rem; color: #64748B; line-height: 1.7; font-size: 0.94rem; margin: 0; }
     :root {
-      --purple-dark: #5A00B8;
-      --purple-light: #9B5FFF;
-      --bg: #0D0D14;
-      --bg2: #12121C;
-      --text: #E8E8F0;
-      --text-muted: #8A8D99;
+      --purple-dark: #2563EB;
+      --purple-light: #7C3AED;
+      --bg: #FFFFFF;
+      --bg2: #F8FAFC;
+      --text: #334155;
+      --text-muted: #64748B;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -81,7 +81,7 @@
     body {
       background-color: var(--bg);
       color: var(--text);
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 17px;
       line-height: 1.75;
     }
@@ -91,9 +91,9 @@
       position: fixed;
       top: 0; left: 0; right: 0;
       z-index: 999;
-      background: rgba(13,13,20,0.92);
+      background: rgba(255,255,255,0.92);
       backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(155,95,255,0.15);
+      border-bottom: 1px solid rgba(124,58,237,0.15);
       padding: 0 1.5rem;
       height: 64px;
       display: flex;
@@ -114,7 +114,7 @@
     }
 
     .nav-logo span {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 0.95rem;
       font-weight: 700;
       color: var(--text);
@@ -123,7 +123,7 @@
 
     .btn-nav {
       background: linear-gradient(135deg, var(--purple-dark), var(--purple-light));
-      color: #fff;
+      color: #0F172A;
       text-decoration: none;
       padding: 0.45rem 1.1rem;
       border-radius: 8px;
@@ -167,7 +167,7 @@
 
     .post-category {
       display: inline-block;
-      background: rgba(155,95,255,0.15);
+      background: rgba(124,58,237,0.15);
       color: var(--purple-light);
       font-size: 0.78rem;
       font-weight: 700;
@@ -176,15 +176,15 @@
       padding: 0.3rem 0.8rem;
       border-radius: 20px;
       margin-bottom: 1rem;
-      border: 1px solid rgba(155,95,255,0.3);
+      border: 1px solid rgba(124,58,237,0.3);
     }
 
     .hero h1 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(1.6rem, 4vw, 2.2rem);
       font-weight: 900;
       line-height: 1.25;
-      color: #fff;
+      color: #0F172A;
       margin-bottom: 1rem;
     }
 
@@ -228,13 +228,13 @@
     }
 
     .article-body h2 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(1.15rem, 3vw, 1.45rem);
       font-weight: 700;
-      color: #fff;
+      color: #0F172A;
       margin: 2.8rem 0 1rem;
       padding-bottom: 0.4rem;
-      border-bottom: 2px solid rgba(155,95,255,0.25);
+      border-bottom: 2px solid rgba(124,58,237,0.25);
     }
 
     .article-body h3 {
@@ -254,7 +254,7 @@
       color: var(--text);
     }
 
-    .article-body strong { color: #fff; font-weight: 700; }
+    .article-body strong { color: #0F172A; font-weight: 700; }
 
     .article-body a {
       color: var(--purple-light);
@@ -264,7 +264,7 @@
 
     /* CALLOUT */
     .callout {
-      background: linear-gradient(135deg, rgba(90,0,184,0.18), rgba(155,95,255,0.12));
+      background: linear-gradient(135deg, rgba(37,99,235,0.18), rgba(124,58,237,0.12));
       border-left: 4px solid var(--purple-light);
       border-radius: 0 12px 12px 0;
       padding: 1.2rem 1.4rem;
@@ -281,7 +281,7 @@
     /* USE CASE */
     .use-case {
       background: var(--bg2);
-      border: 1px solid rgba(155,95,255,0.2);
+      border: 1px solid rgba(124,58,237,0.2);
       border-radius: 14px;
       padding: 1.2rem 1.4rem;
       margin-bottom: 1rem;
@@ -309,12 +309,12 @@
     }
 
     .price-table th {
-      background: rgba(155,95,255,0.15);
+      background: rgba(124,58,237,0.15);
       color: var(--purple-light);
       padding: 0.7rem 1rem;
       text-align: left;
       font-weight: 700;
-      border-bottom: 2px solid rgba(155,95,255,0.3);
+      border-bottom: 2px solid rgba(124,58,237,0.3);
     }
 
     .price-table td {
@@ -325,12 +325,12 @@
     }
 
     .price-table tr:last-child td { border-bottom: none; }
-    .price-table tr:hover td { background: rgba(155,95,255,0.06); }
+    .price-table tr:hover td { background: rgba(124,58,237,0.06); }
 
     /* CTA INLINE */
     .cta-inline {
-      background: linear-gradient(135deg, rgba(90,0,184,0.25), rgba(155,95,255,0.15));
-      border: 1px solid rgba(155,95,255,0.35);
+      background: linear-gradient(135deg, rgba(37,99,235,0.25), rgba(124,58,237,0.15));
+      border: 1px solid rgba(124,58,237,0.35);
       border-radius: 16px;
       padding: 1.8rem 1.6rem;
       margin: 2.5rem 0;
@@ -343,14 +343,14 @@
       margin-bottom: 1.1rem !important;
     }
 
-    .cta-inline strong { color: #fff; }
+    .cta-inline strong { color: #0F172A; }
 
     .btn-wa {
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
       background: linear-gradient(135deg, #25D366, #128C7E);
-      color: #fff;
+      color: #0F172A;
       text-decoration: none;
       font-weight: 700;
       font-size: 0.97rem;
@@ -368,7 +368,7 @@
     /* FAQ */
     .faq-item {
       background: var(--bg2);
-      border: 1px solid rgba(155,95,255,0.18);
+      border: 1px solid rgba(124,58,237,0.18);
       border-radius: 12px;
       padding: 1.2rem 1.4rem;
       margin-bottom: 1rem;
@@ -377,7 +377,7 @@
     .faq-item h4 {
       font-size: 0.98rem;
       font-weight: 700;
-      color: #fff;
+      color: #0F172A;
       margin-bottom: 0.5rem;
     }
 
@@ -390,13 +390,13 @@
     /* FOOTER */
     footer {
       background: var(--bg2);
-      border-top: 1px solid rgba(155,95,255,0.15);
+      border-top: 1px solid rgba(124,58,237,0.15);
       padding: 2.5rem 1.25rem;
       text-align: center;
     }
 
     .footer-logo {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 1rem;
       font-weight: 700;
       color: var(--purple-light);
@@ -431,7 +431,7 @@
     .badge-price {
       display: inline-block;
       background: linear-gradient(135deg, var(--purple-dark), var(--purple-light));
-      color: #fff;
+      color: #0F172A;
       font-size: 0.85rem;
       font-weight: 700;
       padding: 0.2rem 0.7rem;
@@ -491,7 +491,7 @@
   <!-- NAV -->
   <nav>
     <a href="../../index_con_logo.html" class="nav-logo">
-      <img src="../../logo.png" alt="AI Company CO logo" />
+      <img src="/logo_aicompany_CO_FINAL.svg" alt="AI Company CO logo" />
       <span>AI Company CO</span>
     </a>
     <a href="../../index_con_logo.html#contacto" class="btn-nav">Hablemos →</a>

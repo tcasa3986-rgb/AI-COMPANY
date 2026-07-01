@@ -7,7 +7,7 @@
 <meta name="description" content="Desarrollamos aplicaciones empresariales a medida para iOS, Android y web en Colombia. Apps con IA integrada, conectadas a tus sistemas. Precios desde COP $15M." />
 <link rel="canonical" href="https://aicompanyco.com/servicios/apps-empresariales/" />
 <link rel="icon" type="image/png" href="../../logo.png" />
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -30,26 +30,26 @@
 </script>
 <style>
   :root {
-    --purple-dark: #5A00B8;
-    --purple-light: #9B5FFF;
-    --bg: #0D0D14;
-    --bg2: #12121C;
-    --text: #E8E8F0;
-    --text-muted: #8A8D99;
-    --border: rgba(90,0,184,0.18);
+    --purple-dark: #2563EB;
+    --purple-light: #7C3AED;
+    --bg: #FFFFFF;
+    --bg2: #F8FAFC;
+    --text: #334155;
+    --text-muted: #64748B;
+    --border: rgba(37,99,235,0.18);
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; line-height: 1.7; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.7; }
   h1,h2,h3 { font-family: 'Space Grotesk', sans-serif; }
   a { color: var(--purple-light); }
   .container { max-width: 900px; margin: 0 auto; padding: 0 5%; }
-  .hero { padding: 9rem 5% 5rem; text-align: center; background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(90,0,184,0.22) 0%, transparent 70%); }
-  .badge { display: inline-block; background: rgba(90,0,184,0.25); border: 1px solid var(--border); color: var(--purple-light); padding: 0.3rem 1rem; border-radius: 100px; font-size: 0.78rem; letter-spacing: 0.1em; margin-bottom: 1.2rem; }
+  .hero { padding: 9rem 5% 5rem; text-align: center; background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(37,99,235,0.22) 0%, transparent 70%); }
+  .badge { display: inline-block; background: rgba(37,99,235,0.25); border: 1px solid var(--border); color: var(--purple-light); padding: 0.3rem 1rem; border-radius: 100px; font-size: 0.78rem; letter-spacing: 0.1em; margin-bottom: 1.2rem; }
   .hero h1 { font-size: clamp(1.6rem, 4vw, 2.6rem); font-weight: 800; line-height: 1.2; margin-bottom: 1.2rem; }
   .hero p { font-size: 1.1rem; color: var(--text-muted); max-width: 640px; margin: 0 auto 2rem; }
   .btn-wa { display: inline-block; background: #25D366; color: #fff; padding: 0.85rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 1rem; }
   section { padding: 4rem 5%; }
-  .section-title { font-size: clamp(1.2rem, 2.5vw, 1.7rem); margin-bottom: 0.8rem; color: #fff; }
+  .section-title { font-size: clamp(1.2rem, 2.5vw, 1.7rem); margin-bottom: 0.8rem; color: #0F172A; }
   .section-sub { color: var(--text-muted); margin-bottom: 2.5rem; max-width: 640px; }
   .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
   .card { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 1.8rem; }
@@ -64,21 +64,21 @@
   .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
   .price-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; }
   .price-card.popular { border-color: var(--purple-dark); }
-  .price-card h3 { font-size: 1rem; margin-bottom: 0.8rem; color: #fff; }
+  .price-card h3 { font-size: 1rem; margin-bottom: 0.8rem; color: #0F172A; }
   .price-card .price { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; color: var(--purple-light); margin: 0.6rem 0; }
   .price-card ul { list-style: none; text-align: left; margin: 1rem 0; display: flex; flex-direction: column; gap: 0.5rem; }
   .price-card li { font-size: 0.85rem; color: var(--text-muted); }
   .price-card li::before { content: "✓ "; color: var(--purple-light); }
   .faq { display: flex; flex-direction: column; gap: 1rem; }
   .faq-item { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 1.4rem; }
-  .faq-item h3 { font-size: 0.95rem; color: #fff; margin-bottom: 0.5rem; font-family: 'DM Sans', sans-serif; font-weight: 500; }
+  .faq-item h3 { font-size: 0.95rem; color: #0F172A; margin-bottom: 0.5rem; font-family: 'Inter', sans-serif; font-weight: 500; }
   .faq-item p { font-size: 0.87rem; color: var(--text-muted); }
-  .cta-section { background: radial-gradient(ellipse 80% 100% at 50% 50%, rgba(90,0,184,0.18) 0%, transparent 70%); text-align: center; padding: 5rem 5%; }
+  .cta-section { background: radial-gradient(ellipse 80% 100% at 50% 50%, rgba(37,99,235,0.18) 0%, transparent 70%); text-align: center; padding: 5rem 5%; }
   .breadcrumb { padding: 6rem 5% 0; font-size: 0.82rem; color: var(--text-muted); }
   .breadcrumb a { color: var(--text-muted); text-decoration: none; }
   .breadcrumb a:hover { color: var(--purple-light); }
   .tools-list { display: flex; flex-wrap: wrap; gap: 0.8rem; }
-  .tool-badge { background: rgba(155,95,255,0.12); border: 1px solid rgba(155,95,255,0.3); color: var(--purple-light); padding: 0.4rem 1rem; border-radius: 100px; font-size: 0.82rem; }
+  .tool-badge { background: rgba(124,58,237,0.12); border: 1px solid rgba(124,58,237,0.3); color: var(--purple-light); padding: 0.4rem 1rem; border-radius: 100px; font-size: 0.82rem; }
   .highlight { color: var(--purple-light); }
   @media (max-width: 768px) {
     nav span { display: none; }
@@ -99,12 +99,12 @@
 </head>
 <body>
 
-<nav style="position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1rem 5%;background:rgba(13,13,20,0.95);backdrop-filter:blur(24px);border-bottom:1px solid rgba(90,0,184,0.18);">
+<nav style="position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1rem 5%;background:rgba(255,255,255,0.95);backdrop-filter:blur(24px);border-bottom:1px solid rgba(37,99,235,0.18);">
   <a href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
-    <img src="../../logo.png" alt="AI Company CO" style="width:40px;height:40px;object-fit:contain;mix-blend-mode:screen;">
-    <span style="font-family:'Space Grotesk',sans-serif;font-size:0.9rem;font-weight:700;color:#fff;letter-spacing:0.1em;">AI COMPANY CO</span>
+    <img src="/logo_aicompany_CO_FINAL.svg" alt="AI Company CO" style="width:40px;height:40px;object-fit:contain;">
+    <span style="font-family:'Space Grotesk',sans-serif;font-size:0.9rem;font-weight:700;color:#0F172A;letter-spacing:0.1em;"></span>
   </a>
-  <a href="/#contacto" style="background:#5A00B8;color:#fff;padding:0.6rem 1.4rem;border-radius:4px;text-decoration:none;font-size:0.82rem;font-weight:500;">Hablemos →</a>
+  <a href="/#contacto" style="background:#2563EB;color:#fff;padding:0.6rem 1.4rem;border-radius:4px;text-decoration:none;font-size:0.82rem;font-weight:500;">Hablemos →</a>
 </nav>
 
 <div class="breadcrumb">
@@ -327,8 +327,8 @@
   <a href="https://wa.me/573212674754?text=Hola,%20quiero%20hablar%20sobre%20el%20desarrollo%20de%20una%20app%20empresarial" class="btn-wa">Hablar con un desarrollador →</a>
 </section>
 
-<footer style="background:#0D0D14;border-top:1px solid rgba(255,255,255,0.06);padding:2rem 5%;text-align:center;">
-  <p style="font-size:0.78rem;color:#8A8D99;">© 2025 AI Company CO · <a href="/politica-de-privacidad/" style="color:#9B5FFF;">Privacidad</a> · <a href="/terminos-y-condiciones/" style="color:#9B5FFF;">Términos</a> · <a href="/tratamiento-de-datos/" style="color:#9B5FFF;">Tratamiento de datos</a></p>
+<footer style="background:#FFFFFF;border-top:1px solid rgba(255,255,255,0.06);padding:2rem 5%;text-align:center;">
+  <p style="font-size:0.78rem;color:#64748B;">© 2025 AI Company CO · <a href="/politica-de-privacidad/" style="color:#7C3AED;">Privacidad</a> · <a href="/terminos-y-condiciones/" style="color:#7C3AED;">Términos</a> · <a href="/tratamiento-de-datos/" style="color:#7C3AED;">Tratamiento de datos</a></p>
 </footer>
 <script src="../../wa-widget.js"></script>
 </body>
