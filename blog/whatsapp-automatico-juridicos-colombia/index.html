@@ -9,7 +9,7 @@
   <link rel="icon" href="../../logo.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <script type="application/ld+json">
   {
@@ -88,12 +88,12 @@
 
   <style>
     :root {
-      --purple-dark: #5A00B8;
-      --purple-light: #9B5FFF;
-      --bg: #0D0D14;
-      --bg2: #12121C;
-      --text: #E8E8F0;
-      --text-muted: #8A8D99;
+      --purple-dark: #2563EB;
+      --purple-light: #7C3AED;
+      --bg: #FFFFFF;
+      --bg2: #F8FAFC;
+      --text: #334155;
+      --text-muted: #64748B;
     }
 
     *, *::before, *::after {
@@ -107,7 +107,7 @@
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 17px;
       line-height: 1.75;
     }
@@ -119,9 +119,9 @@
       left: 0;
       right: 0;
       z-index: 100;
-      background: rgba(13,13,20,0.95);
+      background: rgba(255,255,255,0.95);
       backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(155,95,255,0.15);
+      border-bottom: 1px solid rgba(124,58,237,0.15);
       padding: 0 24px;
       height: 64px;
       display: flex;
@@ -143,7 +143,7 @@
     }
 
     .nav-logo span {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 13px;
       font-weight: 700;
       color: var(--text);
@@ -152,7 +152,7 @@
 
     .nav-cta {
       background: var(--purple-dark);
-      color: #fff;
+      color: #0F172A;
       text-decoration: none;
       padding: 9px 20px;
       border-radius: 8px;
@@ -192,9 +192,9 @@
 
     .post-category {
       display: inline-block;
-      background: rgba(155,95,255,0.15);
+      background: rgba(124,58,237,0.15);
       color: var(--purple-light);
-      border: 1px solid rgba(155,95,255,0.3);
+      border: 1px solid rgba(124,58,237,0.3);
       border-radius: 20px;
       font-size: 12px;
       font-weight: 600;
@@ -205,7 +205,7 @@
     }
 
     .hero h1 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(24px, 4vw, 38px);
       font-weight: 700;
       line-height: 1.25;
@@ -226,7 +226,7 @@
       align-items: center;
     }
 
-    .post-meta .separator { color: rgba(155,95,255,0.4); }
+    .post-meta .separator { color: rgba(124,58,237,0.4); }
 
     /* ARTICLE BODY */
     .article-body {
@@ -239,13 +239,13 @@
     }
 
     .article-body h2 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(18px, 2.5vw, 24px);
       font-weight: 700;
       color: var(--text);
       margin: 44px 0 16px;
       padding-top: 8px;
-      border-top: 1px solid rgba(155,95,255,0.2);
+      border-top: 1px solid rgba(124,58,237,0.2);
     }
 
     .article-body h3 {
@@ -266,7 +266,7 @@
     }
 
     .article-body strong {
-      color: #fff;
+      color: #0F172A;
       font-weight: 600;
     }
 
@@ -295,8 +295,8 @@
 
     /* CALLOUT */
     .callout {
-      background: linear-gradient(135deg, rgba(90,0,184,0.2) 0%, rgba(155,95,255,0.1) 100%);
-      border: 1px solid rgba(155,95,255,0.35);
+      background: linear-gradient(135deg, rgba(37,99,235,0.2) 0%, rgba(124,58,237,0.1) 100%);
+      border: 1px solid rgba(124,58,237,0.35);
       border-radius: 14px;
       padding: 24px 28px;
       margin: 36px 0;
@@ -304,7 +304,7 @@
     }
 
     .callout .callout-stat {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(28px, 5vw, 42px);
       font-weight: 700;
       color: var(--purple-light);
@@ -320,8 +320,8 @@
 
     /* CTA INLINE */
     .cta-inline {
-      background: linear-gradient(135deg, rgba(90,0,184,0.25) 0%, rgba(155,95,255,0.15) 100%);
-      border: 1px solid rgba(155,95,255,0.4);
+      background: linear-gradient(135deg, rgba(37,99,235,0.25) 0%, rgba(124,58,237,0.15) 100%);
+      border: 1px solid rgba(124,58,237,0.4);
       border-radius: 16px;
       padding: 32px 28px;
       margin: 40px 0;
@@ -329,9 +329,9 @@
     }
 
     .cta-inline h3 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 18px;
-      color: #fff;
+      color: #0F172A;
       margin-bottom: 10px;
       border: none !important;
       padding: 0 !important;
@@ -348,7 +348,7 @@
       align-items: center;
       gap: 10px;
       background: #25D366;
-      color: #fff;
+      color: #0F172A;
       text-decoration: none;
       padding: 14px 28px;
       border-radius: 10px;
@@ -371,7 +371,7 @@
 
     /* FAQ */
     .faq-item {
-      border-bottom: 1px solid rgba(155,95,255,0.15);
+      border-bottom: 1px solid rgba(124,58,237,0.15);
       padding: 24px 0;
     }
 
@@ -380,7 +380,7 @@
     .faq-item h3 {
       font-size: 16px;
       font-weight: 600;
-      color: #fff;
+      color: #0F172A;
       margin-bottom: 10px;
     }
 
@@ -399,7 +399,7 @@
     }
 
     .price-table thead tr {
-      background: rgba(155,95,255,0.15);
+      background: rgba(124,58,237,0.15);
     }
 
     .price-table th {
@@ -407,7 +407,7 @@
       text-align: left;
       font-weight: 600;
       color: var(--purple-light);
-      border-bottom: 2px solid rgba(155,95,255,0.3);
+      border-bottom: 2px solid rgba(124,58,237,0.3);
     }
 
     .price-table td {
@@ -417,19 +417,19 @@
     }
 
     .price-table tr:hover td {
-      background: rgba(155,95,255,0.05);
+      background: rgba(124,58,237,0.05);
     }
 
     /* FOOTER */
     footer {
       background: var(--bg2);
-      border-top: 1px solid rgba(155,95,255,0.15);
+      border-top: 1px solid rgba(124,58,237,0.15);
       padding: 40px 20px;
       text-align: center;
     }
 
     footer .footer-logo {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 14px;
       font-weight: 700;
       color: var(--text);
@@ -470,7 +470,7 @@
   <!-- NAV -->
   <nav>
     <a href="../../index_con_logo.html" class="nav-logo">
-      <img src="../../logo.png" alt="AI Company CO Logo" />
+      <img src="/logo_aicompany_CO_FINAL.svg" alt="AI Company CO Logo" />
       <span>AI Company CO</span>
     </a>
     <a href="../../index_con_logo.html#contacto" class="nav-cta">Hablemos →</a>

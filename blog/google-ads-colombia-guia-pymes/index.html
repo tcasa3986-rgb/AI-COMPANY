@@ -9,7 +9,7 @@
   <link rel="icon" href="../../logo.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -92,12 +92,12 @@
 
   <style>
     :root {
-      --purple-dark: #5A00B8;
-      --purple-light: #9B5FFF;
-      --bg: #0D0D14;
-      --bg2: #12121C;
-      --text: #E8E8F0;
-      --text-muted: #8A8D99;
+      --purple-dark: #2563EB;
+      --purple-light: #7C3AED;
+      --bg: #FFFFFF;
+      --bg2: #F8FAFC;
+      --text: #334155;
+      --text-muted: #64748B;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -105,7 +105,7 @@
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 17px;
       line-height: 1.75;
     }
@@ -118,9 +118,9 @@
       position: fixed;
       top: 0; left: 0; right: 0;
       z-index: 100;
-      background: rgba(13,13,20,0.95);
+      background: rgba(255,255,255,0.95);
       backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(155,95,255,0.15);
+      border-bottom: 1px solid rgba(124,58,237,0.15);
       padding: 0 24px;
       height: 60px;
       display: flex;
@@ -142,7 +142,7 @@
     }
 
     .nav-logo span {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 14px;
       font-weight: 700;
       color: var(--text);
@@ -151,7 +151,7 @@
 
     .btn-nav {
       background: linear-gradient(135deg, var(--purple-dark), var(--purple-light));
-      color: #fff;
+      color: #0F172A;
       padding: 8px 18px;
       border-radius: 8px;
       font-size: 14px;
@@ -181,14 +181,14 @@
     /* HERO */
     .hero {
       padding: 24px 0 40px;
-      border-bottom: 1px solid rgba(155,95,255,0.12);
+      border-bottom: 1px solid rgba(124,58,237,0.12);
     }
 
     .post-category {
       display: inline-block;
-      background: rgba(155,95,255,0.15);
+      background: rgba(124,58,237,0.15);
       color: var(--purple-light);
-      border: 1px solid rgba(155,95,255,0.3);
+      border: 1px solid rgba(124,58,237,0.3);
       padding: 4px 12px;
       border-radius: 20px;
       font-size: 12px;
@@ -199,7 +199,7 @@
     }
 
     .hero h1 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(24px, 4vw, 38px);
       font-weight: 900;
       line-height: 1.25;
@@ -226,17 +226,17 @@
     }
 
     .article-body h2 {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(18px, 3vw, 24px);
       font-weight: 700;
-      color: #fff;
+      color: #0F172A;
       margin: 44px 0 16px;
       padding-bottom: 8px;
-      border-bottom: 2px solid rgba(155,95,255,0.25);
+      border-bottom: 2px solid rgba(124,58,237,0.25);
     }
 
     .article-body h3 {
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 18px;
       font-weight: 600;
       color: var(--purple-light);
@@ -253,14 +253,14 @@
     }
 
     .article-body strong {
-      color: #fff;
+      color: #0F172A;
       font-weight: 600;
     }
 
     /* USE CASE */
     .use-case {
       background: var(--bg2);
-      border: 1px solid rgba(155,95,255,0.2);
+      border: 1px solid rgba(124,58,237,0.2);
       border-left: 4px solid var(--purple-light);
       border-radius: 10px;
       padding: 20px 24px;
@@ -283,8 +283,8 @@
 
     /* CALLOUT */
     .callout {
-      background: linear-gradient(135deg, rgba(90,0,184,0.2), rgba(155,95,255,0.1));
-      border: 1px solid rgba(155,95,255,0.35);
+      background: linear-gradient(135deg, rgba(37,99,235,0.2), rgba(124,58,237,0.1));
+      border: 1px solid rgba(124,58,237,0.35);
       border-radius: 12px;
       padding: 24px 28px;
       margin: 32px 0;
@@ -292,7 +292,7 @@
     }
 
     .callout .callout-stat {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: clamp(28px, 5vw, 42px);
       font-weight: 900;
       color: var(--purple-light);
@@ -308,8 +308,8 @@
 
     /* CTA INLINE */
     .cta-inline {
-      background: linear-gradient(135deg, rgba(90,0,184,0.25), rgba(155,95,255,0.15));
-      border: 1px solid rgba(155,95,255,0.4);
+      background: linear-gradient(135deg, rgba(37,99,235,0.25), rgba(124,58,237,0.15));
+      border: 1px solid rgba(124,58,237,0.4);
       border-radius: 14px;
       padding: 28px 28px;
       margin: 36px 0;
@@ -328,7 +328,7 @@
       align-items: center;
       gap: 8px;
       background: linear-gradient(135deg, #25D366, #128C7E);
-      color: #fff;
+      color: #0F172A;
       padding: 13px 26px;
       border-radius: 10px;
       font-size: 15px;
@@ -346,7 +346,7 @@
     /* FAQ */
     .faq-item {
       background: var(--bg2);
-      border: 1px solid rgba(155,95,255,0.18);
+      border: 1px solid rgba(124,58,237,0.18);
       border-radius: 10px;
       padding: 20px 22px;
       margin-bottom: 16px;
@@ -355,7 +355,7 @@
     .faq-item h3 {
       font-size: 16px;
       font-weight: 600;
-      color: #fff;
+      color: #0F172A;
       margin: 0 0 10px;
     }
 
@@ -374,12 +374,12 @@
     }
 
     .price-table th {
-      background: rgba(155,95,255,0.15);
+      background: rgba(124,58,237,0.15);
       color: var(--purple-light);
       font-weight: 600;
       padding: 10px 14px;
       text-align: left;
-      border-bottom: 1px solid rgba(155,95,255,0.25);
+      border-bottom: 1px solid rgba(124,58,237,0.25);
     }
 
     .price-table td {
@@ -389,18 +389,18 @@
     }
 
     .price-table tr:last-child td { border-bottom: none; }
-    .price-table tr:hover td { background: rgba(155,95,255,0.05); }
+    .price-table tr:hover td { background: rgba(124,58,237,0.05); }
 
     /* FOOTER */
     footer {
       background: var(--bg2);
-      border-top: 1px solid rgba(155,95,255,0.12);
+      border-top: 1px solid rgba(124,58,237,0.12);
       padding: 40px 20px;
       text-align: center;
     }
 
     .footer-logo {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 16px;
       font-weight: 700;
       color: var(--text);
@@ -437,7 +437,7 @@
   <!-- NAV -->
   <nav>
     <a href="../../index_con_logo.html" class="nav-logo">
-      <img src="../../logo.png" alt="AI Company CO Logo">
+      <img src="/logo_aicompany_CO_FINAL.svg" alt="AI Company CO Logo">
       <span>AI Company CO</span>
     </a>
     <a href="../../index_con_logo.html#contacto" class="btn-nav">Hablemos →</a>
