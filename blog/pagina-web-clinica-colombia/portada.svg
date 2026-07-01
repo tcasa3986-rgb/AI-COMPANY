@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Página Web para Clínicas en Colombia 2026">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1060" cy="110" r="230" fill="#ffffff" opacity="0.06"/>
+  <circle cx="150" cy="580" r="190" fill="#ffffff" opacity="0.05"/>
+  <rect x="80" y="68" width="66" height="40" rx="20" fill="#ffffff" opacity="0.18"/>
+  <text x="102" y="95" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" fill="#ffffff" letter-spacing="1.5">IA</text>
+  <text font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff"><tspan x="80" y="278">Página Web para Clínicas</tspan><tspan x="80" y="340">en Colombia 2026</tspan></text>
+  <text x="80" y="572" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">AI Company CO</text>
+  <text x="80" y="600" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff" opacity="0.85">aicompanyco.com · Automatización · IA · Crecimiento</text>
+</svg>
