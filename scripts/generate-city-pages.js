@@ -245,7 +245,7 @@ function generateCityPage(city) {
 <body>
 
 <nav>
-  <a href="/" class="nav-logo"><img src="/logo_aicompany_CO_FINAL.svg" alt="AI Company CO" />AI Company CO</a>
+  <a href="/" class="nav-logo"><img src="/logo_aicompany_CO_FINAL.svg" alt="AI Company CO" style="height:40px;" /></a>
   <div class="nav-links">
     <a href="/servicios/">Servicios</a>
     <a href="/precios/">Precios</a>

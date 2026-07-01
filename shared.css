@@ -52,15 +52,9 @@ body { background: var(--dark); color: var(--text); font-family: var(--font-b); 
 .s-nav-logo img {
   width: 36px; height: 36px; object-fit: contain;
 }
-.s-nav-brand {
-  font-family: var(--font-h); font-size: 0.95rem; font-weight: 700;
-  color: var(--purple); letter-spacing: 0.02em; line-height: 1.1;
-}
-.s-nav-sub {
-  font-family: var(--font-b); font-size: 0.58rem; font-weight: 400;
-  color: var(--purple-xl); letter-spacing: 0.15em;
-  display: block; text-transform: uppercase;
-}
+.s-nav-brand { display: none; }
+.s-nav-sub { display: none; }
+.s-nav-logo img { width: 42px; height: 42px; }
 .s-nav-links {
   display: flex; gap: 2rem; list-style: none;
 }
