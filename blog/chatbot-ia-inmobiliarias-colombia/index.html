@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot con IA para Inmobiliarias en Colombia: Califica Compradores Solo | AI Company CO</title>
+  <meta name="description" content="Descubre cómo un chatbot con IA califica compradores de vivienda 24/7 para inmobiliarias en Colombia. Menos tiempo perdido, más cierres reales." />
+  <link rel="canonical" href="https://aicompanyco.com/blog/chatbot-ia-inmobiliarias-colombia/" />
+  <link rel="icon" href="../../logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Chatbot con IA para Inmobiliarias en Colombia: Califica Compradores Solo",
+    "description": "Descubre cómo un chatbot con IA califica compradores de vivienda 24/7 para inmobiliarias en Colombia. Menos tiempo perdido, más cierres reales.",
+    "url": "https://aicompanyco.com/blog/chatbot-ia-inmobiliarias-colombia/",
+    "datePublished": "2026-06-01",
+    "dateModified": "2026-06-01",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://aicompanyco.com/logo.png",
+      "width": 400,
+      "height": 400
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "AI Company CO",
+      "url": "https://aicompanyco.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AI Company CO",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aicompanyco.com/logo.png",
+        "width": 400,
+        "height": 400
+      }
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Puede un chatbot con IA reemplazar a un asesor inmobiliario en Colombia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No reemplaza al asesor, lo potencia. El chatbot con IA se encarga de responder preguntas iniciales, calificar el presupuesto y agendar visitas. El asesor solo entra en juego cuando el cliente ya está listo para avanzar, ahorrando hasta 3 horas diarias de gestión repetitiva."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto cuesta implementar un chatbot con IA para una inmobiliaria en Colombia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El costo de implementación en AI Company CO parte desde $1.800.000 COP para inmobiliarias pequeñas, con planes mensuales desde $390.000 COP. El retorno suele recuperarse en el primer cierre adicional que genera el sistema de calificación automática."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿El chatbot funciona en WhatsApp para inmobiliarias colombianas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. El chatbot se integra directamente con WhatsApp Business API, que es el canal preferido por los compradores colombianos. El bot atiende consultas, envía fichas de proyectos y califica leads sin que el asesor tenga que estar disponible."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué información puede calificar automáticamente el chatbot en una inmobiliaria?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El chatbot puede recolectar y calificar: presupuesto disponible, zona de interés, tipo de inmueble (casa, apartamento, local), si ya tiene subsidio o crédito aprobado, número de personas en el núcleo familiar y urgencia de compra. Con eso, el asesor recibe un lead 100% perfilado."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --purple-dark: #5A00B8;
+      --purple-light: #9B5FFF;
+      --bg: #0D0D14;
+      --bg2: #12121C;
+      --text: #E8E8F0;
+      --text-muted: #8A8D99;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    a { color: var(--purple-light); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(13,13,20,0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(155,95,255,0.15);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      height: 60px;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .nav-logo img {
+      width: 34px;
+      height: 34px;
+      border-radius: 6px;
+    }
+
+    .btn-nav {
+      background: var(--purple-dark);
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: background 0.2s;
+      text-decoration: none;
+    }
+
+    .btn-nav:hover { background: var(--purple-light); text-decoration: none; }
+
+    /* CONTAINER */
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* BREADCRUMB */
+    .breadcrumb {
+      padding: 84px 0 0;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .breadcrumb a { color: var(--text-muted); }
+    .breadcrumb a:hover { color: var(--purple-light); }
+    .breadcrumb span { margin: 0 6px; }
+
+    /* HERO */
+    .hero {
+      padding: 28px 0 40px;
+    }
+
+    .post-category {
+      display: inline-block;
+      background: rgba(90,0,184,0.25);
+      color: var(--purple-light);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid rgba(155,95,255,0.3);
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(22px, 4vw, 34px);
+      font-weight: 700;
+      line-height: 1.3;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+
+    .post-meta {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    /* ARTICLE BODY */
+    .article-body {
+      padding-bottom: 60px;
+    }
+
+    .article-body h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(18px, 3vw, 24px);
+      font-weight: 700;
+      color: #fff;
+      margin: 44px 0 16px;
+      line-height: 1.35;
+    }
+
+    .article-body h3 {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--purple-light);
+      margin: 30px 0 12px;
+    }
+
+    .article-body p {
+      margin-bottom: 18px;
+      color: var(--text);
+    }
+
+    .article-body ul, .article-body ol {
+      margin: 0 0 20px 20px;
+      color: var(--text);
+    }
+
+    .article-body li {
+      margin-bottom: 10px;
+    }
+
+    .article-body strong { color: #fff; }
+
+    /* CALLOUT */
+    .callout {
+      background: rgba(90,0,184,0.18);
+      border-left: 4px solid var(--purple-light);
+      border-radius: 0 10px 10px 0;
+      padding: 20px 24px;
+      margin: 32px 0;
+      font-size: 16px;
+      color: var(--text);
+    }
+
+    .callout strong {
+      display: block;
+      font-size: 22px;
+      color: var(--purple-light);
+      margin-bottom: 6px;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    /* CTA INLINE */
+    .cta-inline {
+      background: var(--bg2);
+      border: 1px solid rgba(155,95,255,0.25);
+      border-radius: 14px;
+      padding: 28px 24px;
+      margin: 36px 0;
+      text-align: center;
+    }
+
+    .cta-inline p {
+      font-size: 17px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+
+    .btn-wa {
+      display: inline-block;
+      background: #25D366;
+      color: #fff;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 13px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    .btn-wa:hover {
+      background: #1ebe5d;
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    /* USE CASE */
+    .use-case {
+      background: var(--bg2);
+      border: 1px solid rgba(155,95,255,0.2);
+      border-radius: 12px;
+      padding: 22px 24px;
+      margin: 20px 0;
+    }
+
+    .use-case .uc-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--purple-light);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .use-case p {
+      margin-bottom: 0;
+      font-size: 15px;
+    }
+
+    /* FAQ */
+    .faq-item {
+      border-top: 1px solid rgba(155,95,255,0.15);
+      padding: 20px 0;
+    }
+
+    .faq-item:last-child {
+      border-bottom: 1px solid rgba(155,95,255,0.15);
+    }
+
+    .faq-item h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin: 0 0 10px;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    .faq-item p {
+      font-size: 15px;
+      margin-bottom: 0;
+      color: var(--text-muted);
+    }
+
+    /* DIVIDER */
+    hr {
+      border: none;
+      border-top: 1px solid rgba(155,95,255,0.12);
+      margin: 40px 0;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg2);
+      border-top: 1px solid rgba(155,95,255,0.12);
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    footer a { color: var(--text-muted); margin: 0 10px; }
+    footer a:hover { color: var(--purple-light); }
+    footer .footer-links { margin-bottom: 14px; }
+    footer .footer-copy { font-size: 12px; }
+
+    @media (max-width: 480px) {
+      nav { padding: 0 14px; }
+      .container { padding: 0 16px; }
+      .cta-inline { padding: 22px 16px; }
+      .use-case { padding: 18px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="../../index_con_logo.html" class="nav-logo">
+      <img src="../../logo.png" alt="AI Company CO logo" />
+      AI Company CO
+    </a>
+    <a href="../../index_con_logo.html#contacto" class="btn-nav">Hablemos →</a>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../../index_con_logo.html">Inicio</a>
+      <span>›</span>
+      <a href="../../blog/">Blog</a>
+      <span>›</span>
+      <span>Chatbot IA para Inmobiliarias</span>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <header class="container">
+    <div class="hero">
+      <span class="post-category">Chatbot IA · Inmobiliarias</span>
+      <h1>Chatbot con IA para Inmobiliarias en Colombia: Califica Compradores Solo</h1>
+      <p class="post-meta">Por AI Company CO · Junio 1, 2026 · 7 minutos de lectura</p>
+    </div>
+  </header>
+
+  <!-- ARTICLE -->
+  <main class="container">
+    <article class="article-body">
+
+      <p>Una inmobiliaria en Bogotá recibe 80 mensajes de WhatsApp al día sobre proyectos de vivienda. De esos 80, apenas 12 son compradores reales. Los otros 68 son personas que "solo están mirando", que no tienen cupo de crédito, que buscan algo que no existe en el portafolio, o que simplemente mandan mensajes a todas las inmobiliarias de la ciudad al mismo tiempo. El asesor pierde 4 horas diarias respondiendo preguntas repetitivas y al final del mes cierra 3 ventas que pudo haber cerrado 8.</p>
+
+      <p>Este es el problema número uno de las inmobiliarias en Colombia hoy. No es la falta de leads, es la falta de filtro. Y la solución no es contratar más asesores, es automatizar la calificación con inteligencia artificial.</p>
+
+      <h2>¿Qué es un chatbot con IA para inmobiliarias y cómo funciona?</h2>
+
+      <p>Un chatbot con IA para inmobiliarias es un asistente virtual que conversa con los interesados en tiempo real, hace las preguntas correctas y entrega al asesor solo los leads que ya pasaron un filtro. No es un bot de respuestas automáticas genéricas. Es un sistema entrenado con el portafolio real de la inmobiliaria, con las condiciones de financiación disponibles en Colombia (Camacol, Fonvivienda, crédito hipotecario, cuota inicial) y con el perfil típico del comprador según el proyecto.</p>
+
+      <p>El flujo típico funciona así:</p>
+
+      <ol>
+        <li>El interesado llega por WhatsApp, el sitio web o redes sociales.</li>
+        <li>El chatbot saluda, presenta los proyectos disponibles y empieza una conversación natural.</li>
+        <li>El bot pregunta por presupuesto, zona de interés, tipo de inmueble, condición de crédito y urgencia.</li>
+        <li>Con esa información, el sistema clasifica al lead: <strong>caliente, tibio o descartado</strong>.</li>
+        <li>Los leads calientes van directo al asesor con todo el contexto. Los tibios entran a una secuencia de seguimiento automático. Los descartados reciben una respuesta amable y quedan archivados.</li>
+      </ol>
+
+      <p>El asesor ya no arranca desde cero. Llega a la conversación sabiendo que el cliente tiene $180.000.000 COP de presupuesto, busca en Suba o Engativá, ya tiene carta de aprobación del banco y quiere cerrar en los próximos 60 días.</p>
+
+      <h2>Casos de uso reales en inmobiliarias colombianas</h2>
+
+      <div class="use-case">
+        <span class="uc-label">Caso 1 — Proyecto VIS en Soacha o Mosquera</span>
+        <p>El bot recibe consultas sobre torres de interés social. Pregunta si el comprador es cabeza de hogar, si ya aplicó al subsidio de Mi Casa Ya, cuánto tiene ahorrado para cuota inicial y cuál es su ingreso mensual. En 4 minutos tiene el perfil completo. Si cumple los requisitos, agenda cita con el asesor de preventas al día siguiente.</p>
+      </div>
+
+      <div class="use-case">
+        <span class="uc-label">Caso 2 — Apartamentos de estrato 4-5 en Chía o Cajicá</span>
+        <p>El chatbot presenta planos, áreas y precios. Pregunta si el cliente busca para vivir o para inversión, si ya vendió una propiedad anterior, y si prefiere pago de contado o financiado. Con esa info, el sistema envía la ficha técnica del proyecto que mejor encaja y programa un recorrido virtual con el asesor especializado.</p>
+      </div>
+
+      <div class="use-case">
+        <span class="uc-label">Caso 3 — Locales comerciales y bodegas en Bogotá</span>
+        <p>El bot califica si el cliente es comprador final o inversionista, pregunta por área mínima requerida, uso del inmueble y si necesita zona de cargue. Filtra solicitudes que no tienen presupuesto real y entrega solo prospectos con capacidad de pago verificada al equipo comercial.</p>
+      </div>
+
+      <div class="use-case">
+        <span class="uc-label">Caso 4 — Seguimiento post-visita</span>
+        <p>Después de que el cliente visitó el proyecto, el chatbot hace seguimiento automático a las 24, 48 y 72 horas. Pregunta qué dudas quedaron, si ya habló con el banco y si quiere una segunda visita. Esto solo, sin que el asesor tenga que recordarlo manualmente, incrementa la tasa de cierre de visitas en más del 30%.</p>
+      </div>
+
+      <div class="callout">
+        <strong>68% de compradores</strong>
+        Según datos del sector inmobiliario colombiano, el 68% de los compradores de vivienda inician su búsqueda por WhatsApp o formularios web. Sin un sistema de calificación automática, las inmobiliarias pierden más de la mitad de esos leads por tiempo de respuesta o falta de seguimiento.
+      </div>
+
+      <div class="cta-inline">
+        <p>¿Tu equipo pierde tiempo calificando leads que no van a comprar?</p>
+        <a class="btn-wa" href="https://wa.me/573212674754?text=Hola%2C%20le%C3%AD%20el%20art%C3%ADculo%20sobre%20chatbot%20ia%20inmobiliarias%20colombia%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener">
+          📲 Cuéntanos tu caso en WhatsApp
+        </a>
+      </div>
+
+      <h2>Integración con WhatsApp, CRM y portales inmobiliarios</h2>
+
+      <p>El chatbot con IA no vive aislado. En AI Company CO lo conectamos con las herramientas que ya usa tu inmobiliaria:</p>
+
+      <ul>
+        <li><strong>WhatsApp Business API:</strong> el canal favorito de los colombianos para consultar propiedades. El bot responde en segundos, a cualquier hora, incluso los domingos a las 10 pm cuando los compradores tienen tiempo libre.</li>
+        <li><strong>CRM inmobiliario:</strong> cada lead calificado llega automáticamente a tu base de datos con el historial completo de la conversación, clasificado por proyecto de interés y etapa del proceso.</li>
+        <li><strong>Metrocuadrado, Fincaraíz, OLX:</strong> los formularios de contacto de estos portales se pueden conectar al flujo del chatbot, para que ningún lead quede sin respuesta más de 5 minutos.</li>
+        <li><strong>Google Calendar o agenda del asesor:</strong> el bot puede agendar visitas directamente según la disponibilidad real del equipo, sin idas y venidas de mensajes.</li>
+      </ul>
+
+      <h2>Cuánto cuesta implementar un chatbot con IA en tu inmobiliaria</h2>
+
+      <p>En Colombia, muchas inmobiliarias medianas han asumido que esta tecnología es solo para las grandes constructoras. No es así. Los costos actuales son accesibles para equipos de 2 a 20 asesores.</p>
+
+      <p>En AI Company CO manejamos estos rangos reales:</p>
+
+      <ul>
+        <li><strong>Implementación inicial:</strong> desde $1.800.000 COP para inmobiliarias pequeñas (1 a 3 asesores, hasta 2 proyectos activos).</li>
+        <li><strong>Plan mensual de operación:</strong> desde $390.000 COP, que incluye mantenimiento del bot, actualización de portafolio y soporte por WhatsApp.</li>
+        <li><strong>Inmobiliarias medianas</strong> (5 a 15 asesores, múltiples proyectos): implementación entre $3.500.000 y $6.000.000 COP con flujos más complejos, integración CRM y panel de métricas en tiempo real.</li>
+      </ul>
+
+      <p>Para ponerlo en perspectiva: una comisión promedio en una venta de apartamento VIS en la Sabana de Bogotá está entre $1.500.000 y $4.000.000 COP. Si el chatbot te ayuda a cerrar una venta adicional por mes que antes se perdía por falta de seguimiento, el sistema se paga solo en el primer mes.</p>
+
+      <div class="callout">
+        <strong>ROI real: 1 venta extra al mes</strong>
+        Una inmobiliaria en Mosquera con 4 asesores implementó el chatbot en febrero de 2026. En los primeros 30 días, el bot procesó 340 consultas, calificó 41 leads como "calientes" y el equipo cerró 2 ventas adicionales directamente atribuibles al seguimiento automatizado. Ingreso extra: $5.800.000 COP ese mes. Costo del sistema: $390.000 COP.
+      </div>
+
+      <h2>Lo que el chatbot hace que el asesor humano no puede hacer solo</h2>
+
+      <p>No se trata de reemplazar al asesor. Se trata de darle superpoderes. Un asesor humano puede manejar bien 8 conversaciones activas al mismo tiempo. El chatbot maneja 800. Un asesor olvida hacer seguimiento a los leads de hace 15 días. El bot tiene recordatorios programados. Un asesor se cansa de responder "¿cuál es el precio del apartamento de 58 m² en la torre B?" por décima vez. El bot lo responde con gusto y sin errores a las 2 am.</p>
+
+      <p>El resultado es que el asesor llega a la oficina cada mañana con una lista priorizada de personas listas para comprar, en lugar de empezar el día desde cero revisando mensajes sin contexto.</p>
+
+      <hr />
+
+      <h2>Preguntas frecuentes sobre chatbot con IA para inmobiliarias en Colombia</h2>
+
+      <div class="faq-item">
+        <h3>¿Puede un chatbot con IA reemplazar a un asesor inmobiliario en Colombia?</h3>
+        <p>No reemplaza al asesor, lo potencia. El chatbot con IA se encarga de responder preguntas iniciales, calificar el presupuesto y agendar visitas. El asesor solo entra en juego cuando el cliente ya está listo para avanzar, ahorrando hasta 3 horas diarias de gestión repetitiva.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>¿Cuánto cuesta implementar un chatbot con IA para una inmobiliaria en Colombia?</h3>
+        <p>El costo de implementación en AI Company CO parte desde $1.800.000 COP para inmobiliarias pequeñas, con planes mensuales desde $390.000 COP. El retorno suele recuperarse en el primer cierre adicional que genera el sistema de calificación automática.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>¿El chatbot funciona en WhatsApp para inmobiliarias colombianas?</h3>
+        <p>Sí. El chatbot se integra directamente con WhatsApp Business API, que es el canal preferido por los compradores colombianos. El bot atiende consultas, envía fichas de proyectos y califica leads sin que el asesor tenga que estar disponible en ese momento.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>¿Qué información puede calificar automáticamente el chatbot en una inmobiliaria?</h3>
+        <p>El chatbot puede recolectar y calificar: presupuesto disponible, zona de interés, tipo de inmueble (casa, apartamento, local), si ya tiene subsidio o crédito aprobado, número de personas en el núcleo familiar y urgencia de compra. Con eso, el asesor recibe un lead 100% perfilado.</p>
+      </div>
+
+      <hr />
+
+      <h2>El siguiente paso para tu inmobiliaria</h2>
+
+      <p>Si tu equipo está perdiendo horas en leads que no van a cerrar, o si los fines de semana nadie responde las consultas que llegan por WhatsApp, el momento de implementar un chatbot con IA es ahora. No dentro de seis meses cuando la competencia ya lo hizo.</p>
+
+      <p>En AI Company CO trabajamos con inmobiliarias en toda Colombia, desde constructoras en Barranquilla hasta agencias familiares en el Eje Cafetero. Sabemos cómo funciona el mercado local, conocemos los portales, los subsidios y las objeciones que tienen los compradores colombianos. Eso se refleja en cada chatbot que entregamos.</p>
+
+      <div class="cta-inline">
+        <p>Agenda una demo gratuita. Te mostramos cómo funciona con tu portafolio real.</p>
+        <a class="btn-wa" href="https://wa.me/573212674754?text=Hola%2C%20le%C3%AD%20el%20art%C3%ADculo%20sobre%20chatbot%20ia%20inmobiliarias%20colombia%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener">
+          📲 Quiero la demo en WhatsApp
+        </a>
+      </div>
+
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-links">
+      <a href="../../index_con_logo.html">Inicio</a>
+      <a href="../../servicios/chatbot-ia/">Chatbot con IA</a>
+      <a href="../../blog/">Blog</a>
+      <a href="../../index_con_logo.html#contacto">Contacto</a>
+    </div>
+    <p class="footer-copy">© 2026 AI Company CO · Soacha, Cundinamarca, Colombia</p>
+  </footer>
+
+</body>
+</html>input_tokens=1406
+output_tokens=7910

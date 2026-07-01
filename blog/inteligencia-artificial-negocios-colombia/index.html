@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inteligencia Artificial para Negocios en Colombia: Aplicaciones Reales | AI Company CO</title>
+  <meta name="description" content="Descubre cómo la inteligencia artificial transforma negocios en Colombia con casos reales, costos en COP y resultados medibles para 2026." />
+  <link rel="canonical" href="https://aicompanyco.com/blog/inteligencia-artificial-negocios-colombia/" />
+  <link rel="icon" href="../../logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Inteligencia Artificial para Negocios en Colombia: Aplicaciones Reales",
+    "description": "Descubre cómo la inteligencia artificial transforma negocios en Colombia con casos reales, costos en COP y resultados medibles para 2026.",
+    "url": "https://aicompanyco.com/blog/inteligencia-artificial-negocios-colombia/",
+    "datePublished": "2026-06-15",
+    "dateModified": "2026-06-15",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://aicompanyco.com/logo.png",
+      "width": 400,
+      "height": 400
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "AI Company CO",
+      "url": "https://aicompanyco.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AI Company CO",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aicompanyco.com/logo.png",
+        "width": 400,
+        "height": 400
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://aicompanyco.com/blog/inteligencia-artificial-negocios-colombia/"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuánto cuesta implementar inteligencia artificial en un negocio en Colombia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El costo varía según la solución. Un asistente IA básico parte desde $800.000 COP mensuales. Proyectos más completos con automatización de procesos y análisis de datos pueden costar entre $3.000.000 y $15.000.000 COP. En AI Company CO ofrecemos planes escalables según el tamaño del negocio."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué tipo de negocios colombianos pueden usar IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Prácticamente cualquier sector: restaurantes, clínicas, tiendas de ropa, distribuidoras, agencias inmobiliarias, colegios, talleres de servicio técnico y más. Si tu negocio recibe consultas repetitivas, maneja inventario o necesita atender clientes fuera de horario, la IA te puede ayudar desde el primer mes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Es necesario tener conocimientos técnicos para usar un asistente IA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. En AI Company CO nos encargamos de toda la configuración, integración y entrenamiento del asistente. Tú solo describes cómo funciona tu negocio y nosotros lo traducimos en tecnología. El equipo puede empezar a usarlo sin capacitación técnica avanzada."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto tiempo tarda en verse un retorno de inversión con IA en Colombia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La mayoría de nuestros clientes en Colombia empiezan a ver resultados entre el primer y tercer mes: reducción en tiempos de respuesta, más ventas cerradas fuera de horario laboral y menor carga operativa en el equipo. El ROI promedio documentado supera el 300% en el primer año."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --purple-dark: #5A00B8;
+      --purple-light: #9B5FFF;
+      --bg: #0D0D14;
+      --bg2: #12121C;
+      --text: #E8E8F0;
+      --text-muted: #8A8D99;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    a { color: var(--purple-light); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(13, 13, 20, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(155, 95, 255, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      height: 64px;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .nav-logo img {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+    }
+
+    .nav-logo span {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: 0.03em;
+    }
+
+    .btn-nav {
+      background: linear-gradient(135deg, var(--purple-dark), var(--purple-light));
+      color: #fff;
+      padding: 8px 20px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .btn-nav:hover { opacity: 0.85; text-decoration: none; }
+
+    /* CONTAINER */
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* BREADCRUMB */
+    .breadcrumb {
+      margin-top: 88px;
+      padding: 16px 0 0;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .breadcrumb a { color: var(--text-muted); }
+    .breadcrumb a:hover { color: var(--purple-light); }
+    .breadcrumb span { margin: 0 6px; }
+
+    /* HERO */
+    .hero {
+      padding: 32px 0 40px;
+      border-bottom: 1px solid rgba(155, 95, 255, 0.12);
+    }
+
+    .post-category {
+      display: inline-block;
+      background: rgba(155, 95, 255, 0.15);
+      color: var(--purple-light);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      border: 1px solid rgba(155, 95, 255, 0.25);
+    }
+
+    .hero h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 900;
+      line-height: 1.25;
+      color: #fff;
+      margin-bottom: 18px;
+      background: linear-gradient(135deg, #fff 40%, var(--purple-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .post-meta {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* ARTICLE BODY */
+    .article-body {
+      padding: 40px 0 60px;
+    }
+
+    .article-body p {
+      margin-bottom: 20px;
+      color: var(--text);
+    }
+
+    .article-body h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.15rem, 3vw, 1.55rem);
+      font-weight: 700;
+      color: #fff;
+      margin: 44px 0 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid rgba(155, 95, 255, 0.2);
+    }
+
+    .article-body h3 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--purple-light);
+      margin: 28px 0 10px;
+    }
+
+    .article-body ul, .article-body ol {
+      padding-left: 22px;
+      margin-bottom: 20px;
+    }
+
+    .article-body li {
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    .article-body strong { color: #fff; }
+
+    /* USE CASE CARDS */
+    .use-case {
+      background: var(--bg2);
+      border: 1px solid rgba(155, 95, 255, 0.2);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+    }
+
+    .use-case .uc-title {
+      font-weight: 600;
+      color: var(--purple-light);
+      font-size: 1rem;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .use-case p {
+      margin-bottom: 0;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .use-case p strong { color: var(--text); }
+
+    /* CALLOUT */
+    .callout {
+      background: linear-gradient(135deg, rgba(90, 0, 184, 0.2), rgba(155, 95, 255, 0.1));
+      border-left: 4px solid var(--purple-light);
+      border-radius: 0 12px 12px 0;
+      padding: 20px 24px;
+      margin: 32px 0;
+    }
+
+    .callout p {
+      margin-bottom: 0;
+      font-size: 1.05rem;
+      color: var(--text);
+    }
+
+    .callout strong { color: var(--purple-light); font-size: 1.15rem; }
+
+    /* CTA INLINE */
+    .cta-inline {
+      background: linear-gradient(135deg, rgba(90, 0, 184, 0.25), rgba(155, 95, 255, 0.15));
+      border: 1px solid rgba(155, 95, 255, 0.3);
+      border-radius: 16px;
+      padding: 32px 28px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-inline h3 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .cta-inline p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+
+    .btn-wa {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      background: linear-gradient(135deg, #25D366, #128C7E);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.97rem;
+      padding: 13px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .btn-wa:hover { transform: translateY(-2px); opacity: 0.92; text-decoration: none; }
+
+    /* PRECIO TABLE */
+    .price-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 0.95rem;
+    }
+
+    .price-table th {
+      background: rgba(155, 95, 255, 0.15);
+      color: var(--purple-light);
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 600;
+      border-bottom: 2px solid rgba(155, 95, 255, 0.2);
+    }
+
+    .price-table td {
+      padding: 11px 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      color: var(--text);
+    }
+
+    .price-table tr:last-child td { border-bottom: none; }
+    .price-table tr:hover td { background: rgba(155, 95, 255, 0.05); }
+
+    /* FAQ */
+    .faq-item {
+      border: 1px solid rgba(155, 95, 255, 0.15);
+      border-radius: 12px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+
+    .faq-q {
+      padding: 18px 20px;
+      background: var(--bg2);
+      font-weight: 600;
+      color: #fff;
+      font-size: 0.97rem;
+      cursor: default;
+    }
+
+    .faq-a {
+      padding: 16px 20px;
+      background: var(--bg);
+      color: var(--text-muted);
+      font-size: 0.93rem;
+      line-height: 1.7;
+      border-top: 1px solid rgba(155, 95, 255, 0.1);
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg2);
+      border-top: 1px solid rgba(155, 95, 255, 0.12);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--purple-light);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 20px;
+      font-size: 0.88rem;
+    }
+
+    .footer-links a { color: var(--text-muted); }
+    .footer-links a:hover { color: var(--purple-light); }
+
+    .footer-copy {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      nav { padding: 0 16px; }
+      .container { padding: 0 16px; }
+      .cta-inline { padding: 24px 18px; }
+      .use-case { padding: 16px 18px; }
+      .price-table { font-size: 0.85rem; }
+      .price-table th, .price-table td { padding: 9px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="../../index_con_logo.html" class="nav-logo">
+      <img src="../../logo.png" alt="AI Company CO" />
+      <span>AI Company CO</span>
+    </a>
+    <a href="../../index_con_logo.html#contacto" class="btn-nav">Hablemos →</a>
+  </nav>
+
+  <div class="container">
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../../index_con_logo.html">Inicio</a>
+      <span>›</span>
+      <a href="../../blog/">Blog</a>
+      <span>›</span>
+      <span>IA para Negocios en Colombia</span>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="post-category">IA · Negocios</div>
+      <h1>Inteligencia Artificial para Negocios en Colombia: Aplicaciones Reales</h1>
+      <p class="post-meta">Por AI Company CO &nbsp;·&nbsp; Junio 15, 2026 &nbsp;·&nbsp; 8 minutos de lectura</p>
+    </header>
+
+    <!-- ARTICLE BODY -->
+    <article class="article-body">
+
+      <p>
+        Un negocio en Bogotá pierde en promedio <strong>37 consultas por WhatsApp cada fin de semana</strong> porque nadie está disponible para responder. En Medellín, una distribuidora de productos de belleza lleva tres meses buscando un asesor de ventas confiable. En Cali, una clínica odontológica gasta $4.000.000 COP mensuales en un call center que solo resuelve agendamiento de citas. Estos no son casos aislados. Son el día a día de miles de empresas colombianas que siguen operando con procesos manuales mientras sus competidores en otros países ya automatizaron esas tareas con inteligencia artificial.
+      </p>
+
+      <p>
+        La buena noticia: la IA ya no es territorio exclusivo de multinacionales o startups de Silicon Valley. Hoy, una PyME en Soacha, un restaurante en Barranquilla o una constructora en Pereira pueden implementar soluciones reales de inteligencia artificial con presupuestos accesibles y resultados visibles desde el primer mes.
+      </p>
+
+      <h2>¿Qué es la inteligencia artificial aplicada a negocios y cómo funciona en Colombia?</h2>
+
+      <p>
+        En términos simples, la IA para negocios son sistemas que aprenden de información existente para ejecutar tareas que antes requerían una persona. No hablamos de robots futuristas. Hablamos de software que responde mensajes, analiza ventas, genera cotizaciones, filtra candidatos o predice cuándo se va a acabar el inventario.
+      </p>
+
+      <p>
+        En Colombia, las aplicaciones más adoptadas en 2026 son los <strong>asistentes conversacionales con IA</strong>, los sistemas de automatización de WhatsApp y los motores de análisis de datos para decisiones comerciales. Estas soluciones se conectan a las herramientas que el negocio ya usa: WhatsApp Business, Google Sheets, CRMs locales, plataformas de e-commerce como Shopify o Vtex, y sistemas de facturación como Siigo o World Office.
+      </p>
+
+      <p>
+        El proceso de implementación tiene tres fases básicas: primero se entrena el sistema con la información del negocio (productos, precios, políticas, preguntas frecuentes). Luego se integra con los canales de comunicación actuales. Finalmente se ajusta y optimiza según los resultados reales de las primeras semanas.
+      </p>
+
+      <h2>Aplicaciones reales de IA en negocios colombianos</h2>
+
+      <p>
+        Estos son casos concretos de cómo empresas colombianas están usando inteligencia artificial hoy, no en el futuro:
+      </p>
+
+      <div class="use-case">
+        <div class="uc-title">🛒 Retail y comercio electrónico</div>
+        <p>Una tienda de ropa en el Centro Comercial Santafé de Bogotá implementó un asistente IA en WhatsApp que responde consultas sobre tallas, disponibilidad y precios de forma instantánea. <strong>Resultado: 68% más ventas cerradas en horario nocturno</strong> en los primeros 60 días, sin contratar personal adicional.</p>
+      </div>
+
+      <div class="use-case">
+        <div class="uc-title">🏥 Salud y clínicas</div>
+        <p>Una IPS en Manizales automatizó el agendamiento de citas médicas con un asistente IA que consulta el calendario en tiempo real, confirma turnos por WhatsApp y envía recordatorios automáticos 24 horas antes. <strong>Reducción del 41% en citas no asistidas</strong> y liberación de dos recepcionistas para tareas de mayor valor.</p>
+      </div>
+
+      <div class="use-case">
+        <div class="uc-title">🏗️ Construcción e inmobiliarias</div>
+        <p>Una inmobiliaria en Laureles (Medellín) usa un asistente IA para calificar leads que llegan por Instagram y portales de propiedad raíz. El sistema hace preguntas de precalificación, detecta intención de compra vs. arriendo y asigna el lead al asesor correcto. <strong>El tiempo de respuesta bajó de 4 horas a 2 minutos.</strong></p>
+      </div>
+
+      <div class="use-case">
+        <div class="uc-title">🍕 Restaurantes y food service</div>
+        <p>Un restaurante de comida rápida en el norte de Cali integró IA para gestionar pedidos por WhatsApp, actualizar el menú según disponibilidad y enviar promociones segmentadas según el historial de pedidos del cliente. <strong>Incremento del 23% en ticket promedio</strong> gracias a sugerencias de productos complementarios.</p>
+      </div>
+
+      <div class="use-case">
+        <div class="uc-title">📚 Educación y colegios privados</div>
+        <p>Un colegio bilingüe en Chía, Cundinamarca, automatizó el proceso de admisiones con un asistente IA que resuelve dudas de padres, envía el formulario de inscripción, verifica documentos y agenda visitas al campus. <strong>El equipo de admisiones pasó de atender 80 consultas diarias a revisar solo los casos que realmente necesitan intervención humana.</strong></p>
+      </div>
+
+      <div class="use-case">
+        <div class="uc-title">🚗 Talleres y servicios técnicos</div>
+        <p>Un taller multimarca en Soacha usa IA para seguimiento de vehículos en reparación: el cliente pregunta por WhatsApp el estado de su carro y el sistema consulta el sistema interno y responde al instante con el avance y el tiempo estimado de entrega. <strong>Las llamadas al taller bajaron un 55%.</strong></p>
+      </div>
+
+      <!-- CTA INLINE -->
+      <div class="cta-inline">
+        <h3>¿Tu negocio tiene procesos que se pueden automatizar?</h3>
+        <p>Cuéntanos cómo funciona tu empresa y te mostramos exactamente qué puede hacer la IA por ti, sin compromiso y con ejemplos reales de tu sector.</p>
+        <a href="https://wa.me/573212674754?text=Hola%2C%20le%C3%AD%20el%20art%C3%ADculo%20sobre%20inteligencia%20artificial%20negocios%20colombia%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n." class="btn-wa" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Hablar con un asesor ahora
+        </a>
+      </div>
+
+      <h2>¿Cuánto cuesta implementar IA en tu negocio en Colombia?</h2>
+
+      <p>
+        Esta es la pregunta que más nos hacen. La respuesta honesta: depende del alcance. Pero para darte un marco de referencia real, aquí van los rangos de inversión que manejamos en 2026:
+      </p>
+
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>Solución</th>
+            <th>Inversión mensual (COP)</th>
+            <th>Tiempo de implementación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Asistente IA básico (FAQ + agendamiento)</td>
+            <td>$800.000 – $1.500.000</td>
+            <td>5 a 7 días hábiles</td>
+          </tr>
+          <tr>
+            <td>Asistente IA + WhatsApp automatizado</td>
+            <td>$1.800.000 – $3.200.000</td>
+            <td>10 a 15 días hábiles</td>
+          </tr>
+          <tr>
+            <td>Asistente IA + CRM + reportes automáticos</td>
+            <td>$3.500.000 – $7.000.000</td>
+            <td>15 a 25 días hábiles</td>
+          </tr>
+          <tr>
+            <td>Solución empresarial a medida</td>
+            <td>Desde $8.000.000</td>
+            <td>30 a 60 días hábiles</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Estos valores incluyen configuración inicial, entrenamiento del sistema con los datos de tu negocio, integración con tus canales actuales y soporte continuo. No hay costos ocultos de licencias internacionales disparadas porque manejamos arquitecturas eficientes pensadas para el mercado colombiano.
+      </p>
+
+      <p>
+        Comparado con contratar un empleado dedicado a atención al cliente (que en Colombia cuesta entre $2.500.000 y $4.500.000 mensuales sumando salario, prestaciones y parafiscales), la IA ofrece una capacidad de atención ilimitada a una fracción del costo.
+      </p>
+
+      <div class="callout">
+        <p>📊 <strong>Dato concreto:</strong> Según el Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia, las empresas que adoptaron soluciones de IA en sus procesos de atención al cliente reportaron en promedio una <strong>reducción del 34% en costos operativos</strong> y un <strong>aumento del 27% en satisfacción del cliente</strong> durante el primer año de implementación. Las PyMEs colombianas que automatizaron sus procesos de ventas con IA vieron un incremento promedio del 19% en sus ingresos anuales.</p>
+      </div>
+
+      <h2>Por dónde empezar: el asistente IA como punto de entrada</h2>input_tokens=1399
+output_tokens=8192
