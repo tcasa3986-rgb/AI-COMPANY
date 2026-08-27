@@ -1,0 +1,10 @@
+# Material de trabajo interno: briefs, análisis de estrategia, contenido en borrador
+# y plantillas sin publicar. Vive en el repo para tener historial, pero NO debe
+# servirse en aicompanyco.com — quedaría público en /_rediseno/.
+_rediseno/
+
+# Scripts de mantenimiento: se ejecutan en local o en GitHub Actions, no se sirven.
+scripts/
+
+# Restos de comandos de shell mal ejecutados que quedaron en la raíz.
+*.length-1))

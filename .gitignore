@@ -1,2 +1,10 @@
 node_modules/
 package-lock.json
+
+# Material de trabajo interno: briefs de estrategia, análisis competitivo, referencias
+# de precios y contenido en borrador. El repositorio es PÚBLICO, así que esto no sube.
+# Vive solo en local (y su copia definitiva va al vault de Obsidian).
+_rediseno/
+
+# Respaldos de scripts
+*.bak
