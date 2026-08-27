@@ -1,52 +1,314 @@
 [
-  { "slug": "cuanto-cuesta-chatbot-ia-colombia", "titulo": "¿Cuánto Cuesta un Chatbot con IA en Colombia? (Precios Reales 2026)", "keyword": "cuánto cuesta chatbot ia colombia", "categoria": "Chatbot IA · Precios", "servicio": "chatbot-ia", "industria": null },
-  { "slug": "marketing-digital-restaurantes-colombia", "titulo": "Marketing Digital para Restaurantes en Colombia: Guía Completa 2026", "keyword": "marketing digital restaurantes colombia", "categoria": "Marketing Digital · Restaurantes", "servicio": "marketing-digital", "industria": "restaurantes" },
-  { "slug": "pagina-web-clinica-colombia", "titulo": "Página Web para Clínicas y Consultorios en Colombia: Qué Debe Tener", "keyword": "página web para clínica colombia", "categoria": "Páginas Web · Salud", "servicio": "paginas-web", "industria": "clinicas" },
-  { "slug": "automatizacion-procesos-constructoras-colombia", "titulo": "Automatización de Procesos para Constructoras en Colombia (Guía 2026)", "keyword": "automatización procesos constructoras colombia", "categoria": "Automatización · Constructoras", "servicio": "asistente-ia", "industria": "constructoras" },
-  { "slug": "whatsapp-business-hoteles-colombia", "titulo": "WhatsApp Automático para Hoteles en Colombia: Más Reservas sin más Personal", "keyword": "whatsapp automático hoteles colombia", "categoria": "WhatsApp · Hoteles", "servicio": "whatsapp-automatico", "industria": "hoteles" },
-  { "slug": "app-movil-supermercado-colombia", "titulo": "App Móvil para Supermercados en Colombia: Domicilios y Fidelización", "keyword": "app móvil supermercado colombia", "categoria": "Apps · Supermercados", "servicio": "apps-empresariales", "industria": "supermercados" },
-  { "slug": "seo-local-colombia-guia", "titulo": "SEO Local en Colombia: Cómo Aparecer Primero en Google Maps (Guía 2026)", "keyword": "seo local colombia google maps", "categoria": "Marketing Digital · SEO", "servicio": "marketing-digital", "industria": null },
-  { "slug": "chatbot-ia-inmobiliarias-colombia", "titulo": "Chatbot con IA para Inmobiliarias en Colombia: Califica Compradores Solo", "keyword": "chatbot ia inmobiliarias colombia", "categoria": "Chatbot IA · Inmobiliarias", "servicio": "chatbot-ia", "industria": "inmobiliarias" },
-  { "slug": "marketing-digital-colegios-colombia", "titulo": "Marketing Digital para Colegios en Colombia: Cómo Aumentar Matrículas", "keyword": "marketing digital colegios colombia", "categoria": "Marketing Digital · Educación", "servicio": "marketing-digital", "industria": "colegios" },
-  { "slug": "sistema-gestion-droguerias-colombia", "titulo": "Sistema de Gestión para Droguerías en Colombia: Inventario y Ventas", "keyword": "sistema gestión droguerías colombia", "categoria": "Sistemas · Droguerías", "servicio": "apps-empresariales", "industria": "droguerias" },
-  { "slug": "pagina-web-peluqueria-colombia", "titulo": "Página Web para Peluquerías en Colombia: Citas Online y Más Clientes", "keyword": "página web peluquería colombia", "categoria": "Páginas Web · Peluquerías", "servicio": "paginas-web", "industria": "peluquerias" },
-  { "slug": "whatsapp-automatico-juridicos-colombia", "titulo": "WhatsApp Automático para Firmas Jurídicas en Colombia", "keyword": "whatsapp automático firmas jurídicas colombia", "categoria": "WhatsApp · Jurídico", "servicio": "whatsapp-automatico", "industria": "juridicos" },
-  { "slug": "google-ads-colombia-guia-pymes", "titulo": "Google Ads para Pymes en Colombia: Guía Práctica 2026", "keyword": "google ads pymes colombia", "categoria": "Marketing Digital · Google Ads", "servicio": "marketing-digital", "industria": null },
-  { "slug": "inteligencia-artificial-negocios-colombia", "titulo": "Inteligencia Artificial para Negocios en Colombia: Aplicaciones Reales", "keyword": "inteligencia artificial negocios colombia", "categoria": "IA · Negocios", "servicio": "asistente-ia", "industria": null },
-  { "slug": "automatizar-facturacion-electronica-colombia", "titulo": "Cómo Automatizar la Facturación Electrónica en Colombia (Guía 2026)", "keyword": "automatizar facturación electrónica colombia", "categoria": "Automatización · Facturación", "servicio": "asistente-ia", "industria": null },
-  { "slug": "marketing-digital-agencias-viajes-colombia", "titulo": "Marketing Digital para Agencias de Viajes en Colombia: Vende Más Online", "keyword": "marketing digital agencias de viajes colombia", "categoria": "Marketing Digital · Turismo", "servicio": "marketing-digital", "industria": "agencias-de-viajes" },
-  { "slug": "chatbot-ia-talleres-mecanicos", "titulo": "Chatbot con IA para Talleres Mecánicos en Colombia: Citas y Cotizaciones", "keyword": "chatbot ia talleres mecánicos colombia", "categoria": "Chatbot IA · Talleres", "servicio": "chatbot-ia", "industria": "talleres" },
-  { "slug": "tiktok-ads-colombia-empresas", "titulo": "TikTok Ads para Empresas en Colombia: Guía Completa 2026", "keyword": "tiktok ads empresas colombia", "categoria": "Marketing Digital · TikTok", "servicio": "marketing-digital", "industria": null },
-  { "slug": "app-reservas-peluqueria-colombia", "titulo": "App de Reservas para Peluquerías en Colombia: Cómo Implementarla", "keyword": "app reservas peluquería colombia", "categoria": "Apps · Peluquerías", "servicio": "apps-empresariales", "industria": "peluquerias" },
-  { "slug": "whatsapp-automatico-restaurantes-colombia", "titulo": "WhatsApp Automático para Restaurantes en Colombia: Pedidos 24/7", "keyword": "whatsapp automático restaurantes colombia", "categoria": "WhatsApp · Restaurantes", "servicio": "whatsapp-automatico", "industria": "restaurantes" },
-  { "slug": "n8n-automatizacion-colombia-guia", "titulo": "n8n para Automatización de Negocios en Colombia: Guía Práctica", "keyword": "n8n automatización negocios colombia", "categoria": "Automatización · n8n", "servicio": "asistente-ia", "industria": null },
-  { "slug": "pagina-web-constructora-colombia", "titulo": "Página Web para Constructoras en Colombia: Qué Necesita Tener", "keyword": "página web constructora colombia", "categoria": "Páginas Web · Constructoras", "servicio": "paginas-web", "industria": "constructoras" },
-  { "slug": "sistema-crm-pymes-colombia", "titulo": "CRM para Pymes en Colombia: Cómo Elegir el Correcto (Guía 2026)", "keyword": "crm pymes colombia", "categoria": "Sistemas · CRM", "servicio": "asistente-ia", "industria": null },
-  { "slug": "instagram-ads-colombia-guia", "titulo": "Instagram Ads en Colombia: Cómo Crear Campañas que Venden (2026)", "keyword": "instagram ads colombia", "categoria": "Marketing Digital · Instagram", "servicio": "marketing-digital", "industria": null },
-  { "slug": "automatizar-whatsapp-clinicas-colombia", "titulo": "Cómo Automatizar WhatsApp para Clínicas en Colombia", "keyword": "automatizar whatsapp clínicas colombia", "categoria": "WhatsApp · Salud", "servicio": "whatsapp-automatico", "industria": "clinicas" },
-  { "slug": "pagina-web-hotel-colombia", "titulo": "Página Web para Hoteles en Colombia: Reservas Directas sin Intermediarios", "keyword": "página web hotel colombia reservas", "categoria": "Páginas Web · Hoteles", "servicio": "paginas-web", "industria": "hoteles" },
-  { "slug": "sistema-pos-tiendas-colombia", "titulo": "Sistema POS para Tiendas en Colombia: Inventario y Ventas Integrados", "keyword": "sistema pos tiendas colombia", "categoria": "Sistemas · Tiendas", "servicio": "apps-empresariales", "industria": "tiendas" },
-  { "slug": "marketing-digital-inmobiliarias-colombia", "titulo": "Marketing Digital para Inmobiliarias en Colombia: Vende Más Propiedades", "keyword": "marketing digital inmobiliarias colombia", "categoria": "Marketing Digital · Inmobiliarias", "servicio": "marketing-digital", "industria": "inmobiliarias" },
-  { "slug": "chatbot-ia-hoteles-colombia", "titulo": "Chatbot con IA para Hoteles en Colombia: Reservas y Atención 24/7", "keyword": "chatbot ia hoteles colombia", "categoria": "Chatbot IA · Hoteles", "servicio": "chatbot-ia", "industria": "hoteles" },
-  { "slug": "facebook-ads-colombia-guia-2026", "titulo": "Facebook Ads en Colombia 2026: Guía Completa para Empresas", "keyword": "facebook ads colombia empresas", "categoria": "Marketing Digital · Facebook", "servicio": "marketing-digital", "industria": null },
-  { "slug": "chatbot-whatsapp-barberia-colombia", "titulo": "Chatbot para Barberías en Colombia: Reservas Automáticas por WhatsApp", "keyword": "chatbot whatsapp barbería colombia reservas", "categoria": "Chatbot IA · Barberías", "servicio": "chatbot-ia", "industria": "barberias" },
-  { "slug": "sistema-inventario-ferreteria-colombia", "titulo": "Sistema de Inventario para Ferreterías en Colombia: Control Total", "keyword": "sistema inventario ferretería colombia", "categoria": "Sistemas · Ferreterías", "servicio": "apps-empresariales", "industria": "ferreterias" },
-  { "slug": "automatizacion-cobros-colombia", "titulo": "Automatizar Cobros en Colombia: Recordatorios por WhatsApp que Funcionan", "keyword": "automatizar cobros recordatorios whatsapp colombia", "categoria": "Automatización · Cobros", "servicio": "whatsapp-automatico", "industria": null },
-  { "slug": "pagina-web-odontologia-colombia", "titulo": "Página Web para Odontología en Colombia: Consigue Más Pacientes", "keyword": "página web odontología colombia pacientes", "categoria": "Páginas Web · Salud", "servicio": "paginas-web", "industria": "odontologia" },
-  { "slug": "marketing-digital-clinica-estetica-colombia", "titulo": "Marketing Digital para Clínicas Estéticas en Colombia: Más Citas Online", "keyword": "marketing digital clínica estética colombia", "categoria": "Marketing Digital · Estética", "servicio": "marketing-digital", "industria": "clinicas-estetica" },
-  { "slug": "whatsapp-automatico-inmobiliarias-colombia", "titulo": "WhatsApp Automático para Inmobiliarias en Colombia: Califica Leads Solo", "keyword": "whatsapp automático inmobiliarias colombia", "categoria": "WhatsApp · Inmobiliarias", "servicio": "whatsapp-automatico", "industria": "inmobiliarias" },
-  { "slug": "app-citas-veterinaria-colombia", "titulo": "App de Citas para Veterinarias en Colombia: Fideliza a los Dueños de Mascotas", "keyword": "app citas veterinaria colombia", "categoria": "Apps · Veterinarias", "servicio": "apps-empresariales", "industria": "veterinarias" },
-  { "slug": "chatbot-ia-colegios-colombia", "titulo": "Chatbot con IA para Colegios en Colombia: Atiende Padres Automáticamente", "keyword": "chatbot ia colegios colombia padres", "categoria": "Chatbot IA · Educación", "servicio": "chatbot-ia", "industria": "colegios" },
-  { "slug": "automatizar-reservas-restaurante-colombia", "titulo": "Cómo Automatizar Reservas en Restaurante en Colombia con WhatsApp", "keyword": "automatizar reservas restaurante whatsapp colombia", "categoria": "Automatización · Restaurantes", "servicio": "whatsapp-automatico", "industria": "restaurantes" },
-  { "slug": "sistema-gestion-gym-colombia", "titulo": "Sistema de Gestión para Gimnasios en Colombia: Control de Membresías", "keyword": "sistema gestión gimnasio colombia membresías", "categoria": "Sistemas · Gimnasios", "servicio": "apps-empresariales", "industria": "gimnasios" },
-  { "slug": "ia-para-ventas-colombia-guia", "titulo": "Cómo Usar IA para Aumentar Ventas en Colombia: Guía Práctica 2026", "keyword": "inteligencia artificial ventas colombia pymes", "categoria": "IA · Ventas", "servicio": "asistente-ia", "industria": null },
-  { "slug": "marketing-digital-spa-colombia", "titulo": "Marketing Digital para Spa y Centros de Bienestar en Colombia", "keyword": "marketing digital spa colombia", "categoria": "Marketing Digital · Bienestar", "servicio": "marketing-digital", "industria": "spa" },
-  { "slug": "chatbot-servicio-cliente-ecommerce-colombia", "titulo": "Chatbot para E-commerce en Colombia: Atiende Clientes y Reduce Devoluciones", "keyword": "chatbot servicio cliente ecommerce colombia", "categoria": "Chatbot IA · E-commerce", "servicio": "chatbot-ia", "industria": "ecommerce" },
-  { "slug": "pagina-web-abogado-colombia", "titulo": "Página Web para Abogados en Colombia: Consigue Clientes por Google", "keyword": "página web abogado colombia clientes", "categoria": "Páginas Web · Jurídico", "servicio": "paginas-web", "industria": "juridicos" },
-  { "slug": "automatizar-nequi-pagos-colombia", "titulo": "Automatizar Pagos con Nequi en Colombia: Cobros sin Fricciones", "keyword": "automatizar cobros nequi colombia negocios", "categoria": "Automatización · Pagos", "servicio": "asistente-ia", "industria": null },
-  { "slug": "whatsapp-automatico-droguerias-colombia", "titulo": "WhatsApp para Droguerías en Colombia: Pedidos y Fórmulas Automáticos", "keyword": "whatsapp automático droguería colombia pedidos", "categoria": "WhatsApp · Droguerías", "servicio": "whatsapp-automatico", "industria": "droguerias" },
-  { "slug": "sistema-control-asistencia-colombia", "titulo": "Sistema de Control de Asistencia para Empresas en Colombia", "keyword": "sistema control asistencia empleados colombia", "categoria": "Sistemas · RRHH", "servicio": "apps-empresariales", "industria": null },
-  { "slug": "marketing-digital-transporte-colombia", "titulo": "Marketing Digital para Empresas de Transporte en Colombia", "keyword": "marketing digital empresa transporte colombia", "categoria": "Marketing Digital · Transporte", "servicio": "marketing-digital", "industria": "transporte" },
-  { "slug": "ia-atencion-cliente-24-7-colombia", "titulo": "Atención al Cliente 24/7 con IA en Colombia: Implementación Paso a Paso", "keyword": "atención cliente 24 horas ia colombia", "categoria": "IA · Atención al Cliente", "servicio": "chatbot-ia", "industria": null },
-  { "slug": "automatizacion-reportes-contables-colombia", "titulo": "Automatizar Reportes Contables en Colombia: Cierra tu Mes en Minutos", "keyword": "automatizar reportes contables colombia pymes", "categoria": "Automatización · Contabilidad", "servicio": "asistente-ia", "industria": null }
+  {
+    "slug": "cuanto-cuesta-chatbot-ia-colombia",
+    "titulo": "¿Cuánto Cuesta un Chatbot con IA en Colombia? (Precios Reales 2026)",
+    "keyword": "cuánto cuesta chatbot ia colombia",
+    "categoria": "Chatbot IA · Precios",
+    "servicio": "chatbot-ia",
+    "industria": null
+  },
+  {
+    "slug": "marketing-digital-restaurantes-colombia",
+    "titulo": "Marketing Digital para Restaurantes en Colombia: Guía Completa 2026",
+    "keyword": "marketing digital restaurantes colombia",
+    "categoria": "Marketing Digital · Restaurantes",
+    "servicio": "marketing-digital",
+    "industria": "restaurantes"
+  },
+  {
+    "slug": "pagina-web-clinica-colombia",
+    "titulo": "Página Web para Clínicas y Consultorios en Colombia: Qué Debe Tener",
+    "keyword": "página web para clínica colombia",
+    "categoria": "Páginas Web · Salud",
+    "servicio": "paginas-web",
+    "industria": "clinicas"
+  },
+  {
+    "slug": "automatizacion-procesos-constructoras-colombia",
+    "titulo": "Automatización de Procesos para Constructoras en Colombia (Guía 2026)",
+    "keyword": "automatización procesos constructoras colombia",
+    "categoria": "Automatización · Constructoras",
+    "servicio": "asistente-ia",
+    "industria": "constructoras"
+  },
+  {
+    "slug": "whatsapp-business-hoteles-colombia",
+    "titulo": "WhatsApp Automático para Hoteles en Colombia: Más Reservas sin más Personal",
+    "keyword": "whatsapp automático hoteles colombia",
+    "categoria": "WhatsApp · Hoteles",
+    "servicio": "whatsapp-automatico",
+    "industria": "hoteles"
+  },
+  {
+    "slug": "app-movil-supermercado-colombia",
+    "titulo": "App Móvil para Supermercados en Colombia: Domicilios y Fidelización",
+    "keyword": "app móvil supermercado colombia",
+    "categoria": "Apps · Supermercados",
+    "servicio": "apps-empresariales",
+    "industria": "supermercados"
+  },
+  {
+    "slug": "seo-local-colombia-guia",
+    "titulo": "SEO Local en Colombia: Cómo Aparecer Primero en Google Maps (Guía 2026)",
+    "keyword": "seo local colombia google maps",
+    "categoria": "Marketing Digital · SEO",
+    "servicio": "marketing-digital",
+    "industria": null
+  },
+  {
+    "slug": "chatbot-ia-inmobiliarias-colombia",
+    "titulo": "Chatbot con IA para Inmobiliarias en Colombia: Califica Compradores Solo",
+    "keyword": "chatbot ia inmobiliarias colombia",
+    "categoria": "Chatbot IA · Inmobiliarias",
+    "servicio": "chatbot-ia",
+    "industria": "inmobiliarias"
+  },
+  {
+    "slug": "marketing-digital-colegios-colombia",
+    "titulo": "Marketing Digital para Colegios en Colombia: Cómo Aumentar Matrículas",
+    "keyword": "marketing digital colegios colombia",
+    "categoria": "Marketing Digital · Educación",
+    "servicio": "marketing-digital",
+    "industria": "colegios"
+  },
+  {
+    "slug": "sistema-gestion-droguerias-colombia",
+    "titulo": "Sistema de Gestión para Droguerías en Colombia: Inventario y Ventas",
+    "keyword": "sistema gestión droguerías colombia",
+    "categoria": "Sistemas · Droguerías",
+    "servicio": "apps-empresariales",
+    "industria": "droguerias"
+  },
+  {
+    "slug": "pagina-web-peluqueria-colombia",
+    "titulo": "Página Web para Peluquerías en Colombia: Citas Online y Más Clientes",
+    "keyword": "página web peluquería colombia",
+    "categoria": "Páginas Web · Peluquerías",
+    "servicio": "paginas-web",
+    "industria": "peluquerias"
+  },
+  {
+    "slug": "whatsapp-automatico-juridicos-colombia",
+    "titulo": "WhatsApp Automático para Firmas Jurídicas en Colombia",
+    "keyword": "whatsapp automático firmas jurídicas colombia",
+    "categoria": "WhatsApp · Jurídico",
+    "servicio": "whatsapp-automatico",
+    "industria": "juridicos"
+  },
+  {
+    "slug": "google-ads-colombia-guia-pymes",
+    "titulo": "Google Ads para Pymes en Colombia: Guía Práctica 2026",
+    "keyword": "google ads pymes colombia",
+    "categoria": "Marketing Digital · Google Ads",
+    "servicio": "marketing-digital",
+    "industria": null
+  },
+  {
+    "slug": "inteligencia-artificial-negocios-colombia",
+    "titulo": "Inteligencia Artificial para Negocios en Colombia: Aplicaciones Reales",
+    "keyword": "inteligencia artificial negocios colombia",
+    "categoria": "IA · Negocios",
+    "servicio": "asistente-ia",
+    "industria": null
+  },
+  {
+    "slug": "automatizar-facturacion-electronica-colombia",
+    "titulo": "Cómo Automatizar la Facturación Electrónica en Colombia (Guía 2026)",
+    "keyword": "automatizar facturación electrónica colombia",
+    "categoria": "Automatización · Facturación",
+    "servicio": "asistente-ia",
+    "industria": null
+  },
+  {
+    "slug": "inventario-deposito-madera-metros-cubicos-pulgadas",
+    "titulo": "Inventario en un Depósito de Madera: Cómo Cuadrar Metros Cúbicos con Pulgadas",
+    "keyword": "inventario depósito de madera colombia",
+    "categoria": "Madera · Inventario",
+    "servicio": "apps-empresariales",
+    "industria": "madera"
+  },
+  {
+    "slug": "merma-transformacion-madera-como-medirla",
+    "titulo": "La Merma en la Transformación de Madera: Por Qué Nadie la Mide y Cómo Empezar",
+    "keyword": "merma transformación madera",
+    "categoria": "Madera · Producción",
+    "servicio": "apps-empresariales",
+    "industria": "madera"
+  },
+  {
+    "slug": "controlar-lo-fiado-deposito-madera",
+    "titulo": "Cómo Controlar lo que se Fía en un Depósito de Madera",
+    "keyword": "cartera depósito de madera",
+    "categoria": "Madera · Cartera",
+    "servicio": "apps-empresariales",
+    "industria": "madera"
+  },
+  {
+    "slug": "reportar-produccion-patio-desde-celular",
+    "titulo": "Reportar la Producción del Patio desde el Celular: Cómo Funciona",
+    "keyword": "reportar producción celular telegram",
+    "categoria": "Madera · Automatización",
+    "servicio": "apps-empresariales",
+    "industria": "madera"
+  },
+  {
+    "slug": "software-aserrios-colombia-que-debe-tener",
+    "titulo": "Software para Aserríos en Colombia: Qué Debe Tener de Verdad",
+    "keyword": "software aserrío colombia",
+    "categoria": "Madera · Software",
+    "servicio": "apps-empresariales",
+    "industria": "madera"
+  },
+  {
+    "slug": "nomina-atada-produccion-real-madera",
+    "titulo": "Nómina Atada a la Producción Real en un Depósito de Madera",
+    "keyword": "nómina producción depósito madera",
+    "categoria": "Madera · Nómina",
+    "servicio": "apps-empresariales",
+    "industria": "madera"
+  },
+  {
+    "slug": "convertir-lamina-a-kilos-cotizar-corte-laser",
+    "titulo": "Cómo Convertir una Lámina a Kilos para Cotizar Corte Láser",
+    "keyword": "convertir lámina a kilos corte láser",
+    "categoria": "Corte láser · Cotización",
+    "servicio": "apps-empresariales",
+    "industria": "corte-laser"
+  },
+  {
+    "slug": "inventario-por-peso-metalmecanica-guia",
+    "titulo": "Inventario por Peso en Metalmecánica: Guía Práctica",
+    "keyword": "inventario por peso metalmecánica",
+    "categoria": "Corte láser · Inventario",
+    "servicio": "apps-empresariales",
+    "industria": "corte-laser"
+  },
+  {
+    "slug": "calcular-margen-real-pedido-corte-laser",
+    "titulo": "Cómo Calcular el Margen Real de un Pedido de Corte Láser",
+    "keyword": "margen pedido corte láser",
+    "categoria": "Corte láser · Márgenes",
+    "servicio": "apps-empresariales",
+    "industria": "corte-laser"
+  },
+  {
+    "slug": "retazos-corte-laser-convertirlos-en-inventario",
+    "titulo": "Qué Hacer con los Retazos: Convertirlos en Inventario y No en Chatarra",
+    "keyword": "retazos corte láser inventario",
+    "categoria": "Corte láser · Inventario",
+    "servicio": "apps-empresariales",
+    "industria": "corte-laser"
+  },
+  {
+    "slug": "cotizador-corte-laser-variables-clave",
+    "titulo": "Cotizador de Corte Láser: las Variables que No Puedes Olvidar",
+    "keyword": "cotizador corte láser",
+    "categoria": "Corte láser · Cotización",
+    "servicio": "apps-empresariales",
+    "industria": "corte-laser"
+  },
+  {
+    "slug": "evitar-cotizar-por-debajo-del-costo",
+    "titulo": "Cómo Evitar que un Vendedor Cotice por Debajo del Costo",
+    "keyword": "vender por debajo del costo control",
+    "categoria": "Corte láser · Control",
+    "servicio": "apps-empresariales",
+    "industria": "corte-laser"
+  },
+  {
+    "slug": "varias-listas-de-precios-ferreteria",
+    "titulo": "Cómo Manejar Varias Listas de Precios en una Ferretería",
+    "keyword": "listas de precios ferretería",
+    "categoria": "Ferretería · Precios",
+    "servicio": "apps-empresariales",
+    "industria": "ferreteria"
+  },
+  {
+    "slug": "cartera-ferreterias-cuanto-te-deben-hoy",
+    "titulo": "Cartera en Ferreterías: Cómo Saber Cuánto te Deben Hoy",
+    "keyword": "cartera ferretería colombia",
+    "categoria": "Ferretería · Cartera",
+    "servicio": "apps-empresariales",
+    "industria": "ferreteria"
+  },
+  {
+    "slug": "facturacion-electronica-dian-ferreterias",
+    "titulo": "Facturación Electrónica DIAN para Ferreterías: Guía 2026",
+    "keyword": "facturación electrónica ferretería dian",
+    "categoria": "Ferretería · DIAN",
+    "servicio": "apps-empresariales",
+    "industria": "ferreteria"
+  },
+  {
+    "slug": "quien-puede-cambiar-precios-en-tu-sistema",
+    "titulo": "Quién Puede Cambiar Precios en tu Sistema (y Por Qué Importa)",
+    "keyword": "permisos cambio de precios sistema",
+    "categoria": "Ferretería · Seguridad",
+    "servicio": "apps-empresariales",
+    "industria": "ferreteria"
+  },
+  {
+    "slug": "miles-de-referencias-en-excel-cuando-cambiar",
+    "titulo": "Miles de Referencias en Excel: Cuándo es Hora de Cambiar",
+    "keyword": "inventario ferretería excel",
+    "categoria": "Ferretería · Inventario",
+    "servicio": "apps-empresariales",
+    "industria": "ferreteria"
+  },
+  {
+    "slug": "inventario-ferreteria-unidades-distintas",
+    "titulo": "Inventario de Ferretería con Unidades Distintas: Metro, Bulto y Unidad",
+    "keyword": "unidades de medida inventario ferretería",
+    "categoria": "Ferretería · Inventario",
+    "servicio": "apps-empresariales",
+    "industria": "ferreteria"
+  },
+  {
+    "slug": "precios-por-material-chatarreria",
+    "titulo": "Cómo Administrar Precios por Material en una Chatarrería",
+    "keyword": "precios material chatarrería colombia",
+    "categoria": "Reciclaje · Precios",
+    "servicio": "apps-empresariales",
+    "industria": "reciclaje"
+  },
+  {
+    "slug": "liquidacion-proveedores-reciclaje-soporte",
+    "titulo": "Liquidación a Proveedores de Reciclaje: el Soporte que te Falta",
+    "keyword": "liquidación proveedores reciclaje",
+    "categoria": "Reciclaje · Liquidación",
+    "servicio": "apps-empresariales",
+    "industria": "reciclaje"
+  },
+  {
+    "slug": "control-flota-recoleccion-costo-por-viaje",
+    "titulo": "Control de Flota de Recolección: Cuánto Cuesta Cada Viaje",
+    "keyword": "control flota recolección reciclaje",
+    "categoria": "Reciclaje · Flota",
+    "servicio": "apps-empresariales",
+    "industria": "reciclaje"
+  },
+  {
+    "slug": "software-bodegas-reciclaje-colombia",
+    "titulo": "Software para Bodegas de Reciclaje en Colombia",
+    "keyword": "software bodega reciclaje colombia",
+    "categoria": "Reciclaje · Software",
+    "servicio": "apps-empresariales",
+    "industria": "reciclaje"
+  },
+  {
+    "slug": "cuadrar-contabilidad-chatarreria",
+    "titulo": "Cómo Cuadrar la Contabilidad de una Chatarrería",
+    "keyword": "contabilidad chatarrería colombia",
+    "categoria": "Reciclaje · Contabilidad",
+    "servicio": "apps-empresariales",
+    "industria": "reciclaje"
+  },
+  {
+    "slug": "pesaje-y-trazabilidad-reciclaje",
+    "titulo": "Pesaje y Trazabilidad en Reciclaje: del Peso al Soporte",
+    "keyword": "pesaje trazabilidad reciclaje",
+    "categoria": "Reciclaje · Pesaje",
+    "servicio": "apps-empresariales",
+    "industria": "reciclaje"
+  }
 ]
