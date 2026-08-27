@@ -161,9 +161,9 @@
 </nav>
 <div class="flex items-center gap-4">
 <a href="/area/" class="hidden lg:block font-label-md text-label-md text-on-surface-variant hover:opacity-90 transition-all">Área de clientes</a>
-<button class="bg-gradient-primary text-on-primary font-label-md text-label-md px-6 py-2.5 rounded-lg active:scale-95 transition-all shadow-md hover:shadow-lg">
+<a href="https://wa.me/573212674754" target="_blank" rel="noopener" class="bg-gradient-primary text-on-primary font-label-md text-label-md px-6 py-2.5 rounded-lg active:scale-95 transition-all shadow-md hover:shadow-lg inline-flex items-center justify-center">
                     Hablar con un asesor
-                </button>
+                </a>
 </div>
 </div>
 </header>
@@ -196,35 +196,35 @@
 <div class="ai-pulse"></div>
 <span class="font-label-md text-label-md text-primary font-bold uppercase tracking-wider">Formulario de Consulta</span>
 </div>
-<form class="space-y-md">
+<form id="form-contacto" novalidate class="space-y-md">
 <div class="grid grid-cols-1 md:grid-cols-2 gap-md">
 <div class="space-y-xs">
-<label class="font-label-md text-label-md text-on-surface-variant">Nombre completo</label>
-<input class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all" placeholder="Ej. Carlos Rodríguez" type="text"/>
+<label for="f-nombre" class="font-label-md text-label-md text-on-surface-variant">Nombre completo</label>
+<input id="f-nombre" name="nombre" required class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all" placeholder="Ej. Carlos Rodríguez" type="text"/>
 </div>
 <div class="space-y-xs">
-<label class="font-label-md text-label-md text-on-surface-variant">Empresa</label>
-<input class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all" placeholder="Nombre de tu organización" type="text"/>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-md">
-<div class="space-y-xs">
-<label class="font-label-md text-label-md text-on-surface-variant">Cargo</label>
-<input class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all" placeholder="Ej. Gerente Comercial" type="text"/>
-</div>
-<div class="space-y-xs">
-<label class="font-label-md text-label-md text-on-surface-variant">Email corporativo</label>
-<input class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all" placeholder="carlos@empresa.co" type="email"/>
+<label for="f-empresa" class="font-label-md text-label-md text-on-surface-variant">Empresa</label>
+<input id="f-empresa" name="empresa" required class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all" placeholder="Nombre de tu organización" type="text"/>
 </div>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-md">
 <div class="space-y-xs">
-<label class="font-label-md text-label-md text-on-surface-variant">Teléfono / WhatsApp</label>
-<input class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all" placeholder="+57 300 000 0000" type="tel"/>
+<label for="f-cargo" class="font-label-md text-label-md text-on-surface-variant">Cargo</label>
+<input id="f-cargo" name="cargo" class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all" placeholder="Ej. Gerente Comercial" type="text"/>
 </div>
 <div class="space-y-xs">
-<label class="font-label-md text-label-md text-on-surface-variant">Servicio de interés</label>
-<select class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all appearance-none">
+<label for="f-email" class="font-label-md text-label-md text-on-surface-variant">Email corporativo</label>
+<input id="f-email" name="email" class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all" placeholder="carlos@empresa.co" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-md">
+<div class="space-y-xs">
+<label for="f-telefono" class="font-label-md text-label-md text-on-surface-variant">Teléfono / WhatsApp</label>
+<input id="f-telefono" name="telefono" required class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all" placeholder="+57 300 000 0000" type="tel"/>
+</div>
+<div class="space-y-xs">
+<label for="f-servicio" class="font-label-md text-label-md text-on-surface-variant">Servicio de interés</label>
+<select id="f-servicio" name="servicio" class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all appearance-none">
 <option>Selecciona una opción</option>
 <option>Sistemas a medida</option>
 <option>Automatización de procesos</option>
@@ -235,8 +235,8 @@
 </div>
 </div>
 <div class="space-y-xs">
-<label class="font-label-md text-label-md text-on-surface-variant">¿En qué podemos ayudarte?</label>
-<textarea class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all resize-none" placeholder="Cuéntanos brevemente sobre tu proyecto o desafío actual..." rows="4"></textarea>
+<label for="f-mensaje" class="font-label-md text-label-md text-on-surface-variant">¿En qué podemos ayudarte?</label>
+<textarea id="f-mensaje" name="mensaje" class="w-full bg-surface-container-low border-outline-variant rounded-lg p-3 font-body-md text-body-md focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all resize-none" placeholder="Cuéntanos brevemente sobre tu proyecto o desafío actual..." rows="4"></textarea>
 </div>
 <div class="pt-sm">
 <button class="w-full bg-gradient-primary text-on-primary font-headline-md text-headline-md py-4 rounded-xl shadow-lg hover:shadow-primary/20 hover:-translate-y-0.5 active:scale-95 transition-all flex items-center justify-center gap-3" type="submit">
@@ -247,6 +247,7 @@
                                 Te respondemos en menos de 24 horas hábiles.
                             </p>
 </div>
+<p id="form-estado" role="status" aria-live="polite" style="margin-top:12px;font-size:0.9rem;"></p>
 </form>
 </div>
 <!-- Right: Contact Info & Socials -->
@@ -439,4 +440,50 @@
             observer.observe(el);
         });
     </script>
+
+<script>
+(function () {
+  var form = document.getElementById('form-contacto');
+  if (!form) return;
+  var estado = document.getElementById('form-estado');
+  var CAMPOS = [{"name":"nombre","etiqueta":"Nombre","requerido":true},{"name":"empresa","etiqueta":"Empresa","requerido":true},{"name":"cargo","etiqueta":"Cargo","requerido":false},{"name":"email","etiqueta":"Correo","requerido":false},{"name":"telefono","etiqueta":"Teléfono","requerido":true},{"name":"servicio","etiqueta":"Interés","requerido":false},{"name":"mensaje","etiqueta":"Necesidad","requerido":false}];
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    var faltan = CAMPOS.filter(function (c) {
+      if (!c.requerido) return false;
+      var el = form.elements[c.name];
+      return !el || !el.value.trim();
+    });
+
+    if (faltan.length) {
+      estado.style.color = '#b42318';
+      estado.textContent = 'Falta ' + faltan.map(function (c) { return c.etiqueta.toLowerCase(); }).join(', ') + '.';
+      var primero = form.elements[faltan[0].name];
+      if (primero) primero.focus();
+      return;
+    }
+
+    var lineas = ['Hola, quiero agendar un diagnóstico.', ''];
+    CAMPOS.forEach(function (c) {
+      var el = form.elements[c.name];
+      if (!el) return;
+      var v = (el.value || '').trim();
+      if (!v || v === 'Selecciona una opción') return;
+      lineas.push(c.etiqueta + ': ' + v);
+    });
+
+    var url = 'https://wa.me/573212674754?text=' + encodeURIComponent(lineas.join('\n'));
+
+    if (typeof gtag === 'function') {
+      gtag('event', 'generate_lead', { method: 'formulario_contacto' });
+    }
+
+    estado.style.color = '';
+    estado.textContent = 'Abriendo WhatsApp con sus datos...';
+    window.open(url, '_blank', 'noopener');
+  });
+})();
+</script>
 </body></html>
