@@ -341,7 +341,7 @@ function buildUserPrompt(topic, newsItems, dateStr) {
     'apps-empresariales': '../../servicios/apps-empresariales/',
     'asistente-ia': '../../servicios/asistente-ia/',
   };
-  const serviceLink = serviceLinks[topic.servicio] || '../../index_con_logo.html#servicios';
+  const serviceLink = serviceLinks[topic.servicio] || '/sistemas/';
   const serviceName = {
     'chatbot-ia': 'Chatbot con IA',
     'whatsapp-automatico': 'WhatsApp Automático',

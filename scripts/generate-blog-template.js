@@ -410,14 +410,14 @@ function buildHTML(topic, dateStr) {
 </head>
 <body>
   <nav>
-    <a href="../../index_con_logo.html" class="nav-brand">AI Company CO</a>
-    <a href="../../index_con_logo.html#contacto" class="btn-nav">Hablemos →</a>
+    <a href="/" class="nav-brand">AI Company CO</a>
+    <a href="/contacto/" class="btn-nav">Hablemos →</a>
   </nav>
 
   <div class="container">
     <div class="hero">
       <div class="breadcrumb">
-        <a href="../../index_con_logo.html">Inicio</a> /
+        <a href="/">Inicio</a> /
         <a href="../../blog/">Blog</a> /
         <span>${topic.titulo.slice(0, 50)}${topic.titulo.length > 50 ? '...' : ''}</span>
       </div>
@@ -497,10 +497,10 @@ function buildHTML(topic, dateStr) {
   <footer>
     <div class="container">
       <div class="footer-links">
-        <a href="../../index_con_logo.html">Inicio</a>
+        <a href="/">Inicio</a>
         <a href="${servicio.link}">${servicio.nombre}</a>
         <a href="../../blog/">Blog</a>
-        <a href="../../index_con_logo.html#contacto">Contacto</a>
+        <a href="/contacto/">Contacto</a>
       </div>
       <p class="footer-copy">© 2026 AI Company CO · Soacha, Cundinamarca, Colombia · NIT 901.234.567-8</p>
     </div>

@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    { "source": "/index_con_logo.html", "destination": "/", "permanent": true },
+    { "source": "/index_con_logo", "destination": "/", "permanent": true },
+    { "source": "/blog/automatizar-facturacion-electronica-colombia/:rest*", "destination": "/blog/facturacion-electronica-automatica-colombia/", "permanent": true },
+    { "source": "/blog/tres-errores-que-estan-impidiendo-a-colombia/:rest*", "destination": "/blog/errores-al-comprar-software-a-la-medida/", "permanent": true },
+    { "source": "/blog/google-cloud-impulsa-la-ia-agentica-colombia/:rest*", "destination": "/blog/inteligencia-artificial-negocios-colombia/", "permanent": true },
+    { "source": "/sitemap-seo.xml", "destination": "/sitemap.xml", "permanent": true }
+  ]
+}
