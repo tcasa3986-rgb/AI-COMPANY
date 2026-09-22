@@ -345,6 +345,11 @@ function buildPage({ titulo, descripcion, canonical, h1, subtitulo, intro, servi
 <title>${titulo}</title>
 <meta name="description" content="${descripcion}" />
 <link rel="canonical" href="${canonical}" />
+<!-- noindex a proposito: estas 162 paginas son una plantilla con el sector o la ciudad cambiados
+     (92-96 % del texto identico). Google las trata como "paginas puerta" y castiga el dominio entero.
+     Siguen existiendo para la gente y para el enlace interno ("follow"), pero no se le ofrecen a Google.
+     Auditoria del 2026-09-21. -->
+<meta name="robots" content="noindex, follow" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="${titulo}" />
 <meta property="og:description" content="${descripcion}" />
