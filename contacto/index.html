@@ -240,11 +240,11 @@
 </div>
 <div class="pt-sm">
 <button class="w-full bg-gradient-primary text-on-primary font-headline-md text-headline-md py-4 rounded-xl shadow-lg hover:shadow-primary/20 hover:-translate-y-0.5 active:scale-95 transition-all flex items-center justify-center gap-3" type="submit">
-                                Enviar y agendar diagnóstico
-                                <span class="material-symbols-outlined">calendar_today</span>
+                                Continuar en WhatsApp
+                                <span class="material-symbols-outlined">chat</span>
 </button>
 <p class="text-center mt-4 font-label-md text-label-md text-on-surface-variant italic">
-                                Te respondemos en menos de 24 horas hábiles.
+                                Se abrirá WhatsApp con tus datos; envía el mensaje para que te respondamos en menos de 24 horas hábiles.
                             </p>
 </div>
 <p id="form-estado" role="status" aria-live="polite" style="margin-top:12px;font-size:0.9rem;"></p>
@@ -291,10 +291,9 @@
 <div class="pt-md border-t border-outline-variant/30">
 <p class="font-label-sm text-label-sm text-on-surface-variant mb-4 uppercase tracking-widest">Nuestras Redes</p>
 <div class="flex gap-4">
-<a class="p-2 bg-surface-container-high rounded-full text-primary hover:bg-primary hover:text-white transition-all" href="/contacto/"><span class="material-symbols-outlined">share</span></a>
-<a class="p-2 bg-surface-container-high rounded-full text-primary hover:bg-primary hover:text-white transition-all" href="/contacto/"><span class="material-symbols-outlined">video_library</span></a>
-<a class="p-2 bg-surface-container-high rounded-full text-primary hover:bg-primary hover:text-white transition-all" href="/contacto/"><span class="material-symbols-outlined">photo_camera</span></a>
-<a class="p-2 bg-surface-container-high rounded-full text-primary hover:bg-primary hover:text-white transition-all" href="/contacto/"><span class="material-symbols-outlined">public</span></a>
+<a class="px-3 py-2 bg-surface-container-high rounded-full text-primary font-label-md text-label-md hover:bg-primary hover:text-white transition-all" href="https://www.facebook.com/profile.php?id=61570793879920" target="_blank" rel="noopener">Facebook</a>
+<a class="px-3 py-2 bg-surface-container-high rounded-full text-primary font-label-md text-label-md hover:bg-primary hover:text-white transition-all" href="https://www.instagram.com/aic_ompany/" target="_blank" rel="noopener">Instagram</a>
+<a class="px-3 py-2 bg-surface-container-high rounded-full text-primary font-label-md text-label-md hover:bg-primary hover:text-white transition-all" href="https://www.tiktok.com/@ai.company5" target="_blank" rel="noopener">TikTok</a>
 </div>
 </div>
 </div>
@@ -477,7 +476,7 @@
     var url = 'https://wa.me/573212674754?text=' + encodeURIComponent(lineas.join('\n'));
 
     if (typeof gtag === 'function') {
-      gtag('event', 'generate_lead', { method: 'formulario_contacto' });
+      gtag('event', 'click_whatsapp', { method: 'formulario_contacto' });
     }
 
     estado.style.color = '';
