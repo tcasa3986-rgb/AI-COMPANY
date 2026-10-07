@@ -118,7 +118,7 @@ const script = `
     var url = 'https://wa.me/${TELEFONO}?text=' + encodeURIComponent(lineas.join('\\n'));
 
     if (typeof gtag === 'function') {
-      gtag('event', 'generate_lead', { method: 'formulario_contacto' });
+      gtag('event', 'click_whatsapp', { method: 'formulario_contacto' });
     }
 
     estado.style.color = '';
