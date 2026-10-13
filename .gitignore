@@ -1,4 +1,7 @@
 node_modules/
+dist/
+__pycache__/
+*.pyc
 package-lock.json
 
 # Material de trabajo interno: briefs de estrategia, análisis competitivo, referencias

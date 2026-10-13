@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build": "node scripts/build-site.js",
+    "preview": "node scripts/preview.js",
+    "check": "node scripts/check-site.js",
+    "test": "node --test scripts/tests/blog-editorial.test.js",
     "generate": "node scripts/generate-blog.js",
-    "generate-news": "node scripts/generate-news-blog.js"
+    "generate-news": "node scripts/generate-news-blog.js",
+    "blog:validate": "node scripts/blog-editorial.js validate",
+    "blog:publish": "node scripts/blog-editorial.js publish"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.24.0",

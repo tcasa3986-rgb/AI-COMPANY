@@ -3,8 +3,16 @@
 # servirse en aicompanyco.com — quedaría público en /_rediseno/.
 _rediseno/
 
-# Scripts de mantenimiento: se ejecutan en local o en GitHub Actions, no se sirven.
-scripts/
+# scripts/ se necesita para empaquetar; el output dist excluye todos los scripts.
+
+# Fuente y archivos internos; sólo se publican páginas y activos preparados.
+.github/
+node_modules/
+*.zip
+c
+docs/
+package-lock.json
+dist/
 
 # Restos de comandos de shell mal ejecutados que quedaron en la raíz.
 *.length-1))
