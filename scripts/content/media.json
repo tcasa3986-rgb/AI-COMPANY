@@ -1,0 +1,407 @@
+{
+  "cases": {
+    "Maderas Montoya": {
+      "src": "/assets/work/maderas-inventario.jpg",
+      "alt": "Sistema real de inventario de Maderas Montoya con datos de demostración",
+      "problem": "Relacionar materiales, producción por operario y pagos por tarea.",
+      "solution": "Inventario, registro de producción, nómina y cartera en una misma operación.",
+      "use": "Consultar existencias y registrar quién hizo cada tarea, cuántas unidades produjo y el valor correspondiente."
+    },
+    "Ferre Láser": {
+      "src": "/assets/work/ferre-inventario-retales.jpg",
+      "alt": "Sistema real de Ferre Láser para láminas y retales con datos de demostración",
+      "problem": "Controlar las láminas completas y conservar los retales que pueden reutilizarse.",
+      "solution": "Inventario diferenciado de láminas y retales, búsqueda para pedidos y seguimiento de abonos.",
+      "use": "Revisar material disponible y piezas reutilizables antes de preparar el siguiente trabajo."
+    },
+    "Láser Ejecutivo": {
+      "src": "/assets/work/laser-inventario-peso.jpg",
+      "alt": "Sistema real de Láser Ejecutivo con stock por material y calibre",
+      "problem": "Controlar material por kilos, sin confundir peso con cantidad de láminas.",
+      "solution": "Inventario por material y calibre, conversión de medidas a peso y descuentos asociados a pedidos.",
+      "use": "Consultar kilos disponibles, entradas y mínimos de reorden desde el inventario."
+    },
+    "ASOERC": {
+      "src": "/assets/work/asoerc-materiales.jpg",
+      "alt": "Sistema real de ASOERC con materiales y precios de compra de demostración",
+      "problem": "Aplicar el precio correcto al material pesado y relacionar compra, bodega y pago.",
+      "solution": "Catálogo de materiales, compras por pesaje, recicladores, ventas y caja por bodega.",
+      "use": "Consultar precios por material y organizar el registro de compras y movimientos de la operación."
+    }
+  },
+  "articles": [
+    {
+      "slug": "app-movil-supermercado-colombia",
+      "src": "/assets/editorial/comercio-2.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Maksym Kozlenko",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2020-03-15_Empty_supermarket_shelves_in_Australian_supermarket_01.jpg"
+      }
+    },
+    {
+      "slug": "automatizacion-procesos-constructoras-colombia",
+      "src": "/assets/editorial/construccion-2.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "John Baker",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:The_part_of_the_Bluebells_building_site_still_under_construction_-_geograph.org.uk_-_4336634.jpg"
+      }
+    },
+    {
+      "slug": "automatizar-whatsapp-ferreterias-colombia",
+      "src": "/assets/work/ferre-inventario-retales.jpg",
+      "type": "real-ui-demo",
+      "caption": "Captura de la interfaz real, con datos de demostración.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "automatizar-whatsapp-sin-api-oficial",
+      "src": "/assets/work/cancha-configuracion.png",
+      "type": "real-ui-demo",
+      "caption": "Captura de la interfaz real, con datos de demostración.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "chatbot-ia-clinicas-colombia",
+      "src": "/assets/editorial/oficina-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Shixart1985",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Modern_medical_office_interior_design.jpg"
+      }
+    },
+    {
+      "slug": "chatbot-ia-inmobiliarias-colombia",
+      "src": "/assets/editorial/construccion-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "W.carter",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Drilling_rig_and_a_digger_at_a_construction_site_in_Tuntorp.jpg"
+      }
+    },
+    {
+      "slug": "como-automatizar-whatsapp-business-colombia",
+      "src": "/assets/editorial/movil-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Acabashi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Blackview_A60_Smartphone_Android_mobile_phone_and_folio_case.jpg"
+      }
+    },
+    {
+      "slug": "cuanto-cuesta-chatbot-ia-colombia",
+      "src": "/assets/editorial/movil-2.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Acabashi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Blackview_A60_Smartphone_Android_mobile_phone_back_face.jpg"
+      }
+    },
+    {
+      "slug": "cuanto-cuesta-pagina-web-restaurante-colombia",
+      "src": "/assets/editorial/restaurante-actual-2.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "HSOMIOA IWK maoowndy MMAP",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:HK_SKD_Sai_Kung_Po_Lam_MCP_One_Shopping_Mall_%E5%A4%A7%E5%BF%AB%E6%B4%BB_Fairwood_Restaurant_interior_furniture_tables_n_chairs_July_2026_N13P_09.jpg"
+      }
+    },
+    {
+      "slug": "cuanto-cuesta-un-software-a-la-medida-en-colombia",
+      "src": "/assets/editorial/reunion-3.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Jonathan Schilling",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:SCO_office_meeting_room_Watford_England_July_1996.jpg"
+      }
+    },
+    {
+      "slug": "errores-al-comprar-software-a-la-medida",
+      "src": "/assets/work/maderas-inventario.jpg",
+      "type": "real-ui-demo",
+      "caption": "Captura de la interfaz real, con datos de demostración.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "facturacion-electronica-automatica-colombia",
+      "src": "/assets/editorial/portatil-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Federal Bureau of Investigation",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": "https://commons.wikimedia.org/wiki/File:EFTA00002465_-_Cluttered_desk_with_a_closed_Toshiba_laptop_papers_books_and_office_supplies.jpg"
+      }
+    },
+    {
+      "slug": "google-ads-colombia-guia-pymes",
+      "src": "/assets/editorial/comercio-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Wilfredor",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Supermarket_in_recife,_pernambuco,_Brazil.jpg"
+      }
+    },
+    {
+      "slug": "inteligencia-artificial-negocios-colombia",
+      "src": "/assets/work/cancha-asistente.jpg",
+      "type": "real-ui-demo",
+      "caption": "Captura de la interfaz real, con datos de demostración.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "marketing-digital-colegios-colombia",
+      "src": "/assets/editorial/colegio-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Dejan Krsmanovic",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Old_Classroom_Interior_(47024892221).jpg"
+      }
+    },
+    {
+      "slug": "marketing-digital-gimnasios-colombia",
+      "src": "/assets/editorial/gimnasio-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "GymNation",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:GymNation_gym_interior_2024.jpg"
+      }
+    },
+    {
+      "slug": "marketing-digital-restaurantes-colombia",
+      "src": "/assets/editorial/restaurante-actual-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Community Archives",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Empty_restaurant_interior_HC08164.jpg"
+      }
+    },
+    {
+      "slug": "pagina-web-clinica-colombia",
+      "src": "/assets/editorial/clinica-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Tangopaso",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": "https://commons.wikimedia.org/wiki/File:Chambre_avec_terrasse_de_l%27h%C3%B4pital_am%C3%A9ricain.jpg"
+      }
+    },
+    {
+      "slug": "pagina-web-peluqueria-colombia",
+      "src": "/assets/editorial/peluqueria-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "克年 三沢",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Barber_Tatsumiya_in_Kahoku,_Yamagata_2009-10-23.jpg"
+      }
+    },
+    {
+      "slug": "que-es-n8n-automatizacion-colombia",
+      "src": "/assets/editorial/portatil-2.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Shixart1985",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Woman_in_professional_attire_typing_on_laptop_with_handcuffs_on_desk_near_coffee_cup_in_modern_office_setting.jpg"
+      }
+    },
+    {
+      "slug": "que-es-un-erp-para-pymes",
+      "src": "/assets/work/laser-inventario-peso.jpg",
+      "type": "real-ui-demo",
+      "caption": "Captura de la interfaz real, con datos de demostración.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "reporte-de-produccion-por-telegram",
+      "src": "/assets/work/maderas-produccion.jpg",
+      "type": "real-ui-demo",
+      "caption": "Captura de la interfaz real, con datos de demostración.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "seo-local-colombia-guia",
+      "src": "/assets/work/maderas-estibas-archivo.jpg",
+      "type": "client-photo",
+      "caption": "Fotografía del archivo de Maderas Montoya.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "sistema-gestion-droguerias-colombia",
+      "src": "/assets/editorial/farmacia-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Infrogmation of New Orleans",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Castellon_Pharmacy_New_Orleans_Empty_Shelves_where_TP_and_Wipes_were.jpg"
+      }
+    },
+    {
+      "slug": "sistema-gestion-talleres-mecanicos-colombia",
+      "src": "/assets/editorial/taller-1.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Shixart1985",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Close_view_of_car_interior_showing_steering_wheel_and_dashboard_with_missing_parts_in_a_workshop_setting.jpg"
+      }
+    },
+    {
+      "slug": "software-a-la-medida-vs-software-generico",
+      "src": "/assets/work/ferre-cotizacion.jpg",
+      "type": "real-ui-demo",
+      "caption": "Captura de la interfaz real, con datos de demostración.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "software-para-canchas-sinteticas-como-elegir",
+      "src": "/assets/work/cancha-reprogramacion.jpg",
+      "type": "real-ui-demo",
+      "caption": "Captura de la interfaz real, con datos de demostración.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "software-para-clubes-de-poker-torneos",
+      "src": "/assets/editorial/poker-fichas-3.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Santeri Viinamäki",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Two_poker_cards_and_poker_chips_20170611.jpg"
+      }
+    },
+    {
+      "slug": "software-para-deposito-de-madera-inventario",
+      "src": "/assets/work/maderas-bodega.webp",
+      "type": "client-photo",
+      "caption": "Fotografía del archivo de Maderas Montoya.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "software-para-recicladoras-pesaje-y-liquidacion",
+      "src": "/assets/work/asoerc-materiales.jpg",
+      "type": "real-ui-demo",
+      "caption": "Captura de la interfaz real, con datos de demostración.",
+      "credit": {
+        "author": "AI Company CO / archivo del proyecto",
+        "license": "Archivo propio del proyecto",
+        "source": ""
+      }
+    },
+    {
+      "slug": "whatsapp-automatico-juridicos-colombia",
+      "src": "/assets/editorial/reunion-2.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Tttrung",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:A_meeting_room_at_Government_Office_of_Vietnam.jpg"
+      }
+    },
+    {
+      "slug": "whatsapp-business-hoteles-colombia",
+      "src": "/assets/editorial/hotel-2.jpg",
+      "type": "editorial-photo",
+      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "credit": {
+        "author": "Basile Morin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Entrance_lobby_of_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg"
+      }
+    }
+  ]
+}

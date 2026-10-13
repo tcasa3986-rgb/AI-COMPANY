@@ -5,7 +5,7 @@
     "description": "Conecta inventario, pedidos, producción y cobros con software a la medida. AI Company CO desarrolla sistemas y automatizaciones para empresas en Colombia.",
     "noindex": false,
     "file": "index.html",
-    "hash": "43c4cdffecbd64f6bfea4a5964d5e278c5113bac7d4c6ddaf0307a165ba9f8c1",
+    "hash": "b0254f867bf2fd78d8d6bfe5cb317d5a2aa97b63b4132061d4295278e0f294c2",
     "lastmod": "2026-10-13"
   },
   {
@@ -23,7 +23,7 @@
     "description": "Controla inventario, producción, cartera y nómina con un sistema adaptado a las medidas y procesos de tu depósito de madera.",
     "noindex": false,
     "file": "sistemas/para-depositos-de-madera/index.html",
-    "hash": "8486750a6c93856972c965919eea07060a72e63811ed24d681aad97c141f02da",
+    "hash": "32ea56205c66af96ffb3f36fd884e13e4f99446c35e7d3bf6a80d8f79c3344ea",
     "lastmod": "2026-10-13"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Software para talleres de corte láser: inventario por peso, pedidos, producción, cotización y cartera según tu operación.",
     "noindex": false,
     "file": "sistemas/para-corte-laser/index.html",
-    "hash": "a86badc6513deba12d37388e7760dc395408449c29d09500a49d4bab53310ff9",
+    "hash": "3133168f44bede0edb057e60c5d6fe511211203b5d250dc493f200108124f050",
     "lastmod": "2026-10-13"
   },
   {
@@ -50,7 +50,7 @@
     "description": "Sistema para recicladoras: compras por material, pesaje, liquidación, bodegas, ventas y caja con una operación organizada.",
     "noindex": false,
     "file": "sistemas/para-reciclaje/index.html",
-    "hash": "2914cf8b5e16fd2306b517492923658e3239c9ac813405b2cc14c1eee19727bf",
+    "hash": "3204904a76a97e9927fe501b754f6ccde80c49762050c438cb39d80842455f8c",
     "lastmod": "2026-10-13"
   },
   {
@@ -149,7 +149,7 @@
     "description": "Conoce el trabajo de AI Company CO con Maderas Montoya, Ferre Láser, Láser Ejecutivo y ASOERC: software adaptado a procesos reales.",
     "noindex": false,
     "file": "casos/index.html",
-    "hash": "f026c4279680e4e0fa9726a9f5a0186d4d81473d77c0a60e18baafc1f9aeacfe",
+    "hash": "30836e0963eb6783655646476223fa6e47dcfc8bc32978e1d831b567b5b6ce81",
     "lastmod": "2026-10-13"
   },
   {
@@ -266,7 +266,7 @@
     "description": "Guías para decidir sobre software, inventario, producción, atención y automatización. Contenido de AI Company CO para negocios colombianos.",
     "noindex": false,
     "file": "blog/index.html",
-    "hash": "0553ff64e3680d7b9c79497b6c59f4cb645c5ca562257a43b0ebddc29658d14b",
+    "hash": "659ae59279e85da1dd05c28a5ac3ecf0684a2b5b662c6981827cc14efea27a61",
     "lastmod": "2026-10-13"
   },
   {
@@ -275,7 +275,7 @@
     "description": "Antes de una app de domicilios, el supermercado necesita inventario y precios en un sistema. Qué debe tener la app y cuándo basta con el WhatsApp.",
     "noindex": false,
     "file": "blog/app-movil-supermercado-colombia/index.html",
-    "hash": "3f832979f52077c0a6d13124642b1726f4e8beb876df4aebb7998ac886977b3d",
+    "hash": "a3adc0a5823d0c06b87626fe9795d4bc70f0e82e08386da1c0109bee7b65512f",
     "lastmod": "2026-10-13"
   },
   {
@@ -284,7 +284,7 @@
     "description": "Dónde se pierde la plata en una constructora mediana —reportes de obra tardíos, compras sin control, cortes de contratistas a mano— y qué automatizar primero.",
     "noindex": false,
     "file": "blog/automatizacion-procesos-constructoras-colombia/index.html",
-    "hash": "d8eaae102a790f84b6b394ca4fe9def1480bf7dd1195d7605463c613d17e842e",
+    "hash": "c66a5be8556320388060d7433f65d86679db4e2d8572a7553be217f7923b2164",
     "lastmod": "2026-10-13"
   },
   {
@@ -293,7 +293,7 @@
     "description": "Una ferretería recibe listas por WhatsApp todo el día. Cómo un sistema con inventario y precios cotiza, arma el pedido y cobra la cartera sin frenar la caja.",
     "noindex": false,
     "file": "blog/automatizar-whatsapp-ferreterias-colombia/index.html",
-    "hash": "d2e6ce56567d04ba786960936c3ad323b1be02b8ebdbf2c202449a3252ea6971",
+    "hash": "b9da990801f59fe21018d54e2191b1ce535c9b21da3cbf00ebdccd26bd953624",
     "lastmod": "2026-10-13"
   },
   {
@@ -302,7 +302,7 @@
     "description": "La conexión por código QR deja el número en manos del dueño y no cobra por conversación. Qué puede hacer, qué no, qué la pone en riesgo y cuándo usar la API.",
     "noindex": false,
     "file": "blog/automatizar-whatsapp-sin-api-oficial/index.html",
-    "hash": "9a55f0b6a49f54de4b0d13a2bf2ed9395a2ef7023e502ae72599c8bffbde1558",
+    "hash": "2ac337e4f0315c05bb3e460ca10d860b0b132f078a86567e5ebac123a474b213",
     "lastmod": "2026-10-13"
   },
   {
@@ -311,7 +311,7 @@
     "description": "Qué automatizar en el WhatsApp de una clínica —citas, confirmaciones, requisitos— y qué debe quedar siempre en manos del personal. El límite importa.",
     "noindex": false,
     "file": "blog/chatbot-ia-clinicas-colombia/index.html",
-    "hash": "ea0a6dcdc3675f292f451b0bab898ee1a3ebd900f9d00f8c69c0532ad1260731",
+    "hash": "1473575ce09ed63c9a9bdacbf24bf20405dadd91344848e8723a1d15060a28a6",
     "lastmod": "2026-10-13"
   },
   {
@@ -320,7 +320,7 @@
     "description": "Cómo una inmobiliaria filtra los &quot;¿todavía está disponible?&quot;, califica al interesado y agenda visitas por WhatsApp sin perder al asesor en mensajes.",
     "noindex": false,
     "file": "blog/chatbot-ia-inmobiliarias-colombia/index.html",
-    "hash": "7e5b2ad55bd8440d174202e84f3aec9e1b813ad195afde6fcf3932bb24e877c4",
+    "hash": "cd3a0e9da825311728dd4f56450c1d267f4f4221ccf6dbfa9c5bcbf80ba8b760",
     "lastmod": "2026-10-13"
   },
   {
@@ -329,7 +329,7 @@
     "description": "Las tres formas de automatizar WhatsApp en Colombia, qué se puede y qué no con cada una, cuánto cuesta, y cómo decidir sin perder el control de tu número.",
     "noindex": false,
     "file": "blog/como-automatizar-whatsapp-business-colombia/index.html",
-    "hash": "de2133963027a1626284db557a18b99630ac1bee748a6cec94542d841b5c3069",
+    "hash": "28307360456f48ac0f1b0d2bd916f3a4c86b5b47da2f691ee48ada358cfce3e5",
     "lastmod": "2026-10-13"
   },
   {
@@ -338,7 +338,7 @@
     "description": "El precio de un chatbot está en a qué datos se conecta y cuántas conversaciones van al modelo de IA. Cómo estimarlo y qué preguntar antes de contratar.",
     "noindex": false,
     "file": "blog/cuanto-cuesta-chatbot-ia-colombia/index.html",
-    "hash": "327093016749e383101c4ac705998d871ffe9782fbf6d89dedb5eb5ad49d4ee2",
+    "hash": "1d77be6ece7ea26b4b264b005a1f74a1a9ac06a07b70b074e6d8ccc44800c6dc",
     "lastmod": "2026-10-13"
   },
   {
@@ -347,7 +347,7 @@
     "description": "Desde una página de una pantalla con menú y WhatsApp hasta una con reservas y pedidos conectados. Qué incluye cada nivel, qué cuesta mantenerla y qué evitar.",
     "noindex": false,
     "file": "blog/cuanto-cuesta-pagina-web-restaurante-colombia/index.html",
-    "hash": "f993dd497e7e21fcc53c8bf625cebac13a8264b0f181452a3c98c40108134ffe",
+    "hash": "81613410594a342078bc45a4e2d29e0b26ab2dad82ea76383ca0fc139952fde9",
     "lastmod": "2026-10-13"
   },
   {
@@ -356,7 +356,7 @@
     "description": "De qué depende el precio de un sistema a la medida, qué rangos se ven en Colombia para pymes, qué incluye el mantenimiento y cómo leer una cotización.",
     "noindex": false,
     "file": "blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/index.html",
-    "hash": "0e55fa1088ddc75069144f2726c988b60b2832913fcc52a5d88fdbf538254b94",
+    "hash": "2b56ce7dce8ead8bccc1edb8512e5b0954a0452df5400c32f9d1b366e75d7700",
     "lastmod": "2026-10-13"
   },
   {
@@ -365,7 +365,7 @@
     "description": "Pagar todo al final, no exigir el código, empezar por la pantalla, aceptar &quot;usted se adapta&quot;. Los errores que más cuestan y la pregunta que evita cada uno.",
     "noindex": false,
     "file": "blog/errores-al-comprar-software-a-la-medida/index.html",
-    "hash": "4e4346191cd1326d72a2b5deb25ee308e4240d00e4cc5bf69f82fa6df3d18ab1",
+    "hash": "f7970e6d34577663916e0349b5b23762708dba6c68891ced14a679a7829eddb1",
     "lastmod": "2026-10-13"
   },
   {
@@ -374,7 +374,7 @@
     "description": "La factura electrónica ya es obligatoria; lo que cuesta es digitarla aparte. Cómo se integra con el sistema de la empresa y qué hace el proveedor tecnológico.",
     "noindex": false,
     "file": "blog/facturacion-electronica-automatica-colombia/index.html",
-    "hash": "2d641fcde6d2999575da2dadb3c9c3b2f9a43add39b7c607c4a63c4a3cb8db2f",
+    "hash": "92bbcedf172e860e3f51a1a37f515feaf3a210ece13edd42da3f3c428c471b06",
     "lastmod": "2026-10-13"
   },
   {
@@ -383,7 +383,7 @@
     "description": "La pauta trae clics; convertirlos depende de lo que hay del otro lado. Qué debe funcionar antes de pautar, cómo medir de verdad y cuándo rinde más el SEO.",
     "noindex": false,
     "file": "blog/google-ads-colombia-guia-pymes/index.html",
-    "hash": "48c4cfc1dbabb57cdd99a32df6147412b723be6ac97e1030f627c3f09b0d7234",
+    "hash": "404941a0be0494bfb01cab8c1c1a0b6226fab43de9dddad1e2b034b5918ab47d",
     "lastmod": "2026-10-13"
   },
   {
@@ -392,7 +392,7 @@
     "description": "Dónde la IA sirve hoy en una pyme colombiana —atender WhatsApp, transcribir audios, leer comprobantes— y dónde es una promesa cara. Medido en producción.",
     "noindex": false,
     "file": "blog/inteligencia-artificial-negocios-colombia/index.html",
-    "hash": "9b1a6abf621f2cc1809ebd2211c8395bb39cdecff0edd0591ec09277fa7b0e5c",
+    "hash": "c7654d1afb59897cab983c0a87de8df881086a65d7892ffbca844e91494fd15b",
     "lastmod": "2026-10-13"
   },
   {
@@ -401,7 +401,7 @@
     "description": "Un colegio pierde matrículas en el WhatsApp de admisiones. Cómo atender cada familia, agendar visitas y comunicarse con los padres actuales, antes de pautar.",
     "noindex": false,
     "file": "blog/marketing-digital-colegios-colombia/index.html",
-    "hash": "b8cab15c8b4e955306090e655993a8f79c2251c4b562a72e54a4cd4323c2c6f6",
+    "hash": "b50fb019471ae0b9166fe8a4d44b07bd4290ed2a413c979dbcb697cd790fa8c0",
     "lastmod": "2026-10-13"
   },
   {
@@ -410,7 +410,7 @@
     "description": "Un gimnasio pierde más por los que se van que por los que no llegan. Cómo un sistema de membresías con recordatorios y seguimiento hace más que la pauta.",
     "noindex": false,
     "file": "blog/marketing-digital-gimnasios-colombia/index.html",
-    "hash": "17c2eb592bab185f01c8c8a6cccdd687b9d08e3a432a73ef92b6308457c213ab",
+    "hash": "6c6503d2881c93d3979f2d543ce9b8115f73014500550d41f936236581fc65f4",
     "lastmod": "2026-10-13"
   },
   {
@@ -419,7 +419,7 @@
     "description": "Ficha de Google, WhatsApp que responde, reservas con abono y una base de clientes propia. Lo que un restaurante puede hacer sin agencia, antes de pautar.",
     "noindex": false,
     "file": "blog/marketing-digital-restaurantes-colombia/index.html",
-    "hash": "897af70074c86037c299a8d6d22b70e5487aff788c3c7cdcfc18d085e9374927",
+    "hash": "d39a808e6e069a3258bd902aaa277a3cbb2e1c149cfef528aad62a6a2ad1222b",
     "lastmod": "2026-10-13"
   },
   {
@@ -428,7 +428,7 @@
     "description": "Una página de clínica es donde el paciente decide si escribe. Especialidades, profesionales, convenios, cita por WhatsApp y lo que exige la ley de datos.",
     "noindex": false,
     "file": "blog/pagina-web-clinica-colombia/index.html",
-    "hash": "e9d522d0446b00f5db7a07b08f9ab6e9c9a768478313137323d9bad42157edd7",
+    "hash": "e22d6ed133059c471bfeda87ca81aebf6b69ebffe887d5f3aca5388500f1c466",
     "lastmod": "2026-10-13"
   },
   {
@@ -437,7 +437,7 @@
     "description": "Una peluquería vive de la agenda. Qué debe tener su página, cómo las citas entran a la agenda de cada estilista sin llamadas y cómo bajar la inasistencia.",
     "noindex": false,
     "file": "blog/pagina-web-peluqueria-colombia/index.html",
-    "hash": "fe5d723d1649d98b2dce7c25befaed06462812d2898f37f755291e9225febc30",
+    "hash": "c598e6727807f623420f704c4c22f7538d42bca06de80e9d355de75a7a2bd154",
     "lastmod": "2026-10-13"
   },
   {
@@ -446,7 +446,7 @@
     "description": "n8n conecta aplicaciones y automatiza tareas sin programar cada conexión. Qué hace bien, dónde se queda corto y cuándo conviene más un sistema propio.",
     "noindex": false,
     "file": "blog/que-es-n8n-automatizacion-colombia/index.html",
-    "hash": "c4fa724ef71092967534511a7359828f33b78649ea312678a7f9f18d1d3a7433",
+    "hash": "f6e276896ef963c1ec033f3b87d4c3aea7ecb5c48f9cb9e23aae8715d2cfb96f",
     "lastmod": "2026-10-13"
   },
   {
@@ -455,7 +455,7 @@
     "description": "Un ERP junta inventario, ventas, compras, cartera, caja y reportes en un sistema. Qué módulos importan para una pyme, qué se compra y qué se construye.",
     "noindex": false,
     "file": "blog/que-es-un-erp-para-pymes/index.html",
-    "hash": "3c898af4dbf83c69017e12603fd97ba0778ae96e911e3150dd97dfde606001df",
+    "hash": "8f77bb9eea8c21375b494667322ac4e501dbeb93ce4ee038f9fa67d585f1c4ec",
     "lastmod": "2026-10-13"
   },
   {
@@ -464,7 +464,7 @@
     "description": "El dato nace en la planta y se digita días después. Un bot de Telegram que pregunta tres cosas y guarda en el sistema elimina esa brecha. Cómo se diseña.",
     "noindex": false,
     "file": "blog/reporte-de-produccion-por-telegram/index.html",
-    "hash": "cb54e3d145294f7ba1a5e62841b674d7078b143bfc625af661dd06a27bcd87a7",
+    "hash": "1b2c381d0f3605f514bd3d57d98c169f06a42c16920f34e4e05453b894707f53",
     "lastmod": "2026-10-13"
   },
   {
@@ -473,7 +473,7 @@
     "description": "Ficha de Google completa, una página por servicio y ciudad, datos estructurados coherentes con lo visible y reseñas respondidas. Lo que aplicamos, en orden.",
     "noindex": false,
     "file": "blog/seo-local-colombia-guia/index.html",
-    "hash": "2088bb3f2ace7f856be0f50d826e397cea7ae7c61baf11a2a44eb258a65260a2",
+    "hash": "ab077cb3cadb58315be8902b711e5f449dc104bd5e08561191faf2c0be460b72",
     "lastmod": "2026-10-13"
   },
   {
@@ -482,7 +482,7 @@
     "description": "Qué necesita el sistema de una droguería: lotes y vencimientos, fiado por cliente, turnos de caja y pedidos al distribuidor. Y qué no resuelve un genérico.",
     "noindex": false,
     "file": "blog/sistema-gestion-droguerias-colombia/index.html",
-    "hash": "d6c3eacad308c535d4c720c294398a6477355a66a77ff199348c7fda1be4c2a4",
+    "hash": "748186d6d35aa176b9bfe69d1d93618cdbc6b2d2018d3a84da23f937b7e8a630",
     "lastmod": "2026-10-13"
   },
   {
@@ -491,7 +491,7 @@
     "description": "Qué resuelve un sistema para taller: orden de trabajo por vehículo, repuestos, mano de obra por mecánico, cotización aprobada por WhatsApp y cobro exacto.",
     "noindex": false,
     "file": "blog/sistema-gestion-talleres-mecanicos-colombia/index.html",
-    "hash": "045f33be73c6e52f56ee061d8ae8e8f081ebcdef072af8841d1c1057264d0d1b",
+    "hash": "40f01f15ccbe7e97fdd409244e8c47412b4eead6a36f34ea0c28f6bc57236eb9",
     "lastmod": "2026-10-13"
   },
   {
@@ -500,7 +500,7 @@
     "description": "Cuándo un software genérico alcanza, cuándo la operación no cabe en él, y las tres preguntas que resuelven la decisión. Casos: madera, corte láser y canchas.",
     "noindex": false,
     "file": "blog/software-a-la-medida-vs-software-generico/index.html",
-    "hash": "506c58bc91a45ebbb6322d5349ffdcf5dd5e00c16db2b8a1fdfa7c49f96ad310",
+    "hash": "be54056f21a6f4cd093d1b1381bd7b8e395837ab36f4e8741ea70dd3b58ec152",
     "lastmod": "2026-10-13"
   },
   {
@@ -509,7 +509,7 @@
     "description": "Agenda sin cruces garantizada por la base de datos, WhatsApp que entiende audios, abonos verificados, caja por turno. Qué debe tener un software para canchas.",
     "noindex": false,
     "file": "blog/software-para-canchas-sinteticas-como-elegir/index.html",
-    "hash": "0934eda09ac3bdc13de9a919ad2b230b3df453a19468cf5d53085ac384d1d629",
+    "hash": "d5afddd55c0a94c7624596f04c3bc71bf386c10f8f163da724f3237339f88209",
     "lastmod": "2026-10-13"
   },
   {
@@ -518,7 +518,7 @@
     "description": "Qué debe resolver el software de un club de póker: reglas por plantilla, torneos que congelan sus reglas, sorteo de mesas, reloj en el televisor y liga.",
     "noindex": false,
     "file": "blog/software-para-clubes-de-poker-torneos/index.html",
-    "hash": "36325fb346705bfacbc9065ab9873e49845371b834fb67d9aaf34dccc60ae472",
+    "hash": "4b81c31c86d0f064f2fce383fcbabce771bf8ffd2faa96538f71825c300d5470",
     "lastmod": "2026-10-13"
   },
   {
@@ -527,7 +527,7 @@
     "description": "Qué revisar en un inventario para madera, cómo se lleva la transformación con merma, el reporte de planta desde el celular y la cartera fiada.",
     "noindex": false,
     "file": "blog/software-para-deposito-de-madera-inventario/index.html",
-    "hash": "1bc123f253cb587dba7cda194f4da906ccceb274f92b1df763743b19a3d34a0c",
+    "hash": "a9ae44e81bb608f700d27a461f150a5d6a5c024ab5563cff99fdcbe4998ac6a6",
     "lastmod": "2026-10-13"
   },
   {
@@ -536,7 +536,7 @@
     "description": "Qué necesita una recicladora o asociación: pesaje por material y asociado, precios que cambian, liquidación transparente, flota y control administrativo.",
     "noindex": false,
     "file": "blog/software-para-recicladoras-pesaje-y-liquidacion/index.html",
-    "hash": "f5f79e311928c7963937d88a0d65756bfed029f1f54744e5583798a2f341c576",
+    "hash": "d001286e86fce3179bed2d684ee492c6e053e9e23515bf1262806d5b2cb47f2b",
     "lastmod": "2026-10-13"
   },
   {
@@ -545,7 +545,7 @@
     "description": "Qué automatizar en el WhatsApp de un despacho —filtrar por área, agendar, informar requisitos— sin dar asesoría ni comprometer la confidencialidad.",
     "noindex": false,
     "file": "blog/whatsapp-automatico-juridicos-colombia/index.html",
-    "hash": "3e258a4ae7723758c23570d5afaa00b6d186d396d96ddccb9e0096c38fd514fb",
+    "hash": "7f75aaa6958ef40f6e1140eceac81f4d942a9a1dabbb96d7e918614fe23c738f",
     "lastmod": "2026-10-13"
   },
   {
@@ -554,7 +554,7 @@
     "description": "Cómo un hotel pequeño o mediano atiende disponibilidad, tarifas, reservas y anticipos por WhatsApp con un asistente conectado a su calendario real.",
     "noindex": false,
     "file": "blog/whatsapp-business-hoteles-colombia/index.html",
-    "hash": "512d59fd57f8bb830ef0abfa9988cb3c4483a8ea05763ead4e96faa3fb71b2d7",
+    "hash": "a530123e8cfff03d8896e984e23942d26d3236c69792a9b1e4a29f3ea749fd53",
     "lastmod": "2026-10-13"
   },
   {

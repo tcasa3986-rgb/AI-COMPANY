@@ -1,58 +1,10 @@
-name: News Blog Generator (sin tokens)
-
+name: Publicador de noticias retirado
 on:
-  schedule:
-    # Todos los días a las 7am Colombia (12pm UTC)
-    - cron: '0 12 * * *'
   workflow_dispatch:
-
+permissions:
+  contents: read
 jobs:
-  generate-news-post:
+  retired:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Generate news blog post (sin IA, cero tokens)
-        id: generator
-        env:
-          GOOGLE_INDEXING_KEY: ${{ secrets.GOOGLE_INDEXING_KEY }}
-        run: node scripts/generate-news-blog.js
-
-      - name: Commit and push if new post
-        if: steps.generator.outputs.new_post == 'true'
-        run: |
-          git config user.name "AI Company News Bot"
-          git config user.email "cesargranados0100@gmail.com"
-          git add blog/ sitemap-seo.xml sitemap-main.xml scripts/published-news.json
-          git diff --staged --quiet || git commit -m "blog: noticia IA → ${{ steps.generator.outputs.slug }} [skip ci]"
-          git push
-
-      - name: Ping Google sitemap
-        if: steps.generator.outputs.new_post == 'true'
-        run: |
-          curl -s "https://www.google.com/ping?sitemap=https://aicompanyco.com/sitemap.xml" || true
-          curl -s "https://www.google.com/ping?sitemap=https://aicompanyco.com/sitemap-main.xml" || true
-          echo "✅ Google notificado"
-
-      - name: Notificar Telegram para indexación manual
-        if: steps.generator.outputs.new_post == 'true'
-        env:
-          SEO_NOTIFY_SECRET: ${{ secrets.SEO_NOTIFY_SECRET }}
-          PLATAFORMA_URL: ${{ secrets.PLATAFORMA_URL }}
-        run: |
-          curl -s -X POST "${PLATAFORMA_URL}/api/seo/notificar-articulo" \
-            -H "Content-Type: application/json" \
-            -H "x-seo-secret: ${SEO_NOTIFY_SECRET}" \
-            -d "{\"titulo\": \"${{ steps.generator.outputs.titulo }}\", \"slug\": \"${{ steps.generator.outputs.slug }}\", \"tipo\": \"noticia\"}" \
-            && echo "✅ Telegram notificado" || echo "⚠️ Telegram no disponible"
+      - run: echo 'El publicador antiguo está retirado. Usa Blog editorial para preparar un borrador revisable.'

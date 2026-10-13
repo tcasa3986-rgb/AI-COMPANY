@@ -38,7 +38,9 @@ npm run check
 npm test
 ```
 
-`blog:publish` incorpora el artículo al contenido local y crea su portada. El despliegue ocurre al versionar y publicar los cambios verificados. No existe una programación de consumo de IA activada en este flujo. Los borradores viven en `_rediseno/blog-drafts/`, fuera de Git y del sitio publicado.
+`blog:publish` incorpora el artículo al contenido local. Antes se debe asignar una fotografía o captura revisada en `image`, con `src` dentro de `/assets/work/` o `/assets/editorial/`, `alt`, `width`, `height`, `caption`, `credit` (autor y licencia), `type` y `approved: true`. El publicador rechaza una portada ya usada en otra guía. El generador prepara un `imageBrief` y deja `image: null` para la selección editorial; no publica una portada genérica como sustituto.
+
+El despliegue ocurre al versionar y publicar los cambios verificados. No existe una programación de consumo de IA activada en este flujo. Los borradores viven en `_rediseno/blog-drafts/`, fuera de Git y del sitio publicado.
 
 Las consultas ya cubiertas y slugs publicados se rechazan. El validador controla estructura, relacionados, fuentes HTTPS, texto activo y afirmaciones evidentes. No sustituye la revisión factual ni garantiza posicionamiento. El mínimo de 700 palabras es una regla editorial de este proyecto, no un requisito de Google.
 
@@ -51,3 +53,13 @@ Los redirects históricos se conservan en `vercel.json`. El sitemap incluye pág
 El formulario prepara un mensaje de WhatsApp en el navegador; el usuario completa el envío allí. La señal `whatsapp_contact_click` mide un clic si existe una instalación de analítica; no registra una venta ni una conversación recibida. No se agregó una cuenta de analítica nueva.
 
 Search Console y el rendimiento comercial necesitan revisión en las cuentas del propietario. Los antiguos pings de Google fueron retirados; sitemap y robots permanecen como mecanismos de descubrimiento.
+
+## Continuación local del 13 de octubre
+
+El propietario pidió dejar los ajustes posteriores en local para coordinar su despliegue con Claude Code. La producción verificada anterior es `f034470`; las fotografías, capturas reales, casos ampliados y reglas editoriales de imágenes permanecen locales.
+
+Las 32 guías tienen 32 imágenes distintas. Los casos muestran capturas de las aplicaciones reales de Maderas Montoya, Ferre Láser, Láser Ejecutivo y ASOERC, tomadas con APIs locales sintéticas y escrituras bloqueadas. Las capturas de CanchaLibre proceden de sus revisiones con datos ficticios. Se rotulan como interfaces reales con datos de demostración. No son capturas de movimientos privados de clientes.
+
+Las fotografías editoriales de terceros tienen autor, licencia y enlace a Wikimedia Commons en la guía y el índice. Se seleccionaron visualmente y no se presentan como fotografías de clientes. El registro está en `scripts/content/media.json`; cada artículo conserva sus propios créditos. El paquete publica únicamente las fotografías utilizadas; las candidatas descartadas no entran en `dist/`.
+
+Los workflows nuevos están preparados localmente. GitHub mantiene desactivados los antiguos; no habilitarlos antes de instalar las definiciones nuevas. No se amplió el permiso de la sesión de GitHub. La generación pagada necesita saldo disponible de API y no se ejecutó en esta tarea.

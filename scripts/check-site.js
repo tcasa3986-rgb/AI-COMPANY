@@ -1,5 +1,5 @@
 'use strict';
-const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const SOURCE=path.resolve(__dirname,'..'),ROOT=process.env.SITE_CHECK_ROOT?path.resolve(process.env.SITE_CHECK_ROOT):SOURCE,manifest=JSON.parse(fs.readFileSync(path.join(SOURCE,'scripts/content/pages-manifest.json'),'utf8')),errors=[],titles=new Set(),descs=new Set();let checkedLinks=0;
 const check=(condition,message)=>{if(!condition)errors.push(message)};
 for(const p of manifest){const html=fs.readFileSync(path.join(ROOT,p.file),'utf8'),prefix=p.route+': ';
@@ -14,5 +14,6 @@ for(const m of html.matchAll(/(?:href|src)="([^"]+)"/g)){let value=m[1];if(/^(?:
 for(const m of html.matchAll(/<img\b([^>]+)>/g)){check(/\balt="/.test(m[1]),prefix+'imagen sin alt');check(/\bwidth="/.test(m[1])&&/\bheight="/.test(m[1]),prefix+'imagen sin dimensiones')}
 }
 const sitemap=fs.readFileSync(path.join(ROOT,'sitemap-main.xml'),'utf8');for(const p of manifest){check(sitemap.includes(`https://aicompanyco.com${p.route}</loc>`)===!p.noindex,p.route+': sitemap/noindex incoherente')}
+const posts=JSON.parse(fs.readFileSync(path.join(SOURCE,'scripts/content/articles.json'),'utf8')),imageHashes=new Set();for(const a of posts){const imagePath=path.join(ROOT,a.cover.slice(1));check(!!a.coverAlt&&!!a.imageCaption&&!!a.imageCredit?.author,a.slug+': faltan contexto, alt o créditos de imagen');if(fs.existsSync(imagePath)){const hash=crypto.createHash('sha256').update(fs.readFileSync(imagePath)).digest('hex');check(!imageHashes.has(hash),a.slug+': portada repetida');imageHashes.add(hash)}}
 for(const asset of ['favicon.ico','favicon-96.png','apple-touch-icon.png','assets/brand/social-cover.png','assets/brand/icon-192.png','assets/brand/logo-512.png'])check(fs.existsSync(path.join(ROOT,asset)),'falta '+asset);
 if(errors.length){console.error(errors.slice(0,60).join('\n'));console.error(`${errors.length} errores`);process.exitCode=1}else console.log(JSON.stringify({pages:manifest.length,indexable:titles.size,internalReferences:checkedLinks,errors:0}));
