@@ -3,4 +3,7 @@ Allow: /
 Disallow: /scripts/
 Disallow: /_rediseno/
 
+User-agent: CCBot
+Disallow: /
+
 Sitemap: https://aicompanyco.com/sitemap.xml
