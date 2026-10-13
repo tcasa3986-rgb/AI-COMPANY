@@ -5,28 +5,36 @@
       "alt": "Sistema real de inventario de Maderas Montoya con datos de demostración",
       "problem": "Relacionar materiales, producción por operario y pagos por tarea.",
       "solution": "Inventario, registro de producción, nómina y cartera en una misma operación.",
-      "use": "Consultar existencias y registrar quién hizo cada tarea, cuántas unidades produjo y el valor correspondiente."
+      "use": "Consultar existencias y registrar quién hizo cada tarea, cuántas unidades produjo y el valor correspondiente.",
+      "width": 1152,
+      "height": 758
     },
     "Ferre Láser": {
       "src": "/assets/work/ferre-inventario-retales.jpg",
       "alt": "Sistema real de Ferre Láser para láminas y retales con datos de demostración",
       "problem": "Controlar las láminas completas y conservar los retales que pueden reutilizarse.",
       "solution": "Inventario diferenciado de láminas y retales, búsqueda para pedidos y seguimiento de abonos.",
-      "use": "Revisar material disponible y piezas reutilizables antes de preparar el siguiente trabajo."
+      "use": "Revisar material disponible y piezas reutilizables antes de preparar el siguiente trabajo.",
+      "width": 1272,
+      "height": 795
     },
     "Láser Ejecutivo": {
       "src": "/assets/work/laser-inventario-peso.jpg",
       "alt": "Sistema real de Láser Ejecutivo con stock por material y calibre",
       "problem": "Controlar material por kilos, sin confundir peso con cantidad de láminas.",
       "solution": "Inventario por material y calibre, conversión de medidas a peso y descuentos asociados a pedidos.",
-      "use": "Consultar kilos disponibles, entradas y mínimos de reorden desde el inventario."
+      "use": "Consultar kilos disponibles, entradas y mínimos de reorden desde el inventario.",
+      "width": 1272,
+      "height": 795
     },
     "ASOERC": {
       "src": "/assets/work/asoerc-materiales.jpg",
       "alt": "Sistema real de ASOERC con materiales y precios de compra de demostración",
       "problem": "Aplicar el precio correcto al material pesado y relacionar compra, bodega y pago.",
       "solution": "Catálogo de materiales, compras por pesaje, recicladores, ventas y caja por bodega.",
-      "use": "Consultar precios por material y organizar el registro de compras y movimientos de la operación."
+      "use": "Consultar precios por material y organizar el registro de compras y movimientos de la operación.",
+      "width": 1280,
+      "height": 800
     }
   },
   "articles": [
@@ -34,7 +42,7 @@
       "slug": "app-movil-supermercado-colombia",
       "src": "/assets/editorial/comercio-2.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Maksym Kozlenko",
         "license": "CC BY-SA 4.0",
@@ -46,7 +54,7 @@
       "slug": "automatizacion-procesos-constructoras-colombia",
       "src": "/assets/editorial/construccion-2.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "John Baker",
         "license": "CC BY-SA 2.0",
@@ -80,7 +88,7 @@
       "slug": "chatbot-ia-clinicas-colombia",
       "src": "/assets/editorial/oficina-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Shixart1985",
         "license": "CC BY 2.0",
@@ -92,7 +100,7 @@
       "slug": "chatbot-ia-inmobiliarias-colombia",
       "src": "/assets/editorial/construccion-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "W.carter",
         "license": "CC BY 4.0",
@@ -104,7 +112,7 @@
       "slug": "como-automatizar-whatsapp-business-colombia",
       "src": "/assets/editorial/movil-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Acabashi",
         "license": "CC BY-SA 4.0",
@@ -116,7 +124,7 @@
       "slug": "cuanto-cuesta-chatbot-ia-colombia",
       "src": "/assets/editorial/movil-2.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Acabashi",
         "license": "CC BY-SA 4.0",
@@ -128,7 +136,7 @@
       "slug": "cuanto-cuesta-pagina-web-restaurante-colombia",
       "src": "/assets/editorial/restaurante-actual-2.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "HSOMIOA IWK maoowndy MMAP",
         "license": "CC0",
@@ -140,7 +148,7 @@
       "slug": "cuanto-cuesta-un-software-a-la-medida-en-colombia",
       "src": "/assets/editorial/reunion-3.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Jonathan Schilling",
         "license": "CC BY-SA 4.0",
@@ -163,7 +171,7 @@
       "slug": "facturacion-electronica-automatica-colombia",
       "src": "/assets/editorial/portatil-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Federal Bureau of Investigation",
         "license": "Public domain",
@@ -175,7 +183,7 @@
       "slug": "google-ads-colombia-guia-pymes",
       "src": "/assets/editorial/comercio-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Wilfredor",
         "license": "CC BY-SA 4.0",
@@ -198,7 +206,7 @@
       "slug": "marketing-digital-colegios-colombia",
       "src": "/assets/editorial/colegio-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Dejan Krsmanovic",
         "license": "CC BY 2.0",
@@ -210,7 +218,7 @@
       "slug": "marketing-digital-gimnasios-colombia",
       "src": "/assets/editorial/gimnasio-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "GymNation",
         "license": "CC BY-SA 4.0",
@@ -222,7 +230,7 @@
       "slug": "marketing-digital-restaurantes-colombia",
       "src": "/assets/editorial/restaurante-actual-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Community Archives",
         "license": "CC0",
@@ -234,7 +242,7 @@
       "slug": "pagina-web-clinica-colombia",
       "src": "/assets/editorial/clinica-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Tangopaso",
         "license": "Public domain",
@@ -246,7 +254,7 @@
       "slug": "pagina-web-peluqueria-colombia",
       "src": "/assets/editorial/peluqueria-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "克年 三沢",
         "license": "CC BY 2.0",
@@ -258,7 +266,7 @@
       "slug": "que-es-n8n-automatizacion-colombia",
       "src": "/assets/editorial/portatil-2.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Shixart1985",
         "license": "CC BY 2.0",
@@ -303,7 +311,7 @@
       "slug": "sistema-gestion-droguerias-colombia",
       "src": "/assets/editorial/farmacia-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Infrogmation of New Orleans",
         "license": "CC BY-SA 4.0",
@@ -315,7 +323,7 @@
       "slug": "sistema-gestion-talleres-mecanicos-colombia",
       "src": "/assets/editorial/taller-1.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Shixart1985",
         "license": "CC BY 2.0",
@@ -349,7 +357,7 @@
       "slug": "software-para-clubes-de-poker-torneos",
       "src": "/assets/editorial/poker-fichas-3.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Santeri Viinamäki",
         "license": "CC BY-SA 4.0",
@@ -383,7 +391,7 @@
       "slug": "whatsapp-automatico-juridicos-colombia",
       "src": "/assets/editorial/reunion-2.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Tttrung",
         "license": "CC BY-SA 4.0",
@@ -395,7 +403,7 @@
       "slug": "whatsapp-business-hoteles-colombia",
       "src": "/assets/editorial/hotel-2.jpg",
       "type": "editorial-photo",
-      "caption": "Fotografía editorial de contexto. No corresponde a un cliente de AI Company CO.",
+      "caption": "Fotografía editorial de contexto.",
       "credit": {
         "author": "Basile Morin",
         "license": "CC BY-SA 4.0",
