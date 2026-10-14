@@ -13,10 +13,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/build-site.js
-      - run: node scripts/check-site.js
-      - run: node --test scripts/tests/blog-editorial.test.js
-      - run: node scripts/package-site.js
-      - run: node scripts/check-site.js
-        env:
-          SITE_CHECK_ROOT: dist
+      - run: npm test
+      - run: npm run build

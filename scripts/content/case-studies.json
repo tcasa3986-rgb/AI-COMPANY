@@ -1,0 +1,54 @@
+[
+  {
+    "client": "Maderas Montoya",
+    "status": "draft",
+    "authorization": null,
+    "source": "scripts/content/media.json",
+    "problem": "Relacionar materiales, producción por operario y pagos por tarea.",
+    "solution": "Inventario, registro de producción, nómina y cartera en una misma operación.",
+    "use": "Consultar existencias y registrar quién hizo cada tarea, cuántas unidades produjo y el valor correspondiente.",
+    "image": "/assets/work/maderas-inventario.jpg",
+    "results": null,
+    "testimonial": null,
+    "publish": false
+  },
+  {
+    "client": "Ferre Láser",
+    "status": "draft",
+    "authorization": null,
+    "source": "scripts/content/media.json",
+    "problem": "Controlar las láminas completas y conservar los retales que pueden reutilizarse.",
+    "solution": "Inventario diferenciado de láminas y retales, búsqueda para pedidos y seguimiento de abonos.",
+    "use": "Revisar material disponible y piezas reutilizables antes de preparar el siguiente trabajo.",
+    "image": "/assets/work/ferre-inventario-retales.jpg",
+    "results": null,
+    "testimonial": null,
+    "publish": false
+  },
+  {
+    "client": "Láser Ejecutivo",
+    "status": "draft",
+    "authorization": null,
+    "source": "scripts/content/media.json",
+    "problem": "Controlar material por kilos, sin confundir peso con cantidad de láminas.",
+    "solution": "Inventario por material y calibre, conversión de medidas a peso y descuentos asociados a pedidos.",
+    "use": "Consultar kilos disponibles, entradas y mínimos de reorden desde el inventario.",
+    "image": "/assets/work/laser-inventario-peso.jpg",
+    "results": null,
+    "testimonial": null,
+    "publish": false
+  },
+  {
+    "client": "ASOERC",
+    "status": "draft",
+    "authorization": null,
+    "source": "scripts/content/media.json",
+    "problem": "Aplicar el precio correcto al material pesado y relacionar compra, bodega y pago.",
+    "solution": "Catálogo de materiales, compras por pesaje, recicladores, ventas y caja por bodega.",
+    "use": "Consultar precios por material y organizar el registro de compras y movimientos de la operación.",
+    "image": "/assets/work/asoerc-materiales.jpg",
+    "results": null,
+    "testimonial": null,
+    "publish": false
+  }
+]

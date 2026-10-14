@@ -1,0 +1,20 @@
+{
+  "status": "awaiting-official-artwork",
+  "reviewOnly": true,
+  "name": "AI Company",
+  "descriptor": "INGENIERÍA DE SOFTWARE",
+  "concept": "C — Conexión y Automatización",
+  "palette": {
+    "primary": "#7024C4",
+    "deep": "#4C168E",
+    "graphite": "#191923",
+    "white": "#FFFFFF",
+    "ice": "#F7F8FA",
+    "lavender": "#F0E5FA"
+  },
+  "fonts": {
+    "heading": "Manrope",
+    "body": "Inter"
+  },
+  "officialResources": null
+}

@@ -2,9 +2,11 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const SOURCE=path.resolve(__dirname,'..'),ROOT=process.env.SITE_CHECK_ROOT?path.resolve(process.env.SITE_CHECK_ROOT):SOURCE,manifest=JSON.parse(fs.readFileSync(path.join(SOURCE,'scripts/content/pages-manifest.json'),'utf8')),errors=[],titles=new Set(),descs=new Set();let checkedLinks=0;
 const check=(condition,message)=>{if(!condition)errors.push(message)};
+const review=JSON.parse(fs.readFileSync(path.join(SOURCE,'scripts/content/brand-status.json'),'utf8')).reviewOnly;
+errors.push(...require('./seo-preservation').validate(ROOT));
 for(const p of manifest){const html=fs.readFileSync(path.join(ROOT,p.file),'utf8'),prefix=p.route+': ';
 check((html.match(/<h1(?:\s|>)/g)||[]).length===1,prefix+'debe existir un solo H1');check((html.match(/<main(?:\s|>)/g)||[]).length===1,prefix+'debe existir un solo main');
-check(html.includes(`href="https://aicompanyco.com${p.route}"`),prefix+'canonical incorrecto');check(html.includes('href="/favicon.svg"'),prefix+'falta favicon');check(html.includes('/assets/site.css'),prefix+'falta diseño compartido');
+check(html.includes(`href="https://aicompanyco.com${p.route}"`),prefix+'canonical incorrecto');if(!review)check(html.includes('href="/favicon.svg"'),prefix+'falta favicon');else check(!/src="\/assets\/brand\/|href="\/favicon|href="\/site.webmanifest|https:\/\/fonts.googleapis/.test(html),prefix+'recurso histórico o fuente remota en revisión');check(html.includes('/assets/site.css'),prefix+'falta diseño compartido');
 const title=html.match(/<title>(.*?)<\/title>/s)?.[1],desc=html.match(/name="description" content="([^"]*)"/)?.[1];check(!!title&&title.length<110,prefix+'título vacío o excesivo');check(!!desc&&desc.length<250,prefix+'descripción vacía o excesiva');
 if(!p.noindex){check(!titles.has(title),prefix+'título duplicado');check(!descs.has(desc),prefix+'descripción duplicada');titles.add(title);descs.add(desc)}
 for(const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)){try{const ld=JSON.parse(match[1]);assert.equal(ld['@context'],'https://schema.org');assert.ok(ld['@graph'].length>=3)}catch{errors.push(prefix+'JSON-LD inválido')}}
@@ -15,5 +17,7 @@ for(const m of html.matchAll(/<img\b([^>]+)>/g)){check(/\balt="/.test(m[1]),pref
 }
 const sitemap=fs.readFileSync(path.join(ROOT,'sitemap-main.xml'),'utf8');for(const p of manifest){check(sitemap.includes(`https://aicompanyco.com${p.route}</loc>`)===!p.noindex,p.route+': sitemap/noindex incoherente')}
 const posts=JSON.parse(fs.readFileSync(path.join(SOURCE,'scripts/content/articles.json'),'utf8')),imageHashes=new Set();for(const a of posts){const imagePath=path.join(ROOT,a.cover.slice(1));check(!!a.coverAlt&&!!a.imageCaption&&!!a.imageCredit?.author,a.slug+': faltan contexto, alt o créditos de imagen');if(fs.existsSync(imagePath)){const hash=crypto.createHash('sha256').update(fs.readFileSync(imagePath)).digest('hex');check(!imageHashes.has(hash),a.slug+': portada repetida');imageHashes.add(hash)}}
-for(const asset of ['favicon.ico','favicon-96.png','apple-touch-icon.png','assets/brand/social-cover.png','assets/brand/icon-192.png','assets/brand/logo-512.png'])check(fs.existsSync(path.join(ROOT,asset)),'falta '+asset);
+for(const asset of (review?['assets/fonts/manrope-latin.woff2','assets/fonts/inter-latin.woff2']:['favicon.ico','favicon-96.png','apple-touch-icon.png','assets/brand/social-cover.png','assets/brand/icon-192.png','assets/brand/logo-512.png']))check(fs.existsSync(path.join(ROOT,asset)),'falta '+asset);
+const legalPending=manifest.filter(p=>fs.readFileSync(path.join(ROOT,p.file),'utf8').includes('[NIT de la empresa]')).map(p=>p.route);
+if(legalPending.length)console.warn(JSON.stringify({pendingLegal:legalPending,releaseReady:false,note:'No se inventa el NIT; pendiente del responsable'}));
 if(errors.length){console.error(errors.slice(0,60).join('\n'));console.error(`${errors.length} errores`);process.exitCode=1}else console.log(JSON.stringify({pages:manifest.length,indexable:titles.size,internalReferences:checkedLinks,errors:0}));

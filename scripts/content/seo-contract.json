@@ -1,0 +1,3785 @@
+{
+  "/": {
+    "title": "Software a la medida en Colombia | AI Company CO",
+    "description": "Conecta inventario, pedidos, producción y cobros con software a la medida. AI Company CO desarrolla sistemas y automatizaciones para empresas en Colombia.",
+    "h1": "Menos enredos. Más control. Tu negocio conectado.",
+    "canonical": "https://aicompanyco.com/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/contacto/",
+      "/sistemas/",
+      "/contacto/",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-reciclaje/",
+      "/assets/work/maderas-inventario.jpg",
+      "/sistemas/para-depositos-de-madera/",
+      "/assets/work/ferre-inventario-retales.jpg",
+      "/sistemas/para-corte-laser/",
+      "/assets/work/laser-inventario-peso.jpg",
+      "/sistemas/para-corte-laser/",
+      "/assets/work/asoerc-materiales.jpg",
+      "/sistemas/para-reciclaje/",
+      "/nosotros/",
+      "/blog/",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/software-para-deposito-de-madera-inventario/",
+      "/blog/software-para-deposito-de-madera-inventario/",
+      "/blog/software-para-recicladoras-pesaje-y-liquidacion/",
+      "/blog/software-para-recicladoras-pesaje-y-liquidacion/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "b931beea59ac258c92f347f064168fcc416e686d211d7de01a726e1016fe3a93"
+  },
+  "/sistemas/": {
+    "title": "Sistemas para empresas en Colombia | AI Company CO",
+    "description": "Software para madera, corte láser, ferreterías, reciclaje, canchas y clubes. Explora las soluciones y define el alcance para tu negocio.",
+    "h1": "Una solución cercana a tu operación.",
+    "canonical": "https://aicompanyco.com/sistemas/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-reciclaje/",
+      "/sistemas/para-canchas-sinteticas/",
+      "/sistemas/para-clubes-de-poker/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "278a9092918b553d5a56cd441f4c620d96d6ebec6fbdfd1455a6efb676193e8a"
+  },
+  "/sistemas/para-depositos-de-madera/": {
+    "title": "Software para depósitos de madera | AI Company CO",
+    "description": "Controla inventario, producción, cartera y nómina con un sistema adaptado a las medidas y procesos de tu depósito de madera.",
+    "h1": "Del material en bodega al pedido entregado.",
+    "canonical": "https://aicompanyco.com/sistemas/para-depositos-de-madera/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/assets/work/maderas-inventario.jpg",
+      "/contacto/"
+    ],
+    "main_text_sha256": "683fdc6fc8399055179a291cd21bd4296ef9d686927e087cce7748a8394dc86b"
+  },
+  "/sistemas/para-corte-laser/": {
+    "title": "Software para corte láser e inventario | AI Company CO",
+    "description": "Software para talleres de corte láser: inventario por peso, pedidos, producción, cotización y cartera según tu operación.",
+    "h1": "Cada material, corte y cobro, bajo control.",
+    "canonical": "https://aicompanyco.com/sistemas/para-corte-laser/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/assets/work/ferre-inventario-retales.jpg",
+      "/assets/work/laser-inventario-peso.jpg",
+      "/contacto/"
+    ],
+    "main_text_sha256": "fc42869911f9864b786f519e55736dd3ef42acd17514d470ba3b70601667be1c"
+  },
+  "/sistemas/para-ferreterias/": {
+    "title": "Software para ferreterías y materiales | AI Company CO",
+    "description": "Organiza inventario, pedidos, precios y cartera de tu ferretería con software a la medida, permisos por rol y trazabilidad.",
+    "h1": "Vende con la información de tu negocio a mano.",
+    "canonical": "https://aicompanyco.com/sistemas/para-ferreterias/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "2ddc4148cecc86267ca535ee16cdd71f7964660217a9c5940986815d25f80f27"
+  },
+  "/sistemas/para-reciclaje/": {
+    "title": "Software para recicladoras y pesaje | AI Company CO",
+    "description": "Sistema para recicladoras: compras por material, pesaje, liquidación, bodegas, ventas y caja con una operación organizada.",
+    "h1": "Del pesaje al cierre de caja, conectado.",
+    "canonical": "https://aicompanyco.com/sistemas/para-reciclaje/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/assets/work/asoerc-materiales.jpg",
+      "/contacto/"
+    ],
+    "main_text_sha256": "6a75ed1cfd0e98b5fb2befc127e4fc4bb195f7e5c16fc19c1e6612ed81bfa5fc"
+  },
+  "/sistemas/para-canchas-sinteticas/": {
+    "title": "Software para canchas sintéticas | CanchaLibre",
+    "description": "Conoce CanchaLibre: reservas, WhatsApp, abonos, caja y tienda según plan. Suscripciones por sede desde $70.000 COP al mes.",
+    "h1": "La agenda de tu cancha puede estar más organizada.",
+    "canonical": "https://aicompanyco.com/sistemas/para-canchas-sinteticas/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "https://canchalibre.co/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "c1992ef1601705630f29c558031480bc926fa54be927ebc09e7fc402bcc22a61"
+  },
+  "/sistemas/para-clubes-de-poker/": {
+    "title": "Software para clubes de póker | Botón",
+    "description": "Botón organiza jugadores, inscripciones, reglas de torneos, mesas y reloj de ciegas. Implementación por club según alcance.",
+    "h1": "La operación del club, en un solo sistema.",
+    "canonical": "https://aicompanyco.com/sistemas/para-clubes-de-poker/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "8f9ff23ca642a832bf510568a77c9872fa108ccc44ca0ded43594e3b14f985b7"
+  },
+  "/servicios/whatsapp-automatico/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "31bd56c75523527cb02949d88eaa60926607559fcd0d81c9e9d0898e41ef109a"
+  },
+  "/servicios/chatbot-ia/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "b491db53923d11dbd0289a5b21f75489050968fffdeeda7c7b150fc8efd325f1"
+  },
+  "/servicios/asistente-ia/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "33373519c0bc5d23cd3959907e6aa6aadcb32cddc9c902cdfee23cde42f1918e"
+  },
+  "/servicios/paginas-web/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "823b3e6c8f8d41224249dc04ea7837ac4fe2886ab1538a538e3a7f77b6fa0be7"
+  },
+  "/servicios/apps-empresariales/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "dc04c8fbf2ffcc989e02d87cf68a8ad0f4680f49b98cae28dfc1c5b76c12d3b9"
+  },
+  "/servicios/marketing-digital/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "9781d9f06af37415eadf9295233e6aff494ffc8731f38090d72dcb70301c254a"
+  },
+  "/automatizacion-de-procesos-empresariales/": {
+    "title": "Automatización para empresas | AI Company CO",
+    "description": "Conecta herramientas y reduce tareas manuales en inventario, pedidos, atención y cobros. Automatizaciones con alcance y controles definidos.",
+    "h1": "Lo repetitivo puede fluir mejor.",
+    "canonical": "https://aicompanyco.com/automatizacion-de-procesos-empresariales/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "eec9c4d26f7b7a402bb81a165d217fc31051975e10032d7b0d60a9ac1e5c79d8"
+  },
+  "/nosotros/": {
+    "title": "Cómo trabajamos y quiénes somos | AI Company CO",
+    "description": "Cristian Gutierrez desarrolla sistemas y automatizaciones para empresas colombianas. Conoce el proceso, el alcance y el acompañamiento de AI Company CO.",
+    "h1": "La tecnología empieza por entender tu negocio.",
+    "canonical": "https://aicompanyco.com/nosotros/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "092e73d9737e4813076a8a0ba9c7006fa7e889a4dc6d221ab0199811815015a2"
+  },
+  "/casos/": {
+    "title": "Sistemas construidos para negocios | AI Company CO",
+    "description": "Conoce el trabajo de AI Company CO con Maderas Montoya, Ferre Láser, Láser Ejecutivo y ASOERC: software adaptado a procesos reales.",
+    "h1": "Procesos reales. Soluciones concretas.",
+    "canonical": "https://aicompanyco.com/casos/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/maderas-inventario.jpg",
+      "/sistemas/para-depositos-de-madera/",
+      "/assets/work/ferre-inventario-retales.jpg",
+      "/sistemas/para-corte-laser/",
+      "/assets/work/laser-inventario-peso.jpg",
+      "/sistemas/para-corte-laser/",
+      "/assets/work/asoerc-materiales.jpg",
+      "/sistemas/para-reciclaje/",
+      "/sistemas/para-canchas-sinteticas/",
+      "/sistemas/para-clubes-de-poker/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "8634da5e60d8b6d3e97ef1c96b51acaa0ad6b2afc7bec1b43200d5234dd1a575"
+  },
+  "/precios/": {
+    "title": "Implementación, soporte y precios | AI Company CO",
+    "description": "Cotiza software a la medida con implementación y mensualidad separadas. Operación y soporte desde $150.000 COP al mes según alcance.",
+    "h1": "Una propuesta clara para tu operación.",
+    "canonical": "https://aicompanyco.com/precios/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/contacto/",
+      "https://canchalibre.co/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "034e8ef88ea554b76a17ee7b4b227349b8b1b99d05d32d068e36963698bc0a08"
+  },
+  "/contacto/": {
+    "title": "Contacto y diagnóstico inicial | AI Company CO",
+    "description": "Cuéntanos qué proceso quieres mejorar. Contacta a AI Company CO por WhatsApp o correo y coordina un diagnóstico inicial para tu negocio.",
+    "h1": "¿Qué proceso quieres mejorar?",
+    "canonical": "https://aicompanyco.com/contacto/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "https://wa.me/573212674754",
+      "mailto:agencia@aicompanyco.com",
+      "/tratamiento-de-datos/"
+    ],
+    "main_text_sha256": "16fa2e3eeac476855b1ba19a31abb38f979672aa898607f04ce104155a474cc6"
+  },
+  "/soluciones/": {
+    "title": "Soluciones para tu operación | AI Company CO",
+    "description": "Explora sistemas por sector y automatizaciones para conectar inventario, pedidos, producción y cobros de tu empresa.",
+    "h1": "Una mejor conexión entre tus procesos.",
+    "canonical": "https://aicompanyco.com/soluciones/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-reciclaje/",
+      "/sistemas/para-canchas-sinteticas/",
+      "/sistemas/para-clubes-de-poker/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "5d498276a13b7464f1827337b8936fe99882d44dda9f005c4a292eda116253bf"
+  },
+  "/bogota/": {
+    "title": "Software para empresas en Bogotá | AI Company CO",
+    "description": "Consulta sistemas y automatizaciones para negocios en Bogotá. Atención desde Soacha y coordinación remota según alcance.",
+    "h1": "Sistemas para negocios en Bogotá.",
+    "canonical": "https://aicompanyco.com/bogota/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-reciclaje/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "e287a31e22978d1758d14513ede2db33046340691dc70657392091071011dee3"
+  },
+  "/medellin/": {
+    "title": "Software para empresas en Medellín | AI Company CO",
+    "description": "Consulta sistemas y automatizaciones para negocios en Medellín. Atención desde Soacha y coordinación remota según alcance.",
+    "h1": "Sistemas para negocios en Medellín.",
+    "canonical": "https://aicompanyco.com/medellin/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-reciclaje/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "0c2132a64b867978d5dcfe5e363a3be6f4d2224bec1279936f32db6070dee47a"
+  },
+  "/cali/": {
+    "title": "Software para empresas en Cali | AI Company CO",
+    "description": "Consulta sistemas y automatizaciones para negocios en Cali. Atención desde Soacha y coordinación remota según alcance.",
+    "h1": "Sistemas para negocios en Cali.",
+    "canonical": "https://aicompanyco.com/cali/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-reciclaje/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "884ed42f16cbe9482240182917bebb5d448cb25b57535958c73aae529733afee"
+  },
+  "/barranquilla/": {
+    "title": "Software para empresas en Barranquilla | AI Company CO",
+    "description": "Consulta sistemas y automatizaciones para negocios en Barranquilla. Atención desde Soacha y coordinación remota según alcance.",
+    "h1": "Sistemas para negocios en Barranquilla.",
+    "canonical": "https://aicompanyco.com/barranquilla/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-reciclaje/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "960ad54df4a4f21607abdab173370f217cc0ee9fa6f2acb4cc4bc2b66958f433"
+  },
+  "/bucaramanga/": {
+    "title": "Software para empresas en Bucaramanga | AI Company CO",
+    "description": "Consulta sistemas y automatizaciones para negocios en Bucaramanga. Atención desde Soacha y coordinación remota según alcance.",
+    "h1": "Sistemas para negocios en Bucaramanga.",
+    "canonical": "https://aicompanyco.com/bucaramanga/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-reciclaje/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "cdcbe02c05397d90ba332045d5a7e15f991a4712bd5de4ba131f593602a0e4e5"
+  },
+  "/politica-de-privacidad/": {
+    "title": "Política de Privacidad | AI Company CO",
+    "description": "Consulta la política de privacidad de AI Company CO y las condiciones aplicables al uso del sitio y los datos personales.",
+    "h1": "Política de Privacidad",
+    "canonical": "https://aicompanyco.com/politica-de-privacidad/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "mailto:agencia@aicompanyco.com",
+      "https://wa.me/573212674754",
+      "https://www.sic.gov.co"
+    ],
+    "main_text_sha256": "aaa3df5b379ec99d52733c9791668c4b65282b0303971d84141643b6fc73e18a"
+  },
+  "/tratamiento-de-datos/": {
+    "title": "Política de Tratamiento de Datos Personales | AI Company CO",
+    "description": "Consulta la política de tratamiento de datos personales de AI Company CO y las condiciones aplicables al uso del sitio y los datos personales.",
+    "h1": "Política de Tratamiento de Datos Personales",
+    "canonical": "https://aicompanyco.com/tratamiento-de-datos/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "mailto:agencia@aicompanyco.com",
+      "mailto:agencia@aicompanyco.com",
+      "mailto:agencia@aicompanyco.com"
+    ],
+    "main_text_sha256": "a0278dc03ca6480aff71c9629a219b9abec9ca4ad29371545dabb5c29f3f51e6"
+  },
+  "/terminos-y-condiciones/": {
+    "title": "Términos y Condiciones | AI Company CO",
+    "description": "Consulta la términos y condiciones de AI Company CO y las condiciones aplicables al uso del sitio y los datos personales.",
+    "h1": "Términos y Condiciones",
+    "canonical": "https://aicompanyco.com/terminos-y-condiciones/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "https://aicompanyco.com",
+      "mailto:agencia@aicompanyco.com",
+      "https://wa.me/573212674754"
+    ],
+    "main_text_sha256": "882871e59fdebefa0787714e1e16e20ede7d8b0627b11e264f385e35033b3914"
+  },
+  "/area/": {
+    "title": "Área de clientes | AI Company CO",
+    "description": "Accede a la plataforma de AI Company CO para gestionar tu sistema y solicitar soporte.",
+    "h1": "Tu sistema y el soporte, a mano.",
+    "canonical": "https://aicompanyco.com/area/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "https://mi-plataforma-production.up.railway.app/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "8c39800cb9e99c497454cc5bd64a4ec656c56d90b658f482204aef5e96db81bf"
+  },
+  "/blog/": {
+    "title": "Guías de software y automatización | AI Company CO",
+    "description": "Guías para decidir sobre software, inventario, producción, atención y automatización. Contenido de AI Company CO para negocios colombianos.",
+    "h1": "Información para decidir. Ideas para trabajar mejor.",
+    "canonical": "https://aicompanyco.com/blog/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/blog/automatizar-whatsapp-sin-api-oficial/",
+      "/blog/automatizar-whatsapp-sin-api-oficial/",
+      "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/",
+      "https://commons.wikimedia.org/wiki/File:SCO_office_meeting_room_Watford_England_July_1996.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/",
+      "/blog/errores-al-comprar-software-a-la-medida/",
+      "/blog/errores-al-comprar-software-a-la-medida/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/reporte-de-produccion-por-telegram/",
+      "/blog/reporte-de-produccion-por-telegram/",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/software-para-canchas-sinteticas-como-elegir/",
+      "/blog/software-para-canchas-sinteticas-como-elegir/",
+      "/blog/software-para-clubes-de-poker-torneos/",
+      "https://commons.wikimedia.org/wiki/File:Two_poker_cards_and_poker_chips_20170611.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/software-para-clubes-de-poker-torneos/",
+      "/blog/software-para-deposito-de-madera-inventario/",
+      "/blog/software-para-deposito-de-madera-inventario/",
+      "/blog/software-para-recicladoras-pesaje-y-liquidacion/",
+      "/blog/software-para-recicladoras-pesaje-y-liquidacion/",
+      "/blog/inteligencia-artificial-negocios-colombia/",
+      "/blog/inteligencia-artificial-negocios-colombia/",
+      "/blog/google-ads-colombia-guia-pymes/",
+      "https://commons.wikimedia.org/wiki/File:Supermarket_in_recife,_pernambuco,_Brazil.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/google-ads-colombia-guia-pymes/",
+      "/blog/whatsapp-automatico-juridicos-colombia/",
+      "https://commons.wikimedia.org/wiki/File:A_meeting_room_at_Government_Office_of_Vietnam.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/whatsapp-automatico-juridicos-colombia/",
+      "/blog/pagina-web-peluqueria-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Barber_Tatsumiya_in_Kahoku,_Yamagata_2009-10-23.jpg",
+      "https://creativecommons.org/licenses/by/2.0",
+      "/blog/pagina-web-peluqueria-colombia/",
+      "/blog/sistema-gestion-droguerias-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Castellon_Pharmacy_New_Orleans_Empty_Shelves_where_TP_and_Wipes_were.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/sistema-gestion-droguerias-colombia/",
+      "/blog/marketing-digital-colegios-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Old_Classroom_Interior_(47024892221).jpg",
+      "https://creativecommons.org/licenses/by/2.0",
+      "/blog/marketing-digital-colegios-colombia/",
+      "/blog/chatbot-ia-inmobiliarias-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Drilling_rig_and_a_digger_at_a_construction_site_in_Tuntorp.jpg",
+      "https://creativecommons.org/licenses/by/4.0",
+      "/blog/chatbot-ia-inmobiliarias-colombia/",
+      "/blog/seo-local-colombia-guia/",
+      "/blog/seo-local-colombia-guia/",
+      "/blog/app-movil-supermercado-colombia/",
+      "https://commons.wikimedia.org/wiki/File:2020-03-15_Empty_supermarket_shelves_in_Australian_supermarket_01.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/app-movil-supermercado-colombia/",
+      "/blog/whatsapp-business-hoteles-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Entrance_lobby_of_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/whatsapp-business-hoteles-colombia/",
+      "/blog/automatizacion-procesos-constructoras-colombia/",
+      "https://commons.wikimedia.org/wiki/File:The_part_of_the_Bluebells_building_site_still_under_construction_-_geograph.org.uk_-_4336634.jpg",
+      "https://creativecommons.org/licenses/by-sa/2.0",
+      "/blog/automatizacion-procesos-constructoras-colombia/",
+      "/blog/pagina-web-clinica-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Chambre_avec_terrasse_de_l%27h%C3%B4pital_am%C3%A9ricain.jpg",
+      "/blog/pagina-web-clinica-colombia/",
+      "/blog/marketing-digital-restaurantes-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Empty_restaurant_interior_HC08164.jpg",
+      "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "/blog/marketing-digital-restaurantes-colombia/",
+      "/blog/automatizar-whatsapp-ferreterias-colombia/",
+      "/blog/automatizar-whatsapp-ferreterias-colombia/",
+      "/blog/chatbot-ia-clinicas-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Modern_medical_office_interior_design.jpg",
+      "https://creativecommons.org/licenses/by/2.0",
+      "/blog/chatbot-ia-clinicas-colombia/",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Blackview_A60_Smartphone_Android_mobile_phone_back_face.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "/blog/cuanto-cuesta-pagina-web-restaurante-colombia/",
+      "https://commons.wikimedia.org/wiki/File:HK_SKD_Sai_Kung_Po_Lam_MCP_One_Shopping_Mall_%E5%A4%A7%E5%BF%AB%E6%B4%BB_Fairwood_Restaurant_interior_furniture_tables_n_chairs_July_2026_N13P_09.jpg",
+      "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "/blog/cuanto-cuesta-pagina-web-restaurante-colombia/",
+      "/blog/marketing-digital-gimnasios-colombia/",
+      "https://commons.wikimedia.org/wiki/File:GymNation_gym_interior_2024.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/marketing-digital-gimnasios-colombia/",
+      "/blog/sistema-gestion-talleres-mecanicos-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Close_view_of_car_interior_showing_steering_wheel_and_dashboard_with_missing_parts_in_a_workshop_setting.jpg",
+      "https://creativecommons.org/licenses/by/2.0",
+      "/blog/sistema-gestion-talleres-mecanicos-colombia/",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Blackview_A60_Smartphone_Android_mobile_phone_and_folio_case.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/facturacion-electronica-automatica-colombia/",
+      "https://commons.wikimedia.org/wiki/File:EFTA00002465_-_Cluttered_desk_with_a_closed_Toshiba_laptop_papers_books_and_office_supplies.jpg",
+      "/blog/facturacion-electronica-automatica-colombia/",
+      "/blog/que-es-n8n-automatizacion-colombia/",
+      "https://commons.wikimedia.org/wiki/File:Woman_in_professional_attire_typing_on_laptop_with_handcuffs_on_desk_near_coffee_cup_in_modern_office_setting.jpg",
+      "https://creativecommons.org/licenses/by/2.0",
+      "/blog/que-es-n8n-automatizacion-colombia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "7961335153b19b68b7ce78376b4b9d1e64e18d7e0bb32135289d4a0c505144ca"
+  },
+  "/blog/app-movil-supermercado-colombia/": {
+    "title": "App para supermercado de barrio: domicilios sin perder margen",
+    "description": "Antes de una app de domicilios, el supermercado necesita inventario y precios en un sistema. Qué debe tener la app y cuándo basta con el WhatsApp.",
+    "h1": "App para supermercado de barrio en Colombia: domicilios y pedidos sin perder el margen ni el control",
+    "canonical": "https://aicompanyco.com/blog/app-movil-supermercado-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/comercio-2.jpg",
+      "https://commons.wikimedia.org/wiki/File:2020-03-15_Empty_supermarket_shelves_in_Australian_supermarket_01.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20un%20supermercado%20y%20quiero%20recibir%20pedidos%20a%20domicilio",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/sistema-gestion-droguerias-colombia/",
+      "#lo-que-tiene-que-existir-antes-de-la-app",
+      "#que-debe-hacer-la-app-o-el-pedido-por-whatsapp",
+      "#el-margen-del-domicilio",
+      "#el-pedido-por-whatsapp-paso-a-paso",
+      "#que-medir",
+      "#cuando-si-pasar-de-whatsapp-a-la-app",
+      "#cuando-si-conviene-una-app-instalable",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "a55a7baf1f70ab5b0f704d61dfddab65432fa5277c56afad5f22e0ddc07a7810"
+  },
+  "/blog/automatizacion-procesos-constructoras-colombia/": {
+    "title": "Automatización para constructoras: obra, compras y cortes",
+    "description": "Dónde se pierde la plata en una constructora mediana —reportes de obra tardíos, compras sin control, cortes de contratistas a mano— y qué automatizar primero.",
+    "h1": "Automatización de procesos en constructoras: reportes de obra, compras y cortes de contratistas sin Excel",
+    "canonical": "https://aicompanyco.com/blog/automatizacion-procesos-constructoras-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/construccion-2.jpg",
+      "https://commons.wikimedia.org/wiki/File:The_part_of_the_Bluebells_building_site_still_under_construction_-_geograph.org.uk_-_4336634.jpg",
+      "https://creativecommons.org/licenses/by-sa/2.0",
+      "/blog/reporte-de-produccion-por-telegram/",
+      "/sistemas/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20una%20constructora%20y%20quiero%20automatizar%20reportes%20de%20obra%20y%20cortes",
+      "/blog/reporte-de-produccion-por-telegram/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "#el-reporte-de-obra-desde-el-celular",
+      "#compras-contra-presupuesto",
+      "#cortes-de-contratistas",
+      "#lo-que-no-hay-que-automatizar-primero",
+      "#un-ejemplo-el-corte-de-la-quincena",
+      "#que-medir-en-los-primeros-tres-meses",
+      "#por-donde-empezar",
+      "#que-medir",
+      "#como-se-entrega",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1e2d4927b8f0f74357564b7a8c7d65f2fe5af040fe6bffa34fa2c36894d5cdf9"
+  },
+  "/blog/automatizar-whatsapp-ferreterias-colombia/": {
+    "title": "WhatsApp automático para ferreterías: cotizar sin frenar",
+    "description": "Una ferretería recibe listas por WhatsApp todo el día. Cómo un sistema con inventario y precios cotiza, arma el pedido y cobra la cartera sin frenar la caja.",
+    "h1": "Cómo automatizar el WhatsApp de una ferretería: cotizaciones, pedidos y cartera sin perder ventas",
+    "canonical": "https://aicompanyco.com/blog/automatizar-whatsapp-ferreterias-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/ferre-inventario-retales.jpg",
+      "/sistemas/para-ferreterias/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20una%20ferreter%C3%ADa%20y%20quiero%20ver%20c%C3%B3mo%20automatizan%20las%20cotizaciones%20por%20WhatsApp",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/automatizar-whatsapp-sin-api-oficial/",
+      "#por-que-una-ferreteria-no-puede-usar-un-chatbot-generico",
+      "#que-hace-el-asistente-en-el-dia-a-dia",
+      "#lo-que-hay-que-tener-antes-de-automatizar",
+      "#un-ejemplo-la-lista-del-contratista",
+      "#cuanto-cambia",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "6d7104dd9172e6a9ef9aae6b683a55bc577d8c92958dec1a08efd7716602e259"
+  },
+  "/blog/automatizar-whatsapp-sin-api-oficial/": {
+    "title": "Automatizar WhatsApp sin la API oficial: cuándo sí y riesgos",
+    "description": "La conexión por código QR deja el número en manos del dueño y no cobra por conversación. Qué puede hacer, qué no, qué la pone en riesgo y cuándo usar la API.",
+    "h1": "Automatizar WhatsApp sin la API oficial de Meta: cuándo conviene, qué riesgos tiene y cómo se hace bien",
+    "canonical": "https://aicompanyco.com/blog/automatizar-whatsapp-sin-api-oficial/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/cancha-configuracion.png",
+      "/sistemas/para-canchas-sinteticas/",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20automatizar%20mi%20WhatsApp%20sin%20perder%20mi%20n%C3%BAmero",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "/blog/software-para-canchas-sinteticas-como-elegir/",
+      "#como-funciona-la-conexion-por-qr",
+      "#lo-que-si-permite",
+      "#lo-que-la-pone-en-riesgo-los-envios-masivos",
+      "#cuando-conviene-la-api-oficial",
+      "#como-se-conecta-en-cinco-minutos",
+      "#lo-que-hay-que-exigirle-a-cualquiera-de-las-dos",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "203d56761cba0fda2d3ec8e73dd90c6df753c6160dd88f5edff6dfb3acfd913f"
+  },
+  "/blog/chatbot-ia-clinicas-colombia/": {
+    "title": "Chatbot con IA para clínicas: citas, recordatorios y límites",
+    "description": "Qué automatizar en el WhatsApp de una clínica —citas, confirmaciones, requisitos— y qué debe quedar siempre en manos del personal. El límite importa.",
+    "h1": "Chatbot con IA para clínicas y consultorios en Colombia: citas, recordatorios y lo que nunca debe responder",
+    "canonical": "https://aicompanyco.com/blog/chatbot-ia-clinicas-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/oficina-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Modern_medical_office_interior_design.jpg",
+      "https://creativecommons.org/licenses/by/2.0",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20una%20cl%C3%ADnica%20y%20quiero%20saber%20qu%C3%A9%20se%20puede%20automatizar%20en%20WhatsApp",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/whatsapp-automatico-juridicos-colombia/",
+      "/blog/pagina-web-clinica-colombia/",
+      "#lo-administrativo-lo-que-el-asistente-hace-bien",
+      "#lo-clinico-lo-que-nunca-debe-responder",
+      "#como-se-conecta",
+      "#como-se-configura-el-limite-clinico",
+      "#por-donde-empezar",
+      "#que-medir",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "75554c073a567a677866a7324339d9e0c6797182ca8082bf3f7aef4831f8891c"
+  },
+  "/blog/chatbot-ia-inmobiliarias-colombia/": {
+    "title": "Chatbot con IA para inmobiliarias: calificar y agendar visitas",
+    "description": "Cómo una inmobiliaria filtra los &amp;quot;¿todavía está disponible?&amp;quot;, califica al interesado y agenda visitas por WhatsApp sin perder al asesor en mensajes.",
+    "h1": "Chatbot con IA para inmobiliarias en Colombia: calificar interesados y agendar visitas sin que el asesor conteste todo",
+    "canonical": "https://aicompanyco.com/blog/chatbot-ia-inmobiliarias-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/construccion-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Drilling_rig_and_a_digger_at_a_construction_site_in_Tuntorp.jpg",
+      "https://creativecommons.org/licenses/by/4.0",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20una%20inmobiliaria%20y%20quiero%20ver%20c%C3%B3mo%20califican%20interesados%20por%20WhatsApp",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "#calificar-antes-de-que-el-asesor-invierta-tiempo",
+      "#lo-que-responde-solo",
+      "#lo-que-va-al-asesor",
+      "#las-cuatro-preguntas-y-como-se-hacen-sin-que-suene-a-interrogatorio",
+      "#que-medir-cada-mes",
+      "#por-donde-empezar",
+      "#por-que-no-sirve-un-chatbot-generico",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "cf91b91223fd2b09975a34d1849f19629ae18e5a32ae89d230d30ac558cccc4b"
+  },
+  "/blog/como-automatizar-whatsapp-business-colombia/": {
+    "title": "Cómo automatizar WhatsApp Business en tu empresa (guía)",
+    "description": "Las tres formas de automatizar WhatsApp en Colombia, qué se puede y qué no con cada una, cuánto cuesta, y cómo decidir sin perder el control de tu número.",
+    "h1": "Cómo automatizar WhatsApp Business en una empresa colombiana (sin perder el número)",
+    "canonical": "https://aicompanyco.com/blog/como-automatizar-whatsapp-business-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/movil-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Blackview_A60_Smartphone_Android_mobile_phone_and_folio_case.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/sistemas/para-canchas-sinteticas/",
+      "https://wa.me/573212674754?text=Hola%2C%20le%C3%AD%20la%20gu%C3%ADa%20de%20automatizar%20WhatsApp%20y%20quiero%20ver%20una%20demo",
+      "/blog/automatizar-whatsapp-sin-api-oficial/",
+      "/blog/automatizar-whatsapp-ferreterias-colombia/",
+      "/blog/software-para-canchas-sinteticas-como-elegir/",
+      "#que-significa-automatizar-whatsapp-de-verdad",
+      "#las-tres-formas-de-automatizar-whatsapp-en-colombia",
+      "#lo-que-un-asistente-bien-hecho-tiene-que-saber-hacer",
+      "#lo-que-no-se-debe-automatizar",
+      "#un-caso-concreto-la-cancha-del-viernes-a-las-8",
+      "#como-empezar-en-tres-pasos",
+      "#cuanto-cuesta",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "9c48229479d0b70ff4569d2287d0f18b9ab36272cf297bf35f0217cd0946338f"
+  },
+  "/blog/cuanto-cuesta-chatbot-ia-colombia/": {
+    "title": "¿Cuánto cuesta un chatbot con IA en Colombia? Guía de precio",
+    "description": "El precio de un chatbot está en a qué datos se conecta y cuántas conversaciones van al modelo de IA. Cómo estimarlo y qué preguntar antes de contratar.",
+    "h1": "¿Cuánto cuesta un chatbot con IA en Colombia? Lo que de verdad determina el precio",
+    "canonical": "https://aicompanyco.com/blog/cuanto-cuesta-chatbot-ia-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/movil-2.jpg",
+      "https://commons.wikimedia.org/wiki/File:Blackview_A60_Smartphone_Android_mobile_phone_back_face.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/sistemas/para-canchas-sinteticas/",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20de%20un%20asistente%20de%20WhatsApp%20para%20mi%20negocio",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/",
+      "/blog/automatizar-whatsapp-sin-api-oficial/",
+      "#los-tres-costos-que-existen",
+      "#el-costo-que-se-dispara-mandar-todo-al-modelo",
+      "#por-que-chatbot-a-secas-casi-nunca-es-lo-que-se-necesita",
+      "#un-ejemplo-con-numeros-de-operacion",
+      "#que-preguntar-antes-de-firmar",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "d8760d2a9d164398dfc102d9980a9b73235816ae662257657cfbe9a469a27b79"
+  },
+  "/blog/cuanto-cuesta-pagina-web-restaurante-colombia/": {
+    "title": "¿Cuánto cuesta una página web para restaurante? Lo que incluye",
+    "description": "Desde una página de una pantalla con menú y WhatsApp hasta una con reservas y pedidos conectados. Qué incluye cada nivel, qué cuesta mantenerla y qué evitar.",
+    "h1": "¿Cuánto cuesta una página web para un restaurante en Colombia? Lo que incluye cada rango y qué no hace falta",
+    "canonical": "https://aicompanyco.com/blog/cuanto-cuesta-pagina-web-restaurante-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/restaurante-actual-2.jpg",
+      "https://commons.wikimedia.org/wiki/File:HK_SKD_Sai_Kung_Po_Lam_MCP_One_Shopping_Mall_%E5%A4%A7%E5%BF%AB%E6%B4%BB_Fairwood_Restaurant_interior_furniture_tables_n_chairs_July_2026_N13P_09.jpg",
+      "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "/sistemas/",
+      "/blog/seo-local-colombia-guia/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20un%20restaurante%20y%20quiero%20una%20cotizaci%C3%B3n%20de%20p%C3%A1gina%20web",
+      "/blog/marketing-digital-restaurantes-colombia/",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/seo-local-colombia-guia/",
+      "#nivel-1-mostrar",
+      "#nivel-2-reservar",
+      "#nivel-3-pedidos",
+      "#lo-que-no-vale-la-pena-pagar",
+      "#como-saber-en-que-nivel-estas",
+      "#el-error-mas-comun-al-contratar",
+      "#como-comparar-cotizaciones",
+      "#como-pedir-una-cotizacion-que-se-pueda-comparar",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "875cb6b339d2b80559b0f61683f89ccff0882943ab1ed63059ed69ee9a666dc4"
+  },
+  "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/": {
+    "title": "¿Cuánto cuesta un software a la medida en Colombia? Rangos",
+    "description": "De qué depende el precio de un sistema a la medida, qué rangos se ven en Colombia para pymes, qué incluye el mantenimiento y cómo leer una cotización.",
+    "h1": "¿Cuánto cuesta un software a la medida en Colombia? Rangos reales y lo que los mueve",
+    "canonical": "https://aicompanyco.com/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/reunion-3.jpg",
+      "https://commons.wikimedia.org/wiki/File:SCO_office_meeting_room_Watford_England_July_1996.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/errores-al-comprar-software-a-la-medida/",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20de%20un%20sistema%20a%20la%20medida%20para%20mi%20empresa",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/errores-al-comprar-software-a-la-medida/",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "#de-que-depende-el-precio",
+      "#los-rangos-que-se-ven-en-colombia",
+      "#el-mantenimiento",
+      "#como-leer-una-cotizacion",
+      "#lo-que-abarata-un-sistema-sin-recortarlo",
+      "#lo-que-se-paga-dos-veces-si-se-decide-mal",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "d6fe5f6574d489a954a8133c55b2c2c7c00a100f73dcaa215db1f87df355377f"
+  },
+  "/blog/errores-al-comprar-software-a-la-medida/": {
+    "title": "Siete errores al contratar software a la medida en Colombia",
+    "description": "Pagar todo al final, no exigir el código, empezar por la pantalla, aceptar &amp;quot;usted se adapta&amp;quot;. Los errores que más cuestan y la pregunta que evita cada uno.",
+    "h1": "Siete errores al contratar software a la medida en Colombia, y cómo evitarlos antes de firmar",
+    "canonical": "https://aicompanyco.com/blog/errores-al-comprar-software-a-la-medida/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/maderas-inventario.jpg",
+      "/sistemas/",
+      "/sistemas/",
+      "https://wa.me/573212674754?text=Hola%2C%20estoy%20cotizando%20un%20software%20a%20la%20medida%20y%20quiero%20una%20segunda%20opini%C3%B3n",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "#1-empezar-por-la-pantalla-y-no-por-la-operacion",
+      "#2-aceptar-que-la-empresa-se-adapta-al-sistema",
+      "#3-pagar-todo-al-final",
+      "#4-no-exigir-el-codigo-ni-la-base-de-datos",
+      "#5-construir-lo-que-se-puede-comprar",
+      "#6-no-hablar-de-seguridad-hasta-que-pasa-algo",
+      "#7-medir-el-exito-por-que-funcione",
+      "#como-se-ve-un-contrato-sano",
+      "#lo-que-un-buen-proveedor-hace-sin-que-se-lo-pidan",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "87b82f4bf6b28f4a7b7e7663ba938772ec67d227d90c49755527e679ef129d60"
+  },
+  "/blog/facturacion-electronica-automatica-colombia/": {
+    "title": "Facturación electrónica automática: integrarla al sistema",
+    "description": "La factura electrónica ya es obligatoria; lo que cuesta es digitarla aparte. Cómo se integra con el sistema de la empresa y qué hace el proveedor tecnológico.",
+    "h1": "Facturación electrónica automática en Colombia: cómo integrarla al sistema para no digitar dos veces",
+    "canonical": "https://aicompanyco.com/blog/facturacion-electronica-automatica-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/portatil-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:EFTA00002465_-_Cluttered_desk_with_a_closed_Toshiba_laptop_papers_books_and_office_supplies.jpg",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20integrar%20la%20facturaci%C3%B3n%20electr%C3%B3nica%20con%20mi%20sistema",
+      "https://www.dian.gov.co/impuestos/factura-electronica/Paginas/default.aspx",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/automatizacion-procesos-constructoras-colombia/",
+      "/blog/sistema-gestion-talleres-mecanicos-colombia/",
+      "#quien-hace-que",
+      "#como-se-integra",
+      "#lo-que-no-se-automatiza",
+      "#los-errores-que-la-integracion-evita",
+      "#por-donde-empezar",
+      "#cuando-vale-la-pena",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "0addefe2bfe442cf6b4323998727c65fc6eb24ee32776c818111f08da1e8630c"
+  },
+  "/blog/google-ads-colombia-guia-pymes/": {
+    "title": "Google Ads para pymes: cuándo sí y cuándo es botar plata",
+    "description": "La pauta trae clics; convertirlos depende de lo que hay del otro lado. Qué debe funcionar antes de pautar, cómo medir de verdad y cuándo rinde más el SEO.",
+    "h1": "Google Ads para pymes en Colombia: cuándo sí, cuándo es botar plata, y qué tener listo antes",
+    "canonical": "https://aicompanyco.com/blog/google-ads-colombia-guia-pymes/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/comercio-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Supermarket_in_recife,_pernambuco,_Brazil.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/seo-local-colombia-guia/",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20pautar%20en%20Google%20y%20primero%20revisar%20mi%20p%C3%A1gina%20y%20WhatsApp",
+      "/blog/seo-local-colombia-guia/",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/marketing-digital-restaurantes-colombia/",
+      "#lo-que-tiene-que-estar-listo-antes-del-primer-peso",
+      "#cuando-google-ads-si",
+      "#cuando-es-botar-plata",
+      "#como-medir-de-verdad-sin-agencia",
+      "#un-ejemplo-de-decision",
+      "#cuanto-tiempo-darle-a-una-prueba",
+      "#google-ads-o-seo",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "e505342275cdfc001113768ec893513766a0cc524e23b9fabbb4673d14d91929"
+  },
+  "/blog/inteligencia-artificial-negocios-colombia/": {
+    "title": "Inteligencia artificial para negocios en Colombia: usos reales",
+    "description": "Dónde la IA sirve hoy en una pyme colombiana —atender WhatsApp, transcribir audios, leer comprobantes— y dónde es una promesa cara. Medido en producción.",
+    "h1": "Inteligencia artificial para negocios en Colombia: los usos que sí funcionan y los que son humo",
+    "canonical": "https://aicompanyco.com/blog/inteligencia-artificial-negocios-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/cancha-asistente.jpg",
+      "/sistemas/para-canchas-sinteticas/",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20ver%20c%C3%B3mo%20aplican%20inteligencia%20artificial%20en%20un%20negocio%20real",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "/blog/automatizar-whatsapp-sin-api-oficial/",
+      "#lo-que-si-funciona-hoy",
+      "#lo-que-es-humo-por-ahora",
+      "#la-regla-que-aplicamos-escalar-ante-la-duda",
+      "#tres-usos-que-se-pueden-encender-esta-semana",
+      "#como-medimos-si-vale-la-pena",
+      "#que-preguntar-antes-de-comprar-ia",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "be6d35dd9b4f89a8ce20bbf8e5f15002aeee49d1ab8d87d6f35ad7aa8a69747c"
+  },
+  "/blog/marketing-digital-colegios-colombia/": {
+    "title": "Marketing digital para colegios: matrículas y comunicación",
+    "description": "Un colegio pierde matrículas en el WhatsApp de admisiones. Cómo atender cada familia, agendar visitas y comunicarse con los padres actuales, antes de pautar.",
+    "h1": "Marketing digital para colegios en Colombia: más matrículas empiezan por atender bien a las familias que ya preguntaron",
+    "canonical": "https://aicompanyco.com/blog/marketing-digital-colegios-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/colegio-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Old_Classroom_Interior_(47024892221).jpg",
+      "https://creativecommons.org/licenses/by/2.0",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "https://wa.me/573212674754?text=Hola%2C%20soy%20de%20un%20colegio%20y%20quiero%20mejorar%20el%20proceso%20de%20admisiones%20por%20WhatsApp",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/chatbot-ia-clinicas-colombia/",
+      "/blog/seo-local-colombia-guia/",
+      "#admisiones-responder-agendar-seguir",
+      "#los-padres-actuales-la-mejor-campana",
+      "#lo-que-hay-que-cuidar-con-los-datos",
+      "#como-se-ve-octubre-con-el-sistema",
+      "#que-medir-en-la-temporada-de-admisiones",
+      "#por-donde-empezar",
+      "#cuando-pautar",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "9c3d208ca6612d2581a6f5d2bc6b8eade7533c8c22c55b26d3d5f268073c59b1"
+  },
+  "/blog/marketing-digital-gimnasios-colombia/": {
+    "title": "Marketing digital para gimnasios: retener antes que captar",
+    "description": "Un gimnasio pierde más por los que se van que por los que no llegan. Cómo un sistema de membresías con recordatorios y seguimiento hace más que la pauta.",
+    "h1": "Marketing digital para gimnasios en Colombia: retener antes que captar, y el sistema que lo hace posible",
+    "canonical": "https://aicompanyco.com/blog/marketing-digital-gimnasios-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/gimnasio-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:GymNation_gym_interior_2024.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20un%20gimnasio%20y%20quiero%20un%20sistema%20de%20membres%C3%ADas%20con%20recordatorios",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/seo-local-colombia-guia/",
+      "#saber-quien-dejo-de-venir-antes-de-que-deje-de-pagar",
+      "#membresias-y-cobro-sin-perseguir",
+      "#lo-basico-para-que-te-encuentren",
+      "#el-mensaje-de-la-segunda-semana",
+      "#que-numeros-mirar-cada-mes",
+      "#por-donde-empezar",
+      "#el-error-mas-caro",
+      "#cuando-pautar",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "06d7a6ee8ef4392df64b432c737d4de8c5189aac8497ff9db7a80d1b6dd41bcd"
+  },
+  "/blog/marketing-digital-restaurantes-colombia/": {
+    "title": "Marketing digital para restaurantes: lo que sirve sin agencia",
+    "description": "Ficha de Google, WhatsApp que responde, reservas con abono y una base de clientes propia. Lo que un restaurante puede hacer sin agencia, antes de pautar.",
+    "h1": "Marketing digital para restaurantes en Colombia: lo que sirve, lo que no, y por qué sin sistema de reservas se pierde",
+    "canonical": "https://aicompanyco.com/blog/marketing-digital-restaurantes-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/restaurante-actual-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Empty_restaurant_interior_HC08164.jpg",
+      "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/sistemas/para-canchas-sinteticas/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20un%20restaurante%20y%20quiero%20dejar%20de%20perder%20reservas%20por%20WhatsApp",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/cuanto-cuesta-pagina-web-restaurante-colombia/",
+      "/blog/seo-local-colombia-guia/",
+      "#lo-primero-que-te-encuentren-y-te-puedan-escribir",
+      "#reservas-que-no-se-pierden",
+      "#una-base-de-clientes-propia",
+      "#el-dia-de-la-madre-con-y-sin-abono",
+      "#que-medir-cada-mes",
+      "#por-donde-empezar",
+      "#pauta-cuando-y-con-que",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "78d14ddd8f5927a7d18482735f14c4fe7f8686b8f6efa8d70c79e13ee28dc5d5"
+  },
+  "/blog/pagina-web-clinica-colombia/": {
+    "title": "Página web para clínicas: qué debe tener para traer pacientes",
+    "description": "Una página de clínica es donde el paciente decide si escribe. Especialidades, profesionales, convenios, cita por WhatsApp y lo que exige la ley de datos.",
+    "h1": "Página web para clínicas y consultorios en Colombia: qué debe tener para que un paciente agende",
+    "canonical": "https://aicompanyco.com/blog/pagina-web-clinica-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/clinica-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Chambre_avec_terrasse_de_l%27h%C3%B4pital_am%C3%A9ricain.jpg",
+      "/blog/chatbot-ia-clinicas-colombia/",
+      "/blog/seo-local-colombia-guia/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20una%20cl%C3%ADnica%20y%20quiero%20que%20la%20p%C3%A1gina%20traiga%20pacientes",
+      "/blog/chatbot-ia-clinicas-colombia/",
+      "/blog/seo-local-colombia-guia/",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "#lo-que-un-paciente-busca-en-diez-segundos",
+      "#la-cita-de-la-pagina-al-calendario",
+      "#lo-que-exige-la-ley",
+      "#la-estructura-que-funciona",
+      "#lo-que-un-paciente-no-perdona",
+      "#que-medir",
+      "#lo-que-no-puede-faltar",
+      "#lo-tecnico-que-si-importa",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "6d338f2b5bf4ef6251b98f57f42f987edb2711d187c0d4165b11c65c4b971dc4"
+  },
+  "/blog/pagina-web-peluqueria-colombia/": {
+    "title": "Página web para peluquería: citas por WhatsApp sin perderlas",
+    "description": "Una peluquería vive de la agenda. Qué debe tener su página, cómo las citas entran a la agenda de cada estilista sin llamadas y cómo bajar la inasistencia.",
+    "h1": "Página web para peluquería o barbería en Colombia: citas por WhatsApp que no se pierden",
+    "canonical": "https://aicompanyco.com/blog/pagina-web-peluqueria-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/peluqueria-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Barber_Tatsumiya_in_Kahoku,_Yamagata_2009-10-23.jpg",
+      "https://creativecommons.org/licenses/by/2.0",
+      "/sistemas/para-canchas-sinteticas/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20una%20peluquer%C3%ADa%20y%20quiero%20agendar%20citas%20por%20WhatsApp%20autom%C3%A1ticamente",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/software-para-canchas-sinteticas-como-elegir/",
+      "/blog/seo-local-colombia-guia/",
+      "#lo-que-debe-tener-la-pagina",
+      "#la-cita-entra-a-la-agenda-sin-llamadas",
+      "#las-citas-a-las-que-nadie-llega",
+      "#un-sabado-con-y-sin-sistema",
+      "#lo-que-debe-tener-la-pagina-en-orden",
+      "#que-medir",
+      "#por-donde-empezar",
+      "#clientes-que-vuelven",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "86f629f20fc10bc32a08848621c8b3eb62089ea4c30210dbebf7c7c4fc1ce334"
+  },
+  "/blog/que-es-n8n-automatizacion-colombia/": {
+    "title": "Qué es n8n y cuándo usarlo para automatizar una empresa",
+    "description": "n8n conecta aplicaciones y automatiza tareas sin programar cada conexión. Qué hace bien, dónde se queda corto y cuándo conviene más un sistema propio.",
+    "h1": "Qué es n8n, para qué sirve y cuándo conviene usarlo en una empresa colombiana",
+    "canonical": "https://aicompanyco.com/blog/que-es-n8n-automatizacion-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/portatil-2.jpg",
+      "https://commons.wikimedia.org/wiki/File:Woman_in_professional_attire_typing_on_laptop_with_handcuffs_on_desk_near_coffee_cup_in_modern_office_setting.jpg",
+      "https://creativecommons.org/licenses/by/2.0",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-canchas-sinteticas/",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20saber%20si%20mi%20empresa%20necesita%20n8n%20o%20un%20sistema%20propio",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/automatizacion-procesos-constructoras-colombia/",
+      "#como-funciona",
+      "#lo-que-n8n-hace-bien",
+      "#donde-se-queda-corto",
+      "#cuanto-cuesta",
+      "#como-decidir",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "0cd36f06e219bbc4760a907885c459acbbc78724beee1351e59cc50d6c3bdee5"
+  },
+  "/blog/que-es-un-erp-para-pymes/": {
+    "title": "Qué es un ERP para pymes y cuándo tu empresa lo necesita",
+    "description": "Un ERP junta inventario, ventas, compras, cartera, caja y reportes en un sistema. Qué módulos importan para una pyme, qué se compra y qué se construye.",
+    "h1": "Qué es un ERP para pymes, qué tiene adentro, y cuándo una empresa colombiana lo necesita de verdad",
+    "canonical": "https://aicompanyco.com/blog/que-es-un-erp-para-pymes/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/laser-inventario-peso.jpg",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-corte-laser/",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20saber%20si%20mi%20empresa%20necesita%20un%20ERP%20y%20por%20d%C3%B3nde%20empezar",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/",
+      "/blog/facturacion-electronica-automatica-colombia/",
+      "#que-tiene-adentro-lo-que-importa-para-una-pyme",
+      "#las-senales-de-que-ya-toca",
+      "#erp-generico-o-erp-a-la-medida",
+      "#como-se-implementa-sin-parar-la-empresa",
+      "#el-primer-mes-de-una-implementacion-real",
+      "#que-cambia-en-la-practica",
+      "#lo-que-no-es-un-erp",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "97b0d581f2274e820de5937e34f01f810922590bc7a875e2d5a245681e7d1cee"
+  },
+  "/blog/reporte-de-produccion-por-telegram/": {
+    "title": "Reportar producción desde el celular con un bot de Telegram",
+    "description": "El dato nace en la planta y se digita días después. Un bot de Telegram que pregunta tres cosas y guarda en el sistema elimina esa brecha. Cómo se diseña.",
+    "h1": "Reportar la producción del día desde el celular con un bot de Telegram: cómo funciona y por qué no WhatsApp",
+    "canonical": "https://aicompanyco.com/blog/reporte-de-produccion-por-telegram/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/maderas-produccion.jpg",
+      "/sistemas/para-depositos-de-madera/",
+      "/blog/automatizacion-procesos-constructoras-colombia/",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20que%20mi%20planta%20reporte%20la%20producci%C3%B3n%20desde%20el%20celular",
+      "/blog/software-para-deposito-de-madera-inventario/",
+      "/blog/automatizacion-procesos-constructoras-colombia/",
+      "/blog/software-para-recicladoras-pesaje-y-liquidacion/",
+      "#como-funciona-un-reporte-por-bot",
+      "#por-que-telegram-y-no-whatsapp-para-esto",
+      "#lo-que-hace-que-funcione-y-lo-que-lo-mata",
+      "#como-se-ve-la-conversacion",
+      "#que-medir",
+      "#donde-mas-aplica",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "8cf1b22b506ab86ea7eff8554421a676272f0f301116903f6f8fb801912fa856"
+  },
+  "/blog/seo-local-colombia-guia/": {
+    "title": "SEO local en Colombia: aparecer en Google Maps y en tu ciudad",
+    "description": "Ficha de Google completa, una página por servicio y ciudad, datos estructurados coherentes con lo visible y reseñas respondidas. Lo que aplicamos, en orden.",
+    "h1": "SEO local en Colombia: cómo aparecer en Google Maps y en las búsquedas de tu ciudad, sin pagar por clic",
+    "canonical": "https://aicompanyco.com/blog/seo-local-colombia-guia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/maderas-estibas-archivo.jpg",
+      "/sistemas/para-canchas-sinteticas/",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20saber%20por%20qu%C3%A9%20mi%20negocio%20no%20aparece%20en%20Google%20en%20mi%20ciudad",
+      "https://developers.google.com/search/docs/appearance/structured-data/local-business",
+      "/blog/google-ads-colombia-guia-pymes/",
+      "/blog/pagina-web-clinica-colombia/",
+      "/blog/marketing-digital-restaurantes-colombia/",
+      "#la-ficha-de-google-business-profile",
+      "#una-pagina-por-lo-que-la-gente-busca",
+      "#lo-que-google-lee",
+      "#enlaces-que-valen",
+      "#lo-que-hicimos-en-nuestro-propio-sitio-y-que-encontramos",
+      "#los-errores-que-castigan",
+      "#medir",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "cead6b3347a9b66febfc0b8bcd29254255731da8c70ce445d20319a17fc72f74"
+  },
+  "/blog/sistema-gestion-droguerias-colombia/": {
+    "title": "Software para droguerías: inventario, vencimientos y fiado",
+    "description": "Qué necesita el sistema de una droguería: lotes y vencimientos, fiado por cliente, turnos de caja y pedidos al distribuidor. Y qué no resuelve un genérico.",
+    "h1": "Software para droguerías en Colombia: inventario con vencimientos, fiado y lo que un genérico no resuelve",
+    "canonical": "https://aicompanyco.com/blog/sistema-gestion-droguerias-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/farmacia-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Castellon_Pharmacy_New_Orleans_Empty_Shelves_where_TP_and_Wipes_were.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20una%20droguer%C3%ADa%20y%20quiero%20ver%20un%20sistema%20con%20vencimientos%20y%20fiado",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/sistema-gestion-talleres-mecanicos-colombia/",
+      "#lotes-y-vencimientos-lo-primero",
+      "#fiado-por-cliente-con-limite",
+      "#caja-por-turno",
+      "#pedidos-al-distribuidor-con-datos",
+      "#un-dia-con-el-sistema",
+      "#por-donde-empezar",
+      "#lo-que-no-hace-falta-al-principio",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "29bee66d88788db56d1c22dc45ce090768d707ecd22f4a91c4a25047dc51a517"
+  },
+  "/blog/sistema-gestion-talleres-mecanicos-colombia/": {
+    "title": "Software para talleres mecánicos: órdenes, repuestos y cobro",
+    "description": "Qué resuelve un sistema para taller: orden de trabajo por vehículo, repuestos, mano de obra por mecánico, cotización aprobada por WhatsApp y cobro exacto.",
+    "h1": "Software para talleres mecánicos en Colombia: órdenes de trabajo, repuestos, mano de obra y cobro sin sorpresas",
+    "canonical": "https://aicompanyco.com/blog/sistema-gestion-talleres-mecanicos-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/taller-1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Close_view_of_car_interior_showing_steering_wheel_and_dashboard_with_missing_parts_in_a_workshop_setting.jpg",
+      "https://creativecommons.org/licenses/by/2.0",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20un%20taller%20mec%C3%A1nico%20y%20quiero%20ver%20un%20sistema%20de%20%C3%B3rdenes%20de%20trabajo",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/sistema-gestion-droguerias-colombia/",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "#la-orden-de-trabajo-es-el-sistema",
+      "#cotizacion-aprobada-por-whatsapp",
+      "#repuestos-lo-que-entra-lo-que-sale-y-a-que-orden-fue",
+      "#mano-de-obra-por-mecanico",
+      "#la-orden-de-un-carro-de-principio-a-fin",
+      "#por-donde-empezar",
+      "#que-medir-el-primer-mes",
+      "#cobro-y-caja",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "2d8518b0b5c76ac85120ce35446e72403db7d574e52b48a7f60c90f319507884"
+  },
+  "/blog/software-a-la-medida-vs-software-generico/": {
+    "title": "Software a la medida o genérico: cómo decidir sin equivocarse",
+    "description": "Cuándo un software genérico alcanza, cuándo la operación no cabe en él, y las tres preguntas que resuelven la decisión. Casos: madera, corte láser y canchas.",
+    "h1": "Software a la medida o software genérico: cómo decidir sin equivocarse (y sin pagar dos veces)",
+    "canonical": "https://aicompanyco.com/blog/software-a-la-medida-vs-software-generico/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/ferre-cotizacion.jpg",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/",
+      "https://wa.me/573212674754?text=Hola%2C%20quiero%20saber%20si%20mi%20empresa%20necesita%20software%20a%20la%20medida%20o%20uno%20gen%C3%A9rico",
+      "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/",
+      "/blog/errores-al-comprar-software-a-la-medida/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "#que-es-cada-cosa",
+      "#pregunta-1-la-operacion-cabe-en-el-software-o-la-empresa-se-tiene-que-adaptar",
+      "#pregunta-2-donde-se-pierde-la-plata-hoy",
+      "#pregunta-3-cuantas-personas-hacen-lo-mismo-que-el-software-deberia-hacer",
+      "#cuando-el-generico-gana",
+      "#tres-empresas-tres-decisiones",
+      "#lo-que-un-sistema-a-la-medida-bien-hecho-no-es",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "5e4dbd6db27b6b824a91efb09c3918f5b3e6069f9fda72495744ebdcdaadb463"
+  },
+  "/blog/software-para-canchas-sinteticas-como-elegir/": {
+    "title": "Software para canchas sintéticas: qué debe tener y cómo elegir",
+    "description": "Agenda sin cruces garantizada por la base de datos, WhatsApp que entiende audios, abonos verificados, caja por turno. Qué debe tener un software para canchas.",
+    "h1": "Software para canchas sintéticas: qué debe tener, qué preguntar y cómo elegirlo sin equivocarse",
+    "canonical": "https://aicompanyco.com/blog/software-para-canchas-sinteticas-como-elegir/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/cancha-reprogramacion.jpg",
+      "https://canchalibre.co/",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/sistemas/para-canchas-sinteticas/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20una%20cancha%20sint%C3%A9tica%20y%20quiero%20ver%20CanchaLibre",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/automatizar-whatsapp-sin-api-oficial/",
+      "/blog/whatsapp-business-hoteles-colombia/",
+      "#1-la-agenda-quien-garantiza-que-no-haya-cruces",
+      "#2-whatsapp-entiende-o-solo-responde",
+      "#3-el-abono-la-foto-es-un-pago",
+      "#lo-demas-que-debe-tener",
+      "#las-preguntas-para-hacerle-a-cualquier-proveedor",
+      "#como-se-cobra-y-que-es-razonable",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "9e51dd293d43352de7a26b0d185c2766b696ae0af4acc7b2d40cfd30dbffbed0"
+  },
+  "/blog/software-para-clubes-de-poker-torneos/": {
+    "title": "Software para torneos de póker: reloj, mesas y liga sin Excel",
+    "description": "Qué debe resolver el software de un club de póker: reglas por plantilla, torneos que congelan sus reglas, sorteo de mesas, reloj en el televisor y liga.",
+    "h1": "Software para torneos de póker en clubes: reloj de ciegas, sorteo de mesas y liga sin hojas de cálculo",
+    "canonical": "https://aicompanyco.com/blog/software-para-clubes-de-poker-torneos/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/poker-fichas-3.jpg",
+      "https://commons.wikimedia.org/wiki/File:Two_poker_cards_and_poker_chips_20170611.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/sistemas/para-clubes-de-poker/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20un%20club%20de%20p%C3%B3ker%20y%20quiero%20ver%20el%20software%20de%20torneos",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/software-para-canchas-sinteticas-como-elegir/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "#las-reglas-como-plantilla-no-como-codigo",
+      "#cada-torneo-congela-sus-reglas",
+      "#sentar-a-37-personas-sin-reclamos",
+      "#el-reloj-en-el-televisor",
+      "#el-jueves-en-dinasty-con-el-sistema",
+      "#por-donde-empezar",
+      "#caja-jugadores-y-liga",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "21d443e1c5d8364409e921a8d9f613e4967902db43dca7a28e2d7b69a8587537"
+  },
+  "/blog/software-para-deposito-de-madera-inventario/": {
+    "title": "Software para depósitos de madera: inventario con conversión",
+    "description": "Qué revisar en un inventario para madera, cómo se lleva la transformación con merma, el reporte de planta desde el celular y la cartera fiada.",
+    "h1": "Software para un depósito de madera: el inventario que convierte metros cúbicos en pulgadas y registra la merma",
+    "canonical": "https://aicompanyco.com/blog/software-para-deposito-de-madera-inventario/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/maderas-bodega.webp",
+      "/blog/reporte-de-produccion-por-telegram/",
+      "/sistemas/para-depositos-de-madera/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20un%20dep%C3%B3sito%20de%20madera%20y%20quiero%20ver%20el%20sistema%20de%20inventario%20con%20conversi%C3%B3n",
+      "/blog/reporte-de-produccion-por-telegram/",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "#inventario-con-conversion-no-con-unidades",
+      "#la-transformacion-y-la-merma",
+      "#el-reporte-de-planta-desde-el-celular",
+      "#cartera-prestamos-y-nomina",
+      "#como-se-ve-una-orden-de-transformacion",
+      "#por-donde-empezar",
+      "#lo-que-aprendimos-construyendolo",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "9a33a0de9a022b13650ca1d90c92edc717ebf6f186399a87743fa9777689011c"
+  },
+  "/blog/software-para-recicladoras-pesaje-y-liquidacion/": {
+    "title": "Software para recicladoras: pesaje, precios y liquidación",
+    "description": "Qué necesita una recicladora o asociación: pesaje por material y asociado, precios que cambian, liquidación transparente, flota y control administrativo.",
+    "h1": "Software para recicladoras y asociaciones de recicladores: pesaje, precios por material y liquidación a asociados",
+    "canonical": "https://aicompanyco.com/blog/software-para-recicladoras-pesaje-y-liquidacion/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/work/asoerc-materiales.jpg",
+      "/sistemas/para-reciclaje/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20una%20recicladora%20y%20quiero%20ver%20el%20sistema%20de%20pesaje%20y%20liquidaci%C3%B3n",
+      "/blog/reporte-de-produccion-por-telegram/",
+      "/blog/que-es-un-erp-para-pymes/",
+      "/blog/software-a-la-medida-vs-software-generico/",
+      "#pesaje-por-material-y-por-asociado",
+      "#precios-por-material-que-cambian",
+      "#liquidacion-a-asociados",
+      "#flota-y-control-administrativo",
+      "#la-liquidacion-de-un-asociado-con-numeros",
+      "#que-gana-la-asociacion-como-organizacion",
+      "#por-donde-empezar",
+      "#que-medir",
+      "#por-que-no-sirve-un-inventario-generico",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "94f8ba131073ff4aeb9b93503d78554813cc92a999338371656639256fd6ce8d"
+  },
+  "/blog/whatsapp-automatico-juridicos-colombia/": {
+    "title": "WhatsApp automático para abogados: citas y seguimiento",
+    "description": "Qué automatizar en el WhatsApp de un despacho —filtrar por área, agendar, informar requisitos— sin dar asesoría ni comprometer la confidencialidad.",
+    "h1": "WhatsApp automático para firmas de abogados: filtrar consultas, agendar citas y dar seguimiento",
+    "canonical": "https://aicompanyco.com/blog/whatsapp-automatico-juridicos-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/reunion-2.jpg",
+      "https://commons.wikimedia.org/wiki/File:A_meeting_room_at_Government_Office_of_Vietnam.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20una%20firma%20de%20abogados%20y%20quiero%20saber%20qu%C3%A9%20se%20puede%20automatizar%20en%20WhatsApp",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/chatbot-ia-clinicas-colombia/",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "#lo-que-si-se-automatiza-en-un-despacho",
+      "#lo-que-no-se-automatiza-y-por-que",
+      "#como-se-conecta-sin-cambiar-el-numero",
+      "#como-se-ve-en-una-semana-normal",
+      "#que-gana-el-despacho",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "c1d18dad6763dcdacb20f781ffca808fe6ca479c0de6477c56c4a3a63ec61e64"
+  },
+  "/blog/whatsapp-business-hoteles-colombia/": {
+    "title": "WhatsApp automático para hoteles: reservas y anticipos",
+    "description": "Cómo un hotel pequeño o mediano atiende disponibilidad, tarifas, reservas y anticipos por WhatsApp con un asistente conectado a su calendario real.",
+    "h1": "WhatsApp automático para hoteles: reservas, disponibilidad y confirmaciones sin agotar a recepción",
+    "canonical": "https://aicompanyco.com/blog/whatsapp-business-hoteles-colombia/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/",
+      "/assets/editorial/hotel-2.jpg",
+      "https://commons.wikimedia.org/wiki/File:Entrance_lobby_of_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "/sistemas/para-canchas-sinteticas/",
+      "https://wa.me/573212674754?text=Hola%2C%20tengo%20un%20hotel%20y%20quiero%20ver%20c%C3%B3mo%20automatizan%20las%20reservas%20por%20WhatsApp",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/software-para-canchas-sinteticas-como-elegir/",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "#lo-que-responde-el-asistente-sin-intervencion",
+      "#el-anticipo-y-por-que-la-foto-no-es-un-pago",
+      "#lo-que-un-hotel-debe-exigir",
+      "#el-puente-festivo-con-y-sin-asistente",
+      "#por-donde-empezar",
+      "#que-cambia-en-la-operacion",
+      "/contacto/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "7f5991b19195bd9133a28b91fdca6907953681f6c7a80ae39e7e3359b9dcc38d"
+  },
+  "/404.html": {
+    "title": "Página no encontrada | AI Company CO",
+    "description": "La página que buscas no está disponible. Explora los sistemas o contacta a AI Company CO.",
+    "h1": "404",
+    "canonical": "https://aicompanyco.com/404.html",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/sistemas/"
+    ],
+    "main_text_sha256": "9738e1d0d62ace935a51634d420dc9fea02de0f84716b4ff3d9a243d1b5f0b52"
+  },
+  "/servicios/whatsapp-automatico/en-barranquilla/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-barranquilla/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-bogota/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-bogota/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-bucaramanga/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-bucaramanga/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-cali/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-cali/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-cartagena/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-cartagena/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-cucuta/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-cucuta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-ibague/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-ibague/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-manizales/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-manizales/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-medellin/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-medellin/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-pereira/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-pereira/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-santa-marta/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-santa-marta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/en-villavicencio/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/en-villavicencio/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-agencias-de-viajes/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-agencias-de-viajes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-clinicas/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-clinicas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-colegios/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-colegios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-constructoras/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-constructoras/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-droguerias/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-droguerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-ferreterias/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-ferreterias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-gimnasios/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-gimnasios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-hoteles/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-hoteles/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-inmobiliarias/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-inmobiliarias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-juridicos/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-juridicos/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-peluquerias/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-peluquerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-restaurantes/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-restaurantes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-supermercados/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-supermercados/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-talleres/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-talleres/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/whatsapp-automatico/para-tiendas/": {
+    "title": "WhatsApp para atención y operación | AI Company CO",
+    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
+    "h1": "WhatsApp para atención y operación.",
+    "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/para-tiendas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/whatsapp-automatico/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "74fc8501fe28580c8c545dbbd4adc6c55e47be3b13d486872d8b9b0c9faf87a7"
+  },
+  "/servicios/chatbot-ia/en-barranquilla/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-barranquilla/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-bogota/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-bogota/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-bucaramanga/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-bucaramanga/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-cali/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-cali/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-cartagena/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-cartagena/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-cucuta/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-cucuta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-ibague/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-ibague/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-manizales/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-manizales/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-medellin/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-medellin/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-pereira/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-pereira/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-santa-marta/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-santa-marta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/en-villavicencio/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/en-villavicencio/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-agencias-de-viajes/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-agencias-de-viajes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-clinicas/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-clinicas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-colegios/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-colegios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-constructoras/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-constructoras/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-droguerias/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-droguerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-ferreterias/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-ferreterias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-gimnasios/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-gimnasios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-hoteles/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-hoteles/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-inmobiliarias/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-inmobiliarias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-juridicos/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-juridicos/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-peluquerias/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-peluquerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-restaurantes/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-restaurantes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-supermercados/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-supermercados/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-talleres/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-talleres/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/chatbot-ia/para-tiendas/": {
+    "title": "Asistentes que conocen el contexto | AI Company CO",
+    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
+    "h1": "Asistentes que conocen el contexto.",
+    "canonical": "https://aicompanyco.com/servicios/chatbot-ia/para-tiendas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/chatbot-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "76d2d3810ae5ebcae375f7b3bcc5c9c51b0f45d761e91c3577d48e541401ec4d"
+  },
+  "/servicios/asistente-ia/en-barranquilla/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-barranquilla/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-bogota/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-bogota/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-bucaramanga/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-bucaramanga/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-cali/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-cali/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-cartagena/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-cartagena/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-cucuta/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-cucuta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-ibague/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-ibague/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-manizales/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-manizales/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-medellin/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-medellin/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-pereira/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-pereira/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-santa-marta/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-santa-marta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/en-villavicencio/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/en-villavicencio/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-agencias-de-viajes/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-agencias-de-viajes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-clinicas/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-clinicas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-colegios/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-colegios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-constructoras/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-constructoras/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-droguerias/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-droguerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-ferreterias/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-ferreterias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-gimnasios/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-gimnasios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-hoteles/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-hoteles/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-inmobiliarias/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-inmobiliarias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-juridicos/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-juridicos/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-peluquerias/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-peluquerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-restaurantes/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-restaurantes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-supermercados/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-supermercados/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-talleres/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-talleres/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/asistente-ia/para-tiendas/": {
+    "title": "IA útil para el trabajo diario | AI Company CO",
+    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
+    "h1": "IA útil para el trabajo diario.",
+    "canonical": "https://aicompanyco.com/servicios/asistente-ia/para-tiendas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/asistente-ia/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "994d099f3c49d4fed2ce120b71546c7ed7c1a5f3f83b8ca26dac6f565f48517a"
+  },
+  "/servicios/paginas-web/en-barranquilla/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-barranquilla/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-bogota/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-bogota/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-bucaramanga/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-bucaramanga/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-cali/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-cali/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-cartagena/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-cartagena/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-cucuta/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-cucuta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-ibague/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-ibague/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-manizales/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-manizales/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-medellin/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-medellin/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-pereira/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-pereira/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-santa-marta/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-santa-marta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/en-villavicencio/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/en-villavicencio/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-agencias-de-viajes/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-agencias-de-viajes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-clinicas/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-clinicas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-colegios/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-colegios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-constructoras/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-constructoras/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-droguerias/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-droguerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-ferreterias/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-ferreterias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-gimnasios/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-gimnasios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-hoteles/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-hoteles/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-inmobiliarias/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-inmobiliarias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-juridicos/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-juridicos/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-peluquerias/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-peluquerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-restaurantes/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-restaurantes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-supermercados/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-supermercados/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-talleres/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-talleres/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/paginas-web/para-tiendas/": {
+    "title": "Una web que explique bien tu negocio | AI Company CO",
+    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
+    "h1": "Una web que explique bien tu negocio.",
+    "canonical": "https://aicompanyco.com/servicios/paginas-web/para-tiendas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/paginas-web/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f69fdfed1275ecc72524d32c6531f95add13b37afa677067beb8e72787f270bf"
+  },
+  "/servicios/apps-empresariales/en-barranquilla/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-barranquilla/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-bogota/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-bogota/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-bucaramanga/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-bucaramanga/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-cali/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-cali/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-cartagena/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-cartagena/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-cucuta/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-cucuta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-ibague/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-ibague/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-manizales/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-manizales/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-medellin/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-medellin/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-pereira/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-pereira/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-santa-marta/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-santa-marta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/en-villavicencio/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/en-villavicencio/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-agencias-de-viajes/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-agencias-de-viajes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-clinicas/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-clinicas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-colegios/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-colegios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-constructoras/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-constructoras/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-droguerias/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-droguerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-ferreterias/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-ferreterias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-gimnasios/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-gimnasios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-hoteles/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-hoteles/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-inmobiliarias/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-inmobiliarias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-juridicos/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-juridicos/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-peluquerias/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-peluquerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-restaurantes/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-restaurantes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-supermercados/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-supermercados/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-talleres/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-talleres/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/apps-empresariales/para-tiendas/": {
+    "title": "Tu operación, también desde el celular | AI Company CO",
+    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
+    "h1": "Tu operación, también desde el celular.",
+    "canonical": "https://aicompanyco.com/servicios/apps-empresariales/para-tiendas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/apps-empresariales/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "1be5002441e35f7eba6bafa2c86a226c0edfabcf11644feb531154cbc07d1d1e"
+  },
+  "/servicios/marketing-digital/en-barranquilla/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-barranquilla/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-bogota/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-bogota/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-bucaramanga/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-bucaramanga/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-cali/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-cali/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-cartagena/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-cartagena/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-cucuta/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-cucuta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-ibague/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-ibague/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-manizales/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-manizales/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-medellin/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-medellin/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-pereira/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-pereira/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-santa-marta/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-santa-marta/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/en-villavicencio/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/en-villavicencio/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-agencias-de-viajes/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-agencias-de-viajes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-clinicas/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-clinicas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-colegios/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-colegios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-constructoras/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-constructoras/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-droguerias/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-droguerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-ferreterias/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-ferreterias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-gimnasios/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-gimnasios/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-hoteles/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-hoteles/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-inmobiliarias/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-inmobiliarias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-juridicos/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-juridicos/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-peluquerias/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-peluquerias/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-restaurantes/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-restaurantes/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-supermercados/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-supermercados/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-talleres/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-talleres/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/marketing-digital/para-tiendas/": {
+    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
+    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
+    "h1": "Contenido y publicidad con una oferta clara.",
+    "canonical": "https://aicompanyco.com/servicios/marketing-digital/para-tiendas/",
+    "robots": "noindex,follow",
+    "noindex": true,
+    "main_links": [
+      "/",
+      "/servicios/marketing-digital/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  }
+}

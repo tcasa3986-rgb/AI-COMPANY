@@ -1,13 +1,22 @@
 {
   "framework": null,
-  "buildCommand": "node scripts/package-site.js",
+  "buildCommand": "npm run build:release",
   "installCommand": "echo Static site - no dependencies needed",
   "outputDirectory": "dist",
   "headers": [
-    {"source": "/(.*)", "headers": [
-      {"key": "X-Content-Type-Options", "value": "nosniff"},
-      {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"}
-    ]}
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
   ],
   "redirects": [
     {
