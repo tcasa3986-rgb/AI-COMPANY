@@ -13,9 +13,9 @@
     "/sistemas/para-corte-laser/",
     "/sistemas/para-ferreterias/",
     "/sistemas/para-reciclaje/",
+    "/soluciones/",
     "/sistemas/para-canchas-sinteticas/",
     "/sistemas/para-clubes-de-poker/",
-    "/soluciones/",
     "/assets/work/maderas-inventario.jpg",
     "/sistemas/para-depositos-de-madera/",
     "/assets/work/ferre-inventario-retales.jpg",
@@ -39,5 +39,5 @@
     "/contacto/",
     "/casos/"
   ],
-  "main_text_sha256": "cc3f52a57809da236882f1d7357acd5056c041e8ee0c76aeff12e7dfef808f1d"
+  "main_text_sha256": "42e37a693d9bbb654a589b394282ffa608381f6f0845518db56290e2f9e57953"
 }
