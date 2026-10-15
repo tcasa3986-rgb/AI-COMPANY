@@ -5,8 +5,8 @@
     "description": "Desarrollamos software a medida para empresas en Colombia. Conecta inventarios, producción, pedidos e información empresarial con sistemas adaptados a tus procesos.",
     "noindex": false,
     "file": "index.html",
-    "hash": "9ce57fab9b8999a89356d06914a66c4bad7e392d26c4a3ad6611b40a191b2ee6",
-    "contentHash": "667275bfe3664d8bdcb1057ddb2f1280fb9c98243efd5b98af9e2b1b1a3a3262",
+    "hash": "40fa072ba4dd390c5ddfe81dd72c165db36331f5fe5f4f623ea8414cd806b3ef",
+    "contentHash": "3cae8c965992d27572cf29eb3a6ff0207e525b99d3e3b83e8234b81309ee309f",
     "lastmod": "2026-10-15"
   },
   {
@@ -165,9 +165,9 @@
     "description": "Conoce el trabajo de AI Company CO con Maderas Montoya, Ferre Láser, Láser Ejecutivo y ASOERC: software adaptado a procesos reales.",
     "noindex": false,
     "file": "casos/index.html",
-    "hash": "4888f9417f39fa9a98e0f96968565ec7137b125ef6ce6e037475ae34e23e0b1e",
-    "contentHash": "af4d6a2de555317ca115074e1c7174ba96e9590b2ef8a587f1e6a4be4a0832b9",
-    "lastmod": "2026-10-13"
+    "hash": "2b5892344b6ce114d9b3b58a17cc16e6b32d94efe3ab51bcdc825db7b926c7c6",
+    "contentHash": "359bd289b4c143c67a3fb847c9a9cb6eeb769d7a3dfd9ea1dfd3ee909086fcf7",
+    "lastmod": "2026-10-15"
   },
   {
     "route": "/precios/",

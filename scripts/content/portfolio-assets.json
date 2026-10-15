@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Maderas Montoya",
+    "anchor": "maderas-montoya",
+    "href": "/casos/#maderas-montoya",
+    "logo": "/assets/clients/maderas-montoya.png",
+    "width": 500,
+    "height": 500,
+    "resourceStatus": "provided-and-confirmed-by-user",
+    "authorization": "Confirmación explícita del usuario en esta revisión, 2026-10-15",
+    "sourceName": "219ed7ae-1d37-4106-b9e9-203fa12d52bc-removebg-preview.png",
+    "sha256": "1eeffc99fcb905f1b33594a24b912630dd8606ddec9d597fa7dc34dd1c57ba4e",
+    "identityNote": ""
+  },
+  {
+    "name": "Ferre Láser",
+    "anchor": "ferre-laser",
+    "href": "/casos/#ferre-laser",
+    "logo": "/assets/clients/ferre-laser.png",
+    "width": 494,
+    "height": 505,
+    "resourceStatus": "provided-and-confirmed-by-user",
+    "authorization": "Confirmación explícita del usuario en esta revisión, 2026-10-15",
+    "sourceName": "480270146_10228232484297739_5182380102255396186_n-removebg-preview.png",
+    "sha256": "41eb9fecdb00e373d796fb7c987794a5f76e61b7aed86e514ee4ab4bfb9467d2",
+    "identityNote": ""
+  },
+  {
+    "name": "ASOERC",
+    "anchor": "asoerc",
+    "href": "/casos/#asoerc",
+    "logo": "/assets/clients/asoerc.png",
+    "width": 499,
+    "height": 500,
+    "resourceStatus": "provided-and-confirmed-by-user",
+    "authorization": "Confirmación explícita del usuario en esta revisión, 2026-10-15",
+    "sourceName": "297eb006-84bf-461d-8b07-6f509170549c-removebg-preview.png",
+    "sha256": "96e855ecb6b820826bbcb96321477fc8725278514f7897b9f68ba2fcc40984f4",
+    "identityNote": ""
+  },
+  {
+    "name": "Láser Ejecutivo",
+    "anchor": "laser-ejecutivo",
+    "href": "/casos/#laser-ejecutivo",
+    "logo": "/assets/clients/laser-ejecutivo-jd-metales.png",
+    "width": 612,
+    "height": 408,
+    "resourceStatus": "provided-and-confirmed-by-user",
+    "authorization": "Confirmación explícita del usuario en esta revisión, 2026-10-15",
+    "sourceName": "WhatsApp_Image_2026-08-12_at_1.45.31_PM-removebg-preview.png",
+    "sha256": "9326c897cc734438e351ab6bb811cc18e71802ecb96fbabb5d4480a435872f0d",
+    "identityNote": "JD Metales corresponde al proyecto documentado como Láser Ejecutivo, según confirmación del usuario."
+  }
+]

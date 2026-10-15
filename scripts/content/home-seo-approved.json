@@ -5,11 +5,15 @@
   "main_links": [
     "/contacto/",
     "#proyectos",
-    "/assets/work/asoerc-materiales.jpg",
-    "/assets/work/asoerc-materiales.jpg",
+    "/assets/work/chatarreria-pg-caja-demo.png",
+    "/assets/work/chatarreria-pg-caja-demo.png",
     "/contacto/",
     "/automatizacion-de-procesos-empresariales/",
     "/contacto/",
+    "/casos/#maderas-montoya",
+    "/casos/#ferre-laser",
+    "/casos/#asoerc",
+    "/casos/#laser-ejecutivo",
     "/sistemas/para-depositos-de-madera/",
     "/sistemas/para-corte-laser/",
     "/sistemas/para-ferreterias/",
@@ -40,5 +44,5 @@
     "/contacto/",
     "/casos/"
   ],
-  "main_text_sha256": "a3a14ab5079ac8aac7b701752660fc20701eed5bc02ab967a28c702f0ad2f95b"
+  "main_text_sha256": "8f4c064f91d4d4265bcb77cfdd1014c5210f473fb910f40601d1516913979d80"
 }

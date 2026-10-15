@@ -1,0 +1,25 @@
+{
+  "status": "approved",
+  "src": "/assets/work/chatarreria-pg-caja-demo.png",
+  "width": 1600,
+  "height": 1280,
+  "alt": "Interfaz de Chatarrería P&G: caja del día, compras por material y resumen de pago, con datos de demostración autorizados",
+  "caption": "Chatarrería P&G · Caja del día y compras por material.",
+  "disclaimer": "Datos de demostración autorizados. Las cifras y personas de ejemplo no son resultados empresariales.",
+  "cards": [
+    {
+      "icon": "database",
+      "label": "Caja del día"
+    },
+    {
+      "icon": "box",
+      "label": "Compras por material"
+    },
+    {
+      "icon": "chart",
+      "label": "Resumen y pago"
+    }
+  ],
+  "authorization": "Captura definitiva y datos de demostración confirmados por el usuario, 2026-10-15",
+  "sha256": "1ba482db0b6f20510e3019a0f30d0a7827b482a1d9060b17511bbe2faf05dd7f"
+}
