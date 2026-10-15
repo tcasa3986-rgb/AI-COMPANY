@@ -1,13 +1,13 @@
 [
   {
     "route": "/",
-    "title": "Software a la medida en Colombia | AI Company CO",
-    "description": "Conecta inventario, pedidos, producción y cobros con software a la medida. AI Company CO desarrolla sistemas y automatizaciones para empresas en Colombia.",
+    "title": "Software a medida para empresas en Colombia | AI Company",
+    "description": "Desarrollamos software a medida para empresas en Colombia. Conecta inventarios, producción, pedidos e información empresarial con sistemas adaptados a tus procesos.",
     "noindex": false,
     "file": "index.html",
-    "hash": "c83a0c0cff066647d89c1677021ac57b707e2b8060f60f6845172d84ab847278",
-    "contentHash": "238e78c26851788f989df48c6cbc733f6597178ea30746c189f4dfd6b0e335ad",
-    "lastmod": "2026-10-13"
+    "hash": "5fd69fc6fafbe6715b4c871f9db5659e990c45e97cda0f1b731d89624beec021",
+    "contentHash": "214068e4945df2336e80e806b5bc1f5c33f69486f7450c52e735a93dd75f2833",
+    "lastmod": "2026-10-15"
   },
   {
     "route": "/sistemas/",
@@ -15,7 +15,7 @@
     "description": "Software para madera, corte láser, ferreterías, reciclaje, canchas y clubes. Explora las soluciones y define el alcance para tu negocio.",
     "noindex": false,
     "file": "sistemas/index.html",
-    "hash": "bdcbeb4fbb9feee8fbdf49e5570a1aa23fe3efca226a55c6bdb2d5cbf52923e5",
+    "hash": "f58bb7ce919a9f376699b21839093a9745aed9863c0bf1c12a09f78cacc149de",
     "contentHash": "fa219f98a75baa263342af2cea1d6cebc3993303d4ae04fed39372fb529fbcbb",
     "lastmod": "2026-10-13"
   },
@@ -25,7 +25,7 @@
     "description": "Controla inventario, producción, cartera y nómina con un sistema adaptado a las medidas y procesos de tu depósito de madera.",
     "noindex": false,
     "file": "sistemas/para-depositos-de-madera/index.html",
-    "hash": "8a5fd6aa5c784e3b4e3dc56094dabbafd7009f36e9653a33250ac8e0b3ec085b",
+    "hash": "20fd8542f696d91230a1c7713e3ec1ea624e0ca3150b5079b47525d9c9bdee55",
     "contentHash": "4635a31573ce25eaba34a76f87c4e32ab95166ddd6db5992dc5dfa9ca5353f87",
     "lastmod": "2026-10-13"
   },
@@ -35,7 +35,7 @@
     "description": "Software para talleres de corte láser: inventario por peso, pedidos, producción, cotización y cartera según tu operación.",
     "noindex": false,
     "file": "sistemas/para-corte-laser/index.html",
-    "hash": "70a0f7f359e6e276078311a88be35546c4c74014d543c962fdc08142cc7baf82",
+    "hash": "2ea172fac5a064f60b3c0f30f29f26a028a2d6b419db15cc1a96c1fd377305b1",
     "contentHash": "08fbc292539ad4dda015ccd10768d0b813b3d2f9156a1121206d53ebc26d0832",
     "lastmod": "2026-10-13"
   },
@@ -45,7 +45,7 @@
     "description": "Organiza inventario, pedidos, precios y cartera de tu ferretería con software a la medida, permisos por rol y trazabilidad.",
     "noindex": false,
     "file": "sistemas/para-ferreterias/index.html",
-    "hash": "94086ae644e97732cc6af3ea8e5729897fca2aaf8070bc47cc562387d6c0fa7c",
+    "hash": "9d855df6825d47914f7b5da5302406bafcc56742f3493bf6476699b63f5cb1b2",
     "contentHash": "6d102f67b916a77332305a557f5007222868b1badd2d4dfca35abda3dd95d798",
     "lastmod": "2026-10-13"
   },
@@ -55,7 +55,7 @@
     "description": "Sistema para recicladoras: compras por material, pesaje, liquidación, bodegas, ventas y caja con una operación organizada.",
     "noindex": false,
     "file": "sistemas/para-reciclaje/index.html",
-    "hash": "90f4eb506e0fa46dafc37a3eda20c7a342f151225ddba481fd5d7a4e0566c7f0",
+    "hash": "463f7f755a5309e325f9521db44f4b3825c5cd4604234937082fa1a289085624",
     "contentHash": "0da70888984a0c1f922b2bc3ed5abc4dded5db376d16abd30fbb4d68b1ac0a9f",
     "lastmod": "2026-10-13"
   },
@@ -65,7 +65,7 @@
     "description": "Conoce CanchaLibre: reservas, WhatsApp, abonos, caja y tienda según plan. Suscripciones por sede desde $70.000 COP al mes.",
     "noindex": false,
     "file": "sistemas/para-canchas-sinteticas/index.html",
-    "hash": "04fd8ccddb400dd28c901ee8ffa766f8db255c0d14cecec109ea08d2ec86f512",
+    "hash": "4575411fbe532ebf2afddfeb7b304128d91ac43f7ea73829598b86316387acba",
     "contentHash": "39fea04a112b7d23f8ca3a13d11956bcd4d49149f314a5def144696c19d7e73f",
     "lastmod": "2026-10-13"
   },
@@ -75,7 +75,7 @@
     "description": "Botón organiza jugadores, inscripciones, reglas de torneos, mesas y reloj de ciegas. Implementación por club según alcance.",
     "noindex": false,
     "file": "sistemas/para-clubes-de-poker/index.html",
-    "hash": "fdbdea38c20d4e62a87ce48d3e6a4cf541c05b487f19f1a55dedd05f7baf9ee7",
+    "hash": "48664fd15969d9783b14eb0cb18b7996b334f705b845a35ebfceac050fa4e973",
     "contentHash": "d4e62bf0cc13e607d6616517edc8aca2d675dc21a06c1264a3f38d4d6282d060",
     "lastmod": "2026-10-13"
   },
@@ -85,7 +85,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": false,
     "file": "servicios/whatsapp-automatico/index.html",
-    "hash": "bb7f02a74896997cab7d71da064aab91fecad428a64373ab42f77e6af88b1c1e",
+    "hash": "b2a5de52fbd3f003744bf98a78e13ea871e49c39d9ebc7e6b5edc1ec5e15e928",
     "contentHash": "d7b72e27e9ae48a4bd97006d9545a16b378881332cae8404dba567046f370fce",
     "lastmod": "2026-10-13"
   },
@@ -95,7 +95,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": false,
     "file": "servicios/chatbot-ia/index.html",
-    "hash": "31ffb79ac31cd04aad48ff19cba1a9d5959949156a2f767b645be5ee6feea87f",
+    "hash": "dd787e60d851ba5773b3daf9bcd9b090b9555c73eaa94432356668c00293cbe7",
     "contentHash": "3cc996cebac8d5026e8c9da60b59cc05b906debdf2b767bf8c9df3867035ef57",
     "lastmod": "2026-10-13"
   },
@@ -105,7 +105,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": false,
     "file": "servicios/asistente-ia/index.html",
-    "hash": "163fb751aa71bff66bd0851ae4a1105df411c7cb4355c565e534fdee0ac70ac5",
+    "hash": "ad29ec848ebb5ca7b9dd161e14cfa27451df6f5581526804b28b38e030cb7fff",
     "contentHash": "3142be3f2ccf6199f3095eabdec3a95243a5a2c75872755425a629431a010208",
     "lastmod": "2026-10-13"
   },
@@ -115,7 +115,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": false,
     "file": "servicios/paginas-web/index.html",
-    "hash": "ecb2bf7e03642a99472874140cc55b925261cc4aa0cb1bde2194f5b4bcb1e6dd",
+    "hash": "2fa476457c66170ca6e641fc339a3888a59ea01194edc9172367c7f39e2506e7",
     "contentHash": "8f97a1627db7f50eb7646d6cf5bea7a904419d36352884fe3ca2ba14e7f72080",
     "lastmod": "2026-10-13"
   },
@@ -125,7 +125,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": false,
     "file": "servicios/apps-empresariales/index.html",
-    "hash": "4bb9b4791d2f189d41201bd7d8c965b262b64460197e3a801f1c48de0e5f3679",
+    "hash": "3d285623e653d571c6962638117ca550875c64d5af4557d014bc0ed175dc5ae3",
     "contentHash": "8f715d83e4e925199942e3b868f55a72d61c98146830f7949b2298ec84b897c1",
     "lastmod": "2026-10-13"
   },
@@ -135,7 +135,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": false,
     "file": "servicios/marketing-digital/index.html",
-    "hash": "85bb72643b68280a05116250f3a5e6e63d3465c00ffda49843c843f112dd57a5",
+    "hash": "e18ad6a19d53b5f6a36fcdbebf0a47491ccbdc402adfcfffb85c06d634fea281",
     "contentHash": "4c529ef8784dc93e9b59a340cdd9379f70f5d82fd19405cd041e91b2ada534ac",
     "lastmod": "2026-10-13"
   },
@@ -145,7 +145,7 @@
     "description": "Conecta herramientas y reduce tareas manuales en inventario, pedidos, atención y cobros. Automatizaciones con alcance y controles definidos.",
     "noindex": false,
     "file": "automatizacion-de-procesos-empresariales/index.html",
-    "hash": "02fd774f4cf27a3411957383fb2669b753245972535c2db27319e25c2925e929",
+    "hash": "024683fe82282bdb7314958724606e2e5f59b50761730268de927049e20cc8a6",
     "contentHash": "079f61e8c34d9796e6ce298f79b9c6b8dc6d6d0be7cb89ee07ba771b30b87c1e",
     "lastmod": "2026-10-13"
   },
@@ -155,7 +155,7 @@
     "description": "Cristian Gutierrez desarrolla sistemas y automatizaciones para empresas colombianas. Conoce el proceso, el alcance y el acompañamiento de AI Company CO.",
     "noindex": false,
     "file": "nosotros/index.html",
-    "hash": "7f0b9a8697f9aa30fb33d74086397e42a6a9537b672daa7563ea5b9b3de9963e",
+    "hash": "8afb1d1c177c0a0efb54c61f8975c10f039a11f691cd90c81bf10987328f497f",
     "contentHash": "7a80da23246c5de8c719cf7969b5e8afed75a315e209ced470f1a97522710026",
     "lastmod": "2026-10-13"
   },
@@ -165,7 +165,7 @@
     "description": "Conoce el trabajo de AI Company CO con Maderas Montoya, Ferre Láser, Láser Ejecutivo y ASOERC: software adaptado a procesos reales.",
     "noindex": false,
     "file": "casos/index.html",
-    "hash": "e5125dec9fc5dcb4b8d550cbb9230ed5588fbf4f6d119d9fdb338fafc9a51481",
+    "hash": "4888f9417f39fa9a98e0f96968565ec7137b125ef6ce6e037475ae34e23e0b1e",
     "contentHash": "af4d6a2de555317ca115074e1c7174ba96e9590b2ef8a587f1e6a4be4a0832b9",
     "lastmod": "2026-10-13"
   },
@@ -175,7 +175,7 @@
     "description": "Cotiza software a la medida con implementación y mensualidad separadas. Operación y soporte desde $150.000 COP al mes según alcance.",
     "noindex": false,
     "file": "precios/index.html",
-    "hash": "239c739f4f3f1633dda3cfa8276cf62dc5d403dcd7ab74358e44e51e4593575e",
+    "hash": "0ccbf9504050b03c589ad6ce326ff8ee8344d5cc811513771a194b30351ffcea",
     "contentHash": "adb6820396b8341abdc3e579fc2aba106954857787d01b5a488ebe88c9d87a17",
     "lastmod": "2026-10-13"
   },
@@ -185,7 +185,7 @@
     "description": "Cuéntanos qué proceso quieres mejorar. Contacta a AI Company CO por WhatsApp o correo y coordina un diagnóstico inicial para tu negocio.",
     "noindex": false,
     "file": "contacto/index.html",
-    "hash": "19357cda468c68a492be89f540381471d266741c069cef40ac1a3ce877ef6322",
+    "hash": "7042acf873ea8356c9efe13649d1528c371b616c1b5ba6167eabcc374b2a31bf",
     "contentHash": "10b26a29ab5f5c7695c66aaa8eade0bc068a6f8911f0e8cbed872db1492a7705",
     "lastmod": "2026-10-13"
   },
@@ -195,7 +195,7 @@
     "description": "Explora sistemas por sector y automatizaciones para conectar inventario, pedidos, producción y cobros de tu empresa.",
     "noindex": false,
     "file": "soluciones/index.html",
-    "hash": "9b5373da1e9a3797f6f88bb10f5666fc967a5a0e6eb7b02089f83dac04690f05",
+    "hash": "ff400042563d53d40d003260a2abe386f92070f04f5f6480a0121152e8f578ce",
     "contentHash": "249ae71e241c3c52af43c174734d9dd90161249248aa5093cad55449d9067ee5",
     "lastmod": "2026-10-13"
   },
@@ -205,7 +205,7 @@
     "description": "Consulta sistemas y automatizaciones para negocios en Bogotá. Atención desde Soacha y coordinación remota según alcance.",
     "noindex": true,
     "file": "bogota/index.html",
-    "hash": "69df60e1005cd5ad6153586306e31eac94a98296f4dd9a043c24109700a7d060",
+    "hash": "9f929301856f14fecf76e279a4775476a7cce945cf2dacd0823f49e0a4e7acdc",
     "contentHash": "6e8ae95606a1411c2f78e966516c8782b772fd8047d9bc62bef3d144f0780589",
     "lastmod": "2026-10-13"
   },
@@ -215,7 +215,7 @@
     "description": "Consulta sistemas y automatizaciones para negocios en Medellín. Atención desde Soacha y coordinación remota según alcance.",
     "noindex": true,
     "file": "medellin/index.html",
-    "hash": "6eeb18d64bfc3d91ba630a82813d054a72ba764d4111d8a2e801eca7284a1b82",
+    "hash": "2bf0ff74b6abd6dc97af45bf57cdc9012fb5925ee0b5d1d3400e6341e723e04c",
     "contentHash": "74ca2a07c027f9f0b02ab7c1b912ea90618bcb362b7bce08afff13599544ae12",
     "lastmod": "2026-10-13"
   },
@@ -225,7 +225,7 @@
     "description": "Consulta sistemas y automatizaciones para negocios en Cali. Atención desde Soacha y coordinación remota según alcance.",
     "noindex": true,
     "file": "cali/index.html",
-    "hash": "1d4f6dfbde6311f30798bcf4683089454aaba5f8a92cc149f11195a2f59b1f7e",
+    "hash": "8aede9d5d0ec46a6f13f17df35bce0491a3efd2949819bfc74228ab05e6d09ac",
     "contentHash": "9a879b648b84044128af4856a43fa517d21ce0675740d70d0dd9cb29059d2e4b",
     "lastmod": "2026-10-13"
   },
@@ -235,7 +235,7 @@
     "description": "Consulta sistemas y automatizaciones para negocios en Barranquilla. Atención desde Soacha y coordinación remota según alcance.",
     "noindex": true,
     "file": "barranquilla/index.html",
-    "hash": "5ddbda5153def4b95bd3b192d5686b7cccd7a40571558e2418968288b10d6fe0",
+    "hash": "bbbb42bc02105507ec02b90cca611073803bd47e1cc5daa9361e0a5556b2fead",
     "contentHash": "3159db8d1e5076233eb5b6b59c640472a710feaeb2510b38e704fda642b594cf",
     "lastmod": "2026-10-13"
   },
@@ -245,7 +245,7 @@
     "description": "Consulta sistemas y automatizaciones para negocios en Bucaramanga. Atención desde Soacha y coordinación remota según alcance.",
     "noindex": true,
     "file": "bucaramanga/index.html",
-    "hash": "e12ab811490a3e0aa8addf99061a92cf249efa0b3ccce40b8c15530b8b75697f",
+    "hash": "72edc77e79b37b0c3d12aec40124ec35a7b0a69db18cdcd321ba282fd7e4283f",
     "contentHash": "b37711be3d0a8995e5e3e08bce6ce43da176948f8002c90234e2ec3d2ec8e153",
     "lastmod": "2026-10-13"
   },
@@ -255,7 +255,7 @@
     "description": "Consulta la política de privacidad de AI Company CO y las condiciones aplicables al uso del sitio y los datos personales.",
     "noindex": false,
     "file": "politica-de-privacidad/index.html",
-    "hash": "f08ae62aebff5135d9ead29fbda513e0ca9e1f2400bbd51be3c20266e61b699b",
+    "hash": "7f2b4437bb6dfb31b4e9fcf1d5e956ec3ff0f1598b30853c572785e7c08d3b49",
     "contentHash": "27e3b5c9c7cf0679ed586574a6a796c4b5998084aff50e872c5b1b67b909a156",
     "lastmod": "2026-10-13"
   },
@@ -265,7 +265,7 @@
     "description": "Consulta la política de tratamiento de datos personales de AI Company CO y las condiciones aplicables al uso del sitio y los datos personales.",
     "noindex": false,
     "file": "tratamiento-de-datos/index.html",
-    "hash": "940fbb2823a4d1eda0ae669d6a78015f4d4f34d2c2bc0565e4cf11d490b50209",
+    "hash": "01851e1ce3d356360ddbed8ea033044cb6ab5e4e78244c1a497f0e58aa235227",
     "contentHash": "f136f01149ace8898eec4670e1feeba9f05f9cab040322995aacf75913e3be8e",
     "lastmod": "2026-10-13"
   },
@@ -275,7 +275,7 @@
     "description": "Consulta la términos y condiciones de AI Company CO y las condiciones aplicables al uso del sitio y los datos personales.",
     "noindex": false,
     "file": "terminos-y-condiciones/index.html",
-    "hash": "0f0a3ade51197d503045f9fe7f2e3dab9be30fdb227607c635a414bcc363a0ed",
+    "hash": "84cf59770d2045868a31bbe89607015f8b351970c6de3df34ea48bdec90b8b2f",
     "contentHash": "eca66fe89b588d2e494e2ab42b605995a281d170e086ddd24fb912f1a3a8221d",
     "lastmod": "2026-10-13"
   },
@@ -285,7 +285,7 @@
     "description": "Accede a la plataforma de AI Company CO para gestionar tu sistema y solicitar soporte.",
     "noindex": true,
     "file": "area/index.html",
-    "hash": "782be0e90f1316e438c5160ab18dde5d44c3f1cd673c890916f5d8f31dffef39",
+    "hash": "db1554b88cfd6a4680e19c6739f6e9240f1ef52207f6fbacd8e6ef589f83bea4",
     "contentHash": "0ee75e2770219958a3655ca78ac0f0ca3b8d3db61af6a4f62a23d08fb5b13cec",
     "lastmod": "2026-10-13"
   },
@@ -295,7 +295,7 @@
     "description": "Guías para decidir sobre software, inventario, producción, atención y automatización. Contenido de AI Company CO para negocios colombianos.",
     "noindex": false,
     "file": "blog/index.html",
-    "hash": "af2f7df64b03df49a77b276f5eacda70d767c3b7b25286bb5feb6f105e34fa92",
+    "hash": "c5a0669eaf34804b4eab5d2a697818b3ee37d432f057bceb3ee1dcc605ec6750",
     "contentHash": "3a39cd877be3d19f778f3d97eab629cef01ed500dc30c2b577735caa86f09666",
     "lastmod": "2026-10-13"
   },
@@ -305,7 +305,7 @@
     "description": "Antes de una app de domicilios, el supermercado necesita inventario y precios en un sistema. Qué debe tener la app y cuándo basta con el WhatsApp.",
     "noindex": false,
     "file": "blog/app-movil-supermercado-colombia/index.html",
-    "hash": "69ac92b6f20b63c36d958e9caa413b523dce77c70533a20dc735960025f0f2e1",
+    "hash": "3f9c56d1f3a2b2f2c10def437f2ba6fc79615b38be19e9dc7eaa132f9f3fad8b",
     "contentHash": "9e7bb97f3a0e1ff09c46a472e6cf5fead2e6b6fb2b20366d15586c7eb99f0d5e",
     "lastmod": "2026-10-13"
   },
@@ -315,7 +315,7 @@
     "description": "Dónde se pierde la plata en una constructora mediana —reportes de obra tardíos, compras sin control, cortes de contratistas a mano— y qué automatizar primero.",
     "noindex": false,
     "file": "blog/automatizacion-procesos-constructoras-colombia/index.html",
-    "hash": "60760c914da21d14cb517171dfeea03eca63ba502226ed45eab76d16c065b7ad",
+    "hash": "70e752784a2c369ea6e48296f6b76b16515a152ce276e91cd9098e9b1adb2ce1",
     "contentHash": "126da20398f5f1544280af4f653058a105113ebf178fab281494c63441c5da0c",
     "lastmod": "2026-10-13"
   },
@@ -325,7 +325,7 @@
     "description": "Una ferretería recibe listas por WhatsApp todo el día. Cómo un sistema con inventario y precios cotiza, arma el pedido y cobra la cartera sin frenar la caja.",
     "noindex": false,
     "file": "blog/automatizar-whatsapp-ferreterias-colombia/index.html",
-    "hash": "0be6a635d17adba736b063ac997617b8b192acd5afa393c4539be512cfb2e858",
+    "hash": "7d694ad5d6961defc4aa0948a2ff05ff57c24c870ff7f51b15592c8af8e538cf",
     "contentHash": "dfc505af4f1162db6db88f37af2a200b5f7be453f168d030cbcd508c1800f6b3",
     "lastmod": "2026-10-13"
   },
@@ -335,7 +335,7 @@
     "description": "La conexión por código QR deja el número en manos del dueño y no cobra por conversación. Qué puede hacer, qué no, qué la pone en riesgo y cuándo usar la API.",
     "noindex": false,
     "file": "blog/automatizar-whatsapp-sin-api-oficial/index.html",
-    "hash": "0036aacfa6a5c2303a4a815969b1e480328b194256f34d06a965aa1f17004e69",
+    "hash": "fad240c3c4bf5925772f50267f1ceb4f0e92e93af14a1ee17b6c0bf9a40b33b8",
     "contentHash": "f1b99ef2973a017bb28b4b4a9cf8c3ae56de6a76ede5ea670364b7b41415b323",
     "lastmod": "2026-10-13"
   },
@@ -345,7 +345,7 @@
     "description": "Qué automatizar en el WhatsApp de una clínica —citas, confirmaciones, requisitos— y qué debe quedar siempre en manos del personal. El límite importa.",
     "noindex": false,
     "file": "blog/chatbot-ia-clinicas-colombia/index.html",
-    "hash": "238b7c46a50486832100640e133cc8c7cb801b4a3e375763f8f79f00e9452e12",
+    "hash": "3fa2f4647519d5e9c301fde8fd6df55574b0626ce4a96e9d0708064afc642adf",
     "contentHash": "e0f5c1e12fcf105ed7eaa2fe1f80f51186daf718b9e5f6addf37caabce9854b4",
     "lastmod": "2026-10-13"
   },
@@ -355,7 +355,7 @@
     "description": "Cómo una inmobiliaria filtra los &quot;¿todavía está disponible?&quot;, califica al interesado y agenda visitas por WhatsApp sin perder al asesor en mensajes.",
     "noindex": false,
     "file": "blog/chatbot-ia-inmobiliarias-colombia/index.html",
-    "hash": "3c1323236dfb5e96b55d176b3ca92fbca6fa0fcde397857f346742c28d787241",
+    "hash": "faf00abe555d4f330d033f2849aa0253fbb207de2f02000b0437f84f38e1061c",
     "contentHash": "61f8be77406b94c1075c6205c8c7c9445b06623f8a32602905b6b50474ac06bc",
     "lastmod": "2026-10-13"
   },
@@ -365,7 +365,7 @@
     "description": "Las tres formas de automatizar WhatsApp en Colombia, qué se puede y qué no con cada una, cuánto cuesta, y cómo decidir sin perder el control de tu número.",
     "noindex": false,
     "file": "blog/como-automatizar-whatsapp-business-colombia/index.html",
-    "hash": "581c0a0983c5bd1af3156fc9707df5e2cc29f1d5ab32df2a0d0a971e29c37dee",
+    "hash": "da5ad0c7d5561c78bccea72a722ce171e8f6e9603a742ad29c60159b995201b8",
     "contentHash": "5b7ef0c3ec8c656fba79ad9e810632279caa5f38ed575b303301db0c2ff82a85",
     "lastmod": "2026-10-13"
   },
@@ -375,7 +375,7 @@
     "description": "El precio de un chatbot está en a qué datos se conecta y cuántas conversaciones van al modelo de IA. Cómo estimarlo y qué preguntar antes de contratar.",
     "noindex": false,
     "file": "blog/cuanto-cuesta-chatbot-ia-colombia/index.html",
-    "hash": "566c38421071d5a494ddce0d6be850a63975cf491357514360f373893a469a77",
+    "hash": "af8c5660c52701711eef15546f1dc795923fa39cc75fbaf82338b1716320f52e",
     "contentHash": "11d355febd7a46ef3521a630251bf4e2f818202e3f1af3b26be29063afcf3e4e",
     "lastmod": "2026-10-13"
   },
@@ -385,7 +385,7 @@
     "description": "Desde una página de una pantalla con menú y WhatsApp hasta una con reservas y pedidos conectados. Qué incluye cada nivel, qué cuesta mantenerla y qué evitar.",
     "noindex": false,
     "file": "blog/cuanto-cuesta-pagina-web-restaurante-colombia/index.html",
-    "hash": "9192761b19e23df16dfa5c3d0057efe092ccc119ff3749ac3382b812a2a918ac",
+    "hash": "3b26f1be0294d342f9fe49de5fe02ca9066460fb2e136da36e023f3e26e75241",
     "contentHash": "9af218fe45c84ed78e499832b2d0ccb4e35fd1aefe9b04efff5a1db302ff7ad8",
     "lastmod": "2026-10-13"
   },
@@ -395,7 +395,7 @@
     "description": "De qué depende el precio de un sistema a la medida, qué rangos se ven en Colombia para pymes, qué incluye el mantenimiento y cómo leer una cotización.",
     "noindex": false,
     "file": "blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/index.html",
-    "hash": "c3625dfbf06869f86e88f850b8ff9daf953e4da9aef75588968989791080cb36",
+    "hash": "1891af08171c8557862b6c6b6d3efc932ea19c49b589f1442850de7e6bba83f9",
     "contentHash": "e288767abb5a058255069d7834ebfc0a219d9da87957d45dd0516db5aa3209d1",
     "lastmod": "2026-10-13"
   },
@@ -405,7 +405,7 @@
     "description": "Pagar todo al final, no exigir el código, empezar por la pantalla, aceptar &quot;usted se adapta&quot;. Los errores que más cuestan y la pregunta que evita cada uno.",
     "noindex": false,
     "file": "blog/errores-al-comprar-software-a-la-medida/index.html",
-    "hash": "8895b89cdbf5064714c65dce6c2e75cfd488bf8ca3ce0e98813aff4472f40972",
+    "hash": "606d82a5cbc58a53aeb1827eedadf0e31b21fa558da38b4e7afd0480871614c1",
     "contentHash": "4b1168481cc05a64ed483705b44e445fa95787bd666a8003a99d91c1a9fc344f",
     "lastmod": "2026-10-13"
   },
@@ -415,7 +415,7 @@
     "description": "La factura electrónica ya es obligatoria; lo que cuesta es digitarla aparte. Cómo se integra con el sistema de la empresa y qué hace el proveedor tecnológico.",
     "noindex": false,
     "file": "blog/facturacion-electronica-automatica-colombia/index.html",
-    "hash": "62430c56cbd5592e6d5bbd94435c14b12ccab8f66b008c7ad07ab343389072ae",
+    "hash": "fb933ad5d260170872ad874899fff5f85e973afce2977928367491bed0b977a2",
     "contentHash": "d4fbe3f5cb4d854382e590823c810e30b66c979f0e6fcbbd4079c4ed1fa23cbd",
     "lastmod": "2026-10-13"
   },
@@ -425,7 +425,7 @@
     "description": "La pauta trae clics; convertirlos depende de lo que hay del otro lado. Qué debe funcionar antes de pautar, cómo medir de verdad y cuándo rinde más el SEO.",
     "noindex": false,
     "file": "blog/google-ads-colombia-guia-pymes/index.html",
-    "hash": "83a5bf722b4fcf7dd9c8f8f5aa521ffdaf6f6f8cf352cabc09e8745e300c2478",
+    "hash": "1b6f57ecbb833d6341304bdda1deb96193c3177b5cb0eec2a69bc222d4759124",
     "contentHash": "1d0623a59ea0169c96ba55be0542eb1fe95f5ba599c6dc39e41e208fc019c874",
     "lastmod": "2026-10-13"
   },
@@ -435,7 +435,7 @@
     "description": "Dónde la IA sirve hoy en una pyme colombiana —atender WhatsApp, transcribir audios, leer comprobantes— y dónde es una promesa cara. Medido en producción.",
     "noindex": false,
     "file": "blog/inteligencia-artificial-negocios-colombia/index.html",
-    "hash": "a8af4e7f368aba561d47cbd4cde018e08b47877db397d045a6868a9ba2696bf2",
+    "hash": "d0e1cfe74264bc2a267750bad88feec379cb8729006075b4ecef7ff9be6b4b6f",
     "contentHash": "1e120b435319724e058eab43e2eacbfd18a2905a15ae8bb448bd93d9b40ac7cd",
     "lastmod": "2026-10-13"
   },
@@ -445,7 +445,7 @@
     "description": "Un colegio pierde matrículas en el WhatsApp de admisiones. Cómo atender cada familia, agendar visitas y comunicarse con los padres actuales, antes de pautar.",
     "noindex": false,
     "file": "blog/marketing-digital-colegios-colombia/index.html",
-    "hash": "c30cac1abe2cc5d6228a3268db6d1b856719c0874787e27a68a9c4a8ec013e7d",
+    "hash": "35edb7b6d1a4b1b0155ca39f4413f53a212e2f47b1aa91ae2166993535a9eb9c",
     "contentHash": "30205d8dc7c0aef9ddaa1d9502da61cd3f318bad74ba39e0371b1eaf899d3794",
     "lastmod": "2026-10-13"
   },
@@ -455,7 +455,7 @@
     "description": "Un gimnasio pierde más por los que se van que por los que no llegan. Cómo un sistema de membresías con recordatorios y seguimiento hace más que la pauta.",
     "noindex": false,
     "file": "blog/marketing-digital-gimnasios-colombia/index.html",
-    "hash": "c081b6e223654262ecdc680abe99c38e998da4e1ed017cf6463a2e7b34e3eaec",
+    "hash": "42a3079d839a01806d11e97afae3add974870bf600cf7bd74e77d2b768ead2da",
     "contentHash": "1e507d6cbb08d99bc88b4c58d37ee56a50e5eafee5c50c52be6f58d7b73b94b9",
     "lastmod": "2026-10-13"
   },
@@ -465,7 +465,7 @@
     "description": "Ficha de Google, WhatsApp que responde, reservas con abono y una base de clientes propia. Lo que un restaurante puede hacer sin agencia, antes de pautar.",
     "noindex": false,
     "file": "blog/marketing-digital-restaurantes-colombia/index.html",
-    "hash": "e969feb40a0eb7ef13eb03f7a7179074674c0c4169c41fac270c5f9f74b960de",
+    "hash": "58ac9171e0b146461b3d9a283d3ba300ae29edfbc51e84326edfb82806d23a14",
     "contentHash": "640c5b8e69e849afe0b7bc6dec8b0ab871ad79fd6ef5e978aeb91207a7a4d6a6",
     "lastmod": "2026-10-13"
   },
@@ -475,7 +475,7 @@
     "description": "Una página de clínica es donde el paciente decide si escribe. Especialidades, profesionales, convenios, cita por WhatsApp y lo que exige la ley de datos.",
     "noindex": false,
     "file": "blog/pagina-web-clinica-colombia/index.html",
-    "hash": "fa7d40e45476ad21cf7dad7f361d7aab70f4460ed386efbb4b867222af26c604",
+    "hash": "2be258b99ca2eef4e4bfc4080a031c5c6acd64f913e7c4c4a931447cac5e3e23",
     "contentHash": "a1b54fa0977833d7e679efce04f220fb73e7a7276976aa12333ccad471d27d36",
     "lastmod": "2026-10-13"
   },
@@ -485,7 +485,7 @@
     "description": "Una peluquería vive de la agenda. Qué debe tener su página, cómo las citas entran a la agenda de cada estilista sin llamadas y cómo bajar la inasistencia.",
     "noindex": false,
     "file": "blog/pagina-web-peluqueria-colombia/index.html",
-    "hash": "c0fdcc63b9d96ab8dae5e197b67883dc64557a40768996251077130f16f4dbf5",
+    "hash": "5a3027c45587d87104eee87dfba0935b19bee4abc5e654a6544aaac0e787e991",
     "contentHash": "876e7471a1829cf291a2ae9b66dbc16225a6f11a601cc9b8db03c4731661923b",
     "lastmod": "2026-10-13"
   },
@@ -495,7 +495,7 @@
     "description": "n8n conecta aplicaciones y automatiza tareas sin programar cada conexión. Qué hace bien, dónde se queda corto y cuándo conviene más un sistema propio.",
     "noindex": false,
     "file": "blog/que-es-n8n-automatizacion-colombia/index.html",
-    "hash": "c78024a2ea997a9685088c1f65201d2828b65931badc297a545f432a7301d478",
+    "hash": "3f170331f4b03f6b9a967e6853884b589fbda73b2787087b1deff2d6f776b4d9",
     "contentHash": "248df1fa7a13061111377422e30bc82bacc46ffc9fff1ceb23e1726ecc4b44b8",
     "lastmod": "2026-10-13"
   },
@@ -505,7 +505,7 @@
     "description": "Un ERP junta inventario, ventas, compras, cartera, caja y reportes en un sistema. Qué módulos importan para una pyme, qué se compra y qué se construye.",
     "noindex": false,
     "file": "blog/que-es-un-erp-para-pymes/index.html",
-    "hash": "05ae1eff6f1bf6fd8714e8daf9e022aefb8f24f80cac6b853bb0a35679ff9c6b",
+    "hash": "8472c313bfa9e0f6f5d6e7a8bf7968be82f9436724746e4068db3f679af30a8f",
     "contentHash": "3f713fd9b72b0db908f9784faf244c1da42e58e2c6d7105af2b507117e913e78",
     "lastmod": "2026-10-13"
   },
@@ -515,7 +515,7 @@
     "description": "El dato nace en la planta y se digita días después. Un bot de Telegram que pregunta tres cosas y guarda en el sistema elimina esa brecha. Cómo se diseña.",
     "noindex": false,
     "file": "blog/reporte-de-produccion-por-telegram/index.html",
-    "hash": "6b165c86510724a1fda4385485bc8d14a8e4a975aea87d9e48ec38e17af700bd",
+    "hash": "4e589fc576b8b7f00730997d70afcb7611bbbedc149e9b3264c80e9a8ba63730",
     "contentHash": "46589243fa0c59a8ea9114cd131bb8d1b370ecb8e20d8f69b2396462b3338685",
     "lastmod": "2026-10-13"
   },
@@ -525,7 +525,7 @@
     "description": "Ficha de Google completa, una página por servicio y ciudad, datos estructurados coherentes con lo visible y reseñas respondidas. Lo que aplicamos, en orden.",
     "noindex": false,
     "file": "blog/seo-local-colombia-guia/index.html",
-    "hash": "212b6a82d8a42853dd4558b6def1268fc877c3dd03e789f9fd4d04be385215fb",
+    "hash": "fc98930421a3584bfa3e55c909f46d0f3cd12cea5cc2cc4141b587a0940113da",
     "contentHash": "f3272d6a3e1bb8faa8920494d76eb03fb6b34de15742c53f567bbbb4bb5fef8b",
     "lastmod": "2026-10-13"
   },
@@ -535,7 +535,7 @@
     "description": "Qué necesita el sistema de una droguería: lotes y vencimientos, fiado por cliente, turnos de caja y pedidos al distribuidor. Y qué no resuelve un genérico.",
     "noindex": false,
     "file": "blog/sistema-gestion-droguerias-colombia/index.html",
-    "hash": "e0b318daad4e0acdaf08d20f4c5cfc53509452e6fa99173614e9b76c110d2faa",
+    "hash": "5b0ec4eb875888151e4cf6e6218230a0b0b2ed94622a8bfbd11645aa8dd7c4a4",
     "contentHash": "205c9e89aab0c128fb277a05c2494a4ffc8aca35db44e5e5c7eaf7f0cfe71e49",
     "lastmod": "2026-10-13"
   },
@@ -545,7 +545,7 @@
     "description": "Qué resuelve un sistema para taller: orden de trabajo por vehículo, repuestos, mano de obra por mecánico, cotización aprobada por WhatsApp y cobro exacto.",
     "noindex": false,
     "file": "blog/sistema-gestion-talleres-mecanicos-colombia/index.html",
-    "hash": "8fcda86451ae2f77774ff1d0fa0066495e6cdb50e9d31f56bb89b1f5ac8561f8",
+    "hash": "6cd53f65c0d5ff30c91d5926decf391fcf1fe1d6893a82c24c2b91eb97b9121b",
     "contentHash": "c8c4938d52c1015e8f36e13ae3436a9de3d2508b1ced5e7e5d735bf92156366e",
     "lastmod": "2026-10-13"
   },
@@ -555,7 +555,7 @@
     "description": "Cuándo un software genérico alcanza, cuándo la operación no cabe en él, y las tres preguntas que resuelven la decisión. Casos: madera, corte láser y canchas.",
     "noindex": false,
     "file": "blog/software-a-la-medida-vs-software-generico/index.html",
-    "hash": "96828345fd8a17b432119cdb3c5509469fb771b9b91c5932de32daa1f086992d",
+    "hash": "e66baa9a40c97d6081ed56fd7994ce0b04a12ffe4915d848893fc1404fc4f5c2",
     "contentHash": "bb09dc07d7af4c87fa66366384dba38a908a1bdb713565969771a820b944f7d1",
     "lastmod": "2026-10-13"
   },
@@ -565,7 +565,7 @@
     "description": "Agenda sin cruces garantizada por la base de datos, WhatsApp que entiende audios, abonos verificados, caja por turno. Qué debe tener un software para canchas.",
     "noindex": false,
     "file": "blog/software-para-canchas-sinteticas-como-elegir/index.html",
-    "hash": "2c7379891d9896cea328342c52fd1dc6cbc241cc4f10157bce2bbff214704c03",
+    "hash": "18e3a1a5964d964a4011a3525edec20a96598390383ad06d2ab594f53bc8dfbb",
     "contentHash": "fb3b648547c40c1feeea2a11b33823a6665c3c3d7be15455f7546dadbd60069c",
     "lastmod": "2026-10-13"
   },
@@ -575,7 +575,7 @@
     "description": "Qué debe resolver el software de un club de póker: reglas por plantilla, torneos que congelan sus reglas, sorteo de mesas, reloj en el televisor y liga.",
     "noindex": false,
     "file": "blog/software-para-clubes-de-poker-torneos/index.html",
-    "hash": "8079497dd21dc5a9f4e70c85d3c9cdbc4825f4f3f02775df57be1aa80e084a94",
+    "hash": "37b593aef8d942b462aa7c444688c663cac6669583bdc1f7a18046fc0bd6a3b1",
     "contentHash": "fa8862eeaf7ea9a11d67dd886ff30380109354308519808bf09b99421a7ec965",
     "lastmod": "2026-10-13"
   },
@@ -585,7 +585,7 @@
     "description": "Qué revisar en un inventario para madera, cómo se lleva la transformación con merma, el reporte de planta desde el celular y la cartera fiada.",
     "noindex": false,
     "file": "blog/software-para-deposito-de-madera-inventario/index.html",
-    "hash": "e5e3eccc6a8bf3829b309f6f8f9febc439e00c7e41a6e381ed208be3f432c39e",
+    "hash": "3492634a20148bd4cebe1701d46c0fde9109c397f6ece32bd6c0a943fafb7fe0",
     "contentHash": "3b61b654244442b913eec837cf30e17d5278c8f75c007425b4e8a6f01ca920a3",
     "lastmod": "2026-10-13"
   },
@@ -595,7 +595,7 @@
     "description": "Qué necesita una recicladora o asociación: pesaje por material y asociado, precios que cambian, liquidación transparente, flota y control administrativo.",
     "noindex": false,
     "file": "blog/software-para-recicladoras-pesaje-y-liquidacion/index.html",
-    "hash": "e3550b7ba8932a1c7225cf3774ac42e58ae4eb8154d5986d6e8d71c4e65d0595",
+    "hash": "010663be72b3a47733f462e93722a83c6066b37b8f0eab2dc89ff28430e251cb",
     "contentHash": "f52068cc1fa23ac60ecfd764eb2a0cee0f121668cae58c884b4f344d942de1c7",
     "lastmod": "2026-10-13"
   },
@@ -605,7 +605,7 @@
     "description": "Qué automatizar en el WhatsApp de un despacho —filtrar por área, agendar, informar requisitos— sin dar asesoría ni comprometer la confidencialidad.",
     "noindex": false,
     "file": "blog/whatsapp-automatico-juridicos-colombia/index.html",
-    "hash": "82e15d92e6c17264c57b32737a92b389f9c2a63f6fb9f98cd70d662d580accec",
+    "hash": "87c4dd490c0b06abd5807b5fcccb44a62229bcbd3a5e0678b0842f10646d5363",
     "contentHash": "f0302eaad6fdc6a020787a4c43a1e826fbd07f6bf90d4e6e1869bfb4867258e0",
     "lastmod": "2026-10-13"
   },
@@ -615,7 +615,7 @@
     "description": "Cómo un hotel pequeño o mediano atiende disponibilidad, tarifas, reservas y anticipos por WhatsApp con un asistente conectado a su calendario real.",
     "noindex": false,
     "file": "blog/whatsapp-business-hoteles-colombia/index.html",
-    "hash": "632bef144d21d0fa9f06258cda34a87d3f992b040173917b93bc7476feb00705",
+    "hash": "51909cb0323c0bdba884e160ce952e6024348dab44680e18087cc112f26c916b",
     "contentHash": "2fa55d307b1e3d71f882cf58a7de04deacc7137b7db4a878380c9cf3358a5ab2",
     "lastmod": "2026-10-13"
   },
@@ -625,7 +625,7 @@
     "description": "La página que buscas no está disponible. Explora los sistemas o contacta a AI Company CO.",
     "noindex": true,
     "file": "404.html",
-    "hash": "31d93eeca9758255ed05e3fdadb67c96e794b420912f5c2480690b65b9136982",
+    "hash": "259f7638c97be572a2ba767c6980202f804840b740886c1903378c6338a28344",
     "contentHash": "968007c660fe97e796f817f49be7ffb3b107f614962043b88aedca58e54d8e26",
     "lastmod": "2026-10-13"
   },
@@ -635,7 +635,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-barranquilla/index.html",
-    "hash": "c8a9a95a26a86c6e4b565451c0519aafa3b51593671a6edb45785a3d9b442bad",
+    "hash": "8a6b39726138e9ce6025f0819e276d0ef7ad45bd3c1a4c556ce14b59dea6b7f7",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -645,7 +645,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-bogota/index.html",
-    "hash": "6b9999a047d98812c97c2ec40efc6fdc0f0e802696e5d56003164126f0e70ea3",
+    "hash": "6186747dd3231d8d2c9cd8b04c6835f3bd04f3968fdfd6d7fdb585abeccb707e",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -655,7 +655,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-bucaramanga/index.html",
-    "hash": "65487e8f2f3af06e3c94f42c914e3865496a4a4168b41cbf90a24ed880d0093c",
+    "hash": "d63f2e9a687bf2a6a6cd9757c4379f6093a828c5061548ca1bf05d4077a0f3e6",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -665,7 +665,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-cali/index.html",
-    "hash": "6a1e41b96791a3f7514afbda2f3fb60b813568ecf5d908ac160ff4794b2ef8e1",
+    "hash": "8e424c07c9e87abc0b22b0c5fd3a72fbcb20d7c5ac92e0ab4662959925cc5282",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -675,7 +675,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-cartagena/index.html",
-    "hash": "d2913d3e9d63f6cdea6a9b4fde4e9462115e32d68c93bab85110eeadfdf495f9",
+    "hash": "f89b274262bc0a24a2a9fc763c4fdd95a998c9ed80f6316b2aa074a305539765",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -685,7 +685,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-cucuta/index.html",
-    "hash": "74f1ba62e312c67f4f44935a7a2b4a145343bf38a8c4cab97089d7922143cd32",
+    "hash": "2cdc5b7a32ec8c15524cab80e66acbaaa1c68526d3a0ad95c60178ebbaeb4fd9",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -695,7 +695,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-ibague/index.html",
-    "hash": "a72def738bdad1c2377c4f480f1d41c7784b3290226c7ba38f0d7576ead92527",
+    "hash": "7da3611765a134960385222bdfcd47b5dfbca1e184ab01a409b0c8d10c4c15b2",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -705,7 +705,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-manizales/index.html",
-    "hash": "8798ae94b5d74f9c15ed1073b11b6d1c65dc53fe11fea30f780cf4a50de12dc9",
+    "hash": "cfe323950c45da60587320881f6ecab2f2c10af5bb6f48266cb0a53563594c0d",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -715,7 +715,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-medellin/index.html",
-    "hash": "5b40c4c703d53946778a6d22cb4106e64ed347930f61bfc9c02ab614b55d4383",
+    "hash": "998664f1e39c77e783d03716ed1c16fe9636d4e23322ee295b497ecd99edbe12",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -725,7 +725,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-pereira/index.html",
-    "hash": "2a51d8f3d252f8eaaa3607a3d14d0f81c8784a4f902826187548581035a67632",
+    "hash": "bc8796e840d67f938fcc92b8ca41a9af16ac8f89ca46adaa96fc9b148ff57284",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -735,7 +735,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-santa-marta/index.html",
-    "hash": "c67485d9eaa1df14b88df2663670f0a124e0816def240a154ea01e94737e73c2",
+    "hash": "35b6182a8a0ea1376593133addcc11752bcd9b076948c894131f5ccf3c398ae6",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -745,7 +745,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/en-villavicencio/index.html",
-    "hash": "1d0572f35a046331f9b1bcbfcf84304e53bdf85f81857cf09664c0c2aaca1263",
+    "hash": "977ad555315132523c914bbb4014dbfe097e0285726774b4a2c9f3d1bb815b66",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -755,7 +755,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-agencias-de-viajes/index.html",
-    "hash": "df8c219f7a632b2a9602c1f1e42c787a77fbd75508c5ace671b64a91b87cb582",
+    "hash": "c01d185abc7ec7ef88888b73be62596c8cf713f081b385db1ab45c8ef314f8ab",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -765,7 +765,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-clinicas/index.html",
-    "hash": "f8c21538b6efacfcb48b62baf6d77e3c849463033c074fb27fd3b4efbec40f8f",
+    "hash": "7dcf19ace629c21cbaf875c68dffb3b1c5ef8b3d0ffaae5eec6e53fe923bd9f9",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -775,7 +775,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-colegios/index.html",
-    "hash": "710bdc10882401772bf5e5aaae7a60edfa622b7020d2a5cc7954e540ebaef327",
+    "hash": "2e37cb39770d4f8842efd6872446dc9f181dc6534feaf187940e37a46a506efa",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -785,7 +785,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-constructoras/index.html",
-    "hash": "cd05fe0f0f22e2777740290e0a3547aaa6a51347bf88b04a4bcc180a6ee3ed02",
+    "hash": "5d9ea1917af159bf05a06f1082b7ce7997ba3870916b4434bf75456f3ccf0897",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -795,7 +795,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-droguerias/index.html",
-    "hash": "c56be645571c0c860bf38ff18a5bd2bf7731fec267bfd99c7830a994d44b6095",
+    "hash": "a3d0aae9d129fe3b59874b464e3cdb8d9d60e682a14456da9feeb9fb107ab9ab",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -805,7 +805,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-ferreterias/index.html",
-    "hash": "caeb26ca58030588a2e6aba28b83d566eafbff62792641b569797c81a05cdb53",
+    "hash": "18ba5edf4fe608270d76965754170b443d9191583062e232f8c3360d83c48506",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -815,7 +815,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-gimnasios/index.html",
-    "hash": "c8c17f9199a151b89894ac3195d8d96b18d6c44b4c4f14d3aaf407e582bfc484",
+    "hash": "438b8dab17af9d3b60d518c24234f8c9c3955390d6970a126dff701f22cdbeb4",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -825,7 +825,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-hoteles/index.html",
-    "hash": "3b5813c91e98ee7d42aaed20c37a7e179b05e2f4ff662747d9c1e7f63518f614",
+    "hash": "5418ce3b5af45dd7392e32eedb85dc59f48d511d27f2043aee5f3f160f0f492c",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -835,7 +835,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-inmobiliarias/index.html",
-    "hash": "f600627beea35701045c9397678aea447d71bc80d5a0c0643e829775d92cc528",
+    "hash": "4198631218c314f5ee9e40fb7c978e46403ef81d6bde691a304ddd9e9e45f53c",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -845,7 +845,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-juridicos/index.html",
-    "hash": "e980e721e2008c71decf67e7282668b8c60bcc3335207d7bdc516ad6e8a234b5",
+    "hash": "0e62f92edc67338bd09c19ad43f6f33a295adde969d35af377015e0646171d4b",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -855,7 +855,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-peluquerias/index.html",
-    "hash": "5865ecfe50d96eda01b7a568cb38d8848966a10fd977f371b4bc258777b68e45",
+    "hash": "c34117398a2a8c361821d7a7c17a95317bc532ea0ae6098219fc3c9f22e05448",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -865,7 +865,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-restaurantes/index.html",
-    "hash": "4d5a7a9978531644bfb9dccb1714aec76c4afdf917949c5cbb42c98e65f879dc",
+    "hash": "26c374dff1da8896d22901d40ff66e1b7f584b441ae760e365cd0fa8072305fe",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -875,7 +875,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-supermercados/index.html",
-    "hash": "1b8e816d59b57d43f41020e92767100aa51e636c932a6e93031f20014dc8a469",
+    "hash": "e722c6a578f11332556f9008b44f22277fecbf933283a447666998d84ec2e558",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -885,7 +885,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-talleres/index.html",
-    "hash": "db6ab35ad877847b57e2a67972389c8501888d116eac4fd8c6b07eca08361bc5",
+    "hash": "da57855a6285d1392a7f98b3fcadfed19f627901b109de3b2f3c9eceb0bfc0d4",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -895,7 +895,7 @@
     "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
     "noindex": true,
     "file": "servicios/whatsapp-automatico/para-tiendas/index.html",
-    "hash": "a4c2ad1a8c15f9ea977f607e1e032e232d6554da8c6e4b3a5fca5853dca75367",
+    "hash": "ef79f51da4e6bfb3afe8e27758cc37c7017381b455b9c186bfe6840d8487b87f",
     "contentHash": "f56b6237d02fc2deec1d2056caf65e6dcfcda7c4c71fe5043bf5bb18af0ba533",
     "lastmod": "2026-10-13"
   },
@@ -905,7 +905,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-barranquilla/index.html",
-    "hash": "f25c9dead4b8f1d72c47a4c3c6ca6e57e6f8d1c20ce83da5ee4576b08b8b6123",
+    "hash": "aa5ab705841114f5ab01187ac077dad32bf971471f6f16fad52aae22dfb94c77",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -915,7 +915,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-bogota/index.html",
-    "hash": "221dbb5968aad66321a2b07c0a0e2e010443e12bbd44563df4a23b9e204d8977",
+    "hash": "696981890b79bbf7979414d8162933241887ad1541c67cb88c16b11815018a1b",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -925,7 +925,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-bucaramanga/index.html",
-    "hash": "7ca8f72f91c290327706b1d203f8eb0673b426b542b38e2286de9865bd5aea5e",
+    "hash": "12d7051d1ae8387f283272638dc427aa0ef7170d54c0b319a65aea875edbf7f8",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -935,7 +935,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-cali/index.html",
-    "hash": "b9ff69caf9ea0b8a40671153f35574c677dee2aad248b9b2dc32332313635d81",
+    "hash": "a81f866b3998dc6949a19f1e87adc27a7cc402b6c378ebf867d16dd62e3ede61",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -945,7 +945,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-cartagena/index.html",
-    "hash": "a38192eb8c08ee4b78f2fe5a39536db39c0d9913c3fda709f56c062c5894b6c7",
+    "hash": "d1c41aaf9f0814248c89926342cd7ca216799c9159ae8b5e6e56050752bdd6a5",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -955,7 +955,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-cucuta/index.html",
-    "hash": "b8e51acf8a55ff488a91b3cb6cd5ad609dc5d34387e70b828e15938f1cc84c12",
+    "hash": "6e6be3cd57b1a2979316ae796489cd08e577ec71df914d0c73cd1cdc7cfd2310",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -965,7 +965,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-ibague/index.html",
-    "hash": "5bff1cb70bb0e8af4b8ac0b4e6db6e683989a27664d0a0da16e0737c9533278d",
+    "hash": "a312ac79d28dfeb9a24e66d04a9fef95bae6fab594b0a3527645f2ee34a27408",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -975,7 +975,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-manizales/index.html",
-    "hash": "a5764c0c44a19936b2113b5d1928527baecf0835cb1527f457f1162922272f37",
+    "hash": "4e22f82bb184d78c3bfb0fe9a017d0acd705fd2dcfcfb735201aef8448890b2a",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -985,7 +985,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-medellin/index.html",
-    "hash": "258d2c110518211640105dd76680adb1f5e04253467009c17b67a08b15ddd245",
+    "hash": "532cf84a6d34a9af05e544e7b9b9c8468e484db5c31f27a0ae9330cd109f41f3",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -995,7 +995,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-pereira/index.html",
-    "hash": "8bc5ba1dd378bff2d4faebc1f9ccb2af7fe28bbe5d61d81fc785f8e66e036929",
+    "hash": "4ec53b81ed99257a3b238f968ac05ccf92bd286fb3d8e8cb9b626b6ce1169a58",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1005,7 +1005,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-santa-marta/index.html",
-    "hash": "66cd8dac26237a1bd274126ac5d589e56f64f142d6c1f462894b6fc352220a56",
+    "hash": "5c8dbef14308fddfd242d070a5630aee9cef6c74e80f0bf5bc461b3c2499af81",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1015,7 +1015,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/en-villavicencio/index.html",
-    "hash": "58e08b6452baa06e696d61d808647f568edea8e08cb81bcc0e3a26ff0c6c5247",
+    "hash": "7ad12ba8a3c51b186b1da17bed002150254cbbdcbd7eb61f7854b116e528b949",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1025,7 +1025,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-agencias-de-viajes/index.html",
-    "hash": "5c21836137f3541acb7d04b000cbb1fe902e077a56db1ef0d4f39f9df380b2bf",
+    "hash": "c5aebbef19b2699af8e2fe917d6ae44200ede186e610aa7a3d8eab74b5e117b7",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1035,7 +1035,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-clinicas/index.html",
-    "hash": "b069540bd0208bc9745c86337996b9f5a814af11735626f460b4bbf37c2247ca",
+    "hash": "178511e9e2a5287caf62280e3dda729a2e37d117a3000f6286c888e96a5a851d",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1045,7 +1045,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-colegios/index.html",
-    "hash": "827ade2e95cb49dad0301758d316fb2ccc098441e5a2d095b37666ac19d67c3e",
+    "hash": "9abbd64474a27b452f9344d45cc34833ff3d4890e91bdc80484aa47d6acdbb1a",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1055,7 +1055,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-constructoras/index.html",
-    "hash": "d8f8b99cb46cb0048ffc64a6ae5bd8df7340bb6440e174c0efb2381f1d5565c6",
+    "hash": "09c0779afcb2f6c8139a990a4baa2b506fcae885393e217fe7e85dcfc629bf72",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1065,7 +1065,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-droguerias/index.html",
-    "hash": "f8ab7d6f3b38fbaa9ec8c6286915cb2698503c28d4e1e331d2d5052e41e99ac1",
+    "hash": "af95896f781a6a2e3bf168929bd84e71518efa03ca9c7a9c4e653155e7e80311",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1075,7 +1075,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-ferreterias/index.html",
-    "hash": "4de6e33b2229918104db06349be06f25b7a2e3666f6dcf9149c63de3dab084c5",
+    "hash": "3bb0fb154170e9aebe3a3878995262e8e4d8296ded8616f3a74260af07a9a6bd",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1085,7 +1085,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-gimnasios/index.html",
-    "hash": "82054a92b7d515159de365019d882f2a0e857e0bb27aefabf5830a3a9fd348b7",
+    "hash": "d00e0944341afc8d3f782aac785fe6d658aa7137b0616bb681fefc288f5de24e",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1095,7 +1095,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-hoteles/index.html",
-    "hash": "2475b62614139f23c67c279d7631f11726eb370f005ffe6e05192a1cbfce62d3",
+    "hash": "80dbf555fe0933bc1d6054dab813e983939dc9f328c91320e7d111a46aad9071",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1105,7 +1105,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-inmobiliarias/index.html",
-    "hash": "49a437c8a8554e27514dc2e5d9d2211eba0821944631e4a5682db96aec573602",
+    "hash": "559c08f98d54f73ebbded2d2018c1ad8a918d103e0378db73a97e48bb1745dba",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1115,7 +1115,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-juridicos/index.html",
-    "hash": "cbef9b2db6542957fb952221bd4d067a2ff1ebc6282d5e95ea89810a8baf0928",
+    "hash": "227cc1923f40d376d670f4bded332013cead03b22c95eec055f14edf5cdae801",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1125,7 +1125,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-peluquerias/index.html",
-    "hash": "39b9fcea0e8d970086cb0b3c89e48764cdd9a44d65a97e5aa049dd19733e15e1",
+    "hash": "a835336fce5d2866a831cb227e5889751d6ce498a82957ac7b6b87f6a30ff95c",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1135,7 +1135,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-restaurantes/index.html",
-    "hash": "ad54ca032ef9cc7dee96706ebe8faf0dcb9ab28318dd04bcb20a187924cb6b4e",
+    "hash": "7e18f74385c794b59281d8c21f28a153425d2d27346364beaa29685a75f8e612",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1145,7 +1145,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-supermercados/index.html",
-    "hash": "bf82aad595067cb76875845d7fd993eec341cda9c8cafc44bbc0a6c7551075c5",
+    "hash": "d5a5010dec85fd113251bbb6e7084b93c9f56af334f57ae4cc57f692742a85e7",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1155,7 +1155,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-talleres/index.html",
-    "hash": "e4b2ea3c1f5acf4655f70c6aff76d0d1ae6f524549d31f01e7fb8ada09dbb055",
+    "hash": "f57ce48e211f0bef698910c062460bf56f4df3ced5d33612e5a4cacc990805e5",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1165,7 +1165,7 @@
     "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
     "noindex": true,
     "file": "servicios/chatbot-ia/para-tiendas/index.html",
-    "hash": "4221b74f691bf1f2e8827e7cd1247aa9e7ed34abeecbb3a9a0f4c5cbb653d967",
+    "hash": "bc50caf6ad5e894bb47434179c918cb7714d9914915770c26f6d72fbff9b666a",
     "contentHash": "b093a861d52add13edf15c6e219ee19273fd1db7ba8d10dbb58e591f784e74f5",
     "lastmod": "2026-10-13"
   },
@@ -1175,7 +1175,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-barranquilla/index.html",
-    "hash": "e771ae0967a2ce6b8b42093c436911cc44f4634436f0dae7754d632c6897ed85",
+    "hash": "6aab967c86beb218842e77a940a53bf6f1f69285092bd96e1522f8d00b4701b0",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1185,7 +1185,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-bogota/index.html",
-    "hash": "cc69ae6b9e11e6891bce6a81330bfda14e224efd5f85854ded85b33600845475",
+    "hash": "773658a866798a37a3dba082f1de2b407409cff09a18cd9749dfc78720d8d123",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1195,7 +1195,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-bucaramanga/index.html",
-    "hash": "2b60bebb972a614a5e0ad3f9dc86f58c2ff975d30a4c80f5f3b2cef58ec845c0",
+    "hash": "e66a16a4745ad6599dcd642cf2dc1a65eace07d130a8c81a155c48542f9a7b30",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1205,7 +1205,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-cali/index.html",
-    "hash": "93c8649d9f2951c2a2b4c1e831c3bce4d68cd41e7bad396a143540faf084d7f3",
+    "hash": "045ceb5d015d0fac8f81379814c077259eab402d8294444fb13f524d2ee895d4",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1215,7 +1215,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-cartagena/index.html",
-    "hash": "c34c503e367ecfcab51028b5a76981b536f1d461f836c994bf542d863e484154",
+    "hash": "181c45c8389b21c73d06cc811dbee7783aceb2c86637f03538b80efbd59aa916",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1225,7 +1225,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-cucuta/index.html",
-    "hash": "23b29d524d095c708d5f86957a5414442de7bd5d4e6f1aba5e2a4d2df63fbd34",
+    "hash": "cf4238d3da054d809c9dbea008613cf1397e49b853111c42cd7cad2e1107d654",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1235,7 +1235,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-ibague/index.html",
-    "hash": "e982cf457bfec2b18d923af72f475d8e1e6f09e4d80863f2e5452055c0b501e1",
+    "hash": "501a6ca1d8d1fac8c7641329dd8444cbadaea61d9ac4672107bdacf914615abd",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1245,7 +1245,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-manizales/index.html",
-    "hash": "944bb1819e6755fc7f29fdfc8bd165e7a45580e764fe591ac7836223b8ea8ddd",
+    "hash": "2b19b2dda3cc8ce563b21bbb3b372c5849376703c9fbdfba8ab4a20361e383e0",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1255,7 +1255,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-medellin/index.html",
-    "hash": "0f82f59978d8797c5afbdc5b12e4a7fbd843d963224ee59fb1de087f5f7a2b50",
+    "hash": "c8c740d3f223f5307d106ec176b77482cf615fb8512b320a08081bc66a87b9ce",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1265,7 +1265,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-pereira/index.html",
-    "hash": "aeb8fa168aaba927e83c7933ef64df1c660e1c531435523c19cf454615a212ba",
+    "hash": "7f52a25f126ae32e6a3a7824ab1164b37bcf516be8a612a77d31d714e2eb3098",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1275,7 +1275,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-santa-marta/index.html",
-    "hash": "e7158bd922aa18e7972a93342973e6b72c44d35d04b848914d30bb1dc34063ae",
+    "hash": "dec48e23a6f3d56511ebc6e0f63bef71855017993fc997f25feb430c75af5115",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1285,7 +1285,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/en-villavicencio/index.html",
-    "hash": "3f71c7e56be2f5268da81bfd74162bf5d76e0262373e17ccc532c4f45a66fbea",
+    "hash": "29fa9dcae72b76677c3342caff104c5b217191512f9b2bcc2a5d2665046dced3",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1295,7 +1295,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-agencias-de-viajes/index.html",
-    "hash": "141a598e0152069061c27673b2eb44eb805468f3a3eb5f68001490f082b3fb94",
+    "hash": "683e989e44e33e0efb349ef2694bb670cd70fad1a5df2607e926d75913beafa2",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1305,7 +1305,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-clinicas/index.html",
-    "hash": "185241befc6f7d97fd1819cedbc26cb5da6f857e0f60e81067507d3674513a11",
+    "hash": "efb85f91fe56249bccb1509272f9adb3cef007a593a2e20948657fe90091583b",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1315,7 +1315,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-colegios/index.html",
-    "hash": "be42a4ee75cc4efbe96c3d0b8056a130e0efb4ee1fa06698a1d28b94a4a1d082",
+    "hash": "9fe14330c7cd539dc3b6e4de5d968523de6d18db5d123dacf98191a7865c8c52",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1325,7 +1325,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-constructoras/index.html",
-    "hash": "465f8ad3c87700d2f6693d1dc26ce87c4b7cf5e358fe5805c8ce339155786c44",
+    "hash": "57b648e6ce8b4d87a31f424b6168cacc330b6594c19acabf2905c957c8711159",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1335,7 +1335,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-droguerias/index.html",
-    "hash": "8530b736300423a9423d3d467ccb65fbd4b865071baa6b1e1745bca504f8ab08",
+    "hash": "3aa60b4efee90800cc76c3eb43eaab9e9011c086f1845b51cb5ab7ffab759f88",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1345,7 +1345,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-ferreterias/index.html",
-    "hash": "c7b31377dfe57598c2044cd8d0eb258246f9a8a0d65866809383ba5460e703d0",
+    "hash": "ab3771af176f4907062a676ad4958887f0b099513f0b94afb0f1c0ea43fe73a2",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1355,7 +1355,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-gimnasios/index.html",
-    "hash": "fb7e4f3837bdd436da9229e35aede4268a104679726a894ae760aca8e2c6f7cb",
+    "hash": "1a75b4f2c627958ea4a3493cf96cb9f54766ec1685405e85fb6544f499014f11",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1365,7 +1365,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-hoteles/index.html",
-    "hash": "f23f2a6a8188c79f3e295961fbc2680b1df1dc96fe9c91b34bb5dc2b9a4cae21",
+    "hash": "1e471dc8492d244e1c715c9075a7eb7eca218d641f5ddcc54cd7e1bc1c0a84e3",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1375,7 +1375,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-inmobiliarias/index.html",
-    "hash": "bc937a36f1694a96762125640363f5344397e5f1596a3cba55c1a82e8e6fcde7",
+    "hash": "59fcef50532c5ef0692185f94691ac6a0d965648dabdc188899e8a247b68988b",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1385,7 +1385,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-juridicos/index.html",
-    "hash": "baebefaaf787a5c7c8090bfcb5ad4f963fb72413fc8f60761891b7a419a50553",
+    "hash": "0118568c7e3459971a4ba93c792a2621d34ca1f40ca379ec9c814b8af687da63",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1395,7 +1395,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-peluquerias/index.html",
-    "hash": "783a76a231054dd2075529515da7710738fcb50c45f56e508aded40cc6911a04",
+    "hash": "5ebd5e275889562a7bde610a2e644be1ee8fe181009c7b5ca5db55c524cbca97",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1405,7 +1405,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-restaurantes/index.html",
-    "hash": "bc4c3ae6b3cf60b3b3269744eed1abd1ba8c315ab80f6ba3bf35cebe05fe4539",
+    "hash": "507e1aaef44c2d92766d85614acf980bd7721a17c31f4115e7039447e1006099",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1415,7 +1415,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-supermercados/index.html",
-    "hash": "ea1026e6cb64641c47a369e65667c47d725be77d0b170ec2fbf14773afb91f59",
+    "hash": "c238e315aff2a621763ce3c0bdb3c2cbd39b59bff000f671ac2a21cb48155de3",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1425,7 +1425,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-talleres/index.html",
-    "hash": "380440b1cbb1e8e9b63a738a776b6725299d95d33c870b21046c1f158093cf25",
+    "hash": "b61317a2eb590c6c8b039a40791f9b15bea588c4c140fac014c243d18907c593",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1435,7 +1435,7 @@
     "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
     "noindex": true,
     "file": "servicios/asistente-ia/para-tiendas/index.html",
-    "hash": "b820c8571f041dfa05fb6462319f83f9a641e7dd9fed341e0750818f283125f0",
+    "hash": "76976312a624560c923aefe6c8dc01e764b1716eb76de3339fee088c3004a0cf",
     "contentHash": "9b13eb45d94c4e7c17c270e250991fcffe4efc3bc08b26fac5c88b161e02c8e4",
     "lastmod": "2026-10-13"
   },
@@ -1445,7 +1445,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-barranquilla/index.html",
-    "hash": "375862966ba79feb79a8bfcf72532e39d13cffb585c2afbcd4c16b1a7f9c038c",
+    "hash": "d9543410c8c2aa57b195d65bb8e9e797893388dd7498d41e73f3038330bc3428",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1455,7 +1455,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-bogota/index.html",
-    "hash": "f30ed56bae0edc5e992018967778a160e7395ed9a0b9804be638578768e27d5d",
+    "hash": "bbd36303e16a2e3f7b9886d48cfb45fc22ab2d08dce3649ed2c55d5c1a26eaa6",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1465,7 +1465,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-bucaramanga/index.html",
-    "hash": "49492b483685d85dae4efc4d3077a000f9522bea3527fc5674c80fdb6f53080d",
+    "hash": "414581baec931b5a21853b4287f8cecf6eeca98b6080cb3e7917a605417bf42c",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1475,7 +1475,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-cali/index.html",
-    "hash": "577fc9d5a38911d16cdc2c10856b2b290b61136563df4ba4f46fd8117888b63d",
+    "hash": "21390b7c1aa8c457419cb3f5c4cc902cbbb51a16ee0880703d1ab9dd67fa9918",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1485,7 +1485,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-cartagena/index.html",
-    "hash": "306eccf6ac694b6f6c0376387cd8ab0ba8609bdb626667f82aa4318c45450fc3",
+    "hash": "910b9bac99feb3a8cdca750ab2cda849533d020cc5b3b9fde8cf819840353118",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1495,7 +1495,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-cucuta/index.html",
-    "hash": "5c264c181e48199a1f127439c793a916b25853b35b16c9c8f4fd418ecd0ea243",
+    "hash": "8a520a14f04b8aa6b6c3b0184ec548bcb43b061ff1950c4f50abc6f4f0a64d12",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1505,7 +1505,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-ibague/index.html",
-    "hash": "0bc6d9a8580b385275af3d8d425ba2abc30db33b0cba1735390a0f7a785689a9",
+    "hash": "20c4955573f84ca8ce8ab6dee83c17e347a7b6536c4af5212caef217410c8f39",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1515,7 +1515,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-manizales/index.html",
-    "hash": "024db67a6e1e28afe148657962607e387e8f22f2c5e919c9dacf406432e9ecdf",
+    "hash": "5a695590c67b69b1e41ea601d16f48c11aad784c78c2e2b07c049dbf3685f3c0",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1525,7 +1525,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-medellin/index.html",
-    "hash": "3b41c51306280945b4c4166e51ccca2b6df93ebfbb7fd6c3d1648b7759ca0ec8",
+    "hash": "5f45679cff64debc66d1cb1da8eeda562f74ca5951c1d753b25dc731847ba500",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1535,7 +1535,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-pereira/index.html",
-    "hash": "4b65d0f119b8362ad2a63f882e7ef19eec2ad45a3fd45c5a3b0756a865faff7a",
+    "hash": "45d46c390bea11bf2e56589154d4ca19277e2d9326ab6af423e0c3b9a5ec8fec",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1545,7 +1545,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-santa-marta/index.html",
-    "hash": "61c35da96b42427b1b756b6c46f67d84e78a1d5289f0f8e40819246094210077",
+    "hash": "882ef49dd3d3741e2cd6d0bb1595ac1b5aec5f3d95acd32df20169aa8ee64797",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1555,7 +1555,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/en-villavicencio/index.html",
-    "hash": "ad41afbc8c32373142b50cb051689f3a4d260710e067730b850433e5fad23cb4",
+    "hash": "82c6457ae6cf467e5dd3d71a0bffa751a440e997e80067749bf1c45068dcae09",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1565,7 +1565,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-agencias-de-viajes/index.html",
-    "hash": "51e78f72159c8f0b915826df22eebde39f52155b0528e8379fb47cf56bebc78d",
+    "hash": "b0887301d7ec4f7f765440d32b164025dedd6dd4ddf07b2466fbb3fa54bccea5",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1575,7 +1575,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-clinicas/index.html",
-    "hash": "c8f2d5b90905e8fd500fb4f76aede97942c55fd250d655473109dd42f97c0a59",
+    "hash": "021eadd4ef9637f93fca87ac60bf0215c81e80fae80dda4884722afb5c8413d4",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1585,7 +1585,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-colegios/index.html",
-    "hash": "010322ac8a9258a17cd06883cb290bad85b6ae18f51feb28851ed5136ac1413e",
+    "hash": "c54bbbde6c72cdb9cf1536d48e5f7f4fa92895bc2a560e6c5ebf9753318a8d7d",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1595,7 +1595,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-constructoras/index.html",
-    "hash": "9ce15eb10a0853509ebcecec2fce5e610e33c8e53fe2dce91c5e2dea3478af39",
+    "hash": "da16377dda9221c934d7a3f069ff51265c9cb4f9399d22c9a0aeb7ca3f9ecedb",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1605,7 +1605,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-droguerias/index.html",
-    "hash": "f32bfea0acc2e346dc4db27ab03c20df0a56f2e1b9aad62de6ae449f5ac4a955",
+    "hash": "5a681b84226593400663dc698f908a62eb7a4323c6732a9331809aabfb3a7465",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1615,7 +1615,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-ferreterias/index.html",
-    "hash": "f8beb4c83332e1cdb0a7867d5839246c8382736076bf21f748777e182b26fd90",
+    "hash": "20dc237c2261b0e69e3ad5e78a35ab99f4ab6ceb234782f643889add14c23a10",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1625,7 +1625,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-gimnasios/index.html",
-    "hash": "c0663d128f482e37c28ec25a7683784dba04822b7629642674045ef38d274f4b",
+    "hash": "dbd7f8c49fc71263110c5f0889c2bb7791a1e364b9590a3674f93ed20fd50af5",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1635,7 +1635,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-hoteles/index.html",
-    "hash": "9588cc1053e43fc1da230b34ff96d0828191591cef799acf2e9e3a55f7380953",
+    "hash": "7e1a3a7ac15984fe7dfc804606158a4c01cc2d41e808bebb9264d395129dc317",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1645,7 +1645,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-inmobiliarias/index.html",
-    "hash": "0c5ca6e6a2fdb5a3f9b09b603c37b81e83145314e7644e5dc2d0776231cb2a76",
+    "hash": "bf98ae01173e7e8d4f3da58a7122a6e4d60b3ceb0a16ab6f63db887b95a98df5",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1655,7 +1655,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-juridicos/index.html",
-    "hash": "9e7c737dde5688ab48c3d424d4405e9a6387c16e1813690a4546452ea262b19e",
+    "hash": "a3ef4e872cfa7afd7b4702f76b4ff52417c94a32fc4be7f2835c82848d61241b",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1665,7 +1665,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-peluquerias/index.html",
-    "hash": "e667041468de9fdb56edf341db7a5b0fab5d4e73009c90bf70a1dc47c81d9ff1",
+    "hash": "28abddb794313aa89f9204251f87df2feb70eef5473b7c5880fb3e0975e97695",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1675,7 +1675,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-restaurantes/index.html",
-    "hash": "ba471d1622082ff96ab158de52428dcdcfea0620cd5c840824ffab1bb89878b8",
+    "hash": "3fa8061efccb2613287342b4f95ea95f0aa7aa0a7691e2cf6d7e43dd621ebce9",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1685,7 +1685,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-supermercados/index.html",
-    "hash": "9d7284ac239426162b408b79b85f1a88f81b476b553fcfc49657fcc0aef8f88c",
+    "hash": "82d2a3c2dc7d7d8d66fefa5eb720b5f756fd31ee0443511c1e03be5be8afa086",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1695,7 +1695,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-talleres/index.html",
-    "hash": "325621f1c919716342affc9cb513a1a829346c0a11c67a4308f56e36c52f74d2",
+    "hash": "5aa44ddbe55e0e423bfdc4b103916e99167fedddb91fde942cfcbf0257bb0771",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1705,7 +1705,7 @@
     "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
     "noindex": true,
     "file": "servicios/paginas-web/para-tiendas/index.html",
-    "hash": "9e7fd8579fc37e834c46b6e98ab58dccce224e2be3f57695f4969cd628e1c64e",
+    "hash": "06866353ab14950312b54be1a8351abdc0060063d8628ca1254bedb998bfc892",
     "contentHash": "596c644069834e6746586e6ed68bed2c2860f1556f8b1058b1993e4c52865b77",
     "lastmod": "2026-10-13"
   },
@@ -1715,7 +1715,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-barranquilla/index.html",
-    "hash": "a0f475389fa2276d86ba3066db3ad9d2eb1e44896de9ccd4f80bd3cf24d44b5f",
+    "hash": "935ccaa535b7e58d3c1703f79f59cdd11d9c4094b00d01b3d2ac079e84f67baf",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1725,7 +1725,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-bogota/index.html",
-    "hash": "02df73b35f32d5b0f1e31ea53e0723a2f4a3a5d2a10120153820ac905d96c05d",
+    "hash": "0def4bdf83d7a13d0ebb70a1932024ce760cd51f4823e52d82bd18aa02d87b30",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1735,7 +1735,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-bucaramanga/index.html",
-    "hash": "0c39a680afd0cf3016c652be06f74cfd2cac3608cf771cd41957211b37cc2d48",
+    "hash": "e11112233cb5a929e2344fa8606c48119b825b7289d5874e0612e4595211eb80",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1745,7 +1745,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-cali/index.html",
-    "hash": "34bfac2dfee29d948bb5aef9aa35767259102dfa65117ba34d1d32c77708425a",
+    "hash": "27b0688e3bcc8ec1e5ee44be0647c26fc846b1926fcfec01b2306da1412e4ecd",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1755,7 +1755,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-cartagena/index.html",
-    "hash": "5484d71bf0d62796bf4e2e98cfb1e89635e802a0d9cf78d60b8c3351bb62e33e",
+    "hash": "7dd22fed1590fc1448872dbfbeb95d283c3935f2669b0c93067fbf9962d89346",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1765,7 +1765,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-cucuta/index.html",
-    "hash": "7a66d06b8a43dd07e7ee8cabbddcab465e146f2b330a1839e9f1f8599bc9a16c",
+    "hash": "f660bcfd0b76a83178448ce36be3a042e185a84b5deb8351c1c7f3f7fe29ccf0",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1775,7 +1775,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-ibague/index.html",
-    "hash": "f8ef3366ebece5c26820c1ee5580daccc255fa0086b01ff52c91111e53b10daa",
+    "hash": "b620f3aae63eaea41f6b5ed013c3f309451051504ee2371bd1eb52fa1c574023",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1785,7 +1785,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-manizales/index.html",
-    "hash": "ca6d31d9cfb9d3776a3c60d58a995c87b2f620dca3e6eb61ce69d575c4ad4dc7",
+    "hash": "5fcb65031dcdca6bc328ed904a331706868fb2dee3cd1026423caf73ef6c3350",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1795,7 +1795,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-medellin/index.html",
-    "hash": "acda435eed081db720f8b3a1319b3a920b02c40b29f7e8b588aff964702aed1d",
+    "hash": "0ffc1c59d4ae0940ecc455d0391506165e651732677b277cc6307cce47e9cc75",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1805,7 +1805,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-pereira/index.html",
-    "hash": "ea1c263fd8dd4adb69784b01b82f8ebed9bc1a41e210646761c63c96af84bcfb",
+    "hash": "8630de49f95a9052b61a858b065d9b62d9de6a1a720b2c924829f0a939ad94b5",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1815,7 +1815,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-santa-marta/index.html",
-    "hash": "126a0e974742035192b2132eb51c11b89efa53fae4361662a71de678bdc232ce",
+    "hash": "6826a0477171b85efae66828999054636f6398578342c926013755e7291e0ee6",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1825,7 +1825,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/en-villavicencio/index.html",
-    "hash": "17ec707ddf721df252e975c2b8a257a8c7ec9d1487e6aa3848906e41db384006",
+    "hash": "5debdedaf5f9194bff5039e3724a7b7fefc22cee161a2034b7ceda4c118c4d11",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1835,7 +1835,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-agencias-de-viajes/index.html",
-    "hash": "d1696bf6a3a94ff222cf9556f3e9258d96442d89de867e500b63da5478f28252",
+    "hash": "e444e07fcd9087a7d00c2df978d1d76a68f76e4362f152ef9420abea6457882c",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1845,7 +1845,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-clinicas/index.html",
-    "hash": "93fb8827cb5911fe099aa5a8b85c5e0b8af6f01c0d4f4868478a934631fb9154",
+    "hash": "3613e1c806d35a3159dc47fa09a29dd08ff0990bb36951940eb11791b7d19ded",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1855,7 +1855,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-colegios/index.html",
-    "hash": "55f6c345a049d9fe91a9a2e560d2efb99aa93ae3459a5819cc8ceab73a1d00a0",
+    "hash": "58bd38fa244c3e5f544332a6d8474d95e4049f41a6d54f029db58eecde67dfe1",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1865,7 +1865,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-constructoras/index.html",
-    "hash": "711b3df0fe4e0ca8f4f838d0ae24c8d805e3d0141cf7a434e5dc01e7c30b180c",
+    "hash": "597942f61f3da3fc1b902277aeb3839b68b3ddcbc96f109c7e17d9d22b87ecc9",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1875,7 +1875,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-droguerias/index.html",
-    "hash": "7e8ce441f4c4953a63335436739dc66aaed9ecf0512195dcb324da529610486d",
+    "hash": "7030053051bd3934a3c265fbf36597ad0bfb309e3deea245c0f1c03ee8ff44e5",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1885,7 +1885,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-ferreterias/index.html",
-    "hash": "33ba580da4a7ef53e7e95c7e7e9dda405ee5587bd9b9a49ffdb923ad9290b901",
+    "hash": "ab5b569348ff7356f2bc50e27c1384b88777bd5bb6ce532b3c7c964787f12d0b",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1895,7 +1895,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-gimnasios/index.html",
-    "hash": "8337c4aa3ce415256b4090985b35728a527db5d2a39af88d56dae32f866a2a02",
+    "hash": "20f3981aedab16809b8f2f3930a1a1738c8dfb08d475d04ca23c8d53ea1c2b92",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1905,7 +1905,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-hoteles/index.html",
-    "hash": "d4c38da44402728d16402e50e4e12595dcc923cc98981c74006bb66815c26d78",
+    "hash": "00da91e08113faed1977ac18ca5574f039b5bbe9d662f1351c18830db485e24b",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1915,7 +1915,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-inmobiliarias/index.html",
-    "hash": "d5b6d39b0af35401d62fc0a320338d72058dd5fc978359a1904dbe0cddee0f17",
+    "hash": "6d14d25438d1c09715d08a9f0e17c5a6e9ba5bd2b56b15b434ea51c1f783b7c9",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1925,7 +1925,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-juridicos/index.html",
-    "hash": "6c22f975f07bda27c1df4dcc1b4b3d550c7c5457b2268051a26ce074cc766a12",
+    "hash": "8afbc404ad0cb6e720b4d2bceaa9a016a31e9b4381c2b7db44238db924e9716e",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1935,7 +1935,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-peluquerias/index.html",
-    "hash": "84692626aab06029c207412e14a53fb3d1070b84191bbee5d480b51de2c50f63",
+    "hash": "15bb520288ce918bfcdd2a518a307daad432a813dba59f080fd899a052d5224e",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1945,7 +1945,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-restaurantes/index.html",
-    "hash": "61b5d1be6a3818a27625470a080147a8c2e8fd5fea9b624359c29b6bde743bf7",
+    "hash": "ed7d36264d4db9544955f4bcae16b76386c9ca396103e37b4d13caa37cf0aff3",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1955,7 +1955,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-supermercados/index.html",
-    "hash": "3b7886bd5912441044aea6834860fc211945df47be8a44c4f558cb6d34ce1c4b",
+    "hash": "83ac9f36e54d64f4cd0353214dae90e146617ff4f68bc5db104ce06b48a5957f",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1965,7 +1965,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-talleres/index.html",
-    "hash": "19995c868740f8c7a579280c188bdb4e3ac7458c828cce6251dbc52e6ea275c5",
+    "hash": "300d32099f673f2a5d02d752646b5b6f0ed6085f77d3b2ed9b1afbcf6100055b",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1975,7 +1975,7 @@
     "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
     "noindex": true,
     "file": "servicios/apps-empresariales/para-tiendas/index.html",
-    "hash": "29a6106936f4efe61efc5e8aa7bf98b13c2e348e80c725fcc352c8a13d00a936",
+    "hash": "4637a2dbd741a449ea0d399ea735dd8238ff3b4c970e0faa13a96109040d532e",
     "contentHash": "4838595df94661d0aa53e4aea5140a15f64fb038920056bebff1c8434628a4e2",
     "lastmod": "2026-10-13"
   },
@@ -1985,7 +1985,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-barranquilla/index.html",
-    "hash": "c495970b0e0fef363c79c319ba034e50c0f64dd039ff7fcfd6cded62693096ba",
+    "hash": "c7e1eff9ef9714248cc3153f6b056a10a9500dc39b2149ea06d306c4f8bf0d0b",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -1995,7 +1995,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-bogota/index.html",
-    "hash": "70ccda67c2a63b05a63bcc762b34f6f45e9778759defe29bfcd616d544fdfe0c",
+    "hash": "66e1284f02cfe33a22ceee5ccd00af12a9e6ed16bfefd4fd063550185cb044ed",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2005,7 +2005,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-bucaramanga/index.html",
-    "hash": "4473a6cc93df7030448f5d9695c356ee4ba0aee757398f82770c834764c9ad17",
+    "hash": "bada223bf90412462f99ea4524d0e3cca9b1802b73a40349408f1d99a76e7035",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2015,7 +2015,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-cali/index.html",
-    "hash": "c84cbf4472724aa2f1a9ce6c8201afbc013552bc4c79e5a56f9fd2498205d08e",
+    "hash": "9f156d7f50bbffcb633096ee0cd22cb8edfa149c4cd7d005658f69bfe1a88e9f",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2025,7 +2025,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-cartagena/index.html",
-    "hash": "fe5b16992b9446bde84f34a6133acf9af1bfe768e7aba52e78b200a3e1a0db07",
+    "hash": "88528e819db2d8e4ef9b28bb41dbf6ee3ad2d5a4456d03ebeba0ea9eaa72ed35",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2035,7 +2035,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-cucuta/index.html",
-    "hash": "18f8c2174a9f2c4ee533f7854eaf214046c91e44493a405459e51ec6528e7842",
+    "hash": "c9b1f27a3dcf05cd1d6c4f0bd53a8f95ad369fa5c24ff8269009646d2f83e8ff",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2045,7 +2045,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-ibague/index.html",
-    "hash": "a4a88e7fa7a1a7a7661f69d93db34fcc56f834376ba3a3b4bcce771508532eac",
+    "hash": "417f2d85b9432256f3e80b5bf1957f75b06b7dcb19ff9e669c059782c65b025f",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2055,7 +2055,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-manizales/index.html",
-    "hash": "81f01b39ac2f1118983fc1f88a90802c6920cca699b869acd486ea30108520b6",
+    "hash": "0787ac5f84938b8eb6a481a96ccc0860628f006ebda9d259b7a5833f12b0210c",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2065,7 +2065,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-medellin/index.html",
-    "hash": "b52cb31b828d60ed1f70f0a40f3e6a899d40b9a9d1353ba68aac4b1fd65ed27b",
+    "hash": "cdef1bc0678a508f134bd8cba8b805b3caf3260c9deb32975fbc70d891e4b118",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2075,7 +2075,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-pereira/index.html",
-    "hash": "edf8069226e8403b4e97bff2c6c65bb0ec78e1cecde328f575138227a152f7ef",
+    "hash": "d00bc48de57efbc9cfaddcd23dcca63341bd3bade2c638963ce5927869ec14d3",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2085,7 +2085,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-santa-marta/index.html",
-    "hash": "900c298efb30b4e13ce1c029cbfc67a87dec7c05fe01d8cbf1c42cc9857a898b",
+    "hash": "1cd947c9b7a03acf91d9b7dd3c3f9c6716c336e0ac495145461af395c44f1f2b",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2095,7 +2095,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/en-villavicencio/index.html",
-    "hash": "6329a038eca8c837b1e9a5cebfd065fbe01317089eb4103eda09e5c45f9a2458",
+    "hash": "5a0ccd6a32c9490e90bbaac3eb712b2206d7efccd1edd69df0f09cc5efe07db4",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2105,7 +2105,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-agencias-de-viajes/index.html",
-    "hash": "9fc38d19fb7b8b08696bc631e2b31e20cd13a78a658c769ba100a8740c01220f",
+    "hash": "75930ba89a8551fe1f594f616791fef29136987f567b7359d38acf30fad8ef64",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2115,7 +2115,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-clinicas/index.html",
-    "hash": "9ecf639d3cb0acb9931d3c3e7ea68ed11cfe0f8005226ae060123d57267b9d8f",
+    "hash": "0ddc926b6bce07d99ed63a29f49628326f60d221fd9f1147d8f94cad1d79c080",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2125,7 +2125,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-colegios/index.html",
-    "hash": "2f70ace5c8e234047749332e62ef2dac712425d65506f671ad86908d4f5c15dd",
+    "hash": "b06f280beabea27f93dbc99ba2db06f6bc774b55629e22f109d7147efc387536",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2135,7 +2135,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-constructoras/index.html",
-    "hash": "b0ee1037aa27be5da9d16bf7008cad719291c3c2e7fb272e03d6ff3262eec22f",
+    "hash": "e7c81948fb8ad5bb51f6ce9a5e5636a646ea38477b8355b3f52412c083fee76c",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2145,7 +2145,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-droguerias/index.html",
-    "hash": "a037eb61961bd02b4e84528a2c836461b1f55e090ed6047460add3e079c19d76",
+    "hash": "53bafe83b9401574c0d119cd820e0696545a9ff4428d412facfd0357a8948051",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2155,7 +2155,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-ferreterias/index.html",
-    "hash": "3d5bee89eb5b67accf3894b3778132ba12e54e004dcebcc46806ec0b0795bc39",
+    "hash": "8436660675c92fe4a1cab3013d86014a8c23607677b8b9a7f5138545671eda34",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2165,7 +2165,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-gimnasios/index.html",
-    "hash": "b85b8eddb0c97d65796fdceb04c2b058df780d4234c3adb43eefc1472d8665a4",
+    "hash": "f2b636ac99cef0c5bde64c474528ea765874df07bc99983be107728334d1dc4c",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2175,7 +2175,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-hoteles/index.html",
-    "hash": "9e7b43368507bcd1326de3eb15ba0467ddde5a93352a59fb0ae114941ecee97c",
+    "hash": "dc70a29bcb872cdcb58c77a416aa0782656017da2ecf7deed9a9300143bc6758",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2185,7 +2185,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-inmobiliarias/index.html",
-    "hash": "6421a2ede5a2c9044efbcb1562bceaef6ebe09db1c5af7ff21c2bb765cc95be1",
+    "hash": "e0c0c05e2f5eaf71caa60267da0c8c0f07c7379df71dae832316efde3b1aaec4",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2195,7 +2195,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-juridicos/index.html",
-    "hash": "f47418c1bc86e4007718a4cdb18016b644d192c399ba2f096c36b90573852f90",
+    "hash": "aa666033bbd5133b6e0902eefe66f538229dd87866ab0c7de9aaa5dc2b8f021a",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2205,7 +2205,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-peluquerias/index.html",
-    "hash": "9d1c1122143c3fa2bfcc8c81ff90ae67ed5bc848d00e8be360dd277ece2970ab",
+    "hash": "e2644b16a90786f6b7016f9e2c97df91ae777c1b5a7e53e72ed269bbdfbfc52e",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2215,7 +2215,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-restaurantes/index.html",
-    "hash": "7c8c6aea3b0842f55d4b339522ef7f5b8f60b6574872c103e0213a56f24a40c5",
+    "hash": "08e7737f722a86cae0e6315f4b98d987e77150988bfcad1dc0fdbb62220ef6df",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2225,7 +2225,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-supermercados/index.html",
-    "hash": "86a4fb8ab157423942319ef75ec1cb9295920d5a59b329e77d40fa6f2e0f235c",
+    "hash": "a1460c9ba47939754622790ff266bf516663cd9b42f3399983b578cca440f879",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2235,7 +2235,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-talleres/index.html",
-    "hash": "43321e1ccf1b97ab3640c7df9e32ac6ac693ae13cc6c98f7ef5715c035239439",
+    "hash": "b3437e919d082f94ee5ea526da05be5048fef5a3d5be3bbba493d81f26f434bd",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   },
@@ -2245,7 +2245,7 @@
     "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
     "noindex": true,
     "file": "servicios/marketing-digital/para-tiendas/index.html",
-    "hash": "71510ea5a420a0576d50c860f28bd2bb3254148ff523bf63f5be1abf34d04e09",
+    "hash": "d36c0378fcc5ea9729dc9fd000ba5010616c10348fbe880151eefb3733e6e208",
     "contentHash": "8cdbd101b9e84f35945928adb44a6668cc7c5f97f47a187c7b4bb7df3a65da18",
     "lastmod": "2026-10-13"
   }
