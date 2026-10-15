@@ -5,5 +5,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
 
 /* Productos propios: línea separada de los servicios empresariales. */
+.home-v3 .case .text-link{color:#4C168E;border-color:#7024C4}
 .home-products{margin-top:38px;padding:32px;border:1px solid #DFDFE7;border-radius:12px;background:#F7F8FA;display:grid;grid-template-columns:1fr 1.1fr;gap:40px}.home-products .service-kicker{color:#4C168E;margin-bottom:16px}.home-products h3{font-size:27px;line-height:1.2}.home-products p{font-size:14px;margin:18px 0 0}.home-product-links{display:grid;grid-template-columns:1fr 1fr;gap:24px}.home-product-links h4{font-size:22px}.home-product-links p{margin:14px 0 20px}.home-product-links .text-link{font-size:12px}.home-v3 .case-visual figcaption{line-height:1.65}.preview-frame>p{line-height:1.7}
 @media(max-width:900px){.home-products{grid-template-columns:1fr;gap:25px}}@media(max-width:760px){.home-products{padding:24px}.home-product-links{grid-template-columns:1fr;gap:24px}.home-product-links article+article{border-top:1px solid #DFDFE7;padding-top:24px}}
