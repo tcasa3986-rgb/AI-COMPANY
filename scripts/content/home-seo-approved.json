@@ -5,7 +5,8 @@
   "main_links": [
     "/contacto/",
     "#proyectos",
-    "/assets/work/maderas-produccion.jpg",
+    "/assets/work/asoerc-materiales.jpg",
+    "/assets/work/asoerc-materiales.jpg",
     "/contacto/",
     "/automatizacion-de-procesos-empresariales/",
     "/contacto/",
@@ -39,5 +40,5 @@
     "/contacto/",
     "/casos/"
   ],
-  "main_text_sha256": "42e37a693d9bbb654a589b394282ffa608381f6f0845518db56290e2f9e57953"
+  "main_text_sha256": "a3a14ab5079ac8aac7b701752660fc20701eed5bc02ab967a28c702f0ad2f95b"
 }
