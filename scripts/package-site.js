@@ -11,8 +11,8 @@ try{
   const pages=JSON.parse(fs.readFileSync(path.join(ROOT,'scripts/content/pages-manifest.json'),'utf8'));
   for(const p of pages)copy(p.file);tree('assets');
   const articles=JSON.parse(fs.readFileSync(path.join(ROOT,'scripts/content/articles.json'),'utf8'));for(const a of articles)copy(a.cover.slice(1));
-  for(const file of ['robots.txt','sitemap.xml','sitemap-main.xml','llms.txt'])copy(file);
-  if(mode==='release')throw new Error('Integración final de recursos oficiales pendiente de implementar y revisar');
+  for(const file of ['robots.txt','sitemap.xml','sitemap-main.xml','llms.txt','favicon.svg','favicon.ico','favicon-32.png','favicon-96.png','apple-touch-icon.png'])copy(file);
+  if(mode==='release')throw new Error('Publicación definitiva no habilitada en esta rama de revisión');
  },validateOutput(){runSteps(ROOT,[{script:'scripts/check-site.js',env:{SITE_CHECK_ROOT:OUT}}]);}});
  console.log(JSON.stringify({build:'ok',mode:report.mode,releaseReady:report.releaseReady,files:report.files.length}));
 }catch(error){console.error(error.message);process.exitCode=1;}

@@ -1,5 +1,5 @@
 {
-  "status": "awaiting-official-artwork",
+  "status": "provided-artwork-in-review",
   "reviewOnly": true,
   "name": "AI Company",
   "descriptor": "INGENIERÍA DE SOFTWARE",
@@ -16,5 +16,32 @@
     "heading": "Manrope",
     "body": "Inter"
   },
-  "officialResources": null
+  "officialResources": {
+    "logo": "/assets/identity/logo-official.png",
+    "favicon": "/favicon.svg",
+    "sourceName": "Logotipo AI Company en violeta.png",
+    "sourceSha256": "721c3af460f0c4ec554da14b2b80cb34a00ab7968dd11fa8357a080ac75d8e9b",
+    "authorization": "Archivo proporcionado por el usuario para integrar logotipo y favicon en la demo",
+    "logoBounds": [
+      141,
+      80,
+      1965,
+      561
+    ],
+    "symbolBounds": [
+      141,
+      114,
+      588,
+      515
+    ],
+    "faviconViewBox": [
+      103,
+      39.5,
+      664,
+      664
+    ],
+    "originalPixelsPreserved": true,
+    "vectorMaster": null,
+    "releaseAuthorization": false
+  }
 }

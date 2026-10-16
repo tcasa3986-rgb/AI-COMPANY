@@ -8,7 +8,7 @@ function build(root,mode,{steps,packageFiles,validateOutput}={}){
  try{
   clearOutput(root);
   fs.rmSync(path.join(root,'_rediseno/fase2/build-result.json'),{force:true});
-  if(mode==='release'&&(status.reviewOnly||status.status!=='approved'||!status.officialResources))throw new Error('PUBLICACIÓN BLOQUEADA: falta el recurso oficial aprobado; solo se permite build --review');
+  if(mode==='release'&&(status.reviewOnly||status.status!=='approved'||!status.officialResources))throw new Error('PUBLICACIÓN BLOQUEADA: revisión y autorización definitiva pendientes; solo se permite build --review');
   runSteps(root,steps||[{script:'scripts/build-site.js'},{script:'scripts/check-site.js',env:{SITE_CHECK_ROOT:root}}]);
   packageFiles();
   validateOutput();
