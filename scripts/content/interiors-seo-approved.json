@@ -1,0 +1,96 @@
+{
+  "/servicios/apps-empresariales/": {
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/casos/",
+      "/casos/#maderas-montoya",
+      "/casos/#ferre-laser",
+      "/casos/#asoerc",
+      "/casos/#laser-ejecutivo",
+      "/contacto/"
+    ],
+    "main_text_sha256": "4e62dc66081e0f19d2ff171ba52d3cd5685d4261098d872e3a69fc4f6e9083cc"
+  },
+  "/automatizacion-de-procesos-empresariales/": {
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/casos/",
+      "/casos/#maderas-montoya",
+      "/casos/#ferre-laser",
+      "/casos/#asoerc",
+      "/casos/#laser-ejecutivo",
+      "/contacto/"
+    ],
+    "main_text_sha256": "610036ca99eb7cc30e55bfb77335adc99bd2a3eff06e05c2c50f106c2290f8cc"
+  },
+  "/nosotros/": {
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/casos/",
+      "/casos/#maderas-montoya",
+      "/casos/#ferre-laser",
+      "/casos/#asoerc",
+      "/casos/#laser-ejecutivo",
+      "/contacto/"
+    ],
+    "main_text_sha256": "cb95ac33f41c56234c1095f95c537be120f363639cca84e4779a78052ac2b2de"
+  },
+  "/casos/": {
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/casos/",
+      "#maderas-montoya",
+      "#ferre-laser",
+      "#asoerc",
+      "#laser-ejecutivo",
+      "/assets/work/maderas-inventario.jpg",
+      "/contacto/",
+      "#indice-casos",
+      "/assets/work/ferre-inventario-retales.jpg",
+      "/contacto/",
+      "#indice-casos",
+      "/assets/work/asoerc-materiales.jpg",
+      "/contacto/",
+      "#indice-casos",
+      "/assets/work/laser-inventario-peso.jpg",
+      "/contacto/",
+      "#indice-casos",
+      "/sistemas/para-canchas-sinteticas/",
+      "/sistemas/para-clubes-de-poker/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "8e721109654c187bd660b4abb910589ef6be0cbb51274ecf403b3d29506d0c2d"
+  },
+  "/contacto/": {
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/casos/",
+      "mailto:agencia@aicompanyco.com",
+      "https://wa.me/573212674754",
+      "/tratamiento-de-datos/"
+    ],
+    "main_text_sha256": "64261c03218b2a1bffc16ee6f523a788ce961aaa1c4645999870e0dccbb137a5"
+  },
+  "/soluciones/": {
+    "main_links": [
+      "/",
+      "/contacto/",
+      "/casos/",
+      "/casos/#maderas-montoya",
+      "/casos/#ferre-laser",
+      "/casos/#asoerc",
+      "/casos/#laser-ejecutivo",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-reciclaje/",
+      "/contacto/"
+    ],
+    "main_text_sha256": "e04d161697de4f4db91a99e932d43250ae8e5cf9e4d5c20eb7a6891954b271be"
+  }
+}
