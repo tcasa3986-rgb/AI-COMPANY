@@ -1,6 +1,9 @@
 {
   "/servicios/apps-empresariales/": {
     "main_links": [
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/soluciones/#integraciones",
       "/",
       "/contacto/",
       "/casos/",
@@ -10,10 +13,13 @@
       "/casos/#laser-ejecutivo",
       "/contacto/"
     ],
-    "main_text_sha256": "4e62dc66081e0f19d2ff171ba52d3cd5685d4261098d872e3a69fc4f6e9083cc"
+    "main_text_sha256": "9db2130af1d6e9a50be3b052fbf591072cd36e4f6679a40d030e9dca126223d5"
   },
   "/automatizacion-de-procesos-empresariales/": {
     "main_links": [
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/soluciones/#integraciones",
       "/",
       "/contacto/",
       "/casos/",
@@ -23,10 +29,13 @@
       "/casos/#laser-ejecutivo",
       "/contacto/"
     ],
-    "main_text_sha256": "610036ca99eb7cc30e55bfb77335adc99bd2a3eff06e05c2c50f106c2290f8cc"
+    "main_text_sha256": "35852935e387f88b458fbc33fcd54244bc5f81178feded3ac4eac17899c1cba4"
   },
   "/nosotros/": {
     "main_links": [
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/soluciones/#integraciones",
       "/",
       "/contacto/",
       "/casos/",
@@ -36,10 +45,13 @@
       "/casos/#laser-ejecutivo",
       "/contacto/"
     ],
-    "main_text_sha256": "cb95ac33f41c56234c1095f95c537be120f363639cca84e4779a78052ac2b2de"
+    "main_text_sha256": "8f085f54010f356b690bda8aaa8f060c3afd7c04a42e0f364512015835c103fb"
   },
   "/casos/": {
     "main_links": [
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/soluciones/#integraciones",
       "/",
       "/contacto/",
       "/casos/",
@@ -63,10 +75,13 @@
       "/sistemas/para-clubes-de-poker/",
       "/contacto/"
     ],
-    "main_text_sha256": "8e721109654c187bd660b4abb910589ef6be0cbb51274ecf403b3d29506d0c2d"
+    "main_text_sha256": "315813ed52fbe326c33256ca5fd682f839c7abcf5cd315f05d5bc18200c05f6f"
   },
   "/contacto/": {
     "main_links": [
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/soluciones/#integraciones",
       "/",
       "/contacto/",
       "/casos/",
@@ -74,10 +89,13 @@
       "https://wa.me/573212674754",
       "/tratamiento-de-datos/"
     ],
-    "main_text_sha256": "64261c03218b2a1bffc16ee6f523a788ce961aaa1c4645999870e0dccbb137a5"
+    "main_text_sha256": "2a7dc417400d5299f27c259263442af813ba5ecba6e1cd6985b7d5bc33b410a7"
   },
   "/soluciones/": {
     "main_links": [
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/soluciones/#integraciones",
       "/",
       "/contacto/",
       "/casos/",
@@ -91,6 +109,6 @@
       "/sistemas/para-reciclaje/",
       "/contacto/"
     ],
-    "main_text_sha256": "e04d161697de4f4db91a99e932d43250ae8e5cf9e4d5c20eb7a6891954b271be"
+    "main_text_sha256": "0790816932e14b414cb8372a1066e5ef2cb37214e6983192e62e5f7c8ca8e41d"
   }
 }
