@@ -32,7 +32,7 @@ const ORGANIZACION = {
   url: BASE,
   logo: `${BASE}/logo_MASTER.png`,
   email: 'agencia@aicompanyco.com',
-  telephone: '+573212674754',
+  telephone: '+573224807767',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Soacha',

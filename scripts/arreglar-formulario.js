@@ -22,7 +22,7 @@ const path = require('path');
 const RAIZ = path.resolve(__dirname, '..');
 const ARCHIVO = path.join(RAIZ, 'contacto', 'index.html');
 const APLICAR = process.argv.includes('--aplicar');
-const TELEFONO = '573212674754';
+const TELEFONO = '573224807767';
 
 // Orden de los campos dentro del <form>, tal como están en el HTML.
 const CAMPOS = [

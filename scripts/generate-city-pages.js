@@ -20,8 +20,8 @@ const CITIES = [
     zonas: 'Chapinero, Salitre, Zona Rosa, Usaquén y el Centro Financiero',
     empresas: 'más de 280.000 empresas registradas en la Cámara de Comercio de Bogotá',
     lema: 'La capital más grande de Colombia merece la tecnología más avanzada.',
-    tel: '+57 321 267 4754',
-    wa: '573212674754',
+    tel: '+57 322 480 7767',
+    wa: '573224807767',
   },
   {
     slug: 'medellin',
@@ -32,8 +32,8 @@ const CITIES = [
     zonas: 'El Poblado, Laureles, Envigado, Rionegro y el Distrito de Innovación',
     empresas: 'más de 160.000 empresas en el Valle de Aburrá',
     lema: 'Medellín lidera la transformación digital en Colombia. Tu empresa también puede.',
-    tel: '+57 321 267 4754',
-    wa: '573212674754',
+    tel: '+57 322 480 7767',
+    wa: '573224807767',
   },
   {
     slug: 'cali',
@@ -44,8 +44,8 @@ const CITIES = [
     zonas: 'Ciudad Jardín, El Peñón, Granada, Chipichape y la Zona Industrial',
     empresas: 'más de 120.000 empresas en el Valle del Cauca',
     lema: 'El suroccidente colombiano también merece soluciones digitales de primer nivel.',
-    tel: '+57 321 267 4754',
-    wa: '573212674754',
+    tel: '+57 322 480 7767',
+    wa: '573224807767',
   },
   {
     slug: 'barranquilla',
@@ -56,8 +56,8 @@ const CITIES = [
     zonas: 'El Golf, Prado, Buenavista, Puerto Colombia y la Zona Franca',
     empresas: 'más de 80.000 empresas en el Atlántico',
     lema: 'Barranquilla crece más rápido que nunca. Tu empresa también puede crecer con IA.',
-    tel: '+57 321 267 4754',
-    wa: '573212674754',
+    tel: '+57 322 480 7767',
+    wa: '573224807767',
   },
   {
     slug: 'bucaramanga',
@@ -68,8 +68,8 @@ const CITIES = [
     zonas: 'Cabecera del Llano, Cañaveral, Lagos, Floridablanca y Piedecuesta',
     empresas: 'más de 60.000 empresas en el Área Metropolitana',
     lema: 'La Ciudad Bonita ahora también puede tener los sistemas más inteligentes.',
-    tel: '+57 321 267 4754',
-    wa: '573212674754',
+    tel: '+57 322 480 7767',
+    wa: '573224807767',
   },
 ];
 

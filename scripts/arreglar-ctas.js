@@ -25,7 +25,7 @@ const path = require('path');
 const RAIZ = path.resolve(__dirname, '..');
 const APLICAR = process.argv.includes('--aplicar');
 
-const WA = 'https://wa.me/573212674754';
+const WA = 'https://wa.me/573224807767';
 const WA_DIAG = WA + '?text=Hola%2C%20quiero%20mi%20diagn%C3%B3stico%20gratis';
 
 // texto normalizado -> destino

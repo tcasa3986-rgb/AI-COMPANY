@@ -291,7 +291,7 @@ function buildHTML(topic, dateStr) {
   const faqs      = FAQS[topic.servicio] || FAQS['asistente-ia'];
   const fecha     = monthName(dateStr);
   const waText    = encodeURIComponent(`Hola, leí sobre ${topic.keyword} y quiero más información.`);
-  const waLink    = `https://wa.me/573212674754?text=${waText}`;
+  const waLink    = `https://wa.me/573224807767?text=${waText}`;
 
   const industriaNombre = topic.industria
     ? topic.industria.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())

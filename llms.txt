@@ -10,4 +10,4 @@ Sistemas de software a la medida y automatizaciones para empresas colombianas. F
 - Blog: https://aicompanyco.com/blog/
 - Producto propio CanchaLibre: https://canchalibre.co/
 
-La implementación se cotiza por alcance. La mensualidad de operación y soporte parte de $150.000 COP. CanchaLibre tiene precios propios por sede.
+La implementación se cotiza por alcance. La operación y el soporte se cotizan caso por caso según el alcance acordado. CanchaLibre tiene precios propios por sede.
