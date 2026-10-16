@@ -5,10 +5,11 @@ function runSteps(root,steps){for(const {script,env={}}of steps){const result=sp
 function build(root,mode,{steps,packageFiles,validateOutput}={}){
  if(!['review','release'].includes(mode))throw new Error('Indica --review para revisión local o --release para publicación autorizada');
  const status=JSON.parse(fs.readFileSync(path.join(root,'scripts/content/brand-status.json'),'utf8'));
+ // Una negativa de autorización no debe borrar un artefacto anterior verificable.
+ if(mode==='release'&&(status.reviewOnly||status.status!=='approved'||!status.officialResources||status.officialResources.releaseAuthorization!==true))throw new Error('PUBLICACIÓN BLOQUEADA: aprobación de revisión y autorización definitiva pendientes; solo se permite build --review');
  try{
   clearOutput(root);
   fs.rmSync(path.join(root,'_rediseno/fase2/build-result.json'),{force:true});
-  if(mode==='release'&&(status.reviewOnly||status.status!=='approved'||!status.officialResources))throw new Error('PUBLICACIÓN BLOQUEADA: revisión y autorización definitiva pendientes; solo se permite build --review');
   runSteps(root,steps||[{script:'scripts/build-site.js'},{script:'scripts/check-site.js',env:{SITE_CHECK_ROOT:root}}]);
   packageFiles();
   validateOutput();
