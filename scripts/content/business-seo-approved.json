@@ -71,7 +71,13 @@
     ]
   },
   "/tratamiento-de-datos/": {
-    "main_text_sha256": "8e6ef6ddf6660e2dd2b4a61e7c04515f49fe75eb7ae58d5b6d728715881c5ae2"
+    "main_text_sha256": "8e6ef6ddf6660e2dd2b4a61e7c04515f49fe75eb7ae58d5b6d728715881c5ae2",
+    "main_links": [
+      "/",
+      "mailto:agencia@aicompanyco.com",
+      "mailto:agencia@aicompanyco.com",
+      "mailto:agencia@aicompanyco.com"
+    ]
   },
   "/terminos-y-condiciones/": {
     "main_text_sha256": "fd40c930a048875da097548462aa54fe6b1a566dd4aa4df5a3369111885ca4e1",

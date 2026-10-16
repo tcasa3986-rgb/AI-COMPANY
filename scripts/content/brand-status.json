@@ -1,6 +1,6 @@
 {
-  "status": "provided-artwork-in-review",
-  "reviewOnly": true,
+  "status": "approved",
+  "reviewOnly": false,
   "name": "AI Company",
   "descriptor": "INGENIERÍA DE SOFTWARE",
   "concept": "C — Conexión y Automatización",
@@ -21,7 +21,7 @@
     "favicon": "/favicon.svg",
     "sourceName": "Logotipo AI Company en violeta.png",
     "sourceSha256": "721c3af460f0c4ec554da14b2b80cb34a00ab7968dd11fa8357a080ac75d8e9b",
-    "authorization": "Archivo proporcionado por el usuario para integrar logotipo y favicon en la demo",
+    "authorization": "Logotipo oficial aprobado por Cristian Gutierrez. Publicacion autorizada el 16/10/2026 (traspaso de Codex registrado en el vault).",
     "logoBounds": [
       141,
       80,
@@ -42,6 +42,6 @@
     ],
     "originalPixelsPreserved": true,
     "vectorMaster": null,
-    "releaseAuthorization": false
+    "releaseAuthorization": true
   }
 }
