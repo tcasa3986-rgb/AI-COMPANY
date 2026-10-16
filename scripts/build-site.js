@@ -31,8 +31,8 @@ function caseGallery(route){let names=[];if(route.includes('para-depositos-de-ma
 
 
 
-const org={'@type':'Organization','@id':BASE+'/#organization',name:'AI Company',url:BASE+'/',email:'agencia@aicompanyco.com',telephone:'+573224807767',founder:{'@type':'Person',name:'Cristian Gutierrez'},address:{'@type':'PostalAddress',addressLocality:'Soacha',addressRegion:'Cundinamarca',addressCountry:'CO'}};
-function page(route,title,description,body,options={}){const url=BASE+route,graph=[route==='/'?{...org,name:'AI Company',founder:{'@type':'Person',name:'Cristian Gutiérrez'}}:org,{'@type':'WebSite','@id':BASE+'/#website',url:BASE+'/',name:route==='/'?'AI Company':'AI Company CO',inLanguage:'es-CO',publisher:{'@id':org['@id']}},{'@type':options.article?'Article':'WebPage','@id':url+'#webpage',url,name:title,description,inLanguage:'es-CO',isPartOf:{'@id':BASE+'/#website'}}];
+const org={'@type':'Organization','@id':BASE+'/#organization',name:'AI Company',url:BASE+'/',email:'agencia@aicompanyco.com',telephone:'+573224807767',founder:{'@type':'Person',name:'Cristhian Felipe Gutiérrez Delgado'},address:{'@type':'PostalAddress',addressLocality:'Soacha',addressRegion:'Cundinamarca',addressCountry:'CO'}};
+function page(route,title,description,body,options={}){const url=BASE+route,graph=[route==='/'?{...org,name:'AI Company',founder:{'@type':'Person',name:'Cristhian Felipe Gutiérrez Delgado'}}:org,{'@type':'WebSite','@id':BASE+'/#website',url:BASE+'/',name:route==='/'?'AI Company':'AI Company CO',inLanguage:'es-CO',publisher:{'@id':org['@id']}},{'@type':options.article?'Article':'WebPage','@id':url+'#webpage',url,name:title,description,inLanguage:'es-CO',isPartOf:{'@id':BASE+'/#website'}}];
  if(route!=='/'&&route!=='/404.html')graph.push({'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Inicio',item:BASE+'/'},{'@type':'ListItem',position:2,name:options.breadcrumb||title,item:url}]});if(options.schema)graph.push(...options.schema);
  body=interior(route,body);
  const gallery=caseGallery(route); if(gallery)body=body.replace('<section class="cta-band">',gallery+'<section class="cta-band">');
