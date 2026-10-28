@@ -206,6 +206,7 @@
         ["¿Un chatbot con IA puede dar información incorrecta?", "Por eso se diseña con fuentes definidas y límites: responde sobre lo que tú aprobaste y, si no sabe, pasa a una persona. Además se revisan conversaciones reales para corregirlo.", null, null],
         ["¿En qué canales funciona?", "En WhatsApp, en tu página web u otros canales, según el caso. El canal se define en el alcance.", null, null],
         ["¿Cuánto cuesta un chatbot con IA?", "Tiene un costo de construcción y costos recurrentes de terceros, como el consumo del modelo de IA. En esta guía explicamos qué los componen y qué los mueve.", "/blog/cuanto-cuesta-chatbot-ia-colombia/", "Ver la guía de costos"],
+        ["¿Un chatbot es lo mismo que un agente de IA?", "No. El chatbot conversa y responde con fuentes aprobadas; un agente además ejecuta acciones en tus herramientas, con permisos y aprobación humana. Muchas veces se empieza con un chatbot acotado y se amplía después.", "/servicios/asistente-ia/", "Ver agentes y asistentes de IA"],
         ["¿Sirve para mi sector?", "Depende de qué preguntas se repitan en tu negocio. Tenemos guías para clínicas e inmobiliarias con sus límites y casos de uso.", "/blog/chatbot-ia-clinicas-colombia/", "Ver la guía para clínicas"]
       ],
       "articulos": [
@@ -219,23 +220,25 @@
     {
       "slug": "asistente-ia",
       "ruta": "/servicios/asistente-ia/",
-      "nombre": "Asistente de IA",
+      "nombre": "Agentes y asistentes de IA",
       "etiquetaCasos": "WhatsApp y asistentes",
-      "resumen": "Un asistente para tu equipo: consulta inventario, prepara información y guía tareas repetitivas.",
-      "titulo": "Asistente de IA para empresas en Colombia",
-      "descripcion": "Asistente de IA para el equipo de tu empresa: consulta inventario, prepara información y guía tareas repetitivas, con permisos por rol y registro de acciones.",
-      "h1": "Asistente de IA para el trabajo diario de tu equipo",
-      "kicker": "Inteligencia artificial para tu equipo",
-      "problema": "Mientras un chatbot atiende a tus clientes, el asistente trabaja con tu equipo: consulta el inventario, busca un pedido, prepara un resumen o guía un proceso que hoy se hace de memoria. Su valor depende de los permisos y límites que se le definan, por eso empezamos por lo que debe poder hacer y lo que no.",
+      "resumen": "Agentes y asistentes que consultan tu inventario, preparan información y ejecutan tareas, con permisos por rol y aprobación humana.",
+      "titulo": "Agentes de IA para empresas en Colombia",
+      "descripcion": "Agentes y asistentes de IA para empresas en Colombia: consultan tu inventario, preparan información y ejecutan tareas con permisos y aprobación humana.",
+      "h1": "Agentes y asistentes de IA que trabajan con los sistemas de tu empresa",
+      "kicker": "Agentes y asistentes de IA",
+      "problema": "Un chatbot responde; un agente de IA además actúa: consulta el inventario, busca un pedido, prepara un resumen o una cotización y avisa a quien corresponde. Su valor depende de los permisos y los límites que se le definan, por eso empezamos por lo que debe poder hacer, lo que no, y qué acciones necesitan que una persona las apruebe.",
       "paraQuien": [
         "Equipos que consultan una y otra vez el mismo sistema para responder preguntas simples.",
         "Operaciones donde pasos repetitivos dependen de la memoria de una persona.",
-        "Empresas que quieren probar IA sin darle acceso a todo."
+        "Empresas que quieren probar IA sin darle acceso a todo.",
+        "Empresas que quieren probar un agente con un proceso acotado antes de comprometer un proyecto grande."
       ],
       "incluye": [
         ["Funciones conectadas a tu sistema", "Consultas sobre inventario, pedidos o cartera desde un chat."],
         ["Información según el rol", "Cada persona consulta solo lo que le corresponde."],
         ["Acciones con controles", "Lo que modifica datos pide confirmación y deja registro."],
+        ["Agentes con aprobación humana", "Pueden preparar acciones, como una cotización o un aviso, que una persona aprueba antes de que salgan."],
         ["Pruebas con tu operación", "Se prueba con situaciones reales de tu empresa antes de ponerlo en uso."]
       ],
       "deFrente": "Si tus datos todavía están desordenados, un asistente solo te dará respuestas desordenadas más rápido. Primero se organiza la información; el asistente viene después.",
@@ -252,16 +255,16 @@
         }
       ],
       "faq": [
-        ["¿Qué diferencia hay entre un asistente y un chatbot?", "El chatbot atiende a tus clientes en un canal como WhatsApp. El asistente apoya a tu equipo con información y tareas internas. Pueden convivir.", "/servicios/chatbot-ia/", "Ver chatbots con IA"],
+        ["¿Qué es un agente de IA y en qué se diferencia de un chatbot?", "Un chatbot conversa y responde con fuentes aprobadas. Un agente de IA, además, puede decidir pasos y ejecutar acciones en tus herramientas, como consultar inventario o preparar una cotización. Por eso necesita permisos acotados, aprobación humana para lo sensible y un registro de lo que hace.", "/servicios/chatbot-ia/", "Ver chatbots con IA"],
         ["¿La IA puede ver todos mis datos?", "No. Se define qué consulta y con qué permisos, por rol. Lo que modifica datos requiere confirmación y queda registrado.", null, null],
-        ["¿Cómo sé si me conviene?", "Se prueba primero con un proceso concreto y situaciones reales de tu empresa. Esta guía resume usos reales de la inteligencia artificial en negocios colombianos.", "/blog/inteligencia-artificial-negocios-colombia/", "Leer la guía"]
+        ["¿Cómo empezamos?", "Con un proceso acotado y un diagnóstico inicial gratuito: definimos qué puede consultar y hacer el agente, lo probamos con casos reales y medimos antes de ampliar. Esta guía resume usos reales de la inteligencia artificial en negocios colombianos.", "/blog/inteligencia-artificial-negocios-colombia/", "Leer la guía"]
       ],
       "articulos": [
         "inteligencia-artificial-negocios-colombia",
         "reporte-de-produccion-por-telegram",
         "cuanto-cuesta-chatbot-ia-colombia"
       ],
-      "wa": "Hola, vi su página de asistentes de IA y quiero revisar cómo podría ayudar a mi equipo."
+      "wa": "Hola, vi su página de agentes y asistentes de IA y quiero revisar qué proceso de mi empresa podría automatizarse."
     },
     {
       "slug": "paginas-web",

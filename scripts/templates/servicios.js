@@ -50,7 +50,7 @@ function casosSeccion(s, H) {
     ? `<h3 class="srv-sub">Lo más cercano que sí está documentado</h3><div class="srv-case-grid">${s.cercanos.map(casoCard).join('')}</div>`
     : '';
   return H.section('Casos de éxito', 'Todavía no publicamos un caso de cliente de este servicio.',
-    `<p class="inter-lead">Preferimos decírtelo antes que mostrarte uno que no existe. Si quieres ver cómo trabajamos, estos son los proyectos que sí podemos mostrar.</p>${cercanos}<div class="actions srv-acciones">${btn('Ver los casos que sí tenemos', '/casos/', 'outline')}${wa(s.wa, 'Consultar por este servicio')}</div>`)
+    `<p class="inter-lead">Preferimos decírtelo antes que mostrarte uno que no existe. Si quieres ser de los primeros en probarlo, empezamos con un proceso acotado y un diagnóstico inicial gratuito. Y si quieres ver cómo trabajamos, estos son los proyectos que sí podemos mostrar.</p>${cercanos}<div class="actions srv-acciones">${btn('Ver los casos que sí tenemos', '/casos/', 'outline')}${wa(s.wa, 'Consultar por este servicio')}</div>`)
     .replace('<section class="inter-section', '<section id="casos-servicio" class="inter-section');
 }
 

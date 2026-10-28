@@ -1,6 +1,6 @@
 {
   "/": {
-    "main_text_sha256": "bd2149c69f03884c52e38426fb2feaf40405bace728c4d456571cfcdd4f2cfb9",
+    "main_text_sha256": "f188b9420ca251150ceee824e6992de63062582fab603ebf1e30cd4c28d11470",
     "main_links": [
       "/contacto/",
       "#proyectos",
@@ -56,7 +56,7 @@
     "description": "Cotiza software a la medida según tu proyecto. La implementación, operación y soporte se definen caso por caso. Diagnóstico inicial gratuito."
   },
   "/contacto/": {
-    "main_text_sha256": "aabaa0fd3390471096ae70445e82c918a9e3dfa9c5ea29c46b26232eaf001b16",
+    "main_text_sha256": "79e230be13f3a550182ff3a34d12753fc77a6146bdd87fc35dd8a16fbb40a6f3",
     "main_links": [
       "/servicios/",
       "/servicios/apps-empresariales/",
@@ -315,7 +315,7 @@
     ]
   },
   "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/": {
-    "main_text_sha256": "9caf9f63db37749d651b45a62819839c37608c769f5ce2c24a4088c3ce613825",
+    "main_text_sha256": "6ba6563403de624eb3bf62709e0693efd8572b2bcb7d980970ec519a6e86d655",
     "main_links": [
       "/",
       "/assets/editorial/reunion-3.jpg",
@@ -720,6 +720,7 @@
       "#cuando-el-generico-gana",
       "#tres-empresas-tres-decisiones",
       "#lo-que-un-sistema-a-la-medida-bien-hecho-no-es",
+      "#ventajas-de-un-software-hecho-a-la-medida",
       "/contacto/",
       "/contacto/"
     ]

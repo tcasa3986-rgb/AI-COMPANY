@@ -21,7 +21,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:2020-03-15_Empty_supermarket_shelves_in_Australian_supermarket_01.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 960
+    "coverHeight": 960,
+    "answer": "Antes de una app para domicilios, un supermercado necesita un sistema con inventario y precios al día: una app que muestra productos que no hay genera reclamos, no ventas. El orden correcto es sistema primero y app después; mientras tanto, el pedido por WhatsApp puede funcionar con un proceso claro y cuidando el margen del domicilio."
   },
   {
     "slug": "automatizacion-procesos-constructoras-colombia",
@@ -45,7 +46,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:The_part_of_the_Bluebells_building_site_still_under_construction_-_geograph.org.uk_-_4336634.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 960
+    "coverHeight": 960,
+    "answer": "Automatizar una constructora es lograr que lo que pasa en la obra entre al sistema el mismo día: el residente reporta avance y materiales desde el celular con un bot, y las compras y los cortes de contratistas se comparan contra el presupuesto sin armar un Excel de memoria."
   },
   {
     "slug": "automatizar-whatsapp-ferreterias-colombia",
@@ -68,7 +70,8 @@
       "source": ""
     },
     "coverWidth": 1272,
-    "coverHeight": 795
+    "coverHeight": 795,
+    "answer": "Una ferretería puede automatizar su WhatsApp con un asistente conectado a su inventario y a sus precios, que arma la cotización de una lista de materiales sin que alguien busque cada referencia. Un chatbot genérico no sirve, porque no conoce las referencias ni el stock del negocio."
   },
   {
     "slug": "automatizar-whatsapp-sin-api-oficial",
@@ -91,7 +94,8 @@
       "source": ""
     },
     "coverWidth": 1440,
-    "coverHeight": 1000
+    "coverHeight": 1000,
+    "answer": "Hay dos formas de conectar un sistema a WhatsApp: la API oficial de Meta y la conexión por código QR, que funciona como WhatsApp Web y permite conservar el número. La conexión por QR sirve para atender y responder, pero los envíos masivos la ponen en riesgo; la API oficial conviene cuando se necesita ese volumen."
   },
   {
     "slug": "chatbot-ia-clinicas-colombia",
@@ -115,7 +119,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Modern_medical_office_interior_design.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 854
+    "coverHeight": 854,
+    "answer": "Un chatbot con IA en una clínica sirve para lo administrativo —agendar citas, recordarlas y responder lo básico— conectado a la agenda. Lo clínico, como síntomas, dosis o resultados, nunca debe responderlo: se configura un límite para que esos mensajes pasen a una persona."
   },
   {
     "slug": "chatbot-ia-inmobiliarias-colombia",
@@ -139,7 +144,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Drilling_rig_and_a_digger_at_a_construction_site_in_Tuntorp.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 854
+    "coverHeight": 854,
+    "answer": "En una inmobiliaria, el chatbot útil no responde más rápido a todos: califica a los interesados con pocas preguntas y agenda visitas, para que el asesor dedique su tiempo a quienes sí tienen presupuesto y buscan en la zona. Lo repetitivo lo responde solo; lo importante va al asesor."
   },
   {
     "slug": "como-automatizar-whatsapp-business-colombia",
@@ -163,7 +169,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Blackview_A60_Smartphone_Android_mobile_phone_and_folio_case.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 960
+    "coverHeight": 960,
+    "answer": "Automatizar WhatsApp en una empresa colombiana significa que un asistente conectado a tus datos responda lo repetitivo y pase a una persona lo importante, sin perder tu número. Hay tres formas de hacerlo, con alcances y costos distintos, y conviene elegir según el tamaño del negocio y lo que se quiera automatizar."
   },
   {
     "slug": "cuanto-cuesta-chatbot-ia-colombia",
@@ -187,7 +194,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Blackview_A60_Smartphone_Android_mobile_phone_back_face.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 720
+    "coverHeight": 720,
+    "answer": "El precio de un chatbot con IA depende de a qué datos se conecta y de cuántas conversaciones se envían al modelo, no de la palabra «chatbot». El costo recurrente del modelo puede dispararse si se le envía todo; un asistente híbrido, donde las reglas responden lo repetitivo y el modelo solo lo imprevisto, lo controla."
   },
   {
     "slug": "cuanto-cuesta-pagina-web-restaurante-colombia",
@@ -211,7 +219,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:HK_SKD_Sai_Kung_Po_Lam_MCP_One_Shopping_Mall_%E5%A4%A7%E5%BF%AB%E6%B4%BB_Fairwood_Restaurant_interior_furniture_tables_n_chairs_July_2026_N13P_09.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 960
+    "coverHeight": 960,
+    "answer": "El costo de la página web de un restaurante depende de si solo muestra información (menú, horario, ubicación), permite reservar o toma pedidos. Mostrar es barato y suficiente para muchos restaurantes de barrio; reservar y tomar pedidos ya es un sistema con una página encima y cuesta más."
   },
   {
     "slug": "cuanto-cuesta-un-software-a-la-medida-en-colombia",
@@ -235,7 +244,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:SCO_office_meeting_room_Watford_England_July_1996.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 842
+    "coverHeight": 842,
+    "answer": "El precio de un software a la medida para una pyme colombiana depende de los módulos, la lógica propia de cada proceso, el número de usuarios, las integraciones y la calidad de los datos. La guía publica rangos de referencia, explica el mantenimiento y enseña a leer una cotización."
   },
   {
     "slug": "errores-al-comprar-software-a-la-medida",
@@ -258,7 +268,8 @@
       "source": ""
     },
     "coverWidth": 1152,
-    "coverHeight": 758
+    "coverHeight": 758,
+    "answer": "Los sistemas a la medida suelen fracasar por cómo se contratan, no por la técnica: empezar por la pantalla y no por la operación, aceptar que la empresa se adapte al sistema, pagar todo al final y no exigir el código ni la base de datos son cuatro de los siete errores más caros, y cada uno tiene una pregunta que lo evita."
   },
   {
     "slug": "facturacion-electronica-automatica-colombia",
@@ -282,7 +293,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:EFTA00002465_-_Cluttered_desk_with_a_closed_Toshiba_laptop_papers_books_and_office_supplies.jpg"
     },
     "coverWidth": 1152,
-    "coverHeight": 768
+    "coverHeight": 768,
+    "answer": "Casi toda empresa en Colombia ya factura electrónicamente con un proveedor tecnológico autorizado por la DIAN. Lo que cuesta es digitar la venta en un sistema y la factura en otro. Automatizarla es lograr que el sistema donde nace la venta le envíe la factura al proveedor sin que nadie la vuelva a escribir."
   },
   {
     "slug": "google-ads-colombia-guia-pymes",
@@ -306,7 +318,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Supermarket_in_recife,_pernambuco,_Brazil.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 773
+    "coverHeight": 773,
+    "answer": "Google Ads funciona, pero amplifica lo que ya existe: si la página es lenta o el WhatsApp responde tarde, la pauta convierte plata en clics. Antes de invertir conviene tener una página rápida y una atención ágil, y medir con un mensaje de WhatsApp propio de cada anuncio cuántos clics terminan en cotización y venta."
   },
   {
     "slug": "inteligencia-artificial-negocios-colombia",
@@ -329,7 +342,8 @@
       "source": ""
     },
     "coverWidth": 1265,
-    "coverHeight": 796
+    "coverHeight": 796,
+    "answer": "En un negocio, la IA sirve hoy para tareas concretas, como entender un audio de WhatsApp y apartar una reserva, y es humo cuando se vende como una transformación general. La regla es escalar ante la duda: si el modelo no está seguro, pasa la conversación a una persona en lugar de inventar."
   },
   {
     "slug": "marketing-digital-colegios-colombia",
@@ -353,7 +367,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Old_Classroom_Interior_(47024892221).jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 843
+    "coverHeight": 843,
+    "answer": "En un colegio se pierden más matrículas por responder tarde a las familias que ya preguntaron que por falta de campañas. En admisiones conviene responder el mismo día, agendar visitas y hacer seguimiento desde un sistema, cuidar los datos y atender bien a las familias actuales, que son la mejor referencia."
   },
   {
     "slug": "marketing-digital-gimnasios-colombia",
@@ -377,7 +392,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:GymNation_gym_interior_2024.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 720
+    "coverHeight": 720,
+    "answer": "En un gimnasio rinde más retener que captar: con registro de asistencia, el sistema detecta quién lleva semanas sin venir y permite escribirle a tiempo, antes de que no renueve. La pauta trae gente, pero sin retención el balde tiene un hueco."
   },
   {
     "slug": "marketing-digital-restaurantes-colombia",
@@ -401,7 +417,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Empty_restaurant_interior_HC08164.jpg"
     },
     "coverWidth": 1200,
-    "coverHeight": 889
+    "coverHeight": 889,
+    "answer": "En un restaurante, el marketing digital empieza por no perder al cliente que ya escribió: responder a tiempo el WhatsApp de reservas, respaldar las reservas con un abono en fechas especiales y construir una base propia de clientes. Después se piensa en pauta."
   },
   {
     "slug": "pagina-web-clinica-colombia",
@@ -425,7 +442,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Chambre_avec_terrasse_de_l%27h%C3%B4pital_am%C3%A9ricain.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 960
+    "coverHeight": 960,
+    "answer": "La página de una clínica debe permitir que un paciente decida en segundos: qué hace la clínica, quién atiende, si recibe su EPS y cómo pedir cita. Lo ideal es que el botón de WhatsApp conduzca a un asistente conectado a la agenda, y que la página respete lo que exige la normativa para servicios de salud."
   },
   {
     "slug": "pagina-web-peluqueria-colombia",
@@ -449,7 +467,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Barber_Tatsumiya_in_Kahoku,_Yamagata_2009-10-23.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 960
+    "coverHeight": 960,
+    "answer": "La página de una peluquería o barbería sirve si convierte a quien la ve en una cita agendada. Lo ideal es que el cliente escriba por WhatsApp, que un asistente consulte la agenda del estilista y confirme la cita sin que nadie conteste el teléfono, con recordatorios para reducir las citas a las que nadie llega."
   },
   {
     "slug": "que-es-n8n-automatizacion-colombia",
@@ -473,7 +492,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Woman_in_professional_attire_typing_on_laptop_with_handcuffs_on_desk_near_coffee_cup_in_modern_office_setting.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 854
+    "coverHeight": 854,
+    "answer": "n8n es una herramienta de automatización de flujos, de código abierto, que conecta aplicaciones y ejecuta pasos cuando ocurre algo, por ejemplo, cuando llega un pedido por un formulario. Sirve para conectar herramientas; cuando el proceso necesita reglas propias o una operación completa, conviene construir un sistema propio."
   },
   {
     "slug": "que-es-un-erp-para-pymes",
@@ -496,7 +516,8 @@
       "source": ""
     },
     "coverWidth": 1272,
-    "coverHeight": 795
+    "coverHeight": 795,
+    "answer": "Un ERP es un sistema donde inventario, ventas, compras, cartera, caja y reportes viven juntos y se comunican, en vez de repartirse en archivos. Para una pyme la pregunta no es si necesita un ERP, sino si necesita dejar de digitar lo mismo varias veces; la contabilidad, la nómina y la facturación se conectan en lugar de construirse."
   },
   {
     "slug": "reporte-de-produccion-por-telegram",
@@ -519,7 +540,8 @@
       "source": ""
     },
     "coverWidth": 1280,
-    "coverHeight": 800
+    "coverHeight": 800,
+    "answer": "Reportar la producción desde el celular con un bot de Telegram hace que el dato entre al sistema el mismo día: el bot pregunta lo mínimo, guarda con hora, operario y turno, y la oficina lo ve sin digitar después. Se prefiere Telegram a WhatsApp para esto porque sus bots son oficiales, gratuitos y estables."
   },
   {
     "slug": "seo-local-colombia-guia",
@@ -542,7 +564,8 @@
       "source": ""
     },
     "coverWidth": 4000,
-    "coverHeight": 3000
+    "coverHeight": 3000,
+    "answer": "Para aparecer en Google Maps y en las búsquedas de tu ciudad sin pagar por clic, lo primero es una ficha de Google Business Profile completa y activa, con las reseñas respondidas; después, una página por cada cosa que la gente busca, datos consistentes y enlaces de calidad. La guía explica también los errores que castigan."
   },
   {
     "slug": "sistema-gestion-droguerias-colombia",
@@ -566,7 +589,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Castellon_Pharmacy_New_Orleans_Empty_Shelves_where_TP_and_Wipes_were.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 960
+    "coverHeight": 960,
+    "answer": "Un software para droguería debe resolver lo que un punto de venta genérico no hace: controlar lotes y vencimientos, llevar el fiado por cliente con límite, cerrar caja por turno y armar el pedido al distribuidor con datos de lo que realmente se está agotando."
   },
   {
     "slug": "sistema-gestion-talleres-mecanicos-colombia",
@@ -590,7 +614,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Close_view_of_car_interior_showing_steering_wheel_and_dashboard_with_missing_parts_in_a_workshop_setting.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 853
+    "coverHeight": 853,
+    "answer": "En un software para taller mecánico, la orden de trabajo es el centro: de ella cuelgan el vehículo, el diagnóstico, la cotización, los repuestos usados, la mano de obra por mecánico y el estado. Con la orden bien hecha, preguntas como «¿cómo va mi carro?» se responden sin reconstruir la historia."
   },
   {
     "slug": "software-a-la-medida-vs-software-generico",
@@ -600,7 +625,7 @@
     "category": "Software a la medida",
     "published": "2026-09-21",
     "modified": "2026-10-13",
-    "body": "\n  <div class=\"container\">\n    \n    <p>La pregunta llega tarde casi siempre: después de pagar un software genérico, adaptar la empresa a él durante un año, y terminar con un Excel al lado para lo que el software no entiende. Aquí está cómo decidirlo antes, con tres preguntas y con lo que hemos visto en empresas reales.</p>\n    <h2 id=\"que-es-cada-cosa\">Qué es cada cosa</h2>\n    <p>Un <strong>software genérico</strong> (contable, de facturación, de inventario \"para pymes\") resuelve lo que todas las empresas tienen igual: facturar, contabilizar, contar unidades. Lo hace bien y barato porque lo usan miles. Un <strong>software a la medida</strong> resuelve lo que <em>esta</em> empresa tiene distinto: cómo mide, cómo cobra, cómo produce, cómo decide.</p>\n    <p>La trampa es creer que la operación de una empresa es \"como la de todas\". Casi nunca lo es, y la diferencia es justo donde se gana o se pierde la plata.</p>\n    <h2 id=\"pregunta-1-la-operacion-cabe-en-el-software-o-la-empresa-se-tiene-que-adaptar\">Pregunta 1: ¿la operación cabe en el software, o la empresa se tiene que adaptar?</h2>\n    <p>Un depósito de madera compra en metros cúbicos, transforma, y vende en pulgadas. Algunos inventarios genéricos necesitan configuración o extensiones para manejar esas conversiones. Conviene probarlas con los materiales reales antes de elegir. El dueño termina llevando el inventario real en un cuaderno y usando el software solo para facturar. Cuando el sistema obliga a la empresa a fingir que opera de otra forma, es a la medida lo que hace falta. Así nació el <a href=\"/sistemas/para-depositos-de-madera/\">sistema para depósitos de madera</a>.</p>\n    <h2 id=\"pregunta-2-donde-se-pierde-la-plata-hoy\">Pregunta 2: ¿dónde se pierde la plata hoy?</h2>\n    <p>Si se pierde en contabilidad, un contable genérico la resuelve. Si se pierde en la operación —merma que nadie registra, cotizaciones sin margen, reservas cruzadas, cortes de contratistas discutidos—, el genérico no llega ahí porque no conoce la operación. Una empresa de corte láser pierde plata en el retazo que no se contabiliza y en el margen por línea que nadie calcula; eso es a la medida (<a href=\"/sistemas/para-corte-laser/\">corte láser</a>).</p>\n    <h2 id=\"pregunta-3-cuantas-personas-hacen-lo-mismo-que-el-software-deberia-hacer\">Pregunta 3: ¿cuántas personas hacen lo mismo que el software debería hacer?</h2>\n    <p>Si una persona pasa el día digitando en dos sistemas lo mismo, o contestando por WhatsApp lo que un sistema podría responder, el costo del software genérico no es su licencia: es esa persona. Un sistema a la medida que integre eso se paga con el tiempo que libera.</p>\n    <h2 id=\"cuando-el-generico-gana\">Cuándo el genérico gana</h2>\n    <ul>\n      <li>Contabilidad y nómina: evaluar primero una solución especializada y su integración con la operación.</li>\n      <li>Facturación electrónica: el proveedor tecnológico autorizado, integrado al sistema propio si hay volumen.</li>\n      <li>Una empresa que de verdad opera como todas y factura poco.</li>\n    </ul>\n    <p>Lo sensato casi siempre es <strong>ambos</strong>: genérico para lo estándar, a la medida para la operación, y los dos conectados para no digitar dos veces.</p>\n    <h2 id=\"tres-empresas-tres-decisiones\">Tres empresas, tres decisiones</h2>\n    <ul>\n      <li><strong>Un depósito de madera</strong> probó dos inventarios genéricos. Ninguno convertía metros cúbicos a pulgadas. Decisión: sistema a la medida para inventario, producción y cartera; contable genérico conectado.</li>\n      <li><strong>Una empresa de corte láser</strong> facturaba bien con un genérico, pero no sabía el margen por trabajo porque el retazo no existía en el sistema. Decisión: sistema propio para inventario por peso, cotizador y margen; el genérico siguió para contabilidad.</li>\n      <li><strong>Una cancha sintética</strong> con dos canchas y un dueño que atiende: no necesita nada a la medida. Necesita un producto ya hecho para su sector, por suscripción. Ahí nació CanchaLibre: un producto, no un proyecto.</li>\n    </ul>\n    <p>La misma empresa que construye a la medida debería poder decirle cuándo no lo necesita. Si no lo hace, está vendiendo horas.</p>\n    <h2 id=\"lo-que-un-sistema-a-la-medida-bien-hecho-no-es\">Lo que un sistema a la medida bien hecho no es</h2>\n    <p>No es un proyecto de un año que se entrega al final. Se entrega por módulos, en producción: el primero se usa desde la segunda o tercera semana mientras se construye el siguiente. No es un sistema que solo entiende quien lo hizo: la documentación y el código quedan del cliente. Y no es caro porque sí: se cotiza por lo que hay que construir, y lo estándar se compra, no se construye. Cuánto cuesta, con rangos, está en <a href=\"/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/\">este artículo</a>.</p>\n    <div class=\"cta-inline\">\n      <h3>¿No sabes si tu operación cabe en un software genérico?</h3>\n      <p>En una hora la miramos juntos y te decimos qué conviene: genérico, a la medida, o los dos.</p>\n      <a href=\"https://wa.me/573224807767?text=Hola%2C%20quiero%20saber%20si%20mi%20empresa%20necesita%20software%20a%20la%20medida%20o%20uno%20gen%C3%A9rico\" class=\"btn-wa\">Pedir un diagnóstico</a>\n    </div>\n  </div>\n  <section class=\"related-section\">\n    <h3 class=\"related-title\">Seguir leyendo</h3>\n    <div class=\"related-grid\">\n      <a href=\"/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/\" class=\"rel-card\"><span class=\"rel-emoji\">💵</span><span class=\"rel-titulo\">¿Cuánto cuesta un software a la medida en Colombia? Rangos reales y lo que los mueve</span><span class=\"rel-arrow\">→</span></a>\n      <a href=\"/blog/errores-al-comprar-software-a-la-medida/\" class=\"rel-card\"><span class=\"rel-emoji\">🚫</span><span class=\"rel-titulo\">Siete errores al contratar software a la medida en Colombia, y cómo evitarlos antes de firmar</span><span class=\"rel-arrow\">→</span></a>\n      <a href=\"/blog/que-es-un-erp-para-pymes/\" class=\"rel-card\"><span class=\"rel-emoji\">🧩</span><span class=\"rel-titulo\">Qué es un ERP para pymes, qué tiene adentro, y cuándo una empresa colombiana lo necesita de verdad</span><span class=\"rel-arrow\">→</span></a>\n    </div>\n  </section>\n  <section class=\"faq-section\" id=\"preguntas-frecuentes\">\n    <h2 class=\"faq-title\">Preguntas frecuentes</h2>\n    <details class=\"faq-item\">\n      <summary class=\"faq-q\">¿El software a la medida es siempre más caro?<span class=\"faq-icon\">+</span></summary>\n      <p class=\"faq-a\">De entrada suele costar más que una licencia. Pero se compara mal: el costo real del genérico incluye la persona que digita lo que el software no entiende y las decisiones que se toman sin datos.</p>\n    </details>\n    <details class=\"faq-item\">\n      <summary class=\"faq-q\">¿Puedo tener los dos?<span class=\"faq-icon\">+</span></summary>\n      <p class=\"faq-a\">Es lo más común y lo más sensato: contable genérico para lo estándar, sistema propio para la operación, conectados.</p>\n    </details>\n    <details class=\"faq-item\">\n      <summary class=\"faq-q\">¿Cuánto tarda un sistema a la medida?<span class=\"faq-icon\">+</span></summary>\n      <p class=\"faq-a\">El primer módulo está en producción en semanas. El resto se entrega por fases mientras se usa el anterior.</p>\n    </details>\n  </section>\n",
+    "body": "\n  <div class=\"container\">\n    \n    <p>La pregunta llega tarde casi siempre: después de pagar un software genérico, adaptar la empresa a él durante un año, y terminar con un Excel al lado para lo que el software no entiende. Aquí está cómo decidirlo antes, con tres preguntas y con lo que hemos visto en empresas reales.</p>\n    <h2 id=\"que-es-cada-cosa\">Qué es cada cosa</h2>\n    <p>Un <strong>software genérico</strong> (contable, de facturación, de inventario \"para pymes\") resuelve lo que todas las empresas tienen igual: facturar, contabilizar, contar unidades. Lo hace bien y barato porque lo usan miles. Un <strong>software a la medida</strong> resuelve lo que <em>esta</em> empresa tiene distinto: cómo mide, cómo cobra, cómo produce, cómo decide.</p>\n    <p>La trampa es creer que la operación de una empresa es \"como la de todas\". Casi nunca lo es, y la diferencia es justo donde se gana o se pierde la plata.</p>\n    <h2 id=\"pregunta-1-la-operacion-cabe-en-el-software-o-la-empresa-se-tiene-que-adaptar\">Pregunta 1: ¿la operación cabe en el software, o la empresa se tiene que adaptar?</h2>\n    <p>Un depósito de madera compra en metros cúbicos, transforma, y vende en pulgadas. Algunos inventarios genéricos necesitan configuración o extensiones para manejar esas conversiones. Conviene probarlas con los materiales reales antes de elegir. El dueño termina llevando el inventario real en un cuaderno y usando el software solo para facturar. Cuando el sistema obliga a la empresa a fingir que opera de otra forma, es a la medida lo que hace falta. Así nació el <a href=\"/sistemas/para-depositos-de-madera/\">sistema para depósitos de madera</a>.</p>\n    <h2 id=\"pregunta-2-donde-se-pierde-la-plata-hoy\">Pregunta 2: ¿dónde se pierde la plata hoy?</h2>\n    <p>Si se pierde en contabilidad, un contable genérico la resuelve. Si se pierde en la operación —merma que nadie registra, cotizaciones sin margen, reservas cruzadas, cortes de contratistas discutidos—, el genérico no llega ahí porque no conoce la operación. Una empresa de corte láser pierde plata en el retazo que no se contabiliza y en el margen por línea que nadie calcula; eso es a la medida (<a href=\"/sistemas/para-corte-laser/\">corte láser</a>).</p>\n    <h2 id=\"pregunta-3-cuantas-personas-hacen-lo-mismo-que-el-software-deberia-hacer\">Pregunta 3: ¿cuántas personas hacen lo mismo que el software debería hacer?</h2>\n    <p>Si una persona pasa el día digitando en dos sistemas lo mismo, o contestando por WhatsApp lo que un sistema podría responder, el costo del software genérico no es su licencia: es esa persona. Un sistema a la medida que integre eso se paga con el tiempo que libera.</p>\n    <h2 id=\"cuando-el-generico-gana\">Cuándo el genérico gana</h2>\n    <ul>\n      <li>Contabilidad y nómina: evaluar primero una solución especializada y su integración con la operación.</li>\n      <li>Facturación electrónica: el proveedor tecnológico autorizado, integrado al sistema propio si hay volumen.</li>\n      <li>Una empresa que de verdad opera como todas y factura poco.</li>\n    </ul>\n    <p>Lo sensato casi siempre es <strong>ambos</strong>: genérico para lo estándar, a la medida para la operación, y los dos conectados para no digitar dos veces.</p>\n    <h2 id=\"tres-empresas-tres-decisiones\">Tres empresas, tres decisiones</h2>\n    <ul>\n      <li><strong>Un depósito de madera</strong> probó dos inventarios genéricos. Ninguno convertía metros cúbicos a pulgadas. Decisión: sistema a la medida para inventario, producción y cartera; contable genérico conectado.</li>\n      <li><strong>Una empresa de corte láser</strong> facturaba bien con un genérico, pero no sabía el margen por trabajo porque el retazo no existía en el sistema. Decisión: sistema propio para inventario por peso, cotizador y margen; el genérico siguió para contabilidad.</li>\n      <li><strong>Una cancha sintética</strong> con dos canchas y un dueño que atiende: no necesita nada a la medida. Necesita un producto ya hecho para su sector, por suscripción. Ahí nació CanchaLibre: un producto, no un proyecto.</li>\n    </ul>\n    <p>La misma empresa que construye a la medida debería poder decirle cuándo no lo necesita. Si no lo hace, está vendiendo horas.</p>\n    <h2 id=\"lo-que-un-sistema-a-la-medida-bien-hecho-no-es\">Lo que un sistema a la medida bien hecho no es</h2>\n    <p>No es un proyecto de un año que se entrega al final. Se entrega por módulos, en producción: el primero se usa desde la segunda o tercera semana mientras se construye el siguiente. No es un sistema que solo entiende quien lo hizo: la documentación y el código quedan del cliente. Y no es caro porque sí: se cotiza por lo que hay que construir, y lo estándar se compra, no se construye. Cuánto cuesta, con rangos, está en <a href=\"/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/\">este artículo</a>.</p>\n    <h2 id=\"ventajas-de-un-software-hecho-a-la-medida\">Ventajas de un software hecho a la medida</h2>\n    <p>Cuando la operación de una empresa tiene reglas propias, un software a la medida aporta cinco cosas concretas:</p>\n    <ul>\n      <li><strong>Se adapta a tu proceso,</strong> en lugar de obligar a la empresa a trabajar como el programa quiere.</li>\n      <li><strong>Evita digitar dos veces:</strong> se conecta con lo estándar, como la contabilidad y la facturación, para que el dato se registre una sola vez.</li>\n      <li><strong>Crece por módulos:</strong> se empieza por lo que más desorden genera y se amplía cuando el primero ya está en uso.</li>\n      <li><strong>Deja el código y la base de datos a tu nombre,</strong> si así se acuerda por escrito, de modo que no dependes de un solo proveedor.</li>\n      <li><strong>Libera tiempo de personas:</strong> lo que hoy hacen a mano varias personas pasa a hacerlo el sistema, y esa es la forma en que suele pagarse.</li>\n    </ul>\n    <p>Tiene también un costo inicial mayor que una licencia y exige que alguien de la empresa responda dudas con rapidez; por eso conviene compararlo con los genéricos antes de decidir.</p>\n    <div class=\"cta-inline\">\n      <h3>¿No sabes si tu operación cabe en un software genérico?</h3>\n      <p>En una hora la miramos juntos y te decimos qué conviene: genérico, a la medida, o los dos.</p>\n      <a href=\"https://wa.me/573224807767?text=Hola%2C%20quiero%20saber%20si%20mi%20empresa%20necesita%20software%20a%20la%20medida%20o%20uno%20gen%C3%A9rico\" class=\"btn-wa\">Pedir un diagnóstico</a>\n    </div>\n  </div>\n  <section class=\"related-section\">\n    <h3 class=\"related-title\">Seguir leyendo</h3>\n    <div class=\"related-grid\">\n      <a href=\"/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/\" class=\"rel-card\"><span class=\"rel-emoji\">💵</span><span class=\"rel-titulo\">¿Cuánto cuesta un software a la medida en Colombia? Rangos reales y lo que los mueve</span><span class=\"rel-arrow\">→</span></a>\n      <a href=\"/blog/errores-al-comprar-software-a-la-medida/\" class=\"rel-card\"><span class=\"rel-emoji\">🚫</span><span class=\"rel-titulo\">Siete errores al contratar software a la medida en Colombia, y cómo evitarlos antes de firmar</span><span class=\"rel-arrow\">→</span></a>\n      <a href=\"/blog/que-es-un-erp-para-pymes/\" class=\"rel-card\"><span class=\"rel-emoji\">🧩</span><span class=\"rel-titulo\">Qué es un ERP para pymes, qué tiene adentro, y cuándo una empresa colombiana lo necesita de verdad</span><span class=\"rel-arrow\">→</span></a>\n    </div>\n  </section>\n  <section class=\"faq-section\" id=\"preguntas-frecuentes\">\n    <h2 class=\"faq-title\">Preguntas frecuentes</h2>\n    <details class=\"faq-item\">\n      <summary class=\"faq-q\">¿El software a la medida es siempre más caro?<span class=\"faq-icon\">+</span></summary>\n      <p class=\"faq-a\">De entrada suele costar más que una licencia. Pero se compara mal: el costo real del genérico incluye la persona que digita lo que el software no entiende y las decisiones que se toman sin datos.</p>\n    </details>\n    <details class=\"faq-item\">\n      <summary class=\"faq-q\">¿Puedo tener los dos?<span class=\"faq-icon\">+</span></summary>\n      <p class=\"faq-a\">Es lo más común y lo más sensato: contable genérico para lo estándar, sistema propio para la operación, conectados.</p>\n    </details>\n    <details class=\"faq-item\">\n      <summary class=\"faq-q\">¿Cuánto tarda un sistema a la medida?<span class=\"faq-icon\">+</span></summary>\n      <p class=\"faq-a\">El primer módulo está en producción en semanas. El resto se entrega por fases mientras se usa el anterior.</p>\n    </details>\n  </section>\n",
     "cover": "/assets/work/ferre-cotizacion.jpg",
     "source": "existing",
     "query": "software a la medida o software generico",
@@ -613,7 +638,8 @@
       "source": ""
     },
     "coverWidth": 1280,
-    "coverHeight": 800
+    "coverHeight": 800,
+    "answer": "Elige software genérico para lo que todas las empresas hacen igual, como contabilidad y facturación, y a la medida para lo que tu empresa hace distinto. Tres preguntas ayudan a decidir: si tu operación cabe en el software, dónde pierdes plata hoy y cuántas personas digitan lo mismo. Lo más sensato suele ser combinar ambos."
   },
   {
     "slug": "software-para-canchas-sinteticas-como-elegir",
@@ -636,7 +662,8 @@
       "source": ""
     },
     "coverWidth": 390,
-    "coverHeight": 844
+    "coverHeight": 844,
+    "answer": "Para elegir un software de canchas sintéticas no compares listas de funciones: evalúa si la agenda garantiza que no haya cruces desde la base de datos, si el WhatsApp entiende cómo habla la gente y si una foto de transferencia cuenta como pago. La guía incluye preguntas para hacerle a cualquier proveedor."
   },
   {
     "slug": "software-para-clubes-de-poker-torneos",
@@ -660,7 +687,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Two_poker_cards_and_poker_chips_20170611.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 961
+    "coverHeight": 961,
+    "answer": "Un software para torneos de póker debe permitir configurar las reglas del club como plantilla, congelarlas en cada torneo, sortear mesas y puestos sin reclamos y mostrar el reloj de ciegas en una pantalla, además de llevar la liga. Así el director deja de depender de hojas de cálculo y de su memoria."
   },
   {
     "slug": "software-para-deposito-de-madera-inventario",
@@ -683,7 +711,8 @@
       "source": ""
     },
     "coverWidth": 1280,
-    "coverHeight": 960
+    "coverHeight": 960,
+    "answer": "El inventario de un depósito de madera debe convertir metros cúbicos en pulgadas y registrar la merma de la transformación; un software de inventario genérico solo cuenta unidades. El sistema guarda las equivalencias que define el dueño y recibe el reporte de planta desde el celular."
   },
   {
     "slug": "software-para-recicladoras-pesaje-y-liquidacion",
@@ -706,7 +735,8 @@
       "source": ""
     },
     "coverWidth": 1280,
-    "coverHeight": 800
+    "coverHeight": 800,
+    "answer": "Un software para recicladoras registra cada entrega por material, peso y asociado, aplica precios por material que cambian con el mercado y calcula la liquidación a cada asociado. Reemplaza la planilla y le da a la asociación una visión de cuánto material tiene y quién aporta más."
   },
   {
     "slug": "whatsapp-automatico-juridicos-colombia",
@@ -730,7 +760,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:A_meeting_room_at_Government_Office_of_Vietnam.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 960
+    "coverHeight": 960,
+    "answer": "En una firma de abogados, el WhatsApp automático filtra las consultas, agenda citas y da seguimiento, para que los abogados no gasten tiempo en lo que no requiere un abogado. No se automatiza la asesoría jurídica: el asistente no debe dar orientación legal."
   },
   {
     "slug": "whatsapp-business-hoteles-colombia",
@@ -754,6 +785,7 @@
       "source": "https://commons.wikimedia.org/wiki/File:Entrance_lobby_of_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg"
     },
     "coverWidth": 1280,
-    "coverHeight": 808
+    "coverHeight": 808,
+    "answer": "Un asistente de WhatsApp conectado a la disponibilidad real del hotel responde en segundos lo repetitivo —tarifas, desayuno, check-in—, aparta la habitación y deja a recepción las tareas que sí necesitan una persona. El anticipo se verifica, porque la foto de una transferencia no es un pago."
   }
 ]

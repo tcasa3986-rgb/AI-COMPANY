@@ -7,7 +7,7 @@ Sistemas de software a la medida y automatizaciones para empresas colombianas. F
   - Automatización de procesos: https://aicompanyco.com/automatizacion-de-procesos-empresariales/
   - WhatsApp automático: https://aicompanyco.com/servicios/whatsapp-automatico/
   - Chatbot con IA: https://aicompanyco.com/servicios/chatbot-ia/
-  - Asistente de IA: https://aicompanyco.com/servicios/asistente-ia/
+  - Agentes y asistentes de IA: https://aicompanyco.com/servicios/asistente-ia/
   - Páginas web: https://aicompanyco.com/servicios/paginas-web/
   - Marketing digital: https://aicompanyco.com/servicios/marketing-digital/
 - Sistemas: https://aicompanyco.com/sistemas/
@@ -19,3 +19,45 @@ Sistemas de software a la medida y automatizaciones para empresas colombianas. F
 - Producto propio CanchaLibre: https://canchalibre.co/
 
 La implementación se cotiza por alcance. La operación y el soporte se cotizan caso por caso según el alcance acordado. CanchaLibre tiene precios propios por sede.
+
+## Guías por servicio
+- Software a la medida: https://aicompanyco.com/servicios/apps-empresariales/
+  - Qué es un ERP para pymes y cuándo tu empresa lo necesita: https://aicompanyco.com/blog/que-es-un-erp-para-pymes/
+  - Software a la medida o genérico: cómo decidir sin equivocarse: https://aicompanyco.com/blog/software-a-la-medida-vs-software-generico/
+  - ¿Cuánto cuesta un software a la medida en Colombia? Rangos: https://aicompanyco.com/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/
+  - Siete errores al contratar software a la medida en Colombia: https://aicompanyco.com/blog/errores-al-comprar-software-a-la-medida/
+  - App para supermercado de barrio: domicilios sin perder margen: https://aicompanyco.com/blog/app-movil-supermercado-colombia/
+- Automatización de procesos: https://aicompanyco.com/automatizacion-de-procesos-empresariales/
+  - Reportar producción desde el celular con un bot de Telegram: https://aicompanyco.com/blog/reporte-de-produccion-por-telegram/
+  - Qué es n8n y cuándo usarlo para automatizar una empresa: https://aicompanyco.com/blog/que-es-n8n-automatizacion-colombia/
+  - Automatización para constructoras: obra, compras y cortes: https://aicompanyco.com/blog/automatizacion-procesos-constructoras-colombia/
+  - Facturación electrónica automática: integrarla al sistema: https://aicompanyco.com/blog/facturacion-electronica-automatica-colombia/
+- WhatsApp automático: https://aicompanyco.com/servicios/whatsapp-automatico/
+  - Cómo automatizar WhatsApp Business en tu empresa (guía): https://aicompanyco.com/blog/como-automatizar-whatsapp-business-colombia/
+  - Automatizar WhatsApp sin la API oficial: cuándo sí y riesgos: https://aicompanyco.com/blog/automatizar-whatsapp-sin-api-oficial/
+  - WhatsApp automático para ferreterías: cotizar sin frenar: https://aicompanyco.com/blog/automatizar-whatsapp-ferreterias-colombia/
+  - WhatsApp automático para abogados: citas y seguimiento: https://aicompanyco.com/blog/whatsapp-automatico-juridicos-colombia/
+  - WhatsApp automático para hoteles: reservas y anticipos: https://aicompanyco.com/blog/whatsapp-business-hoteles-colombia/
+- Chatbot con IA: https://aicompanyco.com/servicios/chatbot-ia/
+  - ¿Cuánto cuesta un chatbot con IA en Colombia? Guía de precio: https://aicompanyco.com/blog/cuanto-cuesta-chatbot-ia-colombia/
+  - Chatbot con IA para clínicas: citas, recordatorios y límites: https://aicompanyco.com/blog/chatbot-ia-clinicas-colombia/
+  - Chatbot con IA para inmobiliarias: calificar y agendar visitas: https://aicompanyco.com/blog/chatbot-ia-inmobiliarias-colombia/
+  - Inteligencia artificial para negocios en Colombia: usos reales: https://aicompanyco.com/blog/inteligencia-artificial-negocios-colombia/
+- Agentes y asistentes de IA: https://aicompanyco.com/servicios/asistente-ia/
+  - Inteligencia artificial para negocios en Colombia: usos reales: https://aicompanyco.com/blog/inteligencia-artificial-negocios-colombia/
+  - Reportar producción desde el celular con un bot de Telegram: https://aicompanyco.com/blog/reporte-de-produccion-por-telegram/
+  - ¿Cuánto cuesta un chatbot con IA en Colombia? Guía de precio: https://aicompanyco.com/blog/cuanto-cuesta-chatbot-ia-colombia/
+- Páginas web: https://aicompanyco.com/servicios/paginas-web/
+  - Página web para clínicas: qué debe tener para traer pacientes: https://aicompanyco.com/blog/pagina-web-clinica-colombia/
+  - Página web para peluquería: citas por WhatsApp sin perderlas: https://aicompanyco.com/blog/pagina-web-peluqueria-colombia/
+  - ¿Cuánto cuesta una página web para restaurante? Lo que incluye: https://aicompanyco.com/blog/cuanto-cuesta-pagina-web-restaurante-colombia/
+  - SEO local en Colombia: aparecer en Google Maps y en tu ciudad: https://aicompanyco.com/blog/seo-local-colombia-guia/
+- Marketing digital: https://aicompanyco.com/servicios/marketing-digital/
+  - Google Ads para pymes: cuándo sí y cuándo es botar plata: https://aicompanyco.com/blog/google-ads-colombia-guia-pymes/
+  - Marketing digital para restaurantes: lo que sirve sin agencia: https://aicompanyco.com/blog/marketing-digital-restaurantes-colombia/
+  - Marketing digital para gimnasios: retener antes que captar: https://aicompanyco.com/blog/marketing-digital-gimnasios-colombia/
+  - Marketing digital para colegios: matrículas y comunicación: https://aicompanyco.com/blog/marketing-digital-colegios-colombia/
+  - SEO local en Colombia: aparecer en Google Maps y en tu ciudad: https://aicompanyco.com/blog/seo-local-colombia-guia/
+
+## Cómo citar este sitio
+Cada guía abre con una «respuesta corta», lista sus fuentes y muestra su fecha de revisión; puedes citarla con su URL. AI Company CO vende software a la medida: es un interés comercial que declaramos en cada guía. Los datos de terceros (precios, planes, normas) cambian: verifícalos en la fuente oficial.

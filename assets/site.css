@@ -53,3 +53,16 @@ body{font-family:var(--font-body);background:var(--surface);line-height:1.65}h1,
 .post-servicio h3{font:700 22px/1.3 Manrope,sans-serif;margin:8px 0 6px}
 .post-servicio p{margin:0 0 14px;color:#565664}
 .post-servicio .actions{display:flex;flex-wrap:wrap;gap:8px 22px}
+
+/* Guias: respuesta corta (AEO), tablas citables, nota de autoria */
+.respuesta-corta{background:#F0E5FA;border-left:4px solid #7024C4;border-radius:10px;padding:18px 22px;margin:0 0 28px}
+.respuesta-corta strong{display:block;margin-bottom:6px;font:700 11px Manrope,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#4C168E}
+.respuesta-corta p{margin:0;font-size:18px;line-height:1.65;color:#191923}
+.nota-autoria{margin-top:32px;padding-top:16px;border-top:1px solid var(--border);font-size:13px;line-height:1.7;color:#565664}
+.fuentes{font-size:13px;line-height:1.7;color:#565664}
+.tabla-guia{overflow-x:auto;margin:22px 0}
+.tabla-guia table{width:100%;min-width:520px;border-collapse:collapse;font-size:15px}
+.tabla-guia caption{caption-side:top;text-align:left;padding-bottom:10px;font:700 14px Manrope,sans-serif;color:#4C168E}
+.tabla-guia th,.tabla-guia td{padding:10px 12px;border:1px solid #e6dfed;text-align:left;vertical-align:top;line-height:1.55}
+.tabla-guia thead th{background:#F7F8FA}
+.tabla-guia tbody th{background:#fbf9fd;font-weight:600}

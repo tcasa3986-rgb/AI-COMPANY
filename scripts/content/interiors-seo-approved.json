@@ -48,7 +48,7 @@
       "/contacto/",
       "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20software%20a%20la%20medida%20y%20quiero%20revisar%20un%20proceso%20de%20mi%20empresa."
     ],
-    "main_text_sha256": "a8333e49d9c272772d8418fd72487b4bcb5ae4f476ca96dc8b5e740dcef4b72a"
+    "main_text_sha256": "85b3193d5fe6c262eaa98c767ef8fc494310d48ae2921876bf6d5786ee286f89"
   },
   "/automatizacion-de-procesos-empresariales/": {
     "main_links": [
@@ -84,7 +84,7 @@
       "/contacto/",
       "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20automatizaci%C3%B3n%20de%20procesos%20y%20quiero%20revisar%20una%20tarea%20repetitiva%20de%20mi%20empresa."
     ],
-    "main_text_sha256": "28b4e9037440a023dc8ef482bfdb5854ec6e62596bd9365a468730626c9412e0"
+    "main_text_sha256": "e82552f5aa68feed9ea758b4877a0538081dadf0ed3b86a95e018d51d0eff160"
   },
   "/nosotros/": {
     "main_links": [
@@ -106,7 +106,7 @@
       "/casos/#laser-ejecutivo",
       "/contacto/"
     ],
-    "main_text_sha256": "e34ad0d6f59437b52e645882bdab8254dd2f2791ac32be4abb24d51fcb8eea11"
+    "main_text_sha256": "6955f8e854e3f61e863cddea702d3e0da272cc6cd31ff6e92a53fcdc46b63e6a"
   },
   "/casos/": {
     "main_links": [
@@ -156,7 +156,7 @@
       "/servicios/whatsapp-automatico/",
       "/contacto/"
     ],
-    "main_text_sha256": "bb65c044fcb7005ebe2aad0dbd11ce66b1fcab6de0fb4112db9e254f2d3ede2c"
+    "main_text_sha256": "071c35e3a4ec14394e55487cfdb1f5e3e16052d2e78511ea29f78ae4c3b35e78"
   },
   "/contacto/": {
     "main_links": [
@@ -196,6 +196,6 @@
       "/sistemas/para-reciclaje/",
       "/contacto/"
     ],
-    "main_text_sha256": "d6e40606b91bbe29449eaa0217340876fd8772de6c4fabec8005e75138fbc299"
+    "main_text_sha256": "fe52e2b766b9e6062b37421cc69de5c44b8e538dfdfcecf98dea90b232f0da0e"
   }
 }
