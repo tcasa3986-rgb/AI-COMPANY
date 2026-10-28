@@ -4,6 +4,7 @@
   "width": 1600,
   "height": 1280,
   "screenSrc": "/assets/work/chatarreria-pg-caja-demo-pantalla.png",
+  "screenWebp": "/assets/work/chatarreria-pg-caja-demo-pantalla.webp",
   "screenWidth": 1276,
   "screenHeight": 797,
   "screenNote": "Recorte 16:10 de la captura aprobada (area principal, sin barra lateral) para que se lea dentro del computador. Al ampliar se abre la captura completa aprobada.",
