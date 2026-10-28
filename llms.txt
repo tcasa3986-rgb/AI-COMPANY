@@ -2,6 +2,14 @@
 
 Sistemas de software a la medida y automatizaciones para empresas colombianas. Fundador: Cristian Gutierrez. Ubicación: Soacha, Cundinamarca.
 
+- Servicios: https://aicompanyco.com/servicios/
+  - Software a la medida: https://aicompanyco.com/servicios/apps-empresariales/
+  - Automatización de procesos: https://aicompanyco.com/automatizacion-de-procesos-empresariales/
+  - WhatsApp automático: https://aicompanyco.com/servicios/whatsapp-automatico/
+  - Chatbot con IA: https://aicompanyco.com/servicios/chatbot-ia/
+  - Asistente de IA: https://aicompanyco.com/servicios/asistente-ia/
+  - Páginas web: https://aicompanyco.com/servicios/paginas-web/
+  - Marketing digital: https://aicompanyco.com/servicios/marketing-digital/
 - Sistemas: https://aicompanyco.com/sistemas/
 - Casos: https://aicompanyco.com/casos/
 - Proceso: https://aicompanyco.com/nosotros/

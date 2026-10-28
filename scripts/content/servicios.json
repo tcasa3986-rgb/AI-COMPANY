@@ -1,0 +1,369 @@
+{
+  "hub": {
+    "ruta": "/servicios/",
+    "titulo": "Servicios de software e IA para empresas",
+    "descripcion": "Software a la medida, automatización, WhatsApp, chatbots e IA, páginas web y marketing digital para empresas en Colombia. Elige un servicio y mira casos.",
+    "h1": "Servicios de software, automatización e IA para empresas en Colombia",
+    "intro": "Construimos las herramientas que tu empresa usa todos los días y las conectamos entre sí. Cada servicio tiene su propia página, con lo que incluye, preguntas frecuentes y los casos que sí podemos mostrar."
+  },
+  "servicios": [
+    {
+      "slug": "apps-empresariales",
+      "ruta": "/servicios/apps-empresariales/",
+      "nombre": "Software a la medida",
+      "etiquetaCasos": "Software a la medida",
+      "resumen": "Aplicaciones web para inventario, pedidos, cartera y producción, con accesos por rol y uso desde el celular.",
+      "titulo": "Apps empresariales a la medida, web y celular",
+      "descripcion": "Aplicaciones web a la medida para controlar inventario, pedidos, cartera y producción, con accesos por rol y uso desde el celular. Con casos reales.",
+      "h1": "Apps empresariales a la medida para controlar tu operación",
+      "kicker": "Software a la medida",
+      "problema": "Cuando el inventario está en un archivo, los pedidos en el WhatsApp y la cartera en un cuaderno, responder una pregunta simple exige buscar en tres lugares. Construimos una aplicación web que reúne esos procesos, adaptada a cómo trabaja tu equipo y utilizable desde el computador o el celular.",
+      "paraQuien": [
+        "Empresas que hoy manejan inventario, pedidos o cartera en hojas de cálculo y mensajes.",
+        "Negocios con procesos propios que un software genérico no cubre sin forzarlos.",
+        "Equipos donde varias personas necesitan ver y registrar la misma información, cada una con sus permisos."
+      ],
+      "incluye": [
+        ["Inventario y materiales", "Referencias, existencias y movimientos según la operación: por unidad, por peso o por medida."],
+        ["Pedidos y cartera", "Seguimiento de pedidos, abonos y saldos de clientes en los módulos que se acuerdan por alcance."],
+        ["Producción y pagos por tarea", "Registro de lo producido por cada operario y su valor, cuando el proceso lo requiere."],
+        ["Accesos por función", "Cada usuario ve y hace lo que le corresponde: administración, bodega, ventas o producción."],
+        ["Uso en el celular", "Interfaz adaptable y, cuando corresponde, instalable como aplicación (PWA)."],
+        ["Integraciones acordadas", "Conexión con facturación, mensajería u otras herramientas, según viabilidad y alcance."]
+      ],
+      "deFrente": "Si tu necesidad la cubre bien una herramienta que ya existe, lo conversamos de frente. A la medida tiene sentido cuando tu proceso es propio y un software genérico te obliga a trabajar distinto.",
+      "casos": [
+        {"tipo": "cliente", "cliente": "Maderas Montoya"},
+        {"tipo": "cliente", "cliente": "Ferre Láser"},
+        {"tipo": "cliente", "cliente": "Láser Ejecutivo"},
+        {"tipo": "cliente", "cliente": "ASOERC"}
+      ],
+      "sectores": [
+        ["Depósitos de madera", "para-depositos-de-madera"],
+        ["Corte láser", "para-corte-laser"],
+        ["Ferreterías", "para-ferreterias"],
+        ["Reciclaje", "para-reciclaje"]
+      ],
+      "faq": [
+        ["¿Cuánto cuesta una aplicación a la medida?", "Depende del alcance: módulos, usuarios, integraciones y migración de datos. La propuesta separa la implementación, que se cotiza por proyecto, de la operación y el soporte. En la guía de costos publicamos rangos de referencia y qué los mueve.", "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/", "Ver la guía de costos"],
+        ["¿En qué se diferencia de un software genérico?", "Un software genérico te pide adaptar tu forma de trabajar a sus pantallas. Uno a la medida se construye alrededor de tu proceso. Cuándo conviene cada uno lo explicamos con detalle en esta guía.", "/blog/software-a-la-medida-vs-software-generico/", "Comparar ambos"],
+        ["¿Puedo empezar con un solo módulo?", "Sí. Construimos por fases: se define primero el proceso que más desorden genera y los demás módulos se agregan después.", null, null],
+        ["¿Se puede usar desde el celular?", "Sí. Las aplicaciones son web y se adaptan a celular y computador; cuando corresponde, se pueden instalar como aplicación (PWA).", null, null],
+        ["¿Cómo empezamos?", "Con un diagnóstico inicial gratuito: nos cuentas cómo trabajas hoy y revisamos qué proceso conviene resolver primero.", "/contacto/", "Solicitar diagnóstico"]
+      ],
+      "articulos": [
+        "que-es-un-erp-para-pymes",
+        "software-a-la-medida-vs-software-generico",
+        "cuanto-cuesta-un-software-a-la-medida-en-colombia",
+        "errores-al-comprar-software-a-la-medida",
+        "app-movil-supermercado-colombia",
+        "sistema-gestion-droguerias-colombia",
+        "sistema-gestion-talleres-mecanicos-colombia",
+        "software-para-deposito-de-madera-inventario",
+        "software-para-recicladoras-pesaje-y-liquidacion",
+        "software-para-clubes-de-poker-torneos",
+        "software-para-canchas-sinteticas-como-elegir"
+      ],
+      "wa": "Hola, vi su página de software a la medida y quiero revisar un proceso de mi empresa."
+    },
+    {
+      "slug": "automatizacion",
+      "ruta": "/automatizacion-de-procesos-empresariales/",
+      "nombre": "Automatización de procesos",
+      "etiquetaCasos": "Automatización",
+      "resumen": "Conecta herramientas y elimina tareas repetidas: reportes, avisos y registros que hoy se hacen a mano.",
+      "titulo": "Automatización de procesos empresariales",
+      "descripcion": "Automatizamos tareas repetitivas de tu empresa: reportes, avisos, registros y conexión entre herramientas, con reglas claras y revisión humana donde importa.",
+      "h1": "Automatización de procesos empresariales: menos digitar, más control",
+      "kicker": "Automatización empresarial",
+      "problema": "Copiar datos de un archivo a otro, preparar el mismo reporte cada semana o avisar a mano que un pedido está listo son tareas que consumen horas y se equivocan. Primero identificamos qué entra, qué reglas se aplican, qué excepciones existen y cuándo debe intervenir una persona; después automatizamos.",
+      "paraQuien": [
+        "Empresas con reportes o registros que alguien repite todos los días o todas las semanas.",
+        "Operaciones donde el dato nace lejos del computador: planta, patio, obra o bodega.",
+        "Negocios que ya usan varias herramientas que no se hablan entre sí."
+      ],
+      "incluye": [
+        ["Reportes operativos", "Información de tu sistema preparada y enviada sin armarla a mano."],
+        ["Registro desde el celular", "El dato se reporta donde ocurre, por ejemplo con un bot de Telegram, y entra directo al sistema."],
+        ["Avisos y seguimiento", "Notificaciones sobre pedidos, vencimientos o estados, a quien corresponde."],
+        ["Conexión entre herramientas", "Integración con facturación, hojas de cálculo, mensajería u otros sistemas, según viabilidad."],
+        ["Controles y excepciones", "Límites definidos, responsables y revisión humana cuando la regla no alcanza."]
+      ],
+      "deFrente": "No automatizamos lo que todavía no está claro. Si el proceso cambia cada semana o nadie sabe quién lo hace, primero se ordena: automatizar un desorden solo lo vuelve más rápido.",
+      "casos": [
+        {
+          "tipo": "custom",
+          "etiqueta": "Automatización · Maderas Montoya",
+          "titulo": "Reporte de producción desde el celular",
+          "texto": "El operario reporta en un bot de Telegram que le pregunta lo mínimo, y el dato entra al sistema con hora, operario y turno. La oficina lo ve el mismo día, sin digitación posterior.",
+          "href": "/blog/reporte-de-produccion-por-telegram/",
+          "cta": "Leer cómo funciona"
+        }
+      ],
+      "faq": [
+        ["¿Qué procesos conviene automatizar primero?", "Los que se repiten con la misma regla: reportes periódicos, registro de producción, avisos de estado. Si hay muchas excepciones, primero se define quién decide en cada una.", null, null],
+        ["¿Necesito cambiar mis herramientas actuales?", "No necesariamente. Se evalúa qué herramientas puedes conservar y cuáles conviene conectar o reemplazar, según la viabilidad de la integración.", null, null],
+        ["¿Cómo se reporta la producción desde el celular?", "Con un bot que pregunta lo mínimo, una cosa a la vez, y guarda el dato en el sistema. Así funciona el reporte de planta en el sistema de Maderas Montoya.", "/blog/reporte-de-produccion-por-telegram/", "Ver cómo funciona"],
+        ["¿Qué es n8n y cuándo sirve?", "Es una herramienta para conectar aplicaciones y automatizar flujos. En esta guía explicamos qué es y cuándo tiene sentido usarla en una empresa.", "/blog/que-es-n8n-automatizacion-colombia/", "Leer la guía"],
+        ["¿Cuánto cuesta automatizar un proceso?", "La implementación se cotiza por proyecto, según el proceso y las integraciones. En la página de precios explicamos qué se cotiza por separado.", "/precios/", "Ver alcance y precios"]
+      ],
+      "articulos": [
+        "reporte-de-produccion-por-telegram",
+        "que-es-n8n-automatizacion-colombia",
+        "automatizacion-procesos-constructoras-colombia",
+        "facturacion-electronica-automatica-colombia"
+      ],
+      "wa": "Hola, vi su página de automatización de procesos y quiero revisar una tarea repetitiva de mi empresa."
+    },
+    {
+      "slug": "whatsapp-automatico",
+      "ruta": "/servicios/whatsapp-automatico/",
+      "nombre": "WhatsApp automático",
+      "etiquetaCasos": "WhatsApp y asistentes",
+      "resumen": "Atención, pedidos y recordatorios por WhatsApp conectados a la información real de tu negocio.",
+      "titulo": "WhatsApp automático para empresas en Colombia",
+      "descripcion": "WhatsApp automático para atender consultas, tomar pedidos o reservas y enviar recordatorios, con la información de tu negocio y paso a una persona.",
+      "h1": "WhatsApp automático para atender y dar seguimiento a tus clientes",
+      "kicker": "WhatsApp para empresas",
+      "problema": "Para muchos negocios WhatsApp es el canal principal de ventas y atención, y también donde se pierde información: mensajes sin responder fuera de horario, pedidos anotados a mano, clientes a los que nadie les hizo seguimiento. Conectamos el canal con los datos de tu negocio para responder lo que se puede responder y pasar a una persona lo que no.",
+      "paraQuien": [
+        "Negocios que reciben pedidos, reservas o consultas por WhatsApp todos los días.",
+        "Empresas que repiten las mismas respuestas: precios, horarios, disponibilidad.",
+        "Operaciones que necesitan recordatorios o seguimiento sin escribir mensaje por mensaje."
+      ],
+      "incluye": [
+        ["Respuestas sobre datos aprobados", "Horarios, catálogo, disponibilidad o estado de un pedido, tomados de la información que tú autorizas."],
+        ["Pedidos o reservas", "Captura de lo que el cliente necesita y registro en el sistema, según la integración."],
+        ["Recordatorios y seguimiento", "Avisos programados a clientes, respetando su consentimiento."],
+        ["Paso a una persona", "Reglas claras de cuándo el asistente deja de responder y le avisa a tu equipo."],
+        ["Canal y alcance definidos", "Elegimos el canal, con la API oficial de WhatsApp Business u otras opciones, según tu caso, sus costos y sus riesgos."]
+      ],
+      "deFrente": "Automatizar no significa que nadie conteste. Una conversación comercial importante la debe atender una persona: el asistente resuelve lo repetitivo y te pasa lo demás.",
+      "casos": [],
+      "sinCaso": true,
+      "cercanos": [
+        {
+          "tipo": "custom",
+          "etiqueta": "Producto propio · CanchaLibre",
+          "titulo": "Asistente de WhatsApp para canchas sintéticas",
+          "texto": "CanchaLibre, nuestro producto por suscripción para negocios de canchas, incluye un asistente de WhatsApp y recordatorios según la configuración de cada sede. No es un proyecto de cliente: es un producto propio.",
+          "href": "/sistemas/para-canchas-sinteticas/",
+          "cta": "Conocer CanchaLibre"
+        }
+      ],
+      "faq": [
+        ["¿Necesito la API oficial de WhatsApp?", "Depende de tu volumen y del uso. La API oficial tiene costos de Meta y un proceso de verificación; otras alternativas existen y tienen riesgos propios. Lo explicamos en esta guía.", "/blog/automatizar-whatsapp-sin-api-oficial/", "Leer cuándo sí y los riesgos"],
+        ["¿Puedo seguir usando mi número de WhatsApp?", "Es lo primero que se conversa: qué número se usa, si el actual puede pasar a la API o si conviene uno nuevo para el asistente. Depende del canal elegido.", null, null],
+        ["¿Qué pasa si el cliente pregunta algo que el asistente no sabe?", "Pasa a una persona. Definimos juntos qué responde el asistente y qué no.", null, null],
+        ["¿Cuánto cuesta automatizar WhatsApp?", "Hay un costo de implementación, por proyecto, y consumos de terceros —por ejemplo los de WhatsApp— que se especifican aparte en la propuesta. La guía general explica cómo se compone.", "/blog/como-automatizar-whatsapp-business-colombia/", "Leer la guía"]
+      ],
+      "articulos": [
+        "como-automatizar-whatsapp-business-colombia",
+        "automatizar-whatsapp-sin-api-oficial",
+        "automatizar-whatsapp-ferreterias-colombia",
+        "whatsapp-automatico-juridicos-colombia",
+        "whatsapp-business-hoteles-colombia"
+      ],
+      "wa": "Hola, vi su página de WhatsApp automático y quiero revisar cómo atender mejor a mis clientes."
+    },
+    {
+      "slug": "chatbot-ia",
+      "ruta": "/servicios/chatbot-ia/",
+      "nombre": "Chatbot con IA",
+      "etiquetaCasos": "WhatsApp y asistentes",
+      "resumen": "Asistentes que responden con la información de tu negocio, con límites claros y atención humana.",
+      "titulo": "Chatbot con IA para empresas en Colombia",
+      "descripcion": "Chatbot con inteligencia artificial para responder consultas de clientes con la información de tu negocio, con límites definidos y paso a una persona.",
+      "h1": "Chatbot con IA que responde con la información de tu negocio",
+      "kicker": "Chatbots con inteligencia artificial",
+      "problema": "Un chatbot genérico inventa respuestas. Uno útil responde solo con lo que tu negocio le autoriza —catálogo, horarios, políticas— y sabe cuándo pasar la conversación a una persona. Diseñamos asistentes con fuentes definidas, herramientas conectadas a tu operación y controles para lo que no deben hacer.",
+      "paraQuien": [
+        "Negocios con muchas preguntas repetidas: precios, horarios, requisitos, estado de un trámite.",
+        "Empresas que quieren atender fuera de horario sin perder el control de lo que se dice.",
+        "Equipos que ya tienen la información, pero dispersa."
+      ],
+      "incluye": [
+        ["Conocimiento del negocio", "Catálogo de respuestas y documentos que tú apruebas como fuente."],
+        ["Consulta a tus sistemas", "Información desde sistemas autorizados, cuando la integración es viable."],
+        ["Controles de acción", "Qué puede hacer el asistente por sí solo y qué requiere confirmación humana."],
+        ["Atención humana", "Reglas de traspaso a una persona y aviso a tu equipo."],
+        ["Revisión de conversaciones", "Revisión de casos reales para corregir y ampliar lo que responde."]
+      ],
+      "deFrente": "Un chatbot no reemplaza el criterio de tu equipo en temas sensibles. En salud, asuntos legales o dinero definimos límites estrictos, y la última palabra la tiene una persona.",
+      "casos": [],
+      "sinCaso": true,
+      "cercanos": [
+        {
+          "tipo": "custom",
+          "etiqueta": "Producto propio · CanchaLibre",
+          "titulo": "Asistente de WhatsApp para canchas sintéticas",
+          "texto": "CanchaLibre incluye un asistente de WhatsApp y recordatorios según la configuración de cada sede. Es un producto propio, no un proyecto de cliente.",
+          "href": "/sistemas/para-canchas-sinteticas/",
+          "cta": "Conocer CanchaLibre"
+        }
+      ],
+      "faq": [
+        ["¿Un chatbot con IA puede dar información incorrecta?", "Por eso se diseña con fuentes definidas y límites: responde sobre lo que tú aprobaste y, si no sabe, pasa a una persona. Además se revisan conversaciones reales para corregirlo.", null, null],
+        ["¿En qué canales funciona?", "En WhatsApp, en tu página web u otros canales, según el caso. El canal se define en el alcance.", null, null],
+        ["¿Cuánto cuesta un chatbot con IA?", "Tiene un costo de construcción y costos recurrentes de terceros, como el consumo del modelo de IA. En esta guía explicamos qué los componen y qué los mueve.", "/blog/cuanto-cuesta-chatbot-ia-colombia/", "Ver la guía de costos"],
+        ["¿Sirve para mi sector?", "Depende de qué preguntas se repitan en tu negocio. Tenemos guías para clínicas e inmobiliarias con sus límites y casos de uso.", "/blog/chatbot-ia-clinicas-colombia/", "Ver la guía para clínicas"]
+      ],
+      "articulos": [
+        "cuanto-cuesta-chatbot-ia-colombia",
+        "chatbot-ia-clinicas-colombia",
+        "chatbot-ia-inmobiliarias-colombia",
+        "inteligencia-artificial-negocios-colombia"
+      ],
+      "wa": "Hola, vi su página de chatbots con IA y quiero revisar si me sirve para mi negocio."
+    },
+    {
+      "slug": "asistente-ia",
+      "ruta": "/servicios/asistente-ia/",
+      "nombre": "Asistente de IA",
+      "etiquetaCasos": "WhatsApp y asistentes",
+      "resumen": "Un asistente para tu equipo: consulta inventario, prepara información y guía tareas repetitivas.",
+      "titulo": "Asistente de IA para empresas en Colombia",
+      "descripcion": "Asistente de IA para el equipo de tu empresa: consulta inventario, prepara información y guía tareas repetitivas, con permisos por rol y registro de acciones.",
+      "h1": "Asistente de IA para el trabajo diario de tu equipo",
+      "kicker": "Inteligencia artificial para tu equipo",
+      "problema": "Mientras un chatbot atiende a tus clientes, el asistente trabaja con tu equipo: consulta el inventario, busca un pedido, prepara un resumen o guía un proceso que hoy se hace de memoria. Su valor depende de los permisos y límites que se le definan, por eso empezamos por lo que debe poder hacer y lo que no.",
+      "paraQuien": [
+        "Equipos que consultan una y otra vez el mismo sistema para responder preguntas simples.",
+        "Operaciones donde pasos repetitivos dependen de la memoria de una persona.",
+        "Empresas que quieren probar IA sin darle acceso a todo."
+      ],
+      "incluye": [
+        ["Funciones conectadas a tu sistema", "Consultas sobre inventario, pedidos o cartera desde un chat."],
+        ["Información según el rol", "Cada persona consulta solo lo que le corresponde."],
+        ["Acciones con controles", "Lo que modifica datos pide confirmación y deja registro."],
+        ["Pruebas con tu operación", "Se prueba con situaciones reales de tu empresa antes de ponerlo en uso."]
+      ],
+      "deFrente": "Si tus datos todavía están desordenados, un asistente solo te dará respuestas desordenadas más rápido. Primero se organiza la información; el asistente viene después.",
+      "casos": [],
+      "sinCaso": true,
+      "cercanos": [
+        {
+          "tipo": "custom",
+          "etiqueta": "Chat con el sistema · Maderas Montoya",
+          "titulo": "Reporte de producción por Telegram",
+          "texto": "Un bot de Telegram guía al operario con preguntas mínimas y guarda el reporte en el sistema de Maderas Montoya. Es lo más cercano que tenemos documentado a interactuar con el sistema por chat.",
+          "href": "/blog/reporte-de-produccion-por-telegram/",
+          "cta": "Leer cómo funciona"
+        }
+      ],
+      "faq": [
+        ["¿Qué diferencia hay entre un asistente y un chatbot?", "El chatbot atiende a tus clientes en un canal como WhatsApp. El asistente apoya a tu equipo con información y tareas internas. Pueden convivir.", "/servicios/chatbot-ia/", "Ver chatbots con IA"],
+        ["¿La IA puede ver todos mis datos?", "No. Se define qué consulta y con qué permisos, por rol. Lo que modifica datos requiere confirmación y queda registrado.", null, null],
+        ["¿Cómo sé si me conviene?", "Se prueba primero con un proceso concreto y situaciones reales de tu empresa. Esta guía resume usos reales de la inteligencia artificial en negocios colombianos.", "/blog/inteligencia-artificial-negocios-colombia/", "Leer la guía"]
+      ],
+      "articulos": [
+        "inteligencia-artificial-negocios-colombia",
+        "reporte-de-produccion-por-telegram",
+        "cuanto-cuesta-chatbot-ia-colombia"
+      ],
+      "wa": "Hola, vi su página de asistentes de IA y quiero revisar cómo podría ayudar a mi equipo."
+    },
+    {
+      "slug": "paginas-web",
+      "ruta": "/servicios/paginas-web/",
+      "nombre": "Páginas web",
+      "etiquetaCasos": "Páginas web",
+      "resumen": "Sitios claros, rápidos y preparados para que Google los entienda, con contacto directo por WhatsApp.",
+      "titulo": "Páginas web para empresas en Colombia",
+      "descripcion": "Páginas web rápidas y claras para empresas colombianas: estructura, textos, contacto por WhatsApp y preparación técnica para aparecer en Google.",
+      "h1": "Páginas web que explican tu negocio y se pueden encontrar en Google",
+      "kicker": "Páginas web para empresas",
+      "problema": "Una página bonita que nadie encuentra no vende. Construimos sitios que explican con claridad qué ofreces, cargan rápido en el celular y vienen preparados para buscadores: títulos, descripciones, datos estructurados y un camino de contacto que funciona.",
+      "paraQuien": [
+        "Negocios que dependen de que los encuentren cuando alguien ya está buscando lo que venden.",
+        "Empresas con sistema interno que además necesitan una vitrina pública.",
+        "Quienes tienen un sitio viejo, lento o que no aparece en Google."
+      ],
+      "incluye": [
+        ["Estructura y contenido de la oferta", "Páginas por servicio o producto, con textos pensados para tus clientes."],
+        ["Contacto que funciona", "Botón de WhatsApp, teléfono y formulario que responden bien en el celular."],
+        ["Preparación para buscadores", "Metadatos, sitemap, datos estructurados y velocidad de carga cuidada."],
+        ["Diseño adaptable", "Se ve y funciona bien en el celular, el dispositivo desde el que más se consulta."],
+        ["Integraciones y mantenimiento", "Conexión con tu sistema o tu agenda y mantenimiento, según el alcance."]
+      ],
+      "deFrente": "Una página no posiciona por sí sola: Google necesita tiempo y señales externas, como el perfil de Google, las reseñas y los enlaces. Te explicamos qué esperar antes de empezar, sin prometer posiciones.",
+      "casos": [
+        {
+          "tipo": "sitio",
+          "etiqueta": "Página web · Maderas Montoya",
+          "titulo": "maderasmontoyaa.com",
+          "texto": "Sitio de una empresa de madera industrial: portada con el menú, el titular sobre madera y fotos reales de la bodega.",
+          "imagen": "/assets/work/maderas-sitio-web.jpg",
+          "alt": "Sitio web de Maderas Montoya: portada con el menú, el titular sobre madera industrial y fotos reales de la bodega",
+          "estado": "En producción",
+          "href": "https://maderasmontoyaa.com",
+          "externo": true,
+          "cta": "Abrir el sitio"
+        },
+        {
+          "tipo": "sitio",
+          "etiqueta": "Página web · JD Metales",
+          "titulo": "Sitio de JD Metales",
+          "texto": "Sitio para una empresa de corte de metales y reciclaje de chatarra en Ibagué, con foto de corte con plasma.",
+          "imagen": "/assets/work/jd-metales-sitio-web.jpg",
+          "alt": "Sitio web de JD Metales: portada oscura con el titular sobre corte de metales y reciclaje de chatarra en Ibagué, y una foto de corte con plasma",
+          "estado": "Construido, pendiente de publicar"
+        }
+      ],
+      "faq": [
+        ["¿Cuánto cuesta una página web para una empresa?", "Depende de cuántas páginas, qué integraciones y cuánto contenido hay que preparar. En la guía de costos para restaurantes detallamos qué incluye un precio y qué no.", "/blog/cuanto-cuesta-pagina-web-restaurante-colombia/", "Ver la guía de costos"],
+        ["¿Cuánto tarda en aparecer en Google?", "No se puede prometer una posición. Una página nueva necesita tiempo para ser indexada y ganar señales; el perfil de Google, las reseñas y los enlaces externos ayudan. Lo explicamos en la guía de SEO local.", "/blog/seo-local-colombia-guia/", "Leer la guía de SEO local"],
+        ["¿Qué debe tener la página de una clínica o una peluquería?", "Depende de cómo te contactan tus clientes. Tenemos guías por sector con lo que conviene incluir.", "/blog/pagina-web-clinica-colombia/", "Ver la guía para clínicas"],
+        ["¿Puedo ver ejemplos?", "Sí. Más arriba en esta página están los sitios de Maderas Montoya y JD Metales.", "#casos-servicio", "Ver los sitios"]
+      ],
+      "articulos": [
+        "pagina-web-clinica-colombia",
+        "pagina-web-peluqueria-colombia",
+        "cuanto-cuesta-pagina-web-restaurante-colombia",
+        "seo-local-colombia-guia"
+      ],
+      "wa": "Hola, vi su página de desarrollo de páginas web y quiero revisar el sitio de mi empresa."
+    },
+    {
+      "slug": "marketing-digital",
+      "ruta": "/servicios/marketing-digital/",
+      "nombre": "Marketing digital",
+      "etiquetaCasos": "Marketing digital",
+      "resumen": "Contenido y pauta alrededor de una oferta clara, con presupuesto y forma de medir acordados.",
+      "titulo": "Marketing digital para pymes en Colombia",
+      "descripcion": "Marketing digital para pymes colombianas: contenido y campañas alrededor de una oferta clara, con entregables, presupuesto y forma de medir definidos.",
+      "h1": "Marketing digital para pymes: una oferta clara antes que más publicaciones",
+      "kicker": "Marketing digital",
+      "problema": "Publicar más no es lo mismo que vender más. Empezamos por la oferta: a quién le hablas, qué problema resuelves y qué debe pasar cuando alguien escribe. Con eso claro preparamos contenido y pauta, y medimos por conversaciones y oportunidades reales, no por me gusta.",
+      "paraQuien": [
+        "Pymes que publican en redes sin una oferta definida ni forma de medir qué funciona.",
+        "Negocios que pautan y no saben cuántas conversaciones terminan en venta.",
+        "Empresas con un producto o servicio claro que necesitan un recorrido de contacto ordenado."
+      ],
+      "incluye": [
+        ["Mensaje y oferta", "Qué ofreces, a quién y con qué argumentos, antes de crear una sola pieza."],
+        ["Contenido para el público definido", "Piezas para tus redes y canales, alineadas con la oferta."],
+        ["Página y recorrido de contacto", "Que quien llega por un anuncio encuentre cómo escribirte."],
+        ["Pauta con presupuesto acordado", "Entregables, presupuesto de publicidad y forma de medir definidos por separado."],
+        ["Seguimiento", "Medición por conversaciones y oportunidades, no por métricas de vanidad."]
+      ],
+      "deFrente": "Sin una oferta clara o sin una forma de atender los mensajes, más pauta solo trae más mensajes sin responder. Preferimos ordenar eso primero.",
+      "casos": [],
+      "sinCaso": true,
+      "cercanos": [],
+      "faq": [
+        ["¿Cuánto debo invertir en pauta?", "Depende de tu margen y de cuánto cuesta conseguir una conversación en tu sector. La inversión en publicidad es tuya y se define aparte de nuestros honorarios. Esta guía explica cuándo vale la pena y cuándo es botar plata.", "/blog/google-ads-colombia-guia-pymes/", "Leer la guía de Google Ads"],
+        ["¿Sirve para restaurantes, gimnasios o colegios?", "Cada sector tiene su dinámica de contacto y de decisión. Tenemos guías por sector con lo que funciona sin necesidad de una agencia.", "/blog/marketing-digital-restaurantes-colombia/", "Ver la guía para restaurantes"],
+        ["¿Cómo se mide si funciona?", "Por conversaciones recibidas y oportunidades, con un recorrido de contacto que se pueda seguir. No prometemos resultados: definimos juntos qué se va a medir.", null, null]
+      ],
+      "articulos": [
+        "google-ads-colombia-guia-pymes",
+        "marketing-digital-restaurantes-colombia",
+        "marketing-digital-gimnasios-colombia",
+        "marketing-digital-colegios-colombia",
+        "seo-local-colombia-guia"
+      ],
+      "wa": "Hola, vi su página de marketing digital y quiero revisar cómo atraer más clientes."
+    }
+  ]
+}

@@ -142,65 +142,179 @@
     "main_text_sha256": "8f9ff23ca642a832bf510568a77c9872fa108ccc44ca0ded43594e3b14f985b7"
   },
   "/servicios/whatsapp-automatico/": {
-    "title": "WhatsApp para atención y operación | AI Company CO",
-    "description": "Conecta las consultas de tus clientes con la información que tu negocio necesita para responder y dar seguimiento.",
-    "h1": "WhatsApp para atención y operación.",
+    "title": "WhatsApp automático para empresas en Colombia | AI Company CO",
+    "description": "WhatsApp automático para atender consultas, tomar pedidos o reservas y enviar recordatorios, con la información de tu negocio y paso a una persona.",
+    "h1": "WhatsApp automático para atender y dar seguimiento a tus clientes",
     "canonical": "https://aicompanyco.com/servicios/whatsapp-automatico/",
     "robots": "index,follow,max-image-preview:large",
     "noindex": false,
     "main_links": [
+      "/servicios/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/soluciones/#integraciones",
       "/",
+      "/servicios/",
       "/contacto/",
-      "/contacto/"
+      "#casos-servicio",
+      "/sistemas/para-canchas-sinteticas/",
+      "/casos/",
+      "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20WhatsApp%20autom%C3%A1tico%20y%20quiero%20revisar%20c%C3%B3mo%20atender%20mejor%20a%20mis%20clientes.",
+      "/blog/automatizar-whatsapp-sin-api-oficial/",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/como-automatizar-whatsapp-business-colombia/",
+      "/blog/automatizar-whatsapp-sin-api-oficial/",
+      "/blog/automatizar-whatsapp-ferreterias-colombia/",
+      "/blog/whatsapp-automatico-juridicos-colombia/",
+      "/blog/whatsapp-business-hoteles-colombia/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/servicios/",
+      "/contacto/",
+      "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20WhatsApp%20autom%C3%A1tico%20y%20quiero%20revisar%20c%C3%B3mo%20atender%20mejor%20a%20mis%20clientes."
     ],
-    "main_text_sha256": "31bd56c75523527cb02949d88eaa60926607559fcd0d81c9e9d0898e41ef109a"
+    "main_text_sha256": "4cd832687f4bc6c6c50a369e9f7804e903257976e2e8a5f2b97f18fd7932b131"
   },
   "/servicios/chatbot-ia/": {
-    "title": "Asistentes que conocen el contexto | AI Company CO",
-    "description": "Diseñamos asistentes para consultas concretas, con fuentes definidas y herramientas conectadas a tu operación.",
-    "h1": "Asistentes que conocen el contexto.",
+    "title": "Chatbot con IA para empresas en Colombia | AI Company CO",
+    "description": "Chatbot con inteligencia artificial para responder consultas de clientes con la información de tu negocio, con límites definidos y paso a una persona.",
+    "h1": "Chatbot con IA que responde con la información de tu negocio",
     "canonical": "https://aicompanyco.com/servicios/chatbot-ia/",
     "robots": "index,follow,max-image-preview:large",
     "noindex": false,
     "main_links": [
+      "/servicios/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/soluciones/#integraciones",
       "/",
+      "/servicios/",
       "/contacto/",
-      "/contacto/"
+      "#casos-servicio",
+      "/sistemas/para-canchas-sinteticas/",
+      "/casos/",
+      "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20chatbots%20con%20IA%20y%20quiero%20revisar%20si%20me%20sirve%20para%20mi%20negocio.",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "/blog/chatbot-ia-clinicas-colombia/",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "/blog/chatbot-ia-clinicas-colombia/",
+      "/blog/chatbot-ia-inmobiliarias-colombia/",
+      "/blog/inteligencia-artificial-negocios-colombia/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/servicios/",
+      "/contacto/",
+      "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20chatbots%20con%20IA%20y%20quiero%20revisar%20si%20me%20sirve%20para%20mi%20negocio."
     ],
-    "main_text_sha256": "b491db53923d11dbd0289a5b21f75489050968fffdeeda7c7b150fc8efd325f1"
+    "main_text_sha256": "0bb6a3229627a1abbae5763100fea4db4ee55a2fac92ce7398c3bb55d2e4facd"
   },
   "/servicios/asistente-ia/": {
-    "title": "IA útil para el trabajo diario | AI Company CO",
-    "description": "Un asistente puede ayudar a consultar inventario, preparar información o guiar tareas repetitivas. Definimos sus permisos y límites.",
-    "h1": "IA útil para el trabajo diario.",
+    "title": "Asistente de IA para empresas en Colombia | AI Company CO",
+    "description": "Asistente de IA para el equipo de tu empresa: consulta inventario, prepara información y guía tareas repetitivas, con permisos por rol y registro de acciones.",
+    "h1": "Asistente de IA para el trabajo diario de tu equipo",
     "canonical": "https://aicompanyco.com/servicios/asistente-ia/",
     "robots": "index,follow,max-image-preview:large",
     "noindex": false,
     "main_links": [
+      "/servicios/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/soluciones/#integraciones",
       "/",
+      "/servicios/",
       "/contacto/",
-      "/contacto/"
+      "#casos-servicio",
+      "/blog/reporte-de-produccion-por-telegram/",
+      "/casos/",
+      "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20asistentes%20de%20IA%20y%20quiero%20revisar%20c%C3%B3mo%20podr%C3%ADa%20ayudar%20a%20mi%20equipo.",
+      "/servicios/chatbot-ia/",
+      "/blog/inteligencia-artificial-negocios-colombia/",
+      "/blog/inteligencia-artificial-negocios-colombia/",
+      "/blog/reporte-de-produccion-por-telegram/",
+      "/blog/cuanto-cuesta-chatbot-ia-colombia/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/servicios/",
+      "/contacto/",
+      "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20asistentes%20de%20IA%20y%20quiero%20revisar%20c%C3%B3mo%20podr%C3%ADa%20ayudar%20a%20mi%20equipo."
     ],
-    "main_text_sha256": "33373519c0bc5d23cd3959907e6aa6aadcb32cddc9c902cdfee23cde42f1918e"
+    "main_text_sha256": "bd43cd5a9eed16ecd87486280422c511d18715b524ba8592119f1d12ea5200e6"
   },
   "/servicios/paginas-web/": {
-    "title": "Una web que explique bien tu negocio | AI Company CO",
-    "description": "Páginas claras, rápidas y adaptables al celular, con contenido pensado para tus clientes y preparación técnica para buscadores.",
-    "h1": "Una web que explique bien tu negocio.",
+    "title": "Páginas web para empresas en Colombia | AI Company CO",
+    "description": "Páginas web rápidas y claras para empresas colombianas: estructura, textos, contacto por WhatsApp y preparación técnica para aparecer en Google.",
+    "h1": "Páginas web que explican tu negocio y se pueden encontrar en Google",
     "canonical": "https://aicompanyco.com/servicios/paginas-web/",
     "robots": "index,follow,max-image-preview:large",
     "noindex": false,
     "main_links": [
+      "/servicios/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/soluciones/#integraciones",
       "/",
+      "/servicios/",
       "/contacto/",
-      "/contacto/"
+      "#casos-servicio",
+      "https://maderasmontoyaa.com",
+      "https://maderasmontoyaa.com",
+      "/casos/",
+      "/blog/cuanto-cuesta-pagina-web-restaurante-colombia/",
+      "/blog/seo-local-colombia-guia/",
+      "/blog/pagina-web-clinica-colombia/",
+      "#casos-servicio",
+      "/blog/pagina-web-clinica-colombia/",
+      "/blog/pagina-web-peluqueria-colombia/",
+      "/blog/cuanto-cuesta-pagina-web-restaurante-colombia/",
+      "/blog/seo-local-colombia-guia/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/marketing-digital/",
+      "/servicios/",
+      "/contacto/",
+      "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20desarrollo%20de%20p%C3%A1ginas%20web%20y%20quiero%20revisar%20el%20sitio%20de%20mi%20empresa."
     ],
-    "main_text_sha256": "823b3e6c8f8d41224249dc04ea7837ac4fe2886ab1538a538e3a7f77b6fa0be7"
+    "main_text_sha256": "77c1096c1ec102ec77ee03a3ce8f17e7b9eb874ce4fb1afb065355a040de6832"
   },
   "/servicios/apps-empresariales/": {
-    "title": "Tu operación, también desde el celular | AI Company CO",
-    "description": "Construimos aplicaciones web para consultar información y realizar tareas del negocio desde distintos dispositivos.",
-    "h1": "Tu operación, también desde el celular.",
+    "title": "Apps empresariales a la medida, web y celular | AI Company CO",
+    "description": "Aplicaciones web a la medida para controlar inventario, pedidos, cartera y producción, con accesos por rol y uso desde el celular. Con casos reales.",
+    "h1": "Apps empresariales a la medida para controlar tu operación",
     "canonical": "https://aicompanyco.com/servicios/apps-empresariales/",
     "robots": "index,follow,max-image-preview:large",
     "noindex": false,
@@ -212,23 +326,51 @@
     "main_text_sha256": "dc04c8fbf2ffcc989e02d87cf68a8ad0f4680f49b98cae28dfc1c5b76c12d3b9"
   },
   "/servicios/marketing-digital/": {
-    "title": "Contenido y publicidad con una oferta clara | AI Company CO",
-    "description": "Preparamos contenido y campañas alrededor de una necesidad del negocio. Definimos entregables, presupuesto y forma de medir por separado.",
-    "h1": "Contenido y publicidad con una oferta clara.",
+    "title": "Marketing digital para pymes en Colombia | AI Company CO",
+    "description": "Marketing digital para pymes colombianas: contenido y campañas alrededor de una oferta clara, con entregables, presupuesto y forma de medir definidos.",
+    "h1": "Marketing digital para pymes: una oferta clara antes que más publicaciones",
     "canonical": "https://aicompanyco.com/servicios/marketing-digital/",
     "robots": "index,follow,max-image-preview:large",
     "noindex": false,
     "main_links": [
+      "/servicios/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/soluciones/#integraciones",
       "/",
+      "/servicios/",
       "/contacto/",
-      "/contacto/"
+      "#casos-servicio",
+      "/casos/",
+      "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20marketing%20digital%20y%20quiero%20revisar%20c%C3%B3mo%20atraer%20m%C3%A1s%20clientes.",
+      "/blog/google-ads-colombia-guia-pymes/",
+      "/blog/marketing-digital-restaurantes-colombia/",
+      "/blog/google-ads-colombia-guia-pymes/",
+      "/blog/marketing-digital-restaurantes-colombia/",
+      "/blog/marketing-digital-gimnasios-colombia/",
+      "/blog/marketing-digital-colegios-colombia/",
+      "/blog/seo-local-colombia-guia/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/",
+      "/contacto/",
+      "https://wa.me/573224807767?text=Hola%2C%20vi%20su%20p%C3%A1gina%20de%20marketing%20digital%20y%20quiero%20revisar%20c%C3%B3mo%20atraer%20m%C3%A1s%20clientes."
     ],
-    "main_text_sha256": "9781d9f06af37415eadf9295233e6aff494ffc8731f38090d72dcb70301c254a"
+    "main_text_sha256": "6a25a9f4a987f93e5c7d5443c85575bfe946fbff666fbe61561365f01f524f5c"
   },
   "/automatizacion-de-procesos-empresariales/": {
-    "title": "Automatización para empresas | AI Company CO",
-    "description": "Conecta herramientas y reduce tareas manuales en inventario, pedidos, atención y cobros. Automatizaciones con alcance y controles definidos.",
-    "h1": "Lo repetitivo puede fluir mejor.",
+    "title": "Automatización de procesos empresariales | AI Company CO",
+    "description": "Automatizamos tareas repetitivas de tu empresa: reportes, avisos, registros y conexión entre herramientas, con reglas claras y revisión humana donde importa.",
+    "h1": "Automatización de procesos empresariales: menos digitar, más control",
     "canonical": "https://aicompanyco.com/automatizacion-de-procesos-empresariales/",
     "robots": "index,follow,max-image-preview:large",
     "noindex": false,
@@ -307,7 +449,7 @@
   },
   "/soluciones/": {
     "title": "Soluciones para tu operación | AI Company CO",
-    "description": "Explora sistemas por sector y automatizaciones para conectar inventario, pedidos, producción y cobros de tu empresa.",
+    "description": "Explora sistemas por sector y automatizaciones para conectar inventario, pedidos, producción y cobros de tu empresa en Colombia.",
     "h1": "Una mejor conexión entre tus procesos.",
     "canonical": "https://aicompanyco.com/soluciones/",
     "robots": "index,follow,max-image-preview:large",
@@ -583,7 +725,7 @@
       "/blog/que-es-n8n-automatizacion-colombia/",
       "/contacto/"
     ],
-    "main_text_sha256": "7961335153b19b68b7ce78376b4b9d1e64e18d7e0bb32135289d4a0c505144ca"
+    "main_text_sha256": "d6be72f208d7fa8973b619aa6cf4a375b534ce2e99d4a872d026218064717875"
   },
   "/blog/app-movil-supermercado-colombia/": {
     "title": "App para supermercado de barrio: domicilios sin perder margen",
@@ -612,7 +754,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "a55a7baf1f70ab5b0f704d61dfddab65432fa5277c56afad5f22e0ddc07a7810"
+    "main_text_sha256": "8876302e40ca02aa3bf7850a0fb64560dbc9cc2b2e9858be08949b4eca4b92ea"
   },
   "/blog/automatizacion-procesos-constructoras-colombia/": {
     "title": "Automatización para constructoras: obra, compras y cortes",
@@ -644,7 +786,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "1e2d4927b8f0f74357564b7a8c7d65f2fe5af040fe6bffa34fa2c36894d5cdf9"
+    "main_text_sha256": "49f8356d094a9f0be7566bc3adec594ccb280bc96ce9857fc2f38d10199ee049"
   },
   "/blog/automatizar-whatsapp-ferreterias-colombia/": {
     "title": "WhatsApp automático para ferreterías: cotizar sin frenar",
@@ -669,7 +811,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "6d7104dd9172e6a9ef9aae6b683a55bc577d8c92958dec1a08efd7716602e259"
+    "main_text_sha256": "d4457e60c88e7723eace79f7e31c756b555fff51871684009a314fff689c1700"
   },
   "/blog/automatizar-whatsapp-sin-api-oficial/": {
     "title": "Automatizar WhatsApp sin la API oficial: cuándo sí y riesgos",
@@ -695,7 +837,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "203d56761cba0fda2d3ec8e73dd90c6df753c6160dd88f5edff6dfb3acfd913f"
+    "main_text_sha256": "6381323f22e69f1660f68e616290a99329a40291657de79c26b135ddccb513d0"
   },
   "/blog/chatbot-ia-clinicas-colombia/": {
     "title": "Chatbot con IA para clínicas: citas, recordatorios y límites",
@@ -723,11 +865,11 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "75554c073a567a677866a7324339d9e0c6797182ca8082bf3f7aef4831f8891c"
+    "main_text_sha256": "c10253b9219498ab859921d413413719d0a5495220ec09422afa7e41a7de3d7d"
   },
   "/blog/chatbot-ia-inmobiliarias-colombia/": {
     "title": "Chatbot con IA para inmobiliarias: calificar y agendar visitas",
-    "description": "Cómo una inmobiliaria filtra los &amp;quot;¿todavía está disponible?&amp;quot;, califica al interesado y agenda visitas por WhatsApp sin perder al asesor en mensajes.",
+    "description": "Cómo una inmobiliaria filtra los «¿todavía está disponible?», califica al interesado y agenda visitas por WhatsApp sin saturar al asesor.",
     "h1": "Chatbot con IA para inmobiliarias en Colombia: calificar interesados y agendar visitas sin que el asesor conteste todo",
     "canonical": "https://aicompanyco.com/blog/chatbot-ia-inmobiliarias-colombia/",
     "robots": "index,follow,max-image-preview:large",
@@ -752,7 +894,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "cf91b91223fd2b09975a34d1849f19629ae18e5a32ae89d230d30ac558cccc4b"
+    "main_text_sha256": "58669fd716a9bb2d1a4208dd604f0611065108a45eea9f8baeb105e4ed5ee963"
   },
   "/blog/como-automatizar-whatsapp-business-colombia/": {
     "title": "Cómo automatizar WhatsApp Business en tu empresa (guía)",
@@ -781,7 +923,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "9c48229479d0b70ff4569d2287d0f18b9ab36272cf297bf35f0217cd0946338f"
+    "main_text_sha256": "3aca499a31dc5514db2542b1b7467558767c81715c95a3b2e07a388db9ffbdb4"
   },
   "/blog/cuanto-cuesta-chatbot-ia-colombia/": {
     "title": "¿Cuánto cuesta un chatbot con IA en Colombia? Guía de precio",
@@ -808,7 +950,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "d8760d2a9d164398dfc102d9980a9b73235816ae662257657cfbe9a469a27b79"
+    "main_text_sha256": "5c091e4dad12052312530fd5bfcdaeb51c1bc4f8360fa3ca24b011c5f666e07c"
   },
   "/blog/cuanto-cuesta-pagina-web-restaurante-colombia/": {
     "title": "¿Cuánto cuesta una página web para restaurante? Lo que incluye",
@@ -839,7 +981,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "875cb6b339d2b80559b0f61683f89ccff0882943ab1ed63059ed69ee9a666dc4"
+    "main_text_sha256": "c1970ce5b0c01ad1f7908e81cfd62b08057bf8190b16a0a6670a81bbc27ea96a"
   },
   "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/": {
     "title": "¿Cuánto cuesta un software a la medida en Colombia? Rangos",
@@ -872,7 +1014,7 @@
   },
   "/blog/errores-al-comprar-software-a-la-medida/": {
     "title": "Siete errores al contratar software a la medida en Colombia",
-    "description": "Pagar todo al final, no exigir el código, empezar por la pantalla, aceptar &amp;quot;usted se adapta&amp;quot;. Los errores que más cuestan y la pregunta que evita cada uno.",
+    "description": "Pagar todo al final, no exigir el código, empezar por la pantalla, aceptar «usted se adapta». Los errores que más cuestan y cómo evitar cada uno.",
     "h1": "Siete errores al contratar software a la medida en Colombia, y cómo evitarlos antes de firmar",
     "canonical": "https://aicompanyco.com/blog/errores-al-comprar-software-a-la-medida/",
     "robots": "index,follow,max-image-preview:large",
@@ -898,7 +1040,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "87b82f4bf6b28f4a7b7e7663ba938772ec67d227d90c49755527e679ef129d60"
+    "main_text_sha256": "6dfbcb4355125b5ecfd28d094e4454b68cad249fc73bbebeab9506439efbe107"
   },
   "/blog/facturacion-electronica-automatica-colombia/": {
     "title": "Facturación electrónica automática: integrarla al sistema",
@@ -925,7 +1067,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "0addefe2bfe442cf6b4323998727c65fc6eb24ee32776c818111f08da1e8630c"
+    "main_text_sha256": "8a218eccd5a4855d6cdf430b377f81ebaf27dc70b438410dfb38a534ce0e7251"
   },
   "/blog/google-ads-colombia-guia-pymes/": {
     "title": "Google Ads para pymes: cuándo sí y cuándo es botar plata",
@@ -955,7 +1097,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "e505342275cdfc001113768ec893513766a0cc524e23b9fabbb4673d14d91929"
+    "main_text_sha256": "667000289deffef1e294164494e3f32c12be8221f5ad4597bd40c2d56054a612"
   },
   "/blog/inteligencia-artificial-negocios-colombia/": {
     "title": "Inteligencia artificial para negocios en Colombia: usos reales",
@@ -981,7 +1123,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "be6d35dd9b4f89a8ce20bbf8e5f15002aeee49d1ab8d87d6f35ad7aa8a69747c"
+    "main_text_sha256": "ed7b0e004a1e74ef47eaf3f7fee0c4c471b998240d4d21e2275a2873cc7a3e94"
   },
   "/blog/marketing-digital-colegios-colombia/": {
     "title": "Marketing digital para colegios: matrículas y comunicación",
@@ -1010,7 +1152,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "9c3d208ca6612d2581a6f5d2bc6b8eade7533c8c22c55b26d3d5f268073c59b1"
+    "main_text_sha256": "9c0c1c2415764fb136e5b06cb13522e6460ef51dbfd894db3630c232a03e69c6"
   },
   "/blog/marketing-digital-gimnasios-colombia/": {
     "title": "Marketing digital para gimnasios: retener antes que captar",
@@ -1039,7 +1181,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "06d7a6ee8ef4392df64b432c737d4de8c5189aac8497ff9db7a80d1b6dd41bcd"
+    "main_text_sha256": "016c06305a49bdc960e58dc58638f1b3aba8482682571991ccee467670863c2b"
   },
   "/blog/marketing-digital-restaurantes-colombia/": {
     "title": "Marketing digital para restaurantes: lo que sirve sin agencia",
@@ -1069,7 +1211,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "78d14ddd8f5927a7d18482735f14c4fe7f8686b8f6efa8d70c79e13ee28dc5d5"
+    "main_text_sha256": "81204d0feb689a4238e5835ebb95ab4b80832579d18002dc8b48517830dc2e7b"
   },
   "/blog/pagina-web-clinica-colombia/": {
     "title": "Página web para clínicas: qué debe tener para traer pacientes",
@@ -1099,7 +1241,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "6d338f2b5bf4ef6251b98f57f42f987edb2711d187c0d4165b11c65c4b971dc4"
+    "main_text_sha256": "a980d09f917a9145ddada1b624a51a3e89c5dff44c10f2fa0f6adc319a3a21fc"
   },
   "/blog/pagina-web-peluqueria-colombia/": {
     "title": "Página web para peluquería: citas por WhatsApp sin perderlas",
@@ -1129,7 +1271,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "86f629f20fc10bc32a08848621c8b3eb62089ea4c30210dbebf7c7c4fc1ce334"
+    "main_text_sha256": "e3de201f645656e969d5dfb8533b9939c40db7c6da67d8c26f75c253616ae5fb"
   },
   "/blog/que-es-n8n-automatizacion-colombia/": {
     "title": "Qué es n8n y cuándo usarlo para automatizar una empresa",
@@ -1158,7 +1300,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "0cd36f06e219bbc4760a907885c459acbbc78724beee1351e59cc50d6c3bdee5"
+    "main_text_sha256": "71e4bf01e08bde0a1c4df4a797c0430c51c23f5a3f071085e7e2019f42d19591"
   },
   "/blog/que-es-un-erp-para-pymes/": {
     "title": "Qué es un ERP para pymes y cuándo tu empresa lo necesita",
@@ -1187,7 +1329,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "97b0d581f2274e820de5937e34f01f810922590bc7a875e2d5a245681e7d1cee"
+    "main_text_sha256": "24d8421883d64da0059c70fc7c48c2c5dd67fc1ca8d6752a37a3615305bea95c"
   },
   "/blog/reporte-de-produccion-por-telegram/": {
     "title": "Reportar producción desde el celular con un bot de Telegram",
@@ -1214,7 +1356,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "8cf1b22b506ab86ea7eff8554421a676272f0f301116903f6f8fb801912fa856"
+    "main_text_sha256": "0d1c757890c48aa671342ebfc5999fb7ccfa678c800a9d9ef06ee9a85db8e34b"
   },
   "/blog/seo-local-colombia-guia/": {
     "title": "SEO local en Colombia: aparecer en Google Maps y en tu ciudad",
@@ -1242,7 +1384,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "cead6b3347a9b66febfc0b8bcd29254255731da8c70ce445d20319a17fc72f74"
+    "main_text_sha256": "4e1b0eb2cbdcb27666eaff44fa83fe74f97f209c1ad6e803040e9dd2945b7bce"
   },
   "/blog/sistema-gestion-droguerias-colombia/": {
     "title": "Software para droguerías: inventario, vencimientos y fiado",
@@ -1272,7 +1414,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "29bee66d88788db56d1c22dc45ce090768d707ecd22f4a91c4a25047dc51a517"
+    "main_text_sha256": "2832c837ab2f4df9d1b3e38f80e5721ad241ff690dad0b865183c4b274bdf0f3"
   },
   "/blog/sistema-gestion-talleres-mecanicos-colombia/": {
     "title": "Software para talleres mecánicos: órdenes, repuestos y cobro",
@@ -1301,7 +1443,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "2d8518b0b5c76ac85120ce35446e72403db7d574e52b48a7f60c90f319507884"
+    "main_text_sha256": "bb91f264bf4b3a51c2c7043a9d0045f992e0c8d7ab76a3d40cfed0a3feac70f1"
   },
   "/blog/software-a-la-medida-vs-software-generico/": {
     "title": "Software a la medida o genérico: cómo decidir sin equivocarse",
@@ -1330,7 +1472,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "5e4dbd6db27b6b824a91efb09c3918f5b3e6069f9fda72495744ebdcdaadb463"
+    "main_text_sha256": "ce218debc7e3b9354122b1d67e1ae9a1d1cddcad76852d533eaae6c23c64302a"
   },
   "/blog/software-para-canchas-sinteticas-como-elegir/": {
     "title": "Software para canchas sintéticas: qué debe tener y cómo elegir",
@@ -1358,7 +1500,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "9e51dd293d43352de7a26b0d185c2766b696ae0af4acc7b2d40cfd30dbffbed0"
+    "main_text_sha256": "267aac9687c4dc3c6d9d1aa83643855bb251f49b45b8385f1d441d7df2b2e520"
   },
   "/blog/software-para-clubes-de-poker-torneos/": {
     "title": "Software para torneos de póker: reloj, mesas y liga sin Excel",
@@ -1387,7 +1529,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "21d443e1c5d8364409e921a8d9f613e4967902db43dca7a28e2d7b69a8587537"
+    "main_text_sha256": "9ac3c702a91b3934cd02c85b0489c1140b967e69d0e4cbe523d04b6b124ecf38"
   },
   "/blog/software-para-deposito-de-madera-inventario/": {
     "title": "Software para depósitos de madera: inventario con conversión",
@@ -1415,7 +1557,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "9a33a0de9a022b13650ca1d90c92edc717ebf6f186399a87743fa9777689011c"
+    "main_text_sha256": "81a9e93b3341902c74421077dc992e8b2705250af3479122482a755653c375cb"
   },
   "/blog/software-para-recicladoras-pesaje-y-liquidacion/": {
     "title": "Software para recicladoras: pesaje, precios y liquidación",
@@ -1444,7 +1586,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "94f8ba131073ff4aeb9b93503d78554813cc92a999338371656639256fd6ce8d"
+    "main_text_sha256": "5cb3a07e09ed86a0ee68c500ed35d4ffcf19edc57902af33804b19dd4d1092bf"
   },
   "/blog/whatsapp-automatico-juridicos-colombia/": {
     "title": "WhatsApp automático para abogados: citas y seguimiento",
@@ -1471,7 +1613,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "c1d18dad6763dcdacb20f781ffca808fe6ca479c0de6477c56c4a3a63ec61e64"
+    "main_text_sha256": "d39c4db14302ff41028c9f5f111ac2583462c22c736547da3817051ab16f0b46"
   },
   "/blog/whatsapp-business-hoteles-colombia/": {
     "title": "WhatsApp automático para hoteles: reservas y anticipos",
@@ -1499,7 +1641,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "7f5991b19195bd9133a28b91fdca6907953681f6c7a80ae39e7e3359b9dcc38d"
+    "main_text_sha256": "dbe17fafff42282dfc8ebe7c7c92c198f001ee44f4fbe551ea65fd8ce8fc5140"
   },
   "/404.html": {
     "title": "Página no encontrada | AI Company CO",
@@ -3781,5 +3923,54 @@
       "/contacto/"
     ],
     "main_text_sha256": "f0b7c2ba693736646aba1a89368c03f42178ba62c0c572674a63fde5ce694da5"
+  },
+  "/servicios/": {
+    "title": "Servicios de software e IA para empresas | AI Company CO",
+    "description": "Software a la medida, automatización, WhatsApp, chatbots e IA, páginas web y marketing digital para empresas en Colombia. Elige un servicio y mira casos.",
+    "h1": "Servicios de software, automatización e IA para empresas en Colombia",
+    "canonical": "https://aicompanyco.com/servicios/",
+    "robots": "index,follow,max-image-preview:large",
+    "noindex": false,
+    "main_links": [
+      "/servicios/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/soluciones/#integraciones",
+      "/",
+      "/contacto/",
+      "#como-elegir",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/servicios/apps-empresariales/",
+      "/automatizacion-de-procesos-empresariales/",
+      "/servicios/whatsapp-automatico/",
+      "/servicios/chatbot-ia/",
+      "/servicios/asistente-ia/",
+      "/servicios/paginas-web/",
+      "/servicios/marketing-digital/",
+      "/casos/#sistemas-a-medida",
+      "/casos/#automatizacion",
+      "/casos/#paginas-web",
+      "/casos/#productos-propios",
+      "/sistemas/para-depositos-de-madera/",
+      "/sistemas/para-corte-laser/",
+      "/sistemas/para-ferreterias/",
+      "/sistemas/para-reciclaje/",
+      "/sistemas/para-canchas-sinteticas/",
+      "/sistemas/para-clubes-de-poker/",
+      "/contacto/",
+      "https://wa.me/573224807767?text=Hola%2C%20vi%20sus%20servicios%20en%20aicompanyco.com%20y%20quiero%20saber%20cu%C3%A1l%20me%20conviene."
+    ],
+    "main_text_sha256": "41700b01285c2606d0f34d2d105505f5c29d98e5c2226ef7f20502cb9bd7edd2"
   }
 }

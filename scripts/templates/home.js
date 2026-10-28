@@ -11,7 +11,7 @@ const questions=[
  ['¿Cómo solicitamos un diagnóstico?','Cuéntanos qué proceso quieres mejorar y qué herramientas utilizas hoy. Coordinamos el siguiente paso y definimos el alcance de la conversación contigo.']
 ];
 const title='Software a medida para empresas en Colombia | AI Company';
-const description='Desarrollamos software a medida para empresas en Colombia. Conecta inventarios, producción, pedidos e información empresarial con sistemas adaptados a tus procesos.';
+const description='Desarrollamos software a medida para empresas en Colombia. Conecta inventarios, producción, pedidos e información con sistemas adaptados a tus procesos.';
 function home({articles}){
  return `<div class="home-v3">${homeTop()}${corporateHome({articles,questions})}</div>`.replace(/AI Company CO/g,'AI Company');
 }
