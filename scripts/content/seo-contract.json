@@ -108,10 +108,10 @@
     "main_links": [
       "/",
       "/contacto/",
-      "/assets/work/asoerc-materiales.jpg",
+      "/assets/work/chatarreria-bascula.jpg",
       "/contacto/"
     ],
-    "main_text_sha256": "6a75ed1cfd0e98b5fb2befc127e4fc4bb195f7e5c16fc19c1e6612ed81bfa5fc"
+    "main_text_sha256": "7b87a873c0d94b8a456ba85c2d527cca7f46d39a1caf9bce525268af58553884"
   },
   "/sistemas/para-canchas-sinteticas/": {
     "title": "Software para canchas sintéticas | CanchaLibre",
@@ -726,7 +726,7 @@
       "/blog/que-es-n8n-automatizacion-colombia/",
       "/contacto/"
     ],
-    "main_text_sha256": "572ccd32e2cb1f6849288a896b618c290a595ba22ea2d0d8e3575e26da60cd0c"
+    "main_text_sha256": "cafa20369d104d13f1ff478ee0977440e90f4b9473f7430e5621eba61c908b7f"
   },
   "/blog/app-movil-supermercado-colombia/": {
     "title": "App para supermercado de barrio: domicilios sin perder margen",
@@ -1587,7 +1587,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "7491b1a05f1544fba4698fbc26c3fc2e6f72718b67ec4444343c1dc8674d05e0"
+    "main_text_sha256": "3c04a9223efeb87ef1b3430d854536da6ecd9fac0c087ea34d405e900f8248b0"
   },
   "/blog/whatsapp-automatico-juridicos-colombia/": {
     "title": "WhatsApp automático para abogados: citas y seguimiento",

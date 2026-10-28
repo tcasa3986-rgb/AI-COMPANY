@@ -5,7 +5,7 @@
     "description": "Desarrollamos software a medida para empresas en Colombia. Conecta inventarios, producción, pedidos e información con sistemas adaptados a tus procesos.",
     "noindex": false,
     "file": "index.html",
-    "hash": "2d7d81b4f4704e53f44270f9ec60492ccb07de4ea507ee3f43e40bf9c7bce94a",
+    "hash": "634af6a3180b2767109f58a8834d81ccc2fc3d55190b882b1324dd394d8cefee",
     "contentHash": "b1282567994983a3003e9a5f0ad9f05fe43ff185ae2926bb91f344c78dacf8f7",
     "lastmod": "2026-10-28"
   },
@@ -55,9 +55,9 @@
     "description": "Sistema para recicladoras: compras por material, pesaje, liquidación, bodegas, ventas y caja con una operación organizada.",
     "noindex": false,
     "file": "sistemas/para-reciclaje/index.html",
-    "hash": "7c6e7eb4ca387b22aeb8449031465e39d568cb095acfb84c77528c01f777c2c7",
-    "contentHash": "0da70888984a0c1f922b2bc3ed5abc4dded5db376d16abd30fbb4d68b1ac0a9f",
-    "lastmod": "2026-10-13"
+    "hash": "025c1645a0a075c8226576e351bccaa83703c48c8c65f16f3d62ff06021307e9",
+    "contentHash": "ab25d0764e45818d49d54bfb56369d159f8cf57fa045ce371bed97851ae1586b",
+    "lastmod": "2026-10-28"
   },
   {
     "route": "/sistemas/para-canchas-sinteticas/",
@@ -95,7 +95,7 @@
     "description": "Aplicaciones web a la medida para controlar inventario, pedidos, cartera y producción, con accesos por rol y uso desde el celular. Con casos reales.",
     "noindex": false,
     "file": "servicios/apps-empresariales/index.html",
-    "hash": "2726f79f7336240610689cc347dae3bf693c23e208d7a54ceea33b2f088fc4ba",
+    "hash": "66a4ed1464920a2680fc30df6e678be2bf69f1315cb2367413b142abf5d19422",
     "contentHash": "30a03c3353d3350f86918be915a234b82e8bc002e29a653ab875a9bce365b7ed",
     "lastmod": "2026-10-28"
   },
@@ -175,8 +175,8 @@
     "description": "Conoce el trabajo de AI Company CO con Maderas Montoya, Ferre Láser, Láser Ejecutivo y ASOERC: software adaptado a procesos reales.",
     "noindex": false,
     "file": "casos/index.html",
-    "hash": "af39a828eb5e7a5036ad513a0765e2169efbcf1cb5017f99c7938ac6f8124a68",
-    "contentHash": "44f9307dd148ca68158c2dfc90535532c3da31493fc6cd3ac6d9ccd934cacc77",
+    "hash": "d26b9c0286b11910167dcb85d1e3ce336212a0579ce3e152508ae6c76976fa0a",
+    "contentHash": "75f24648600414ad53a39245275e5da505696451d2684d5c68914160ffa8eb49",
     "lastmod": "2026-10-28"
   },
   {
@@ -305,8 +305,8 @@
     "description": "Guías para decidir sobre software, inventario, producción, atención y automatización. Contenido de AI Company CO para negocios colombianos.",
     "noindex": false,
     "file": "blog/index.html",
-    "hash": "c6d04dff1279609d50a158116587c051f967b455a805873da0221f60f0a6a2e4",
-    "contentHash": "a4fd919175f98d4bc9687d041a2d38ec947a7b62f338ce1de3d0e70806297a4e",
+    "hash": "c5392b671f60e5b9783aa8cb05aae06cbff5f206653a04805a576eb413475972",
+    "contentHash": "0eae2bf623ea755a39aec41ab280ab3206825c86d56676996828ece8e3973d9a",
     "lastmod": "2026-10-28"
   },
   {
@@ -605,8 +605,8 @@
     "description": "Qué necesita una recicladora o asociación: pesaje por material y asociado, precios que cambian, liquidación transparente, flota y control administrativo.",
     "noindex": false,
     "file": "blog/software-para-recicladoras-pesaje-y-liquidacion/index.html",
-    "hash": "20fa54ef3efdd08167893ae86f966b773af28068f8195c86c9e1968879ef5807",
-    "contentHash": "6df396b8d0fac6ffa91660d7001f4d33c355bb8b19319eb59051b6ad66b3d663",
+    "hash": "4dcc1ac9661b6d64980a582305514e5c7f886bf8f0687dbfcaaa0db310d96392",
+    "contentHash": "e6beeff1d1d9adef9925aa605dc4f8e6d78337fcb28efa0893d5a73909751955",
     "lastmod": "2026-10-28"
   },
   {

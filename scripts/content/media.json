@@ -28,13 +28,14 @@
       "height": 795
     },
     "ASOERC": {
-      "src": "/assets/work/asoerc-materiales.jpg",
-      "alt": "Sistema real de ASOERC con materiales y precios de compra de demostración",
+      "src": "/assets/work/chatarreria-bascula.jpg",
+      "alt": "Diseño de la pantalla de compra en báscula para una chatarrería: material, grado, peso neto con castigo, precio por kilo y forma de pago. Propuesta de interfaz con datos de demostración.",
       "problem": "Aplicar el precio correcto al material pesado y relacionar compra, bodega y pago.",
       "solution": "Catálogo de materiales, compras por pesaje, recicladores, ventas y caja por bodega.",
       "use": "Consultar precios por material y organizar el registro de compras y movimientos de la operación.",
       "width": 1280,
-      "height": 800
+      "height": 708,
+      "caption": "Diseño de la pantalla de compra en báscula, propuesta de interfaz con datos de demostración."
     }
   },
   "articles": [
