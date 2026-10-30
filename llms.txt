@@ -32,6 +32,7 @@ La implementación se cotiza por alcance. La operación y el soporte se cotizan 
   - Qué es n8n y cuándo usarlo para automatizar una empresa: https://aicompanyco.com/blog/que-es-n8n-automatizacion-colombia/
   - Automatización para constructoras: obra, compras y cortes: https://aicompanyco.com/blog/automatizacion-procesos-constructoras-colombia/
   - Facturación electrónica automática: integrarla al sistema: https://aicompanyco.com/blog/facturacion-electronica-automatica-colombia/
+  - Cómo elegir software contable con facturación electrónica: https://aicompanyco.com/blog/como-elegir-software-contable-con-facturacion-electronica-colombia/
 - WhatsApp automático: https://aicompanyco.com/servicios/whatsapp-automatico/
   - Cómo automatizar WhatsApp Business en tu empresa (guía): https://aicompanyco.com/blog/como-automatizar-whatsapp-business-colombia/
   - Automatizar WhatsApp sin la API oficial: cuándo sí y riesgos: https://aicompanyco.com/blog/automatizar-whatsapp-sin-api-oficial/
@@ -43,10 +44,13 @@ La implementación se cotiza por alcance. La operación y el soporte se cotizan 
   - Chatbot con IA para clínicas: citas, recordatorios y límites: https://aicompanyco.com/blog/chatbot-ia-clinicas-colombia/
   - Chatbot con IA para inmobiliarias: calificar y agendar visitas: https://aicompanyco.com/blog/chatbot-ia-inmobiliarias-colombia/
   - Inteligencia artificial para negocios en Colombia: usos reales: https://aicompanyco.com/blog/inteligencia-artificial-negocios-colombia/
+  - Cómo calcular el retorno de inversión de la IA en tu empresa: https://aicompanyco.com/blog/como-calcular-el-retorno-de-inversion-de-la-ia-en-tu-empresa/
 - Agentes y asistentes de IA: https://aicompanyco.com/servicios/asistente-ia/
   - Inteligencia artificial para negocios en Colombia: usos reales: https://aicompanyco.com/blog/inteligencia-artificial-negocios-colombia/
   - Reportar producción desde el celular con un bot de Telegram: https://aicompanyco.com/blog/reporte-de-produccion-por-telegram/
   - ¿Cuánto cuesta un chatbot con IA en Colombia? Guía de precio: https://aicompanyco.com/blog/cuanto-cuesta-chatbot-ia-colombia/
+  - Cómo calcular el retorno de inversión de la IA en tu empresa: https://aicompanyco.com/blog/como-calcular-el-retorno-de-inversion-de-la-ia-en-tu-empresa/
+  - IA para análisis de datos predictivo en pymes: https://aicompanyco.com/blog/ia-para-analisis-de-datos-predictivo-en-pymes/
 - Páginas web: https://aicompanyco.com/servicios/paginas-web/
   - Página web para clínicas: qué debe tener para traer pacientes: https://aicompanyco.com/blog/pagina-web-clinica-colombia/
   - Página web para peluquería: citas por WhatsApp sin perderlas: https://aicompanyco.com/blog/pagina-web-peluqueria-colombia/

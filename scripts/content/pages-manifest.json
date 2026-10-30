@@ -95,9 +95,9 @@
     "description": "Aplicaciones web a la medida para controlar inventario, pedidos, cartera y producción, con accesos por rol y uso desde el celular. Con casos reales.",
     "noindex": false,
     "file": "servicios/apps-empresariales/index.html",
-    "hash": "b7070b39af5dc6ff58bc239e55765b285172e836d2aebd5720d979a81b1ad650",
-    "contentHash": "30a03c3353d3350f86918be915a234b82e8bc002e29a653ab875a9bce365b7ed",
-    "lastmod": "2026-10-28"
+    "hash": "4e9e5b800e4ff63ad6835abf25ec50b7d2377e9a2b4c0177707b62e6914cce40",
+    "contentHash": "b2e5216ba5359483412bc16bca044e5b71ece2723503c8bcae2a3b9ca02a1cec",
+    "lastmod": "2026-10-29"
   },
   {
     "route": "/automatizacion-de-procesos-empresariales/",
@@ -105,9 +105,9 @@
     "description": "Automatizamos tareas repetitivas de tu empresa: reportes, avisos, registros y conexión entre herramientas, con reglas claras y revisión humana donde importa.",
     "noindex": false,
     "file": "automatizacion-de-procesos-empresariales/index.html",
-    "hash": "aa39f512e4b542ab08c46badb94a4a025d3295bc7781ca174956e520a48be139",
-    "contentHash": "e94e60f6e45e272cb9c128533248f26e90b4a35eadbfe233420abdda0d37ae75",
-    "lastmod": "2026-10-28"
+    "hash": "60565eb9a5142913a077335033371560385939786bcffc0d65abec185cd5bc16",
+    "contentHash": "94b8e535c397e869dd1b57e33f23cb21a21833f22440a40e4ceef1c666004244",
+    "lastmod": "2026-10-29"
   },
   {
     "route": "/servicios/whatsapp-automatico/",
@@ -115,9 +115,9 @@
     "description": "WhatsApp automático para atender consultas, tomar pedidos o reservas y enviar recordatorios, con la información de tu negocio y paso a una persona.",
     "noindex": false,
     "file": "servicios/whatsapp-automatico/index.html",
-    "hash": "2acae8561976c4f5ce7e7305928cdd5a947693db80e4124b9d34702274a1b3f3",
-    "contentHash": "7146557704ace10983d4e4ce8075ae4170e7baf0fa6a0b9fa70dc103fe8010e5",
-    "lastmod": "2026-10-28"
+    "hash": "c594e87f88d6016dea3b40898db273ee8f0c46841e038c2d6a7979c8cd9c2c69",
+    "contentHash": "8e841b8f7c453d5183b06eb6bb6986d2fa6b694e78ab5f16fd57e6bb8be55394",
+    "lastmod": "2026-10-29"
   },
   {
     "route": "/servicios/chatbot-ia/",
@@ -125,9 +125,9 @@
     "description": "Chatbot con inteligencia artificial para responder consultas de clientes con la información de tu negocio, con límites definidos y paso a una persona.",
     "noindex": false,
     "file": "servicios/chatbot-ia/index.html",
-    "hash": "160aca10948093f7013e8880d6209c4d56efe8688cade723e561f658ab16763f",
-    "contentHash": "208cc3a1e0f062406b272e7cee8b07ec43e750b1b76bc5133bfdbcae0f687ed0",
-    "lastmod": "2026-10-28"
+    "hash": "079e21c85d881e368c700f6675ecf78e8f2c579a6f5f53a460dbe5d82c3665fd",
+    "contentHash": "47f91e2d50cf8d3fddfc1d7473f039632fb5e4105db3611c2a7014c3a5d6d8fa",
+    "lastmod": "2026-10-29"
   },
   {
     "route": "/servicios/asistente-ia/",
@@ -135,9 +135,9 @@
     "description": "Agentes y asistentes de IA para empresas en Colombia: consultan tu inventario, preparan información y ejecutan tareas con permisos y aprobación humana.",
     "noindex": false,
     "file": "servicios/asistente-ia/index.html",
-    "hash": "d2ae8555b9ac078c2109866b472a8b99421772929d57210f601d7d65d957ad60",
-    "contentHash": "d7be61081da378aea1d1958104299c0914528579836e9a72eeb6515a763d6883",
-    "lastmod": "2026-10-28"
+    "hash": "daa0b7006d2966be605cc7fb7d8dd810b8c52e3744c51d74adfa81d9fb035681",
+    "contentHash": "b724fc3c9e2d5456e6d9fcbfb6e674cd745256bb526a300c246b5a9750294267",
+    "lastmod": "2026-10-29"
   },
   {
     "route": "/servicios/paginas-web/",
@@ -305,9 +305,9 @@
     "description": "Guías para decidir sobre software, inventario, producción, atención y automatización. Contenido de AI Company CO para negocios colombianos.",
     "noindex": false,
     "file": "blog/index.html",
-    "hash": "e47126fe1348c18014f49e5c716646fa1c6cbfe14e07c5d31691995115edb737",
-    "contentHash": "0eae2bf623ea755a39aec41ab280ab3206825c86d56676996828ece8e3973d9a",
-    "lastmod": "2026-10-28"
+    "hash": "5a53f6b9ccacc13d1b43031fd7169782db8aa6ce89fe1da792cb23b4aa97f761",
+    "contentHash": "ccebb3cd1d89cf5f919e94d62462647ac1283804577d6b9a56b31882b9847875",
+    "lastmod": "2026-10-29"
   },
   {
     "route": "/blog/app-movil-supermercado-colombia/",
@@ -628,6 +628,156 @@
     "hash": "501cfe461c06f67afeae8b12176d28b1dbad724b2b84f4c8213ba18fda04e70c",
     "contentHash": "5dfa62d4c2e0eeab30efeab52e4c31ffb7ca06d3161ca818c54dcd9ba1562744",
     "lastmod": "2026-10-28"
+  },
+  {
+    "route": "/blog/donde-contratar-software-a-la-medida-en-colombia/",
+    "title": "Dónde contratar software a la medida en Colombia",
+    "description": "Dónde contratar software a la medida en Colombia: tipos de proveedor, cómo compararlos y qué debe tener una cotización. No hay una única «mejor empresa».",
+    "noindex": false,
+    "file": "blog/donde-contratar-software-a-la-medida-en-colombia/index.html",
+    "hash": "df46c0013b46a2b8d5b6311a6bef08e16c7d4eca05bb6d56e5887cbf848440e1",
+    "contentHash": "359ef9efc55c6784d7a852551d4f0f71b7544bcc3c9f665fc7463d6e2b9f9732",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/como-se-desarrolla-una-aplicacion-a-la-medida-paso-a-paso/",
+    "title": "Cómo se desarrolla una aplicación a la medida, paso a paso",
+    "description": "Las seis etapas para desarrollar una aplicación personalizada para tu empresa y cuándo basta una web instalable (PWA) en lugar de una app de tienda.",
+    "noindex": false,
+    "file": "blog/como-se-desarrolla-una-aplicacion-a-la-medida-paso-a-paso/index.html",
+    "hash": "62066521a04014e7cc811cd8c704bf83f0f5d1cada4aaa1ffaed2edcee4d2298",
+    "contentHash": "da9fc27a998d717a79cf6b2e811b3a4e020eb7563245db9f18e62972a4cd8827",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/sistemas-de-gestion-para-pymes-en-colombia-cual-elegir/",
+    "title": "Sistemas de gestión para pymes en Colombia: cuál elegir",
+    "description": "No hay un único mejor sistema de gestión para pymes en Colombia. Guía por necesidad: contabilidad, ERP, CRM, proyectos o software a la medida, con ejemplos.",
+    "noindex": false,
+    "file": "blog/sistemas-de-gestion-para-pymes-en-colombia-cual-elegir/index.html",
+    "hash": "65b462a64600500db943d01bfad1757ed6137ae1f75515be2583b843a53b1f97",
+    "contentHash": "da382e4654781d240d90a9d06332112c5d8d4294616aaea129aec64a1ee1be0c",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/requisitos-para-implementar-un-erp-en-una-empresa-mediana/",
+    "title": "Requisitos para implementar un ERP en una empresa mediana",
+    "description": "Qué necesita una empresa mediana antes de implementar un ERP: procesos claros, datos limpios, un responsable, presupuesto completo y un plan por fases.",
+    "noindex": false,
+    "file": "blog/requisitos-para-implementar-un-erp-en-una-empresa-mediana/index.html",
+    "hash": "172266bd9470b73032d9cb0ae7bd0626d48c8c349392ba386a57d6f2a109a6a3",
+    "contentHash": "b571e94b12afa8aadc7dc2bf4e740897907957838975f168c26ba0b4137c3903",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/erp-para-manufactura-como-comparar-opciones/",
+    "title": "ERP para manufactura: cómo comparar las opciones",
+    "description": "Cómo comparar ERP para manufactura: criterios para tu producción, descripción de Odoo, Siesa, SAP Business One y Dynamics, y cuándo conviene algo a la medida.",
+    "noindex": false,
+    "file": "blog/erp-para-manufactura-como-comparar-opciones/index.html",
+    "hash": "d1c554143b1900648a26a3f093edc08a2af25a9542c410b449ce0e2a8912acfe",
+    "contentHash": "deee56fdc0bf297d7191b098ccac4e3537f4be1bd4749d4c64518baee0c929b8",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/software-de-control-de-inventarios-opciones-y-ventajas/",
+    "title": "Software de control de inventarios: opciones y ventajas",
+    "description": "Opciones de software de control de inventarios, ventajas de automatizarlo, dónde conseguirlo sin copias piratas y cuándo conviene uno a la medida.",
+    "noindex": false,
+    "file": "blog/software-de-control-de-inventarios-opciones-y-ventajas/index.html",
+    "hash": "3168eaf33b4df3ab4b18c4e4f61a04bed1123a55e0d481461bd29c1455e97f1a",
+    "contentHash": "5151b81451197f3532ea78ce27917dd0f47e44d09dfe7a148ec5e7919715f463",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/como-elegir-software-contable-con-facturacion-electronica-colombia/",
+    "title": "Cómo elegir software contable con facturación electrónica",
+    "description": "Cómo elegir software contable con facturación electrónica en Colombia: criterios, opciones conocidas, la alternativa gratuita de la DIAN y cómo integrarlo.",
+    "noindex": false,
+    "file": "blog/como-elegir-software-contable-con-facturacion-electronica-colombia/index.html",
+    "hash": "cfc08f64244df1e090afff7df1f9b58b789a67a5e3415437f86369a87a230dba",
+    "contentHash": "2c5b906c020984a957a11b348fadd92bd62f1fd02dd3b8fcc95aa673e19bdee5",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/crm-para-pymes-colombianas-opciones-gratis-y-de-bajo-costo/",
+    "title": "CRM para pymes en Colombia: opciones gratis y de bajo costo",
+    "description": "Cómo elegir un CRM en la nube para una pyme o startup colombiana: opciones con plan gratuito, qué comparar y cómo conectarlo con WhatsApp.",
+    "noindex": false,
+    "file": "blog/crm-para-pymes-colombianas-opciones-gratis-y-de-bajo-costo/index.html",
+    "hash": "fe6d580fb1f3d54ea7a19d1f49d2cd30defd50aa5361478e7dafbf8002fff319",
+    "contentHash": "9fbf2e742c683b8aa3cf2ca996658eebf90faf22089635b4119128694b3c9334",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/como-automatizar-el-proceso-de-ventas-en-colombia/",
+    "title": "Cómo automatizar el proceso de ventas de tu empresa",
+    "description": "Cómo automatizar el proceso de ventas en una empresa colombiana, del primer mensaje a la factura: qué automatizar, con qué herramientas y qué no.",
+    "noindex": false,
+    "file": "blog/como-automatizar-el-proceso-de-ventas-en-colombia/index.html",
+    "hash": "0e820828c9089c369df30be3618186e581fea94157fcd2cf493e607b1f0d22bb",
+    "contentHash": "26e5f81661720a51d77d3b61abe0113b5d49d48a9fef35775dec8a1b5fd9a703",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/como-calcular-el-retorno-de-inversion-de-la-ia-en-tu-empresa/",
+    "title": "Cómo calcular el retorno de inversión de la IA en tu empresa",
+    "description": "Cómo medir el retorno de la IA en tu empresa: qué costos contar, qué beneficios medir, una fórmula simple y un ejemplo con cifras ficticias para practicar.",
+    "noindex": false,
+    "file": "blog/como-calcular-el-retorno-de-inversion-de-la-ia-en-tu-empresa/index.html",
+    "hash": "645b382f54fbf38d97dcb55902da42647400a02d9588aa2ce61260eefbe0506a",
+    "contentHash": "4a28c6c5c46d090a345dc54c9361af213c2d30fe6c7aefa8a64ac3ec7ce822bc",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/ia-para-analisis-de-datos-predictivo-en-pymes/",
+    "title": "IA para análisis de datos predictivo en pymes",
+    "description": "Qué es el análisis predictivo con IA, qué casos sirven a una pyme, qué datos necesita y cuándo conviene empezar con reportes más simples.",
+    "noindex": false,
+    "file": "blog/ia-para-analisis-de-datos-predictivo-en-pymes/index.html",
+    "hash": "8c723f439328b365d9883dad5376ca3704b3deeda6db9adc0ecc8b7fe9db8b53",
+    "contentHash": "3f3686e2abd23cc967a51a3d23837b31c08ea95ee79874aac76d69c2b8b44704",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/plataformas-de-ia-para-automatizar-procesos-empresariales/",
+    "title": "Plataformas de IA para automatizar procesos empresariales",
+    "description": "Tipos de plataformas de IA para optimizar procesos: asistentes generales, automatización de flujos, modelos por API y soluciones a la medida. Cómo elegir.",
+    "noindex": false,
+    "file": "blog/plataformas-de-ia-para-automatizar-procesos-empresariales/index.html",
+    "hash": "9d9d9ececcfba86cf63ea1a5c0bce5ec690bc6dfe3baaec946f1daa70d1dfbb0",
+    "contentHash": "6f15f9679688c763cbc6ccc7eaf49a585c6472c3b1e0c1524804db968a6a3e83",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/consultoria-en-ia-para-empresas-en-colombia-como-elegir-proveedor/",
+    "title": "Consultoría en IA para empresas en Colombia: cómo elegir",
+    "description": "Qué ofrece una consultoría en IA, qué tipos de proveedor hay en Colombia, qué preguntar antes de contratar y qué señales deberían alertarte.",
+    "noindex": false,
+    "file": "blog/consultoria-en-ia-para-empresas-en-colombia-como-elegir-proveedor/index.html",
+    "hash": "c8b8d5cc340c152535bea97ec49dd1ee7b7f7c2c58c48dff01137a940cef59e1",
+    "contentHash": "afc5d130e7de6e081b71e6602ba79df0898eb959b0a4bba9620c51b5d6f1bbad",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/como-implementar-inteligencia-artificial-en-una-pyme-paso-a-paso/",
+    "title": "Cómo implementar inteligencia artificial en una pyme",
+    "description": "Pasos para integrar inteligencia artificial en una pyme: elegir un proceso, ordenar los datos, probar un piloto, medir y ampliar con control.",
+    "noindex": false,
+    "file": "blog/como-implementar-inteligencia-artificial-en-una-pyme-paso-a-paso/index.html",
+    "hash": "2d5a4305b721a3e8495b971e5ce85d43bb973e03f80d5e1c9a234ecf1310bad4",
+    "contentHash": "5db90a3d684af3eb4963c750d3043d9037ff3bf010a4135556c097c33ea034e9",
+    "lastmod": "2026-10-29"
+  },
+  {
+    "route": "/blog/agentes-de-ia-para-empresas-que-son-y-como-automatizan-procesos/",
+    "title": "Agentes de IA para empresas: qué son y qué pueden automatizar",
+    "description": "Qué es un agente de IA, en qué se diferencia de un chatbot, qué procesos de una empresa puede automatizar y qué controles necesita para no fallar.",
+    "noindex": false,
+    "file": "blog/agentes-de-ia-para-empresas-que-son-y-como-automatizan-procesos/index.html",
+    "hash": "780e2fcad02f6e71265105835c38d2994250425746aea5914632f7f19aea8b7d",
+    "contentHash": "9ef3fa3154eb965a96d3665121e3117a80bf18b9629518aa8f2f2798e6f42703",
+    "lastmod": "2026-10-29"
   },
   {
     "route": "/404.html",
