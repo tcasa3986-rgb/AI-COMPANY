@@ -73,7 +73,7 @@ test('todas las guías con plan tienen alt, pie y prompt en el plan', () => {
   for (const [slug, p] of Object.entries(plan_)) {
     if (slug.startsWith('_')) continue;
     assert.ok(p.portada.alt.length >= 15 && p.portada.caption.length >= 10, slug);
-    assert.ok(p.interiores.length >= 1, slug);
+    assert.ok(Array.isArray(p.interiores), slug); // las guias antiguas pueden llevar solo portada
     for (const it of p.interiores) assert.ok(it.prompt.length >= 20 && it.alt.length >= 15 && Number.isInteger(it.antesDeH2), slug);
   }
 });

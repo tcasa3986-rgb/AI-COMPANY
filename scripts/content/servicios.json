@@ -56,9 +56,6 @@
         "software-a-la-medida-vs-software-generico",
         "cuanto-cuesta-un-software-a-la-medida-en-colombia",
         "errores-al-comprar-software-a-la-medida",
-        "app-movil-supermercado-colombia",
-        "sistema-gestion-droguerias-colombia",
-        "sistema-gestion-talleres-mecanicos-colombia",
         "software-para-deposito-de-madera-inventario",
         "software-para-recicladoras-pesaje-y-liquidacion",
         "software-para-clubes-de-poker-torneos",
@@ -117,7 +114,6 @@
       "articulos": [
         "reporte-de-produccion-por-telegram",
         "que-es-n8n-automatizacion-colombia",
-        "automatizacion-procesos-constructoras-colombia",
         "facturacion-electronica-automatica-colombia",
         "como-elegir-software-contable-con-facturacion-electronica-colombia",
         "crm-para-pymes-colombianas-opciones-gratis-y-de-bajo-costo",
@@ -174,8 +170,6 @@
         "como-automatizar-whatsapp-business-colombia",
         "automatizar-whatsapp-sin-api-oficial",
         "automatizar-whatsapp-ferreterias-colombia",
-        "whatsapp-automatico-juridicos-colombia",
-        "whatsapp-business-hoteles-colombia",
         "como-automatizar-el-proceso-de-ventas-en-colombia"
       ],
       "wa": "Hola, vi su página de WhatsApp automático y quiero revisar cómo atender mejor a mis clientes."
@@ -221,12 +215,10 @@
         ["¿En qué canales funciona?", "En WhatsApp, en tu página web u otros canales, según el caso. El canal se define en el alcance.", null, null],
         ["¿Cuánto cuesta un chatbot con IA?", "Tiene un costo de construcción y costos recurrentes de terceros, como el consumo del modelo de IA. En esta guía explicamos qué los componen y qué los mueve.", "/blog/cuanto-cuesta-chatbot-ia-colombia/", "Ver la guía de costos"],
         ["¿Un chatbot es lo mismo que un agente de IA?", "No. El chatbot conversa y responde con fuentes aprobadas; un agente además ejecuta acciones en tus herramientas, con permisos y aprobación humana. Muchas veces se empieza con un chatbot acotado y se amplía después.", "/servicios/asistente-ia/", "Ver agentes y asistentes de IA"],
-        ["¿Sirve para mi sector?", "Depende de qué preguntas se repitan en tu negocio. Tenemos guías para clínicas e inmobiliarias con sus límites y casos de uso.", "/blog/chatbot-ia-clinicas-colombia/", "Ver la guía para clínicas"]
+        ["¿Sirve para mi sector?", "Depende de qué preguntas se repitan en tu negocio. Lo revisamos contigo en el diagnóstico inicial, con sus límites y casos de uso."]
       ],
       "articulos": [
         "cuanto-cuesta-chatbot-ia-colombia",
-        "chatbot-ia-clinicas-colombia",
-        "chatbot-ia-inmobiliarias-colombia",
         "inteligencia-artificial-negocios-colombia",
         "como-calcular-el-retorno-de-inversion-de-la-ia-en-tu-empresa",
         "consultoria-en-ia-para-empresas-en-colombia-como-elegir-proveedor",
@@ -338,15 +330,12 @@
         }
       ],
       "faq": [
-        ["¿Cuánto cuesta una página web para una empresa?", "Depende de cuántas páginas, qué integraciones y cuánto contenido hay que preparar. En la guía de costos para restaurantes detallamos qué incluye un precio y qué no.", "/blog/cuanto-cuesta-pagina-web-restaurante-colombia/", "Ver la guía de costos"],
+        ["¿Cuánto cuesta una página web para una empresa?", "Depende de cuántas páginas, qué integraciones y cuánto contenido hay que preparar. Se cotiza por alcance; en el diagnóstico te decimos qué incluye un precio y qué no."],
         ["¿Cuánto tarda en aparecer en Google?", "No se puede prometer una posición. Una página nueva necesita tiempo para ser indexada y ganar señales; el perfil de Google, las reseñas y los enlaces externos ayudan. Lo explicamos en la guía de SEO local.", "/blog/seo-local-colombia-guia/", "Leer la guía de SEO local"],
-        ["¿Qué debe tener la página de una clínica o una peluquería?", "Depende de cómo te contactan tus clientes. Tenemos guías por sector con lo que conviene incluir.", "/blog/pagina-web-clinica-colombia/", "Ver la guía para clínicas"],
+        ["¿Qué debe tener la página de una clínica o una peluquería?", "Depende de cómo te contactan tus clientes. Lo definimos contigo en el diagnóstico inicial."],
         ["¿Puedo ver ejemplos?", "Sí. Más arriba en esta página están los sitios de Maderas Montoya y JD Metales.", "#casos-servicio", "Ver los sitios"]
       ],
       "articulos": [
-        "pagina-web-clinica-colombia",
-        "pagina-web-peluqueria-colombia",
-        "cuanto-cuesta-pagina-web-restaurante-colombia",
         "seo-local-colombia-guia"
       ],
       "wa": "Hola, vi su página de desarrollo de páginas web y quiero revisar el sitio de mi empresa."
@@ -380,14 +369,11 @@
       "cercanos": [],
       "faq": [
         ["¿Cuánto debo invertir en pauta?", "Depende de tu margen y de cuánto cuesta conseguir una conversación en tu sector. La inversión en publicidad es tuya y se define aparte de nuestros honorarios. Esta guía explica cuándo vale la pena y cuándo es botar plata.", "/blog/google-ads-colombia-guia-pymes/", "Leer la guía de Google Ads"],
-        ["¿Sirve para restaurantes, gimnasios o colegios?", "Cada sector tiene su dinámica de contacto y de decisión. Tenemos guías por sector con lo que funciona sin necesidad de una agencia.", "/blog/marketing-digital-restaurantes-colombia/", "Ver la guía para restaurantes"],
+        ["¿Sirve para restaurantes, gimnasios o colegios?", "Cada sector tiene su dinámica de contacto y de decisión. Lo evaluamos contigo en el diagnóstico inicial antes de proponer nada."],
         ["¿Cómo se mide si funciona?", "Por conversaciones recibidas y oportunidades, con un recorrido de contacto que se pueda seguir. No prometemos resultados: definimos juntos qué se va a medir.", null, null]
       ],
       "articulos": [
         "google-ads-colombia-guia-pymes",
-        "marketing-digital-restaurantes-colombia",
-        "marketing-digital-gimnasios-colombia",
-        "marketing-digital-colegios-colombia",
         "seo-local-colombia-guia"
       ],
       "wa": "Hola, vi su página de marketing digital y quiero revisar cómo atraer más clientes."

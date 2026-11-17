@@ -99,6 +99,146 @@
       "source": "/sitemap-seo.xml",
       "destination": "/sitemap.xml",
       "permanent": true
+    },
+    {
+      "source": "/blog/chatbot-ia-clinicas-colombia/",
+      "destination": "/servicios/chatbot-ia/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chatbot-ia-clinicas-colombia",
+      "destination": "/servicios/chatbot-ia/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chatbot-ia-inmobiliarias-colombia/",
+      "destination": "/servicios/chatbot-ia/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chatbot-ia-inmobiliarias-colombia",
+      "destination": "/servicios/chatbot-ia/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pagina-web-clinica-colombia/",
+      "destination": "/servicios/paginas-web/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pagina-web-clinica-colombia",
+      "destination": "/servicios/paginas-web/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pagina-web-peluqueria-colombia/",
+      "destination": "/servicios/paginas-web/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pagina-web-peluqueria-colombia",
+      "destination": "/servicios/paginas-web/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cuanto-cuesta-pagina-web-restaurante-colombia/",
+      "destination": "/servicios/paginas-web/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cuanto-cuesta-pagina-web-restaurante-colombia",
+      "destination": "/servicios/paginas-web/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/marketing-digital-colegios-colombia/",
+      "destination": "/servicios/marketing-digital/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/marketing-digital-colegios-colombia",
+      "destination": "/servicios/marketing-digital/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/marketing-digital-gimnasios-colombia/",
+      "destination": "/servicios/marketing-digital/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/marketing-digital-gimnasios-colombia",
+      "destination": "/servicios/marketing-digital/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/marketing-digital-restaurantes-colombia/",
+      "destination": "/servicios/marketing-digital/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/marketing-digital-restaurantes-colombia",
+      "destination": "/servicios/marketing-digital/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sistema-gestion-droguerias-colombia/",
+      "destination": "/servicios/apps-empresariales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sistema-gestion-droguerias-colombia",
+      "destination": "/servicios/apps-empresariales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sistema-gestion-talleres-mecanicos-colombia/",
+      "destination": "/servicios/apps-empresariales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sistema-gestion-talleres-mecanicos-colombia",
+      "destination": "/servicios/apps-empresariales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/app-movil-supermercado-colombia/",
+      "destination": "/servicios/apps-empresariales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/app-movil-supermercado-colombia",
+      "destination": "/servicios/apps-empresariales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/whatsapp-automatico-juridicos-colombia/",
+      "destination": "/servicios/whatsapp-automatico/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/whatsapp-automatico-juridicos-colombia",
+      "destination": "/servicios/whatsapp-automatico/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/whatsapp-business-hoteles-colombia/",
+      "destination": "/servicios/whatsapp-automatico/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/whatsapp-business-hoteles-colombia",
+      "destination": "/servicios/whatsapp-automatico/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-procesos-constructoras-colombia/",
+      "destination": "/automatizacion-de-procesos-empresariales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatizacion-procesos-constructoras-colombia",
+      "destination": "/automatizacion-de-procesos-empresariales/",
+      "permanent": true
     }
   ]
 }

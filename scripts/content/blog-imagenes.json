@@ -1,108 +1,374 @@
 {
   "_ayuda": "Plan de imágenes por guía: una portada y varias interiores. Las genera scripts/blog-imagenes.js con Google Flow. El estilo común (violeta de marca, sin texto) lo añade el script al prompt. antesDeH2 = la figura se coloca justo antes del H2 con ese número (1 = el primero).",
   "donde-contratar-software-a-la-medida-en-colombia": {
-    "portada": {"prompt": "A person-shaped simple character standing at a crossroads with four signposts shaped like a building, a laptop, a team of puzzle pieces and a cloud, each path leading to a small app window", "alt": "Ilustración de una persona frente a cuatro caminos que representan las opciones para contratar software", "caption": "Cuatro caminos para conseguir software: agencia, freelance, equipo propio o producto listo."},
+    "portada": {
+      "prompt": "A person-shaped simple character standing at a crossroads with four signposts shaped like a building, a laptop, a team of puzzle pieces and a cloud, each path leading to a small app window",
+      "alt": "Ilustración de una persona frente a cuatro caminos que representan las opciones para contratar software",
+      "caption": "Cuatro caminos para conseguir software: agencia, freelance, equipo propio o producto listo."
+    },
     "interiores": [
-      {"antesDeH2": 3, "prompt": "A large magnifying glass over a checklist with ticks, next to three document proposals on a desk", "alt": "Ilustración de una lupa sobre una lista de verificación junto a tres propuestas", "caption": "Compara propuestas con la misma lista de preguntas."},
-      {"antesDeH2": 6, "prompt": "A project timeline with three milestones as flags, a small app window growing bigger at each flag", "alt": "Ilustración de una línea de tiempo con tres hitos y una aplicación que crece", "caption": "Pagar por etapas con entregas reales reduce el riesgo."}
+      {
+        "antesDeH2": 3,
+        "prompt": "A large magnifying glass over a checklist with ticks, next to three document proposals on a desk",
+        "alt": "Ilustración de una lupa sobre una lista de verificación junto a tres propuestas",
+        "caption": "Compara propuestas con la misma lista de preguntas."
+      },
+      {
+        "antesDeH2": 6,
+        "prompt": "A project timeline with three milestones as flags, a small app window growing bigger at each flag",
+        "alt": "Ilustración de una línea de tiempo con tres hitos y una aplicación que crece",
+        "caption": "Pagar por etapas con entregas reales reduce el riesgo."
+      }
     ]
   },
   "como-se-desarrolla-una-aplicacion-a-la-medida-paso-a-paso": {
-    "portada": {"prompt": "A staircase of six steps, each step holding a small icon: a magnifier, a blueprint, a code window, a test checkmark, a rocket, a wrench", "alt": "Ilustración de una escalera de seis peldaños con los pasos de crear una aplicación", "caption": "Las seis etapas de una aplicación a la medida."},
+    "portada": {
+      "prompt": "A staircase of six steps, each step holding a small icon: a magnifier, a blueprint, a code window, a test checkmark, a rocket, a wrench",
+      "alt": "Ilustración de una escalera de seis peldaños con los pasos de crear una aplicación",
+      "caption": "Las seis etapas de una aplicación a la medida."
+    },
     "interiores": [
-      {"antesDeH2": 3, "prompt": "A blueprint sheet with a wireframe of an app screen and a pencil and ruler beside it", "alt": "Ilustración de un plano con el boceto de una pantalla de aplicación", "caption": "Definir el alcance antes de programar evita rehacer trabajo."},
-      {"antesDeH2": 5, "prompt": "A small phone and a laptop side by side showing the same simple app screen, with a gear between them", "alt": "Ilustración de un celular y un portátil mostrando la misma aplicación", "caption": "Una aplicación web puede funcionar igual en celular y en computador."}
+      {
+        "antesDeH2": 3,
+        "prompt": "A blueprint sheet with a wireframe of an app screen and a pencil and ruler beside it",
+        "alt": "Ilustración de un plano con el boceto de una pantalla de aplicación",
+        "caption": "Definir el alcance antes de programar evita rehacer trabajo."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "A small phone and a laptop side by side showing the same simple app screen, with a gear between them",
+        "alt": "Ilustración de un celular y un portátil mostrando la misma aplicación",
+        "caption": "Una aplicación web puede funcionar igual en celular y en computador."
+      }
     ]
   },
   "sistemas-de-gestion-para-pymes-en-colombia-cual-elegir": {
-    "portada": {"prompt": "A small business shop front connected by thin lines to four modules: inventory boxes, invoice paper, a customer card and a bar chart", "alt": "Ilustración de un negocio conectado a módulos de inventario, facturas, clientes y reportes", "caption": "Un sistema de gestión conecta inventario, facturación, clientes y reportes."},
+    "portada": {
+      "prompt": "A small business shop front connected by thin lines to four modules: inventory boxes, invoice paper, a customer card and a bar chart",
+      "alt": "Ilustración de un negocio conectado a módulos de inventario, facturas, clientes y reportes",
+      "caption": "Un sistema de gestión conecta inventario, facturación, clientes y reportes."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "A balance scale with a puzzle of modules on one side and a single large block on the other", "alt": "Ilustración de una balanza que compara módulos separados con un solo bloque", "caption": "Modular o todo en uno: depende de cómo trabaja tu negocio."},
-      {"antesDeH2": 5, "prompt": "A calendar with a few highlighted days and a check list, a small gauge showing progress", "alt": "Ilustración de un calendario con días marcados y un medidor de avance", "caption": "Implementar por etapas hace más fácil que el equipo lo adopte."}
+      {
+        "antesDeH2": 2,
+        "prompt": "A balance scale with a puzzle of modules on one side and a single large block on the other",
+        "alt": "Ilustración de una balanza que compara módulos separados con un solo bloque",
+        "caption": "Modular o todo en uno: depende de cómo trabaja tu negocio."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "A calendar with a few highlighted days and a check list, a small gauge showing progress",
+        "alt": "Ilustración de un calendario con días marcados y un medidor de avance",
+        "caption": "Implementar por etapas hace más fácil que el equipo lo adopte."
+      }
     ]
   },
   "requisitos-para-implementar-un-erp-en-una-empresa-mediana": {
-    "portada": {"prompt": "A mid-size company building made of stacked blocks being assembled, with a checklist clipboard in front and gears behind", "alt": "Ilustración de una empresa armada con bloques y una lista de requisitos", "caption": "Antes de implementar un ERP hay que tener claros los requisitos."},
+    "portada": {
+      "prompt": "A mid-size company building made of stacked blocks being assembled, with a checklist clipboard in front and gears behind",
+      "alt": "Ilustración de una empresa armada con bloques y una lista de requisitos",
+      "caption": "Antes de implementar un ERP hay que tener claros los requisitos."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "A flow diagram of boxes connected by arrows, from purchase to inventory to sale to invoice", "alt": "Ilustración de un diagrama de flujo de compra, inventario, venta y factura", "caption": "Mapear los procesos antes de elegir el sistema."},
-      {"antesDeH2": 5, "prompt": "A group of simple character silhouettes around a table with a large screen showing charts", "alt": "Ilustración de un equipo alrededor de una mesa frente a una pantalla con gráficos", "caption": "La capacitación del equipo decide si el sistema se usa o se abandona."}
+      {
+        "antesDeH2": 2,
+        "prompt": "A flow diagram of boxes connected by arrows, from purchase to inventory to sale to invoice",
+        "alt": "Ilustración de un diagrama de flujo de compra, inventario, venta y factura",
+        "caption": "Mapear los procesos antes de elegir el sistema."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "A group of simple character silhouettes around a table with a large screen showing charts",
+        "alt": "Ilustración de un equipo alrededor de una mesa frente a una pantalla con gráficos",
+        "caption": "La capacitación del equipo decide si el sistema se usa o se abandona."
+      }
     ]
   },
   "erp-para-manufactura-como-comparar-opciones": {
-    "portada": {"prompt": "A small factory floor with a conveyor belt carrying boxes, and a dashboard screen above it with simple charts", "alt": "Ilustración de una línea de producción con un tablero de control", "caption": "Un ERP para manufactura une producción, inventario y costos."},
+    "portada": {
+      "prompt": "A small factory floor with a conveyor belt carrying boxes, and a dashboard screen above it with simple charts",
+      "alt": "Ilustración de una línea de producción con un tablero de control",
+      "caption": "Un ERP para manufactura une producción, inventario y costos."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "A bill of materials tree: one finished product box at the top branching into smaller component boxes", "alt": "Ilustración de una lista de materiales con un producto y sus componentes", "caption": "La lista de materiales es la base de la producción."},
-      {"antesDeH2": 5, "prompt": "Three simple cards side by side with checkmarks and crosses, compared by a magnifying glass", "alt": "Ilustración de tres tarjetas comparadas con una lupa", "caption": "Compara las opciones con los mismos criterios."}
+      {
+        "antesDeH2": 2,
+        "prompt": "A bill of materials tree: one finished product box at the top branching into smaller component boxes",
+        "alt": "Ilustración de una lista de materiales con un producto y sus componentes",
+        "caption": "La lista de materiales es la base de la producción."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "Three simple cards side by side with checkmarks and crosses, compared by a magnifying glass",
+        "alt": "Ilustración de tres tarjetas comparadas con una lupa",
+        "caption": "Compara las opciones con los mismos criterios."
+      }
     ]
   },
   "software-de-control-de-inventarios-opciones-y-ventajas": {
-    "portada": {"prompt": "A warehouse shelf with labeled boxes and a handheld scanner, with a tablet showing a stock level bar", "alt": "Ilustración de una estantería con cajas, un escáner y una tablet con niveles de inventario", "caption": "El control de inventario muestra qué hay y qué falta."},
+    "portada": {
+      "prompt": "A warehouse shelf with labeled boxes and a handheld scanner, with a tablet showing a stock level bar",
+      "alt": "Ilustración de una estantería con cajas, un escáner y una tablet con niveles de inventario",
+      "caption": "El control de inventario muestra qué hay y qué falta."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "A box with a weighing scale beneath it and a small arrow converting to a stack of sheets", "alt": "Ilustración de una caja sobre una báscula y una pila de láminas", "caption": "Algunos negocios compran por peso y venden por medida."},
-      {"antesDeH2": 5, "prompt": "A shelf with a low-stock warning triangle and a bell icon above one nearly empty box", "alt": "Ilustración de una estantería con una alerta de poco inventario", "caption": "Las alertas de stock mínimo evitan quedarse sin material."}
+      {
+        "antesDeH2": 2,
+        "prompt": "A box with a weighing scale beneath it and a small arrow converting to a stack of sheets",
+        "alt": "Ilustración de una caja sobre una báscula y una pila de láminas",
+        "caption": "Algunos negocios compran por peso y venden por medida."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "A shelf with a low-stock warning triangle and a bell icon above one nearly empty box",
+        "alt": "Ilustración de una estantería con una alerta de poco inventario",
+        "caption": "Las alertas de stock mínimo evitan quedarse sin material."
+      }
     ]
   },
   "como-elegir-software-contable-con-facturacion-electronica-colombia": {
-    "portada": {"prompt": "A calculator, a stack of invoice papers with a stamp, and a laptop screen with a simple ledger table, arranged on a desk", "alt": "Ilustración de una calculadora, facturas y un portátil con un libro contable", "caption": "Elegir software contable es elegir cómo emites y registras facturas."},
+    "portada": {
+      "prompt": "A calculator, a stack of invoice papers with a stamp, and a laptop screen with a simple ledger table, arranged on a desk",
+      "alt": "Ilustración de una calculadora, facturas y un portátil con un libro contable",
+      "caption": "Elegir software contable es elegir cómo emites y registras facturas."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "An invoice document with a checkmark seal traveling by an arrow to a cloud and then to a building", "alt": "Ilustración de una factura que viaja a la nube y a una entidad", "caption": "La factura electrónica se emite y se valida por internet."},
-      {"antesDeH2": 5, "prompt": "Two software windows linked by a chain, one with boxes (inventory) and one with a ledger", "alt": "Ilustración de dos programas enlazados, uno de inventario y otro contable", "caption": "Conectar contabilidad e inventario evita digitar dos veces."}
+      {
+        "antesDeH2": 2,
+        "prompt": "An invoice document with a checkmark seal traveling by an arrow to a cloud and then to a building",
+        "alt": "Ilustración de una factura que viaja a la nube y a una entidad",
+        "caption": "La factura electrónica se emite y se valida por internet."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "Two software windows linked by a chain, one with boxes (inventory) and one with a ledger",
+        "alt": "Ilustración de dos programas enlazados, uno de inventario y otro contable",
+        "caption": "Conectar contabilidad e inventario evita digitar dos veces."
+      }
     ]
   },
   "crm-para-pymes-colombianas-opciones-gratis-y-de-bajo-costo": {
-    "portada": {"prompt": "A funnel with small customer cards entering at the top and a handshake coming out at the bottom, a chat bubble on the side", "alt": "Ilustración de un embudo de clientes que termina en un apretón de manos", "caption": "Un CRM ordena a los clientes desde el primer contacto hasta la venta."},
+    "portada": {
+      "prompt": "A funnel with small customer cards entering at the top and a handshake coming out at the bottom, a chat bubble on the side",
+      "alt": "Ilustración de un embudo de clientes que termina en un apretón de manos",
+      "caption": "Un CRM ordena a los clientes desde el primer contacto hasta la venta."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "A kanban board with three columns and small cards moving from left to right", "alt": "Ilustración de un tablero con tres columnas y tarjetas de clientes", "caption": "Ver cada cliente en su etapa ayuda a no perder ventas."},
-      {"antesDeH2": 5, "prompt": "A chat bubble and an envelope connecting into a single customer card with a bell reminder", "alt": "Ilustración de un chat y un correo unidos en una ficha de cliente", "caption": "Centraliza los mensajes de WhatsApp y correo en la ficha del cliente."}
+      {
+        "antesDeH2": 2,
+        "prompt": "A kanban board with three columns and small cards moving from left to right",
+        "alt": "Ilustración de un tablero con tres columnas y tarjetas de clientes",
+        "caption": "Ver cada cliente en su etapa ayuda a no perder ventas."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "A chat bubble and an envelope connecting into a single customer card with a bell reminder",
+        "alt": "Ilustración de un chat y un correo unidos en una ficha de cliente",
+        "caption": "Centraliza los mensajes de WhatsApp y correo en la ficha del cliente."
+      }
     ]
   },
   "como-automatizar-el-proceso-de-ventas-en-colombia": {
-    "portada": {"prompt": "A horizontal conveyor of five stations: a chat bubble, a quote document, a calendar, a payment card and a thank-you heart, connected by arrows with a small robot above", "alt": "Ilustración de cinco etapas del proceso de ventas conectadas con un robot asistente", "caption": "Cinco momentos del proceso de ventas que se pueden automatizar."},
+    "portada": {
+      "prompt": "A horizontal conveyor of five stations: a chat bubble, a quote document, a calendar, a payment card and a thank-you heart, connected by arrows with a small robot above",
+      "alt": "Ilustración de cinco etapas del proceso de ventas conectadas con un robot asistente",
+      "caption": "Cinco momentos del proceso de ventas que se pueden automatizar."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "A phone with a chat bubble and a robot icon replying automatically, with a clock showing quick response", "alt": "Ilustración de un celular con un asistente que responde mensajes rápido", "caption": "Responder rápido es la mejor forma de no perder una venta."},
-      {"antesDeH2": 5, "prompt": "A quote document with a send arrow and a bell reminder after three days on a calendar", "alt": "Ilustración de una cotización con un recordatorio automático", "caption": "Un recordatorio a tiempo recupera cotizaciones olvidadas."}
+      {
+        "antesDeH2": 2,
+        "prompt": "A phone with a chat bubble and a robot icon replying automatically, with a clock showing quick response",
+        "alt": "Ilustración de un celular con un asistente que responde mensajes rápido",
+        "caption": "Responder rápido es la mejor forma de no perder una venta."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "A quote document with a send arrow and a bell reminder after three days on a calendar",
+        "alt": "Ilustración de una cotización con un recordatorio automático",
+        "caption": "Un recordatorio a tiempo recupera cotizaciones olvidadas."
+      }
     ]
   },
   "como-calcular-el-retorno-de-inversion-de-la-ia-en-tu-empresa": {
-    "portada": {"prompt": "A balance scale: on one side a coin stack, on the other a clock and a small robot, with an upward arrow above", "alt": "Ilustración de una balanza que compara monedas con tiempo ahorrado por un robot", "caption": "El retorno de la IA se mide comparando lo que cuesta con el tiempo que ahorra."},
+    "portada": {
+      "prompt": "A balance scale: on one side a coin stack, on the other a clock and a small robot, with an upward arrow above",
+      "alt": "Ilustración de una balanza que compara monedas con tiempo ahorrado por un robot",
+      "caption": "El retorno de la IA se mide comparando lo que cuesta con el tiempo que ahorra."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "An hourglass beside a task checklist, where a few tasks are crossed out", "alt": "Ilustración de un reloj de arena junto a una lista de tareas tachadas", "caption": "Primero mide cuánto tiempo toma hoy cada tarea."},
-      {"antesDeH2": 4, "prompt": "A simple bar chart comparing two bars, before and after, with a small arrow between them", "alt": "Ilustración de un gráfico de barras antes y después", "caption": "Compara antes y después con los mismos datos."}
+      {
+        "antesDeH2": 2,
+        "prompt": "An hourglass beside a task checklist, where a few tasks are crossed out",
+        "alt": "Ilustración de un reloj de arena junto a una lista de tareas tachadas",
+        "caption": "Primero mide cuánto tiempo toma hoy cada tarea."
+      },
+      {
+        "antesDeH2": 4,
+        "prompt": "A simple bar chart comparing two bars, before and after, with a small arrow between them",
+        "alt": "Ilustración de un gráfico de barras antes y después",
+        "caption": "Compara antes y después con los mismos datos."
+      }
     ]
   },
   "ia-para-analisis-de-datos-predictivo-en-pymes": {
-    "portada": {"prompt": "A line chart that continues as a dotted line into the future, with a crystal-ball-like circle and a small robot looking at it", "alt": "Ilustración de un gráfico que continúa en línea punteada hacia el futuro", "caption": "El análisis predictivo usa datos pasados para estimar lo que viene."},
+    "portada": {
+      "prompt": "A line chart that continues as a dotted line into the future, with a crystal-ball-like circle and a small robot looking at it",
+      "alt": "Ilustración de un gráfico que continúa en línea punteada hacia el futuro",
+      "caption": "El análisis predictivo usa datos pasados para estimar lo que viene."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "A tidy spreadsheet grid with check marks on clean rows and a broom sweeping a messy row", "alt": "Ilustración de una hoja de cálculo ordenada y una escoba limpiando filas", "caption": "Sin datos ordenados no hay predicción confiable."},
-      {"antesDeH2": 5, "prompt": "Four small cards each with a different icon: a shopping cart, a box, a calendar, a coin", "alt": "Ilustración de cuatro tarjetas con ejemplos de uso: ventas, inventario, calendario y dinero", "caption": "Ejemplos generales de predicción en una pyme."}
+      {
+        "antesDeH2": 2,
+        "prompt": "A tidy spreadsheet grid with check marks on clean rows and a broom sweeping a messy row",
+        "alt": "Ilustración de una hoja de cálculo ordenada y una escoba limpiando filas",
+        "caption": "Sin datos ordenados no hay predicción confiable."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "Four small cards each with a different icon: a shopping cart, a box, a calendar, a coin",
+        "alt": "Ilustración de cuatro tarjetas con ejemplos de uso: ventas, inventario, calendario y dinero",
+        "caption": "Ejemplos generales de predicción en una pyme."
+      }
     ]
   },
   "plataformas-de-ia-para-automatizar-procesos-empresariales": {
-    "portada": {"prompt": "A set of colored puzzle-piece blocks connected by pipes forming a workflow, with a small robot at the center", "alt": "Ilustración de bloques conectados por tuberías formando un flujo de trabajo con un robot", "caption": "Las plataformas de automatización conectan tus herramientas en un flujo."},
+    "portada": {
+      "prompt": "A set of colored puzzle-piece blocks connected by pipes forming a workflow, with a small robot at the center",
+      "alt": "Ilustración de bloques conectados por tuberías formando un flujo de trabajo con un robot",
+      "caption": "Las plataformas de automatización conectan tus herramientas en un flujo."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "Three connected nodes: an envelope, a spreadsheet and a chat bubble, joined by arrows", "alt": "Ilustración de tres nodos conectados: correo, hoja de cálculo y chat", "caption": "Un flujo automático conecta una herramienta con otra."},
-      {"antesDeH2": 5, "prompt": "A padlock and a shield beside a small robot with a human hand approving with a checkmark", "alt": "Ilustración de un candado y una mano humana aprobando el trabajo de un robot", "caption": "Los permisos limitados y la aprobación humana dan seguridad."}
+      {
+        "antesDeH2": 2,
+        "prompt": "Three connected nodes: an envelope, a spreadsheet and a chat bubble, joined by arrows",
+        "alt": "Ilustración de tres nodos conectados: correo, hoja de cálculo y chat",
+        "caption": "Un flujo automático conecta una herramienta con otra."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "A padlock and a shield beside a small robot with a human hand approving with a checkmark",
+        "alt": "Ilustración de un candado y una mano humana aprobando el trabajo de un robot",
+        "caption": "Los permisos limitados y la aprobación humana dan seguridad."
+      }
     ]
   },
   "consultoria-en-ia-para-empresas-en-colombia-como-elegir-proveedor": {
-    "portada": {"prompt": "Two consultants as simple silhouettes at a table with a roadmap sheet and a small robot icon, a lightbulb above", "alt": "Ilustración de dos personas con un mapa de ruta y un icono de robot", "caption": "Elegir proveedor de IA empieza por entender qué problema quieres resolver."},
+    "portada": {
+      "prompt": "Two consultants as simple silhouettes at a table with a roadmap sheet and a small robot icon, a lightbulb above",
+      "alt": "Ilustración de dos personas con un mapa de ruta y un icono de robot",
+      "caption": "Elegir proveedor de IA empieza por entender qué problema quieres resolver."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "A checklist with five questions, each with a tick, and a magnifying glass", "alt": "Ilustración de una lista de cinco preguntas con una lupa", "caption": "Pregúntale lo mismo a cada proveedor y compara."},
-      {"antesDeH2": 5, "prompt": "A red warning flag planted on a road next to a green flag, road leading to a small app window", "alt": "Ilustración de una bandera roja y una verde en un camino", "caption": "Aprende a distinguir las señales de alerta de las buenas señales."}
+      {
+        "antesDeH2": 2,
+        "prompt": "A checklist with five questions, each with a tick, and a magnifying glass",
+        "alt": "Ilustración de una lista de cinco preguntas con una lupa",
+        "caption": "Pregúntale lo mismo a cada proveedor y compara."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "A red warning flag planted on a road next to a green flag, road leading to a small app window",
+        "alt": "Ilustración de una bandera roja y una verde en un camino",
+        "caption": "Aprende a distinguir las señales de alerta de las buenas señales."
+      }
     ]
   },
   "como-implementar-inteligencia-artificial-en-una-pyme-paso-a-paso": {
-    "portada": {"prompt": "A path of five stepping stones leading to a small robot at the end, a flag on the last stone", "alt": "Ilustración de cinco piedras en el camino hacia un robot asistente", "caption": "Cinco pasos para empezar con IA en una pyme."},
+    "portada": {
+      "prompt": "A path of five stepping stones leading to a small robot at the end, a flag on the last stone",
+      "alt": "Ilustración de cinco piedras en el camino hacia un robot asistente",
+      "caption": "Cinco pasos para empezar con IA en una pyme."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "A single task card highlighted among many, with a bullseye target above it", "alt": "Ilustración de una tarea elegida entre muchas con una diana", "caption": "Empieza con un solo proceso, el que más tiempo consume."},
-      {"antesDeH2": 5, "prompt": "A small pilot test setup: a robot at a desk, a stopwatch and a thumbs-up card", "alt": "Ilustración de una prueba piloto con un robot, un cronómetro y un visto bueno", "caption": "Un piloto pequeño permite aprender antes de crecer."}
+      {
+        "antesDeH2": 2,
+        "prompt": "A single task card highlighted among many, with a bullseye target above it",
+        "alt": "Ilustración de una tarea elegida entre muchas con una diana",
+        "caption": "Empieza con un solo proceso, el que más tiempo consume."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "A small pilot test setup: a robot at a desk, a stopwatch and a thumbs-up card",
+        "alt": "Ilustración de una prueba piloto con un robot, un cronómetro y un visto bueno",
+        "caption": "Un piloto pequeño permite aprender antes de crecer."
+      }
     ]
   },
   "agentes-de-ia-para-empresas-que-son-y-como-automatizan-procesos": {
-    "portada": {"prompt": "A friendly small robot assistant at a desk connected by thin lines to a spreadsheet, a chat bubble and a calendar", "alt": "Ilustración de un robot asistente conectado a una hoja de cálculo, un chat y un calendario", "caption": "Un agente de IA actúa sobre las herramientas de la empresa, no solo conversa."},
+    "portada": {
+      "prompt": "A friendly small robot assistant at a desk connected by thin lines to a spreadsheet, a chat bubble and a calendar",
+      "alt": "Ilustración de un robot asistente conectado a una hoja de cálculo, un chat y un calendario",
+      "caption": "Un agente de IA actúa sobre las herramientas de la empresa, no solo conversa."
+    },
     "interiores": [
-      {"antesDeH2": 2, "prompt": "Two panels side by side: left a chat bubble answering a question, right a robot with arms performing several tasks with small icons", "alt": "Ilustración que compara un chatbot que responde con un agente que ejecuta tareas", "caption": "Un chatbot responde; un agente completa tareas."},
-      {"antesDeH2": 5, "prompt": "A robot with a leash held by a human hand, next to a padlock and a log notebook", "alt": "Ilustración de un robot con permisos limitados, un candado y un registro", "caption": "Permisos limitados, aprobación humana y registro de lo que hace."}
+      {
+        "antesDeH2": 2,
+        "prompt": "Two panels side by side: left a chat bubble answering a question, right a robot with arms performing several tasks with small icons",
+        "alt": "Ilustración que compara un chatbot que responde con un agente que ejecuta tareas",
+        "caption": "Un chatbot responde; un agente completa tareas."
+      },
+      {
+        "antesDeH2": 5,
+        "prompt": "A robot with a leash held by a human hand, next to a padlock and a log notebook",
+        "alt": "Ilustración de un robot con permisos limitados, un candado y un registro",
+        "caption": "Permisos limitados, aprobación humana y registro de lo que hace."
+      }
     ]
+  },
+  "como-automatizar-whatsapp-business-colombia": {
+    "portada": {
+      "prompt": "A smartphone showing a chat with message bubbles, a small friendly robot assistant beside it replying, and a curved arrow handing the conversation over to a person icon",
+      "alt": "Ilustración de un celular con una conversación, un robot que responde y una flecha que pasa el chat a una persona",
+      "caption": "El asistente atiende y pasa el chat a una persona cuando hace falta."
+    },
+    "interiores": []
+  },
+  "cuanto-cuesta-chatbot-ia-colombia": {
+    "portada": {
+      "prompt": "A friendly chatbot robot head next to a price tag with a question mark, a calculator and a small stack of coins",
+      "alt": "Ilustración de un robot de chat junto a una etiqueta de precio con signo de pregunta, una calculadora y monedas",
+      "caption": "El costo de un chatbot depende de lo que hace, no de un precio fijo."
+    },
+    "interiores": []
+  },
+  "cuanto-cuesta-un-software-a-la-medida-en-colombia": {
+    "portada": {
+      "prompt": "An app window being assembled from separate modular blocks, beside a balance scale with a stack of coins and a quote document with a magnifying glass",
+      "alt": "Ilustración de una aplicación armada con bloques por módulos junto a una balanza con monedas y una cotización",
+      "caption": "Se cotiza por módulos y por lo que cada uno resuelve."
+    },
+    "interiores": []
+  },
+  "facturacion-electronica-automatica-colombia": {
+    "portada": {
+      "prompt": "An invoice document with a checkmark seal travelling along a dotted arrow to a cloud and then to a building, with a small clock showing the process runs automatically",
+      "alt": "Ilustración de una factura con sello de verificación que viaja a una nube y a un edificio, con un reloj",
+      "caption": "La factura se genera y se envía sola, con un registro de cada paso."
+    },
+    "interiores": []
+  },
+  "google-ads-colombia-guia-pymes": {
+    "portada": {
+      "prompt": "A magnifying glass over a search results page where one block is highlighted as an ad, with a bullseye target and a small rising bar chart",
+      "alt": "Ilustración de una lupa sobre una página de resultados con un anuncio destacado, una diana y una gráfica que sube",
+      "caption": "Una campaña bien enfocada empieza por saber a quién quieres llegar."
+    },
+    "interiores": []
+  },
+  "que-es-n8n-automatizacion-colombia": {
+    "portada": {
+      "prompt": "A workflow of connected nodes: one starting trigger node, two action nodes and a branching node, joined by lines with small gears",
+      "alt": "Ilustración de un flujo de automatización con nodos conectados por líneas y engranajes",
+      "caption": "n8n conecta aplicaciones mediante flujos de nodos."
+    },
+    "interiores": []
+  },
+  "software-para-clubes-de-poker-torneos": {
+    "portada": {
+      "prompt": "Stacks of poker chips and a deck of face-down playing cards on a table, with a tablet beside them showing a tournament clock and a bracket diagram",
+      "alt": "Ilustración de fichas de póker y cartas boca abajo junto a una tableta con reloj de torneo y cuadro de juego",
+      "caption": "El torneo, el reloj y las fichas, controlados desde un solo lugar."
+    },
+    "interiores": []
   }
 }
