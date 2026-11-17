@@ -27,6 +27,7 @@ const fs = require('node:fs'), path = require('node:path'), os = require('node:o
 const {spawnSync} = require('node:child_process');
 const ROOT = path.resolve(__dirname, '..');
 const SERVICIOS = require('./content/servicios.json');
+const IMG = require('./blog-imagenes');
 
 const normalize = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
@@ -75,6 +76,14 @@ function validate(a, existing = [], options = {}) {
   else for (const slug of a.related) if (!existing.some(p => p.slug === slug)) errors.push('relacionado inexistente: ' + slug);
   if (!Array.isArray(a.sources) || a.sources.length < 1) errors.push('se requiere al menos una fuente verificable');
   else for (const s of a.sources) { try { const u = new URL(s.url); if (u.protocol !== 'https:' || !s.title) throw new Error(); } catch { errors.push('fuente inválida'); } }
+  if (a.imagenes) { // plan de imagenes (Flow): portada + interiores con prompt, texto alternativo y pie
+    const ok = it => it && typeof it.prompt === 'string' && it.prompt.length >= 20 && typeof it.alt === 'string' && it.alt.length >= 15 && typeof it.caption === 'string' && it.caption.length >= 10;
+    if (!ok(a.imagenes.portada)) errors.push('imagenes.portada incompleta (prompt, alt y caption)');
+    const inte = a.imagenes.interiores;
+    if (!Array.isArray(inte) || inte.length < 1) errors.push('imagenes.interiores: al menos una imagen interior');
+    else inte.forEach((it, i) => { if (!ok(it) || !Number.isInteger(it.antesDeH2) || it.antesDeH2 < 1 || it.antesDeH2 > (a.sections || []).length) errors.push(`imagenes.interiores[${i}] mal formada (antesDeH2 entre 1 y ${(a.sections || []).length})`); });
+    if (/(?:text|letters?|logo)[^.]*(?:saying|reading|that says)/i.test(JSON.stringify(a.imagenes))) errors.push('imagenes: no pidas texto dentro de la imagen (la IA inventa letras)');
+  }
   if (existing.some(p => p.slug === a.slug)) errors.push('slug ya publicado');
   if (existing.some(p => normalize(p.query || p.title) === normalize(a.query))) errors.push('consulta ya cubierta');
   if (Array.isArray(a.sections) && Array.isArray(a.faq) && typeof a.intro === 'string' && wordcount(a) < 700) errors.push('contenido insuficiente: mínimo editorial de 700 palabras');
@@ -105,7 +114,8 @@ function toPost(a, existing) {
   const id = s => { let base = normalize(s).replace(/ /g, '-'), n = base, i = 2; while (usados.has(n)) n = `${base}-${i++}`; usados.add(n); return n; };
   const wa = 'https://wa.me/573224807767?text=' + encodeURIComponent(a.waText || `Hola, leí la guía «${a.h1}» en aicompanyco.com y quiero conversar sobre mi caso.`);
   const revisada = a.reviewedAt || a.published;
-  const body = `<div class="container">${blocks(a.intro)}${a.sections.map(s => `<h2 id="${id(s.heading)}">${esc(s.heading)}</h2>${blocks(s.text)}${s.table ? tabla(s.table) : ''}${s.after ? blocks(s.after) : ''}`).join('\n')}<div class="cta-inline"><h3>${esc(a.ctaTitle || 'Revisemos el proceso de tu negocio')}</h3><p>${esc(a.ctaText || 'Cuéntanos cómo trabajas hoy y qué quieres organizar. El diagnóstico inicial es gratuito.')}</p><a href="${esc(wa)}" class="btn-wa" target="_blank" rel="noopener">Escribirnos por WhatsApp</a></div><p class="nota-autoria"><strong>Sobre esta guía.</strong> La escribe AI Company CO, una empresa de software a la medida y automatización de Soacha, Cundinamarca. Tenemos interés comercial en el tema y por eso te lo decimos. Es información general: precios, planes y normas cambian, así que verifica los datos en la fuente oficial antes de decidir. Última revisión: ${revisada}.</p><p class="fuentes"><strong>Fuentes y referencias:</strong> ${a.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' · ')}</p></div><section class="related-section"><h3 class="related-title">Seguir leyendo</h3><div class="related-grid">${a.related.map(slug => `<a class="rel-card" href="/blog/${slug}/"><span class="rel-titulo">${esc(existing.find(p => p.slug === slug).title)}</span><span class="rel-arrow">→</span></a>`).join('')}</div></section><section class="faq-section" id="preguntas-frecuentes"><h2 class="faq-title">Preguntas frecuentes</h2>${a.faq.map(f => `<details class="faq-item"><summary class="faq-q">${esc(f.question)}<span class="faq-icon">+</span></summary><p class="faq-a">${inline(f.answer)}</p></details>`).join('')}</section>`;
+  const cuerpo = `<div class="container">${blocks(a.intro)}${a.sections.map(s => `<h2 id="${id(s.heading)}">${esc(s.heading)}</h2>${blocks(s.text)}${s.table ? tabla(s.table) : ''}${s.after ? blocks(s.after) : ''}`).join('\n')}<div class="cta-inline"><h3>${esc(a.ctaTitle || 'Revisemos el proceso de tu negocio')}</h3><p>${esc(a.ctaText || 'Cuéntanos cómo trabajas hoy y qué quieres organizar. El diagnóstico inicial es gratuito.')}</p><a href="${esc(wa)}" class="btn-wa" target="_blank" rel="noopener">Escribirnos por WhatsApp</a></div><p class="nota-autoria"><strong>Sobre esta guía.</strong> La escribe AI Company CO, una empresa de software a la medida y automatización de Soacha, Cundinamarca. Tenemos interés comercial en el tema y por eso te lo decimos. Es información general: precios, planes y normas cambian, así que verifica los datos en la fuente oficial antes de decidir. Última revisión: ${revisada}.</p><p class="fuentes"><strong>Fuentes y referencias:</strong> ${a.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' · ')}</p></div><section class="related-section"><h3 class="related-title">Seguir leyendo</h3><div class="related-grid">${a.related.map(slug => `<a class="rel-card" href="/blog/${slug}/"><span class="rel-titulo">${esc(existing.find(p => p.slug === slug).title)}</span><span class="rel-arrow">→</span></a>`).join('')}</div></section><section class="faq-section" id="preguntas-frecuentes"><h2 class="faq-title">Preguntas frecuentes</h2>${a.faq.map(f => `<details class="faq-item"><summary class="faq-q">${esc(f.question)}<span class="faq-icon">+</span></summary><p class="faq-a">${inline(f.answer)}</p></details>`).join('')}</section>`;
+  const plan = a.imagenes || IMG.planDe(a.slug), body = plan ? IMG.insertarFiguras(cuerpo, a.slug, plan) : cuerpo; // figuras de Flow dentro del texto
   return {slug: a.slug, title: a.title, description: a.description, h1: a.h1, category: a.category, query: a.query, answer: a.answer, published: a.published, modified: a.reviewedAt, body, cover: a.image.src, coverAlt: a.image.alt, coverWidth: a.image.width, coverHeight: a.image.height, imageType: a.image.type || 'editorial-photo', imageCaption: a.image.caption, imageCredit: a.image.credit, source: 'editorial-reviewed'};
 }
 
@@ -193,7 +203,7 @@ if (require.main === module) {
   } else if (command === 'aprobar' && arg && rest[0] && /^\d{4}-\d{2}-\d{2}$/.test(rest[1] || '')) {
     for (const {file, a} of borradores(arg)) {
       Object.assign(a, {status: 'approved', reviewedBy: rest[0], reviewedAt: rest[1], sourceVerified: true,
-        image: {src: `/assets/editorial/${a.slug}.png`, alt: `Portada de la guía: ${a.h1}`, width: 1200, height: 630, approved: true, type: 'brand-cover', caption: 'Portada de AI Company CO.', credit: {author: 'AI Company CO', license: 'Imagen propia de AI Company CO'}}});
+        image: (a.imagenes || IMG.planDe(a.slug)) && IMG.existe(a.slug, 'portada') ? IMG.imagenPortada(a.slug, a.imagenes || IMG.planDe(a.slug)) : {src: `/assets/editorial/${a.slug}.png`, alt: `Portada de la guía: ${a.h1}`, width: 1200, height: 630, approved: true, type: 'brand-cover', caption: 'Portada de AI Company CO.', credit: {author: 'AI Company CO', license: 'Imagen propia de AI Company CO'}}});
       fs.writeFileSync(file, JSON.stringify(a, null, 2) + '\n');
     }
     console.log(`Aprobación registrada por ${rest[0]} (${rest[1]}). Revisa el diff antes de publicar.`);

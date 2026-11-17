@@ -52,7 +52,7 @@
     ]
   },
   "/precios/": {
-    "main_text_sha256": "dc022650d4505851ec6ced655771d7a3c8dc83fcf695845480c916428ffdc6a9",
+    "main_text_sha256": "68f8af9e3ec0c1837658c22c46aa34f2f8f69c58ff9d28ce7255dc829190d6c1",
     "description": "Cotiza software a la medida según tu proyecto. La implementación, operación y soporte se definen caso por caso. Diagnóstico inicial gratuito."
   },
   "/contacto/": {
@@ -729,7 +729,6 @@
     "main_links": [
       "/",
       "/assets/work/cancha-reprogramacion.jpg",
-      "https://canchalibre.co/",
       "/blog/como-automatizar-whatsapp-business-colombia/",
       "/sistemas/para-canchas-sinteticas/",
       "https://wa.me/573224807767?text=Hola%2C%20tengo%20una%20cancha%20sint%C3%A9tica%20y%20quiero%20ver%20CanchaLibre",

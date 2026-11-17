@@ -66,3 +66,5 @@ body{font-family:var(--font-body);background:var(--surface);line-height:1.65}h1,
 .tabla-guia th,.tabla-guia td{padding:10px 12px;border:1px solid #e6dfed;text-align:left;vertical-align:top;line-height:1.55}
 .tabla-guia thead th{background:#F7F8FA}
 .tabla-guia tbody th{background:#fbf9fd;font-weight:600}
+
+.fig-ia{margin:34px 0}.fig-ia img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:10px;background:#fff}.fig-ia figcaption{font-size:13px;line-height:1.6;color:#565664;margin-top:10px}.fig-ia figcaption span{display:block;font-size:11px;color:#6B6B7B;margin-top:2px}

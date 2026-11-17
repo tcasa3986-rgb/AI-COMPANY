@@ -122,10 +122,10 @@
     "noindex": false,
     "main_links": [
       "/",
-      "https://canchalibre.co/",
+      "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "c1992ef1601705630f29c558031480bc926fa54be927ebc09e7fc402bcc22a61"
+    "main_text_sha256": "5c80138fdeb1661eecd1bf34241ef310728863b0d6968313154f1bc440883b4d"
   },
   "/sistemas/para-clubes-de-poker/": {
     "title": "Software para clubes de póker | Botón",
@@ -439,7 +439,7 @@
       "/",
       "/contacto/",
       "/contacto/",
-      "https://canchalibre.co/",
+      "/contacto/",
       "/contacto/"
     ],
     "main_text_sha256": "034e8ef88ea554b76a17ee7b4b227349b8b1b99d05d32d068e36963698bc0a08"
@@ -767,7 +767,7 @@
       "/blog/que-es-n8n-automatizacion-colombia/",
       "/contacto/"
     ],
-    "main_text_sha256": "36043012e4d1b6fb51e0dfd238b99b931961af4da371eacf4c056dcfcb191569"
+    "main_text_sha256": "e17d904d07cbe68b8fbdb41d30e0f146ba60ee6d141d7b37fe022c8deb9c3789"
   },
   "/blog/app-movil-supermercado-colombia/": {
     "title": "App para supermercado de barrio: domicilios sin perder margen",
@@ -1542,7 +1542,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "685dcbefce5d9781f10155df061e48549f6036a7e2c68bccbad0425ca0d366b5"
+    "main_text_sha256": "0fb859c1788d20dad0c7fb2589c2c99c696a93565b173074c623952400f613a5"
   },
   "/blog/software-para-clubes-de-poker-torneos/": {
     "title": "Software para torneos de póker: reloj, mesas y liga sin Excel",
@@ -4024,7 +4024,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/donde-contratar-software-a-la-medida-en-colombia.png",
+      "/assets/editorial/donde-contratar-software-a-la-medida-en-colombia-portada.jpg",
       "https://clutch.co/",
       "/blog/errores-al-comprar-software-a-la-medida/",
       "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/",
@@ -4048,7 +4048,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "f74dcbd33074f817620a3bed5fe1692a9437f0480b002a01cd12027c3fe8eaf0"
+    "main_text_sha256": "989428810b59a896af06263e1463943e15aab40e382bbb63f346adcf2d1976bf"
   },
   "/blog/como-se-desarrolla-una-aplicacion-a-la-medida-paso-a-paso/": {
     "title": "Cómo se desarrolla una aplicación a la medida, paso a paso",
@@ -4059,7 +4059,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/como-se-desarrolla-una-aplicacion-a-la-medida-paso-a-paso.png",
+      "/assets/editorial/como-se-desarrolla-una-aplicacion-a-la-medida-paso-a-paso-portada.jpg",
       "https://developer.mozilla.org/es/docs/Web/Progressive_web_apps",
       "/blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/",
       "/blog/errores-al-comprar-software-a-la-medida/",
@@ -4079,7 +4079,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "dac4aed78d448e1da86cfa9bdae2dc6ea25e98e77a39988a1eaf868651c71d14"
+    "main_text_sha256": "cfe96e43119c931161b683824ffd8423e481302a72c644a7442acdbf26e80014"
   },
   "/blog/sistemas-de-gestion-para-pymes-en-colombia-cual-elegir/": {
     "title": "Sistemas de gestión para pymes en Colombia: cuál elegir",
@@ -4090,7 +4090,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/sistemas-de-gestion-para-pymes-en-colombia-cual-elegir.png",
+      "/assets/editorial/sistemas-de-gestion-para-pymes-en-colombia-cual-elegir-portada.jpg",
       "/blog/software-a-la-medida-vs-software-generico/",
       "/blog/que-es-un-erp-para-pymes/",
       "/contacto/",
@@ -4117,7 +4117,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "910f8a526af8166ec701dbab50f9e027f6e21bb696bb2c4563e26f2f4a25b850"
+    "main_text_sha256": "734bd1944e0ee30ef61fa4954bd63600cc1c86659ec913c9b8614415df019d9c"
   },
   "/blog/requisitos-para-implementar-un-erp-en-una-empresa-mediana/": {
     "title": "Requisitos para implementar un ERP en una empresa mediana",
@@ -4128,7 +4128,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/requisitos-para-implementar-un-erp-en-una-empresa-mediana.png",
+      "/assets/editorial/requisitos-para-implementar-un-erp-en-una-empresa-mediana-portada.jpg",
       "/blog/que-es-un-erp-para-pymes/",
       "/blog/software-a-la-medida-vs-software-generico/",
       "https://wa.me/573224807767?text=Hola%2C%20le%C3%AD%20la%20gu%C3%ADa%20sobre%20requisitos%20para%20implementar%20un%20ERP%20y%20quiero%20revisar%20si%20mi%20empresa%20est%C3%A1%20lista%20o%20si%20me%20conviene%20otra%20soluci%C3%B3n.",
@@ -4149,7 +4149,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "339b49d3bfe1b4c33d13ba17ba91ab5d0cd93a63ea5a8bd41ac31f524d2e6baa"
+    "main_text_sha256": "1c6cfec4a4662bc9d9532389fb35252366e777065f6d65c73174920f0fc4acc0"
   },
   "/blog/erp-para-manufactura-como-comparar-opciones/": {
     "title": "ERP para manufactura: cómo comparar las opciones",
@@ -4160,7 +4160,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/erp-para-manufactura-como-comparar-opciones.png",
+      "/assets/editorial/erp-para-manufactura-como-comparar-opciones-portada.jpg",
       "https://www.odoo.com/",
       "https://www.siesa.com/",
       "https://www.sap.com/",
@@ -4187,7 +4187,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "429222557a39b84c6db74bd6bb1ff8101112f4f9e75196873eb255382d268703"
+    "main_text_sha256": "d7f3eace3f72df9adde5613a23742fe34a9d797d88ad23befe5bf76e5043f240"
   },
   "/blog/software-de-control-de-inventarios-opciones-y-ventajas/": {
     "title": "Software de control de inventarios: opciones y ventajas",
@@ -4198,7 +4198,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/software-de-control-de-inventarios-opciones-y-ventajas.png",
+      "/assets/editorial/software-de-control-de-inventarios-opciones-y-ventajas-portada.jpg",
       "/casos/",
       "/sistemas/para-depositos-de-madera/",
       "/sistemas/para-corte-laser/",
@@ -4219,7 +4219,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "56242f125bb7dda2c989f80adeb113f95cbfccdb00533f3f50d1fe81e701bca6"
+    "main_text_sha256": "cffaed6dd14bd8b48f90db2d01ea9f28679eff0c1d974beb2353c6d260f1303b"
   },
   "/blog/como-elegir-software-contable-con-facturacion-electronica-colombia/": {
     "title": "Cómo elegir software contable con facturación electrónica",
@@ -4230,7 +4230,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/como-elegir-software-contable-con-facturacion-electronica-colombia.png",
+      "/assets/editorial/como-elegir-software-contable-con-facturacion-electronica-colombia-portada.jpg",
       "https://www.dian.gov.co/",
       "https://www.siigo.com/",
       "https://www.alegra.com/",
@@ -4255,7 +4255,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "be8aad355b0073b25e90e0efcee426c62d643884671e2fe3bc6fe3c6a34c8882"
+    "main_text_sha256": "3179e86e8ff0d89b0ec8a61ab5109c6b10df8ebdb03a72c601f0aaa1435eb2ff"
   },
   "/blog/crm-para-pymes-colombianas-opciones-gratis-y-de-bajo-costo/": {
     "title": "CRM para pymes en Colombia: opciones gratis y de bajo costo",
@@ -4266,7 +4266,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/crm-para-pymes-colombianas-opciones-gratis-y-de-bajo-costo.png",
+      "/assets/editorial/crm-para-pymes-colombianas-opciones-gratis-y-de-bajo-costo-portada.jpg",
       "https://www.hubspot.com/",
       "https://www.zoho.com/crm/",
       "https://www.bitrix24.com/",
@@ -4290,7 +4290,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "cd9402acc90b5305aefe0754afc004320e1f905159b203f64b1ac9688e6ea9bc"
+    "main_text_sha256": "88519c4783a4c844bf69211ddea871ba4c93a4a6a62ce9ac907c92cb2164b62f"
   },
   "/blog/como-automatizar-el-proceso-de-ventas-en-colombia/": {
     "title": "Cómo automatizar el proceso de ventas de tu empresa",
@@ -4301,7 +4301,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/como-automatizar-el-proceso-de-ventas-en-colombia.png",
+      "/assets/editorial/como-automatizar-el-proceso-de-ventas-en-colombia-portada.jpg",
       "/blog/crm-para-pymes-colombianas-opciones-gratis-y-de-bajo-costo/",
       "/blog/como-automatizar-whatsapp-business-colombia/",
       "/precios/",
@@ -4325,7 +4325,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "0029582dec7d24ba19444d6234a5ef60ba397b6cff085c22d9e41ca27a070611"
+    "main_text_sha256": "e10d321185ad94795b1e0a11b0c61adf89fbabf96f6d85ca5a84b08901dadf1d"
   },
   "/blog/como-calcular-el-retorno-de-inversion-de-la-ia-en-tu-empresa/": {
     "title": "Cómo calcular el retorno de inversión de la IA en tu empresa",
@@ -4336,7 +4336,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/como-calcular-el-retorno-de-inversion-de-la-ia-en-tu-empresa.png",
+      "/assets/editorial/como-calcular-el-retorno-de-inversion-de-la-ia-en-tu-empresa-portada.jpg",
       "/blog/como-implementar-inteligencia-artificial-en-una-pyme-paso-a-paso/",
       "https://wa.me/573224807767?text=Hola%2C%20le%C3%AD%20la%20gu%C3%ADa%20sobre%20el%20retorno%20de%20inversi%C3%B3n%20de%20la%20IA%20y%20quiero%20medir%20si%20me%20conviene%20en%20mi%20empresa.",
       "https://www.nist.gov/itl/ai-risk-management-framework",
@@ -4354,7 +4354,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "30d488359e5db32f865586dc40135de11d8940cf131bb007111ddd08c4d13822"
+    "main_text_sha256": "12265d3f570f7ea14c9503b79ddf85dc123c24fc432d821527eeab44a733b67b"
   },
   "/blog/ia-para-analisis-de-datos-predictivo-en-pymes/": {
     "title": "IA para análisis de datos predictivo en pymes",
@@ -4365,7 +4365,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/ia-para-analisis-de-datos-predictivo-en-pymes.png",
+      "/assets/editorial/ia-para-analisis-de-datos-predictivo-en-pymes-portada.jpg",
       "/servicios/apps-empresariales/",
       "/automatizacion-de-procesos-empresariales/",
       "https://wa.me/573224807767?text=Hola%2C%20le%C3%AD%20la%20gu%C3%ADa%20sobre%20IA%20para%20an%C3%A1lisis%20predictivo%20y%20quiero%20revisar%20si%20mis%20datos%20sirven%20o%20por%20d%C3%B3nde%20deber%C3%ADa%20empezar.",
@@ -4386,7 +4386,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "afe46dbf6143dcd2a5ef7d3f27bc8fa1e3002307b59c37ada0565add23a97148"
+    "main_text_sha256": "6bd8be2cb7c99e41637060175002eab4c22ccfb38116c7f89fdc319d0febfb67"
   },
   "/blog/plataformas-de-ia-para-automatizar-procesos-empresariales/": {
     "title": "Plataformas de IA para automatizar procesos empresariales",
@@ -4397,7 +4397,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/plataformas-de-ia-para-automatizar-procesos-empresariales.png",
+      "/assets/editorial/plataformas-de-ia-para-automatizar-procesos-empresariales-portada.jpg",
       "/blog/que-es-n8n-automatizacion-colombia/",
       "/servicios/asistente-ia/",
       "/automatizacion-de-procesos-empresariales/",
@@ -4421,7 +4421,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "e1cc53aeea75324c83660597d941f1d2e12fcac85f71d0c6bad2519fc795f3a7"
+    "main_text_sha256": "afdb16fcdff88eac96a0a650d708c946437c21fc267d55d3a9b19b24b271aa9c"
   },
   "/blog/consultoria-en-ia-para-empresas-en-colombia-como-elegir-proveedor/": {
     "title": "Consultoría en IA para empresas en Colombia: cómo elegir",
@@ -4432,7 +4432,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/consultoria-en-ia-para-empresas-en-colombia-como-elegir-proveedor.png",
+      "/assets/editorial/consultoria-en-ia-para-empresas-en-colombia-como-elegir-proveedor-portada.jpg",
       "/servicios/asistente-ia/",
       "/servicios/chatbot-ia/",
       "/casos/",
@@ -4453,7 +4453,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "c69d443c03a0fd791c453fa96f0f89b3a8fb30d8f529b3078803ff287ca05a71"
+    "main_text_sha256": "232e776b7d9e1837f4b4a530eb4dbf65058ee95a93bd7ba3e2b56eca401d4507"
   },
   "/blog/como-implementar-inteligencia-artificial-en-una-pyme-paso-a-paso/": {
     "title": "Cómo implementar inteligencia artificial en una pyme",
@@ -4464,7 +4464,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/como-implementar-inteligencia-artificial-en-una-pyme-paso-a-paso.png",
+      "/assets/editorial/como-implementar-inteligencia-artificial-en-una-pyme-paso-a-paso-portada.jpg",
       "/servicios/chatbot-ia/",
       "/servicios/asistente-ia/",
       "/blog/inteligencia-artificial-negocios-colombia/",
@@ -4486,7 +4486,7 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "ed7ebbe10a2d2719b67d0abc4ae09a9df92d7a1fcae8382154ea8123fa3fdbd2"
+    "main_text_sha256": "65a36467ace119f9d1c211d38b4f97c00ec5fa1a10c76c8aa9a99a9a063f1443"
   },
   "/blog/agentes-de-ia-para-empresas-que-son-y-como-automatizan-procesos/": {
     "title": "Agentes de IA para empresas: qué son y qué pueden automatizar",
@@ -4497,7 +4497,7 @@
     "noindex": false,
     "main_links": [
       "/",
-      "/assets/editorial/agentes-de-ia-para-empresas-que-son-y-como-automatizan-procesos.png",
+      "/assets/editorial/agentes-de-ia-para-empresas-que-son-y-como-automatizan-procesos-portada.jpg",
       "https://www.anthropic.com/research/building-effective-agents",
       "https://www.nist.gov/itl/ai-risk-management-framework",
       "/servicios/asistente-ia/",
@@ -4522,6 +4522,6 @@
       "/contacto/",
       "/contacto/"
     ],
-    "main_text_sha256": "1a1f71e1126014a4c9feb32ba17df76edfb3214727c3a8db8d175ebbf42277d8"
+    "main_text_sha256": "6f1921c5c1f4594ed17ce5a6f4b209f7540fea8522a0fd9644e6b2206690b444"
   }
 }
