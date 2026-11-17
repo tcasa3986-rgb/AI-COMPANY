@@ -5,7 +5,7 @@
     "description": "Desarrollamos software a medida para empresas en Colombia. Conecta inventarios, producción, pedidos e información con sistemas adaptados a tus procesos.",
     "noindex": false,
     "file": "index.html",
-    "hash": "ae229a683ab3a4c42503f873185aed8d8a5ec76afa785db53e8aebf2fff3613a",
+    "hash": "0c659a1c99162a9620dc0603758a20dba05220c3c9b9b8ec5c45894b5fad400c",
     "contentHash": "b1282567994983a3003e9a5f0ad9f05fe43ff185ae2926bb91f344c78dacf8f7",
     "lastmod": "2026-10-28"
   },
@@ -175,7 +175,7 @@
     "description": "Conoce el trabajo de AI Company CO con Maderas Montoya, Ferre Láser, Láser Ejecutivo y ASOERC: software adaptado a procesos reales.",
     "noindex": false,
     "file": "casos/index.html",
-    "hash": "282d7dc90df10ca378b93b50e3626f533a95dc85bec6c7d4159922747103f58c",
+    "hash": "95dc4a4456bbb8485781ffffcaedb04d99881ddab7fbabcdb3a0133c386af2f6",
     "contentHash": "fd860763f500db63145ea6e46086ce5195cb4699b7bae2d3609ac8dea7c59c81",
     "lastmod": "2026-11-16"
   },
@@ -315,9 +315,9 @@
     "description": "Una ferretería recibe listas por WhatsApp todo el día. Cómo un sistema con inventario y precios cotiza, arma el pedido y cobra la cartera sin frenar la caja.",
     "noindex": false,
     "file": "blog/automatizar-whatsapp-ferreterias-colombia/index.html",
-    "hash": "ce8f5bf5853fb6f2e748f4520e05e350ee08709d94cfed09cd227eb4580fa2f6",
-    "contentHash": "7258bb21f0df0e504934ed27fc9a04ba4a314d6f7a9db056c7754e6bc7ef1fd9",
-    "lastmod": "2026-10-13"
+    "hash": "33cc14dfa621e97a8413a70464d57536ccdeacdbc79eaebfa3d52748037ba351",
+    "contentHash": "ee6c087dca20f7495671290054b8f507b3525c8ffcb6f89d56a6a170bb11ecbe",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/automatizar-whatsapp-sin-api-oficial/",
@@ -325,9 +325,9 @@
     "description": "La conexión por código QR deja el número en manos del dueño y no cobra por conversación. Qué puede hacer, qué no, qué la pone en riesgo y cuándo usar la API.",
     "noindex": false,
     "file": "blog/automatizar-whatsapp-sin-api-oficial/index.html",
-    "hash": "c6da75c16ce63c02a34f93ed5d5ae93b7f022c7a6f6b9a05484cb8d3d792a2ae",
-    "contentHash": "737cf337cf80198b41675c69a75326e4988303662ddb2390295bf2bff31e302f",
-    "lastmod": "2026-10-13"
+    "hash": "c0eed08f45fcd6e9c9ba05c53ac200beaab0147c1b7611cb4d654a46b6b19c93",
+    "contentHash": "d55c36f7176a77826c0bee1a7590389c04b7a9b84d0187adde8e8716d56b0b68",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/como-automatizar-whatsapp-business-colombia/",
@@ -335,8 +335,8 @@
     "description": "Las tres formas de automatizar WhatsApp en Colombia, qué se puede y qué no con cada una, cuánto cuesta, y cómo decidir sin perder el control de tu número.",
     "noindex": false,
     "file": "blog/como-automatizar-whatsapp-business-colombia/index.html",
-    "hash": "f1beb898961c72cbf62f3774dcf397d5299c417bc4c89f3bfe3a1c0e085eb6aa",
-    "contentHash": "0d7a0175bafbf06afa7e92538d4b890ac0639a6122beacd6ff8a9888c3651b1e",
+    "hash": "0060c97130dcc342d4cc29775bbd34f43331c32b194b9a1477a2780ecae3ba04",
+    "contentHash": "938db67bc40d8326aa24b80453904ff97ef8fa4af05d631ceb8023dc0429643d",
     "lastmod": "2026-11-16"
   },
   {
@@ -345,8 +345,8 @@
     "description": "El precio de un chatbot está en a qué datos se conecta y cuántas conversaciones van al modelo de IA. Cómo estimarlo y qué preguntar antes de contratar.",
     "noindex": false,
     "file": "blog/cuanto-cuesta-chatbot-ia-colombia/index.html",
-    "hash": "567f9b7e25ae29acca6fc7f829e020242e99025c326f3ad09f43e558f436d0b3",
-    "contentHash": "c5010fc1bc55b9ae3243fbe9758bf742cc42842a629df6275576b6cfdf64c28e",
+    "hash": "61a3eecb33f80cfbae2b485ca3418d9653ce407f85890f3a3a5ef410c1682df2",
+    "contentHash": "d73f73f111f895c7636c8f5fdeacc1dcca651c602839a03d92c11319a28cd5c0",
     "lastmod": "2026-11-16"
   },
   {
@@ -355,8 +355,8 @@
     "description": "De qué depende el precio de un sistema a la medida, qué rangos se ven en Colombia para pymes, qué incluye el mantenimiento y cómo leer una cotización.",
     "noindex": false,
     "file": "blog/cuanto-cuesta-un-software-a-la-medida-en-colombia/index.html",
-    "hash": "d95c6df7dbd0340045911d9bbf825c7159b975b95e70aea97ccdf07d6ae1ca79",
-    "contentHash": "9d8fe6fc04c7ec4c322f1b4313604338a584ac1535b8f134a63a91aaa7ec0df9",
+    "hash": "d8976a3962302b8e09739c8fbcf91da86ba916642bd723d2ae972f2871691a30",
+    "contentHash": "553875b1eac12b27ea46c265de9d8b7a3d46cdd07de72616f1d8776bbf03f534",
     "lastmod": "2026-11-16"
   },
   {
@@ -365,9 +365,9 @@
     "description": "Pagar todo al final, no exigir el código, empezar por la pantalla, aceptar «usted se adapta». Los errores que más cuestan y cómo evitar cada uno.",
     "noindex": false,
     "file": "blog/errores-al-comprar-software-a-la-medida/index.html",
-    "hash": "b7e16ac9639b2926f2746871eb0c75452d5c51eab75a898c6c74368ef03169a3",
-    "contentHash": "9cde5a29278b84c261bbbe178667e11a20fe043d9d200f084e9b0d4a2025955d",
-    "lastmod": "2026-10-13"
+    "hash": "872c2594d70776ab2cd790de14ef49a4ac87c964a6919a6ef1c4efae2462da77",
+    "contentHash": "32902fea2b4e4b15a730439cf0a346d665d9973936d436c936af34b12cd79f9a",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/facturacion-electronica-automatica-colombia/",
@@ -375,8 +375,8 @@
     "description": "La factura electrónica ya es obligatoria; lo que cuesta es digitarla aparte. Cómo se integra con el sistema de la empresa y qué hace el proveedor tecnológico.",
     "noindex": false,
     "file": "blog/facturacion-electronica-automatica-colombia/index.html",
-    "hash": "b579b30f9355056dc510c5319e09cc836751403520180c004cdfb27b345ad05d",
-    "contentHash": "85447c7aeb7940071f3f3ecd4877901df0ef1ca2d1e1d97257218f7949c86cb8",
+    "hash": "4087cface9539706fa65e1c94339bcc076542f05ac07a0dbbd761d2d9f8240cb",
+    "contentHash": "17da339d110f4564e067fcc4700a6e7ff7d3ef94fd687ad698700b1571e350a9",
     "lastmod": "2026-11-16"
   },
   {
@@ -385,8 +385,8 @@
     "description": "La pauta trae clics; convertirlos depende de lo que hay del otro lado. Qué debe funcionar antes de pautar, cómo medir de verdad y cuándo rinde más el SEO.",
     "noindex": false,
     "file": "blog/google-ads-colombia-guia-pymes/index.html",
-    "hash": "97a236de25009979f70af1f0e540b2920197668b7395138a92c7e994c65cdcc2",
-    "contentHash": "913928e7a7bd0e7f19c06d9475f5fee927381bf730369f76188bfb4a29dbdc36",
+    "hash": "410bd7314fb290d4abe1d2da6b499ad9629a42ab980ff7abce8db94cbfa18205",
+    "contentHash": "cd1ea795fdc92309fe3009551ca735dd32ba966b148baa19152d37b23049c0b7",
     "lastmod": "2026-11-16"
   },
   {
@@ -395,9 +395,9 @@
     "description": "Dónde la IA sirve hoy en una pyme colombiana —atender WhatsApp, transcribir audios, leer comprobantes— y dónde es una promesa cara. Medido en producción.",
     "noindex": false,
     "file": "blog/inteligencia-artificial-negocios-colombia/index.html",
-    "hash": "fbfd22900430aebc63e3dd87a35590681bfebaf5432be2768331057620e052a8",
-    "contentHash": "b52a5390e4e868be8cf4d333dabc0f358ae5ce67a4496d5f2b287756bb8ff768",
-    "lastmod": "2026-10-13"
+    "hash": "b10dace8b68748da9ef6d8a6c2c678aa952a63fd7fab5308e0429f0b3a2b5dbb",
+    "contentHash": "e74cf971195f6f0fae881a2029761a0e5845233abd1ff34c8872dfb9e873f0e0",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/que-es-n8n-automatizacion-colombia/",
@@ -405,8 +405,8 @@
     "description": "n8n conecta aplicaciones y automatiza tareas sin programar cada conexión. Qué hace bien, dónde se queda corto y cuándo conviene más un sistema propio.",
     "noindex": false,
     "file": "blog/que-es-n8n-automatizacion-colombia/index.html",
-    "hash": "a132b58d17c49557ddcb2bc57a9b401ffb0636e612f739396b25176933677d4f",
-    "contentHash": "2e1ecebcfaf618c2585d7f50a9fe89cc08c002f8c0c4facd09aad016834f1b67",
+    "hash": "dd3a5072c8d8985489cdaa72d17c454b67eeaac54c5435f890c80a7c763ba774",
+    "contentHash": "c9feb88f09292a935ae748c705e31766aa05325179a7d9e3f2c26fce3bbd9ca3",
     "lastmod": "2026-11-16"
   },
   {
@@ -415,9 +415,9 @@
     "description": "Un ERP junta inventario, ventas, compras, cartera, caja y reportes en un sistema. Qué módulos importan para una pyme, qué se compra y qué se construye.",
     "noindex": false,
     "file": "blog/que-es-un-erp-para-pymes/index.html",
-    "hash": "c5c7f7444f01169ef3b4561e7138693c278c92a74c1582f31d6989925f228f59",
-    "contentHash": "a1ded1495b2e5e01632c476fd9d3cd131e8e6ebbb39f9bc1f310225f9c9c52b7",
-    "lastmod": "2026-10-13"
+    "hash": "08b28d4e57678ab7ec7df9a8a4fb3e23ea772cdeea3ca8117f1daa6bb29df954",
+    "contentHash": "c92ab01c406a82d86cc78b14241d8cbabb22238e450cfc9e4bbb87cc6283b2cc",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/reporte-de-produccion-por-telegram/",
@@ -425,9 +425,9 @@
     "description": "El dato nace en la planta y se digita días después. Un bot de Telegram que pregunta tres cosas y guarda en el sistema elimina esa brecha. Cómo se diseña.",
     "noindex": false,
     "file": "blog/reporte-de-produccion-por-telegram/index.html",
-    "hash": "30dc78f303e1df184fd4db2cadbe31884c56a7dd642448b4af0da2326b2f0f1d",
-    "contentHash": "ab96becb505eb8a937d2ee0c760fb779797675a887ea119432c9848ba322252f",
-    "lastmod": "2026-10-13"
+    "hash": "4713284e44632d57ef7e569c3490ef59b9e45e49a5031b26e8abee67d7a43d1a",
+    "contentHash": "8e28da7795a8f2ae3fbd5c83d59282a0cf752e7390bd1eee9709387d3babaa38",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/seo-local-colombia-guia/",
@@ -435,9 +435,9 @@
     "description": "Ficha de Google completa, una página por servicio y ciudad, datos estructurados coherentes con lo visible y reseñas respondidas. Lo que aplicamos, en orden.",
     "noindex": false,
     "file": "blog/seo-local-colombia-guia/index.html",
-    "hash": "ae97198735312f4d049d47c5b83290b3d45dc78ec776bca596c93b4b49ce39ac",
-    "contentHash": "25803fd830328cc68022283fc200f140739fe760421bc431d9fac3de5b18440f",
-    "lastmod": "2026-10-13"
+    "hash": "2741137c4248b7383a640d9a0a96c68f3f3d8ffeefeeb557f42d09ceb81992d5",
+    "contentHash": "abbb521f0533fe477ed2ab13dc8bacdebf87b9e0577dff361c4810298fda19f0",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/software-a-la-medida-vs-software-generico/",
@@ -445,9 +445,9 @@
     "description": "Cuándo un software genérico alcanza, cuándo la operación no cabe en él, y las tres preguntas que resuelven la decisión. Casos: madera, corte láser y canchas.",
     "noindex": false,
     "file": "blog/software-a-la-medida-vs-software-generico/index.html",
-    "hash": "8565f3d25d5a59e79fb4d5bedc5351091044e886d6e4e3f3a4ea095e1b506fd8",
-    "contentHash": "83489ccd345692ad41ac7f4ec73fe4484d864be79264ea5412293add102985f5",
-    "lastmod": "2026-10-13"
+    "hash": "7de2468fe50e3f4a9392f78fcdb102ad127fc059e14301710d6fe5a90384a1a4",
+    "contentHash": "baa8d417cc2ca29d0b9c983badfe60a3afdb62f802f37db22e02a801e50826a2",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/software-para-canchas-sinteticas-como-elegir/",
@@ -455,9 +455,9 @@
     "description": "Agenda sin cruces garantizada por la base de datos, WhatsApp que entiende audios, abonos verificados, caja por turno. Qué debe tener un software para canchas.",
     "noindex": false,
     "file": "blog/software-para-canchas-sinteticas-como-elegir/index.html",
-    "hash": "ef07beb87ad05d394be8e157304a53f8fcda79e9db3ef257baf9c0166b35ada6",
-    "contentHash": "be1c084d56ba32ae15bb8abb9be1259cbc412e16aec84dc2c4e09784805cf6e6",
-    "lastmod": "2026-10-13"
+    "hash": "2934cc515696839cdd0cc6ae6cb900f94f05bfe3f906c6ca7cf749db14100438",
+    "contentHash": "4eb8f1d4dac17d57c656e527fd1106c9a0e92c44c5a13b682bc705bb612e623f",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/software-para-clubes-de-poker-torneos/",
@@ -465,8 +465,8 @@
     "description": "Qué debe resolver el software de un club de póker: reglas por plantilla, torneos que congelan sus reglas, sorteo de mesas, reloj en el televisor y liga.",
     "noindex": false,
     "file": "blog/software-para-clubes-de-poker-torneos/index.html",
-    "hash": "0a26611f89aacebcfcc5769c2dc8a668869d3b599a1f18f7b22fd1fdf636d3ac",
-    "contentHash": "92c83240698a40ebaaaa13add6b0756e0fa4ce17d6e1d0854457ac2063ca37ab",
+    "hash": "1ce1a6820b97f267c312d334866ad3f124472de018ba190bf351befec197cbf8",
+    "contentHash": "8ff0a16d9cdc3c80752d78b3790f278bba5efd6f1ec9109d4b28e8cba19a7c78",
     "lastmod": "2026-11-16"
   },
   {
@@ -475,9 +475,9 @@
     "description": "Qué revisar en un inventario para madera, cómo se lleva la transformación con merma, el reporte de planta desde el celular y la cartera fiada.",
     "noindex": false,
     "file": "blog/software-para-deposito-de-madera-inventario/index.html",
-    "hash": "c255d8663b78978be7685957183b763ff10c808b73be8a2bfa1c4f091c7f12df",
-    "contentHash": "e465882e7047dccf06b29402ecc0b777542575dd91aefed0c4b1daa6060d0147",
-    "lastmod": "2026-10-13"
+    "hash": "9ed7de2155794288f7962e47b945dd952aa7674c004cfe6fe2f842a35c895943",
+    "contentHash": "cce6d18d708c08230851ce9d519bee214b24c9c3e5844124dd10e476707d3924",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/software-para-recicladoras-pesaje-y-liquidacion/",
@@ -485,9 +485,9 @@
     "description": "Qué necesita una recicladora o asociación: pesaje por material y asociado, precios que cambian, liquidación transparente, flota y control administrativo.",
     "noindex": false,
     "file": "blog/software-para-recicladoras-pesaje-y-liquidacion/index.html",
-    "hash": "7a88a95ad6a74a4f5dd49cb94970d1a831739edb9790a4a5a7c6818d57780482",
-    "contentHash": "1bb2a4b2e9829ce76bcc3543f04089b3a9abb2de4ffdc3e6651a4847c77239f2",
-    "lastmod": "2026-10-13"
+    "hash": "7767b31c7fb576afc683bce73c6edd51576aae125bdd1f012d407eed93630356",
+    "contentHash": "e37029b27a574358534a2e8024a1300cdfb19cbe8e00c5b1964a94e43594ef89",
+    "lastmod": "2026-11-16"
   },
   {
     "route": "/blog/donde-contratar-software-a-la-medida-en-colombia/",
@@ -495,8 +495,8 @@
     "description": "Dónde contratar software a la medida en Colombia: tipos de proveedor, cómo compararlos y qué debe tener una cotización. No hay una única «mejor empresa».",
     "noindex": false,
     "file": "blog/donde-contratar-software-a-la-medida-en-colombia/index.html",
-    "hash": "36944b9d967f3ac78250457ffd578a5518ff6a3c77b4ab2c4b8ee31517ff5218",
-    "contentHash": "5db631cec79da1667643e5b2dce6e993deddd106c8dad692489b4fb5b2c2957c",
+    "hash": "5b2643e358acead553a3669abe4a116e83212d38dd54e9467f9ea4fe1dcb1b0b",
+    "contentHash": "f639dc15cd10365e205c5c91d645195fe78d2db754954c10a8dab8b4ea4d4d08",
     "lastmod": "2026-11-16"
   },
   {
@@ -505,8 +505,8 @@
     "description": "Las seis etapas para desarrollar una aplicación personalizada para tu empresa y cuándo basta una web instalable (PWA) en lugar de una app de tienda.",
     "noindex": false,
     "file": "blog/como-se-desarrolla-una-aplicacion-a-la-medida-paso-a-paso/index.html",
-    "hash": "7ccf6ff98e8a7631e798713676b5f1a0544651625da5b549820b330a2e4ca4a8",
-    "contentHash": "a86248a140370bb1efaec1e95d7a745e7e7f778a81fc5d36e459364fbb21eecf",
+    "hash": "8e125a212a389523e8b1185ccc3d66d44c38e40c3f3ed83b1c7f783a96d6fdde",
+    "contentHash": "a7b5feab7afa938841d9b91fce6ef1aa89a03b5545bbe0ea850a0f2af097e836",
     "lastmod": "2026-11-16"
   },
   {
@@ -515,8 +515,8 @@
     "description": "No hay un único mejor sistema de gestión para pymes en Colombia. Guía por necesidad: contabilidad, ERP, CRM, proyectos o software a la medida, con ejemplos.",
     "noindex": false,
     "file": "blog/sistemas-de-gestion-para-pymes-en-colombia-cual-elegir/index.html",
-    "hash": "6eb358a436a24b385b3697c2c1cfcb270ac7960adc743a4e92360edaf50b6724",
-    "contentHash": "eaab66b5aab74c62252954766c726bc6941a4dc1194db63c43ff8c4463791ab3",
+    "hash": "378c89de2feb008a852ce8fa01b53f798621a17e08f3359ca675a3601d5b7922",
+    "contentHash": "7de8905551cca34cdc3264552197433eb60c4155edd3fe5a67fda9b34c840725",
     "lastmod": "2026-11-16"
   },
   {
@@ -525,8 +525,8 @@
     "description": "Qué necesita una empresa mediana antes de implementar un ERP: procesos claros, datos limpios, un responsable, presupuesto completo y un plan por fases.",
     "noindex": false,
     "file": "blog/requisitos-para-implementar-un-erp-en-una-empresa-mediana/index.html",
-    "hash": "82c229abb22c3bc4c357edc6cc243756e0c89681afbb2bc53ae5a3e349b57b3f",
-    "contentHash": "53eb369e7a9ac5244314e025cdf762f70d972fcf0daf6290ab185f23115cd0ab",
+    "hash": "977cf24a07d167cf889ff4ff78f0067ba651eb639335b2ffae58ca4c937a08f0",
+    "contentHash": "612f2e7e5b4b02c7105903e816d84320cd7e79a64a87cfeef7b9f7b28bdee62a",
     "lastmod": "2026-11-16"
   },
   {
@@ -535,8 +535,8 @@
     "description": "Cómo comparar ERP para manufactura: criterios para tu producción, descripción de Odoo, Siesa, SAP Business One y Dynamics, y cuándo conviene algo a la medida.",
     "noindex": false,
     "file": "blog/erp-para-manufactura-como-comparar-opciones/index.html",
-    "hash": "d8df6000804e05558f3cf14e6ba48947982951fa40ac917bfa3fda2b823cb836",
-    "contentHash": "79ebae1e1cd013c84c3e6f6ff957f5550448889bd8d2b1c6388cfcd1b32d36de",
+    "hash": "7c55a96095e026d9add10292aa8883378cfc68a1074eda5274d05f8eaa145d39",
+    "contentHash": "5627f51558e18c5ab35b9db62c0f0550bb4f07ed167338ce11984fad3f77f93c",
     "lastmod": "2026-11-16"
   },
   {
@@ -545,8 +545,8 @@
     "description": "Opciones de software de control de inventarios, ventajas de automatizarlo, dónde conseguirlo sin copias piratas y cuándo conviene uno a la medida.",
     "noindex": false,
     "file": "blog/software-de-control-de-inventarios-opciones-y-ventajas/index.html",
-    "hash": "56abd8f0dac6365002c7c7e39a8957778d121e3dd2b7c7104f1a3b1168696dfe",
-    "contentHash": "deeb3d157724dce63a0f73df6dc246da4dbf7bd3e2abbe499d04d4d5b0bbfb60",
+    "hash": "4fa6ef57963a716b04ca5d7251ca68511c303b70edb9b2f30ddcda5014cfeff2",
+    "contentHash": "4eabddf86abcf69cd3d775c1f1aa7c5998d40f668fbeda6829a3d9d92de40a3f",
     "lastmod": "2026-11-16"
   },
   {
@@ -555,8 +555,8 @@
     "description": "Cómo elegir software contable con facturación electrónica en Colombia: criterios, opciones conocidas, la alternativa gratuita de la DIAN y cómo integrarlo.",
     "noindex": false,
     "file": "blog/como-elegir-software-contable-con-facturacion-electronica-colombia/index.html",
-    "hash": "320077d05e980fbcd2ed55f0cfa752cbf0ed174999df33659c0b8383118bfb43",
-    "contentHash": "8b8a516c473c5f213cd63448c37b2672396d631e9477caa7c1ded4fb1b806703",
+    "hash": "57430c1a9a3fbfcb4aace61ae6b3d0d9b54db9373908de14d42d8f5c819eb83d",
+    "contentHash": "019ca00cdb96586effe3da2423d00fabb0fb81ec0c595213b299d4c036f560ed",
     "lastmod": "2026-11-16"
   },
   {
@@ -565,8 +565,8 @@
     "description": "Cómo elegir un CRM en la nube para una pyme o startup colombiana: opciones con plan gratuito, qué comparar y cómo conectarlo con WhatsApp.",
     "noindex": false,
     "file": "blog/crm-para-pymes-colombianas-opciones-gratis-y-de-bajo-costo/index.html",
-    "hash": "51ab109db126bbc38e29a72068fdb022b606515e71eec8edaa3470474b1a1d60",
-    "contentHash": "54416531eea20400015c94281a874d72f768a2301f0b396d4765b51b781a5510",
+    "hash": "74e1d9b1ddda92e54fefc50801bb0b4e8c436c52ab927dad853ff8dae9c08037",
+    "contentHash": "5d0412b6bfbaf1bdf6f4c25404db23f25d768940802ed9a7bd9252f2b7535bd0",
     "lastmod": "2026-11-16"
   },
   {
@@ -575,8 +575,8 @@
     "description": "Cómo automatizar el proceso de ventas en una empresa colombiana, del primer mensaje a la factura: qué automatizar, con qué herramientas y qué no.",
     "noindex": false,
     "file": "blog/como-automatizar-el-proceso-de-ventas-en-colombia/index.html",
-    "hash": "a864630b9615c716592c2d1d47471e91976a1e6c581310434f0f3d6252df730a",
-    "contentHash": "c9f8b6b90941792681766b5ff9bae702c20593f6267ec07bb54e0d5f4b977934",
+    "hash": "dbaa53ea2eb001d91f15584918bbafce7515ef51c1ca18e45dee1582ca4dd95d",
+    "contentHash": "0fcac5076e0e3662b7544f5ecef24587807207bfb7fe0a96803d3aebdbc73094",
     "lastmod": "2026-11-16"
   },
   {
@@ -585,8 +585,8 @@
     "description": "Cómo medir el retorno de la IA en tu empresa: qué costos contar, qué beneficios medir, una fórmula simple y un ejemplo con cifras ficticias para practicar.",
     "noindex": false,
     "file": "blog/como-calcular-el-retorno-de-inversion-de-la-ia-en-tu-empresa/index.html",
-    "hash": "38bba90f72f786084b3b97bf9fa345a0426f1a97d7bccd3ae6c47eac66f505c1",
-    "contentHash": "847341d554e52a60431b811e98f9dd5c9c473ec4097c8287256e7b521883dea6",
+    "hash": "40ec1c0c6907706c378af7404290de5148a3706078f2cc8ef69dbce2d895ad6f",
+    "contentHash": "2c76b89b4c5b733313de6290ea9f94bdab48215fd011fb7806f1b78c17419366",
     "lastmod": "2026-11-16"
   },
   {
@@ -595,8 +595,8 @@
     "description": "Qué es el análisis predictivo con IA, qué casos sirven a una pyme, qué datos necesita y cuándo conviene empezar con reportes más simples.",
     "noindex": false,
     "file": "blog/ia-para-analisis-de-datos-predictivo-en-pymes/index.html",
-    "hash": "5b23287ea2a8008e24416a37a2e78a71389142a6995038ef3e5b837503164ea3",
-    "contentHash": "81085ed44922725bc11a3c99ad19023911886cfc41f6a963f84a0b1d6b801be6",
+    "hash": "6a1194311729b6521480cbacda2299f36d80a33487b1fecb06375681c60143ed",
+    "contentHash": "09337f58acac7330378b36320227d6b6fb676de270239ef5f364a20ebc502af5",
     "lastmod": "2026-11-16"
   },
   {
@@ -605,8 +605,8 @@
     "description": "Tipos de plataformas de IA para optimizar procesos: asistentes generales, automatización de flujos, modelos por API y soluciones a la medida. Cómo elegir.",
     "noindex": false,
     "file": "blog/plataformas-de-ia-para-automatizar-procesos-empresariales/index.html",
-    "hash": "979c07f8770755e683ff82a92cbd3044ff9890bf397c17762328e4aae299f1ec",
-    "contentHash": "f0f23b342a979086d18cb6acd507387808cd0c0b77ee0b7e970c1ebb8ef5f0fe",
+    "hash": "b684f7e5c588414cdbd834a88b15bca7986ae26ab0e2d8152eae830c4baddbf0",
+    "contentHash": "2ffb1fdd3e082d9951fb5068db01c494264bd450010daefcba1f33dc7fb4457c",
     "lastmod": "2026-11-16"
   },
   {
@@ -615,8 +615,8 @@
     "description": "Qué ofrece una consultoría en IA, qué tipos de proveedor hay en Colombia, qué preguntar antes de contratar y qué señales deberían alertarte.",
     "noindex": false,
     "file": "blog/consultoria-en-ia-para-empresas-en-colombia-como-elegir-proveedor/index.html",
-    "hash": "7e9a767335708572f60e9444e84846d6408724e3792624e05df77801ba542961",
-    "contentHash": "1815e6f7040e85212a82e96ad80b7c478fbd579387de09f4ea9641dfe2de1ebf",
+    "hash": "aca4f28a69736e5ad4d743218b0d32284f2d1e1cda9e36e727ef816e91d5184a",
+    "contentHash": "bd03a4ec02a92007d4b4bb52aeaa223f9108dd3554b34c446d7e62fcce363720",
     "lastmod": "2026-11-16"
   },
   {
@@ -625,8 +625,8 @@
     "description": "Pasos para integrar inteligencia artificial en una pyme: elegir un proceso, ordenar los datos, probar un piloto, medir y ampliar con control.",
     "noindex": false,
     "file": "blog/como-implementar-inteligencia-artificial-en-una-pyme-paso-a-paso/index.html",
-    "hash": "b0632bc0d3e5fc58c4e0dc5261a92c46af65a141ebe1707c249c2e1171910ac3",
-    "contentHash": "7569387015fbaeae738032393c94b870ef64fb3e0726ed66438d667e4e88977b",
+    "hash": "728dce79d1b252e691133edeb92760e2791e853ce7b5d414f0ff12b5e7856f30",
+    "contentHash": "af47ef9f009ef1d2d554fa11e93633434a8a375143a95f75a0539c56e1745c47",
     "lastmod": "2026-11-16"
   },
   {
@@ -635,8 +635,8 @@
     "description": "Qué es un agente de IA, en qué se diferencia de un chatbot, qué procesos de una empresa puede automatizar y qué controles necesita para no fallar.",
     "noindex": false,
     "file": "blog/agentes-de-ia-para-empresas-que-son-y-como-automatizan-procesos/index.html",
-    "hash": "5c57c5e2e3c520dae7893643976258fe9432b3dc30f847aa0dd3590198173dac",
-    "contentHash": "4c3b4f72c9c25cf4faa9546e4f42a5ddd0333c2384cb28923e2f6017022f01ff",
+    "hash": "38ee9010d32e824c394cb316a8642a51714da41f366558a26e96356ad52656fd",
+    "contentHash": "acbb6e52eb21a7ef49e668798701960ca0b691e6043f19703b701b70634999ba",
     "lastmod": "2026-11-16"
   },
   {
