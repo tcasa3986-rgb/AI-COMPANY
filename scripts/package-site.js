@@ -10,7 +10,7 @@ try{
   fs.mkdirSync(OUT,{recursive:true});
   const pages=JSON.parse(fs.readFileSync(path.join(ROOT,'scripts/content/pages-manifest.json'),'utf8'));
   for(const p of pages)copy(p.file);tree('assets');
-  const articles=JSON.parse(fs.readFileSync(path.join(ROOT,'scripts/content/articles.json'),'utf8'));for(const a of articles)copy(a.cover.slice(1));
+  const articles=JSON.parse(fs.readFileSync(path.join(ROOT,'scripts/content/articles.json'),'utf8'));for(const a of articles){copy(a.cover.slice(1));for(const m of new Set(a.body.match(/\/assets\/editorial\/[^"'\s<>]+/g)||[]))copy(m.slice(1));} // portada + figuras interiores que enlaza el cuerpo de la guia
   // assets/brand queda excluido del arbol, pero site.webmanifest y la imagen
   // social SI apuntan a tres de esos archivos: sin copiarlos, el icono de la
   // app y la vista previa al compartir quedan rotos en produccion.
